@@ -5,19 +5,20 @@
 	<!-- DEPENDENCIES -->
 	<script type="text/javascript" src="./scripts/dep/jquery-2.0.2.min.js"></script>
 	<!-- APPLICATION-->
-	<script type="text/javascript" src="./scripts/app/BGL.js.js"></script>
+	<script type="text/javascript" src="./scripts/app/BGL.js"></script>
+	<script type="text/javascript" src="./scripts/app/terms.js"></script>
 </head>
 <body>
 	<script>
 	$(function(){
 		//triggered every 30 seconds (actual timing TBD)
-		$(window).on("nextTerm", function(event, termNumbers){
-			//term Numbers is an array of the term indices
-			console.log(termNumbers);
+		$(window).on("nextTerm", function(event, terms){
+			//terms is an array of 3 json objects
+			console.log(terms);
 		});
 		//triggered after every 5 terms (30 second duration)
 		$(window).on("labLogo", function(){
-			
+			console.log("lab logo");
 		});
 	})
 	</script>
