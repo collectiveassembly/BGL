@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BGL Boilerplate</title>
+	<!-- DEPENDENCIES -->
+	<script type="text/javascript" src="./scripts/dep/jquery-2.0.2.min.js"></script>
+	<!-- APPLICATION-->
+	<script type="text/javascript" src="./scripts/app/BGL.js.js"></script>
+</head>
+<body>
+	<script>
+	$(function(){
+		//triggered every 30 seconds (actual timing TBD)
+		$(window).on("nextTerm", function(event, termNumbers){
+			//term Numbers is an array of the term indices
+			console.log(termNumbers);
+		});
+		//triggered after every 5 terms (30 second duration)
+		$(window).on("labLogo", function(){
+			
+		});
+	})
+	</script>
+</body>
+</html>

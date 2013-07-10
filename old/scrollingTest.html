@@ -1,0 +1,51 @@
+<html>
+<head>
+	<title>scrolling test</title>
+	<!-- DEPENDENCIES -->
+	<script type="text/javascript" src="./scripts/deps/jquery.js"></script>
+	<script type="text/javascript" src="./scripts/deps/jquery.transit.js"></script>
+</head>
+<body>
+	<style type="text/css">
+		body {
+			width: 5760px;
+			height: 1080px;
+			margin: 0px;
+			overflow: scroll;
+		}
+
+		#scroller{
+			background-color: blue;
+			width: 400px;
+			height: 400px;
+			position: absolute;
+			transform: translate3d(0,0,0);
+			-webkit-transform: translate3d(0,0,0);
+		}
+	</style>
+	<script type="text/javascript">
+		var scroller;
+		$(function(){
+			scroller = $("#scroller");
+			scroller.css({
+				x : "100px",
+				y : "400px"
+			})
+			scroll();
+		})
+
+		function scroll(){
+			var dur = 2000;
+			scroller.transition({
+				x : "5260px"
+			}, dur).transition({
+				x : "100px"
+			}, dur, function(){
+				//rescroll when it's all done
+				scroll();
+			})
+		}
+	</script>
+	<div id='scroller'>scrolling</div>
+</body>
+</html>
