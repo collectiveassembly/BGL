@@ -1,0 +1,140 @@
+/**************************************
+ *
+ *	YUI 3.10.3 (build 2fb5187) CSS reset
+ *  Copyright 2013 Yahoo! Inc.
+ *
+ **************************************/
+html {
+  color: #000;
+  background: #FFF; }
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
+  margin: 0;
+  padding: 0; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+fieldset, img {
+  border: 0; }
+
+address, caption, cite, code, dfn, em, strong, th, var {
+  font-style: normal;
+  font-weight: normal; }
+
+ol, ul {
+  list-style: none; }
+
+caption, th {
+  text-align: left; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal; }
+
+q:before, q:after {
+  content: ''; }
+
+abbr, acronym {
+  border: 0;
+  font-variant: normal; }
+
+sup {
+  vertical-align: text-top; }
+
+sub {
+  vertical-align: text-bottom; }
+
+input, textarea, select {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit; }
+
+input, textarea, select {
+  *font-size: 100%; }
+
+legend {
+  color: #000; }
+
+figure {
+  margin: 0; }
+
+/**************************************
+ *
+ *	Micro clearfix
+ *
+ **************************************/
+.cf:before, .cf:after {
+  content: " ";
+  display: table; }
+
+.cf:after {
+  clear: both; }
+
+.cf {
+  *zoom: 1; }
+
+/**************************************
+ *
+ *	Base
+ *
+ **************************************/
+* {
+  box-sizing: border-box; }
+
+html, body {
+  background: #ccc;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 14px; }
+
+#wrapper {
+  width: 2880px; }
+
+section {
+  position: relative;
+  background: white;
+  width: 960px;
+  float: left;
+  outline: 1px solid #ccc; }
+  section canvas {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 0; }
+  section header, section article {
+    display: block;
+    height: 540px;
+    padding: 0 11.5%;
+    overflow: scroll; }
+  section header {
+    padding-top: 27%; }
+    section header h1 {
+      font-size: 7.5em; }
+    section header h2 {
+      font-size: 30px; }
+  section article > div {
+    float: left;
+    font-size: .6em; }
+  section article .intro {
+    width: 37%;
+    margin-right: 3%;
+    -webkit-column-width: 15em;
+    -webkit-column-gap: 2em; }
+  section article .media {
+    width: 37%;
+    margin-right: 3%; }
+  section article .idea {
+    width: 17%; }
+  section[data-theme="red"] {
+    color: red; }
+  section[data-theme="green"] {
+    color: green; }
+  section[data-theme="blue"] {
+    color: blue; }
+  section[data-theme="purple"] {
+    color: purple; }
+
+p.notify {
+  background: yellow; }

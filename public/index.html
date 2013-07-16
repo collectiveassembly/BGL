@@ -1,26 +1,120 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>BGL Boilerplate</title>
+	<title>BGL Exhibition</title>
+	<link rel="stylesheet" href="./css/style.css">
+	<!-- DB -->
+	<script type="text/javascript" src="./scripts/app/terms.js"></script>
 	<!-- DEPENDENCIES -->
 	<script type="text/javascript" src="./scripts/dep/jquery-2.0.2.min.js"></script>
+	<script type="text/javascript" src="./scripts/dep/hogan-2.0.0.js"></script>
+	<script type="text/javascript" src="./scripts/dep/springy.js"></script>
 	<!-- APPLICATION-->
 	<script type="text/javascript" src="./scripts/app/BGL.js"></script>
-	<script type="text/javascript" src="./scripts/app/terms.js"></script>
+	<script type="text/javascript" src="./scripts/app/springy-renderer.js"></script>
 </head>
 <body>
-	<script>
-	$(function(){
-		//triggered every 30 seconds (actual timing TBD)
-		$(window).on("nextTerm", function(event, terms){
-			//terms is an array of 3 json objects
-			console.log(terms);
+
+<div id="wrapper" class="cf">
+
+	<section>
+		<canvas id="canvas1" width="720" height="350"></canvas>
+		<header></header>
+		<article></article>
+	</section>
+	<section>
+		<canvas id="canvas2" width="720" height="350"></canvas>
+		<header></header>
+		<article></article>
+	</section>
+	<section>
+		<canvas id="canvas3" width="720" height="350"></canvas>
+		<header></header>
+		<article></article>
+	</section>
+
+</div>
+
+
+<script>
+
+var templates = {
+	head: Hogan.compile('<h1>{{ number }}</h1><h2>{{ name }}</h2>'),
+	body: Hogan.compile("<div class='intro'>{{ content.intro }}</div><div class='media'>media: {{ content.media }}</div><div class='idea'>{{ content.idea }}</div>")
+}
+
+$(function(){
+
+
+
+	// caches
+	var canvases = document.querySelectorAll('canvas');
+	var w = $(window).width();
+	var h = $(window).height();
+
+	// set scroll position based on hash
+	var hash = parseInt(window.location.hash.substring(1));
+	if (hash === 0) $('body').scrollLeft(0);
+	if (hash === 1) $('body').scrollLeft(960);
+	if (hash === 2) $('body').scrollLeft(1920);
+
+	
+	//triggered every 30 seconds (actual timing TBD)
+	$(window).on("nextTerm", function(event, terms){
+		terms.forEach(function(term, i){
+			render_term(term, i);
 		});
-		//triggered after every 5 terms (30 second duration)
-		$(window).on("labLogo", function(){
-			console.log("lab logo");
-		});
-	})
-	</script>
+	});
+
+	//triggered after every 5 terms (30 second duration)
+	$(window).on("labLogo", function(){
+		$('section header, section article').html('<p class="notify">Breaking for interstitial</p>');
+		console.log("lab logo");
+
+		// clear canvases
+		for (var i = 0; i < canvases.length; ++i) {
+			var context = canvases[i].getContext('2d');
+			context.clearRect(0, 0, context.canvas.width, context.canvas.height);
+		}
+
+
+	});
+
+
+
+
+
+
+
+
+
+
+
+
+	var render_term = function(term, target){
+		
+		var $target_section = $('section').eq(target);
+		
+		var output = {
+			head: templates.head.render(term),
+			body: templates.body.render(term)
+		};
+				
+		$target_section.attr('data-theme', term.theme);
+		$target_section.find('header').html(output.head);
+		$target_section.find('article').html(output.body);
+		
+		// node-graph
+		var graph = new Springy.Graph();
+		graph.loadJSON(term.related);
+		var springy_instance = $target_section.find('canvas').springy({graph: graph});
+		
+	};
+
+
+	
+});
+</script>
+
 </body>
 </html>

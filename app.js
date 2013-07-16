@@ -32,7 +32,7 @@ var termCounter = 0;
 
 //send events
 function sendWSEvent(){
-	setTimeout(sendWSEvent, 30000);
+	setTimeout(sendWSEvent, 10000);
 	//shuffle a copy of the array
 	var shuffled = terms.terms.slice().sort( function() { return 0.5 - Math.random() } );
 	var args = shuffled.slice(0, 3);
@@ -47,9 +47,9 @@ function sendWSEvent(){
 		//send it
 		ws.send(JSON.stringify(msg));
 	}
-	//increment and make sure the count doesn't go over 5
+	//increment and make sure the count doesn't go over 10
 	termCounter++;
-	termCounter = termCounter % 5;
+	termCounter = termCounter % 10;
 }
 //start the loop
 sendWSEvent();

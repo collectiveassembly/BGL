@@ -40,4 +40,5 @@ var BGL = (function(){
 	return {
 		initialize : init
 	}
+
 }());
