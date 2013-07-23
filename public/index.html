@@ -46,9 +46,9 @@ var templates = {
 $(function(){
 
 
-
 	// caches
 	var canvases = document.querySelectorAll('canvas');
+	var $sections = $('section');
 	var w = $(window).width();
 	var h = $(window).height();
 
@@ -68,6 +68,7 @@ $(function(){
 
 	//triggered after every 5 terms (30 second duration)
 	$(window).on("labLogo", function(){
+		
 		$('section header, section article').html('<p class="notify">Breaking for interstitial</p>');
 		console.log("lab logo");
 
@@ -77,16 +78,9 @@ $(function(){
 			context.clearRect(0, 0, context.canvas.width, context.canvas.height);
 		}
 
+		$sections.attr('data-theme', 'LAB');
 
 	});
-
-
-
-
-
-
-
-
 
 
 

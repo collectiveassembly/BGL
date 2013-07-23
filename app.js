@@ -2,7 +2,7 @@ var express = require('express');
 var async = require('async');
 var fs = require('fs');
 var WebSocketServer = require('ws').Server;
-var terms = require("./public/scripts/app/terms");
+var terms = require("./public/scripts/app/terms-interim");
 var app = express();
 
 /*

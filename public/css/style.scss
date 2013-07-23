@@ -100,6 +100,16 @@ section {
 	&[data-theme="purple"] {
 		color: purple;
 	}
+
+	&[data-theme="LAB"] {
+		
+		&:nth-child(1) { background: red;}
+		&:nth-child(2) { background: green;}
+		&:nth-child(3) { background: blue;}
+
+		canvas { opacity: 0;}
+		
+	}
 	
 }
 

@@ -135,6 +135,14 @@ section {
     color: blue; }
   section[data-theme="purple"] {
     color: purple; }
+  section[data-theme="LAB"]:nth-child(1) {
+    background: red; }
+  section[data-theme="LAB"]:nth-child(2) {
+    background: green; }
+  section[data-theme="LAB"]:nth-child(3) {
+    background: blue; }
+  section[data-theme="LAB"] canvas {
+    opacity: 0; }
 
 p.notify {
   background: yellow; }

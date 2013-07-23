@@ -184,26 +184,11 @@ jQuery.fn.springy = function(params) {
 				intersection = s2;
 			}
 
-			var stroke = (edge.data.color !== undefined) ? edge.data.color : '#cccccc';
-
-			var arrowWidth;
-			var arrowLength;
-
-			var weight = (edge.data.weight !== undefined) ? edge.data.weight : .5;
-
-			ctx.lineWidth = Math.max(weight *  2, 0.1);
-			arrowWidth = 1 + ctx.lineWidth;
-			arrowLength = 8;
-
-			var directional = (edge.data.directional !== undefined) ? edge.data.directional : true;
-
 			// line
-			var lineEnd;
-			if (directional) {
-				lineEnd = intersection.subtract(direction.normalise().multiply(arrowLength * 0.5));
-			} else {
-				lineEnd = s2;
-			}
+			var stroke = (edge.data.color !== undefined) ? edge.data.color : '#cccccc';
+			var weight = 0.5;
+			ctx.lineWidth = Math.max(weight *  2, 0.1);
+			var lineEnd = s2;
 
 			ctx.strokeStyle = stroke;
 			ctx.beginPath();
@@ -211,36 +196,6 @@ jQuery.fn.springy = function(params) {
 			ctx.lineTo(lineEnd.x, lineEnd.y);
 			ctx.stroke();
 
-/*
-			// arrow
-			if (directional) {
-				ctx.save();
-				ctx.fillStyle = stroke;
-				ctx.translate(intersection.x, intersection.y);
-				ctx.rotate(Math.atan2(y2 - y1, x2 - x1));
-				ctx.beginPath();
-				ctx.moveTo(-arrowLength, arrowWidth);
-				ctx.lineTo(0, 0);
-				ctx.lineTo(-arrowLength, -arrowWidth);
-				ctx.lineTo(-arrowLength * 0.8, -0);
-				ctx.closePath();
-				ctx.fill();
-				ctx.restore();
-			}
-
-
-			// label
-			if (edge.data.label !== undefined) {
-				text = edge.data.label
-				ctx.save();
-				ctx.textAlign = "center";
-				ctx.textBaseline = "top";
-				ctx.font = "10px Helvetica, sans-serif";
-				ctx.fillStyle = "#5BA6EC";
-				ctx.fillText(text, (x1+x2)/2, (y1+y2)/2);
-				ctx.restore();
-			}
-*/
 
 		},
 		function drawNode(node, p) {
@@ -255,24 +210,16 @@ jQuery.fn.springy = function(params) {
 			// clear background
 			ctx.clearRect(s.x - boxWidth/2, s.y - 10, boxWidth, 20);
 
-/*
-			// fill background
-			if (selected !== null && nearest.node !== null && selected.node.id === node.id) {
-				ctx.fillStyle = "#FFFFE0";
-			} else if (nearest !== null && nearest.node !== null && nearest.node.id === node.id) {
-				ctx.fillStyle = "#EEEEEE";
-			} else {
-				ctx.fillStyle = "#FFFFFF";
-			}
-			ctx.fillRect(s.x - boxWidth/2, s.y - 10, boxWidth, 20);
-*/
-
+			// node label
 			ctx.textAlign = "left";
 			ctx.textBaseline = "top";
 			ctx.fillStyle = (node.data.theme !== undefined) ? node.data.theme : 'black';
 			ctx.font = "16px 'Helvetica Neue', Arial";
 			var text = (node.data.name !== undefined) ? node.data.name : node.id;
-			ctx.fillText(text, s.x - boxWidth/2 + 5, s.y - 8);
+			ctx.fillText(text, s.x - boxWidth/2 + 25, s.y - 8);
+			
+			// node box
+			ctx.fillRect(s.x - boxWidth/2 + 5, s.y - 8, 16, 16);
 
 			ctx.restore();
 		},
