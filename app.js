@@ -2,7 +2,7 @@ var express = require('express');
 var async = require('async');
 var fs = require('fs');
 var WebSocketServer = require('ws').Server;
-var terms = require("./public/scripts/app/terms-interim");
+var terms = require("./public/assets/scripts/app/terms-interim");
 var app = express();
 
 /*
@@ -32,7 +32,7 @@ var termCounter = 0;
 
 //send events
 function sendWSEvent(){
-	setTimeout(sendWSEvent, 10000);
+	setTimeout(sendWSEvent, 20000);
 	//shuffle a copy of the array
 	var shuffled = terms.terms.slice().sort( function() { return 0.5 - Math.random() } );
 	var args = shuffled.slice(0, 3);

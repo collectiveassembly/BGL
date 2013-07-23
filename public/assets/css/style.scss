@@ -47,7 +47,17 @@ section {
 	width: 960px;
 	float: left;
 	outline: 1px solid #ccc;
-
+	
+	svg {
+		position: absolute;
+		top: 0;
+		left: 0;
+		* { -webkit-transition: all 4s ease 0;}
+		&#LAB-L * { -webkit-transition-delay: 0s;}
+		&#LAB-A * { -webkit-transition-delay: 2s;}
+		&#LAB-B * { -webkit-transition-delay: 4s;}
+	}
+	
 	canvas {
 		position: absolute;
 		top: 20px;
@@ -82,6 +92,13 @@ section {
 		.media {
 			width: 37%;
 			margin-right: 3%;
+			min-height: 100px;
+			&>* {
+				display: block;
+				width: 100%;
+				height: auto;
+				min-height: 100px;
+			}
 		}
 		.idea {
 			width: 17%;
@@ -89,32 +106,27 @@ section {
 	}
 	
 	&[data-theme="red"] {
-		color: red;
+		color: #ff001a;
 	}
 	&[data-theme="green"] {
-		color: green;
+		color: #00992d;
 	}
 	&[data-theme="blue"] {
 		color: blue;
 	}
 	&[data-theme="purple"] {
-		color: purple;
+		color: #93288a;
+	}
+	&[data-theme="orange"] {
+		color: orange;
 	}
 
 	&[data-theme="LAB"] {
-		
-		&:nth-child(1) { background: red;}
-		&:nth-child(2) { background: green;}
-		&:nth-child(3) { background: blue;}
-
+		//svg { opacity: 1;}
 		canvas { opacity: 0;}
-		
 	}
 	
 }
-
-
-
 
 p.notify {
 	background: yellow;

@@ -4,11 +4,10 @@ var BGLTerms = [
 	name: "3D Printing",
 	theme: "red",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/1/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/1/"
 		}
 	},
 	related: {
@@ -33,11 +32,10 @@ var BGLTerms = [
 	name: "Activist Citizen",
 	theme: "red",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/2/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/2/"
 		}
 	},
 	related: {
@@ -64,13 +62,12 @@ var BGLTerms = [
 {
 	number: "03",
 	name: "Aging Population",
-	theme: "red",
+	theme: "purple",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/3/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/3/"
 		}
 	},
 	related: {
@@ -96,11 +93,10 @@ var BGLTerms = [
 	name: "Altruism",
 	theme: "red",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/4/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/4/"
 		}
 	},
 	related: {
@@ -126,11 +122,10 @@ var BGLTerms = [
 	name: "Architectural Restoration",
 	theme: "red",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/5/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/5/"
 		}
 	},
 	related: {
@@ -158,11 +153,10 @@ var BGLTerms = [
 	name: "Arduino",
 	theme: "red",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/6/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/6/"
 		}
 	},
 	related: {
@@ -187,11 +181,10 @@ var BGLTerms = [
 	name: "Bike Sharing",
 	theme: "red",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/7/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/7/"
 		}
 	},
 	related: {
@@ -216,11 +209,10 @@ var BGLTerms = [
 	name: "Bottom-up Urban Engagement",
 	theme: "red",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/8/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/8/"
 		}
 	},
 	related: {
@@ -253,11 +245,10 @@ var BGLTerms = [
 	name: "Bridging Infrastructure",
 	theme: "red",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/9/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/9/"
 		}
 	},
 	related: {
@@ -282,11 +273,10 @@ var BGLTerms = [
 	name: "Chawls",
 	theme: "red",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/10/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/10/"
 		}
 	},
 	related: {
@@ -308,13 +298,12 @@ var BGLTerms = [
 {
 	number: "11",
 	name: "City Apps",
-	theme: "red",
+	theme: "green",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/11/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/11/"
 		}
 	},
 	related: {
@@ -343,13 +332,12 @@ var BGLTerms = [
 {
 	number: "12",
 	name: "City Manifesto",
-	theme: "red",
+	theme: "green",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/12/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/12/"
 		}
 	},
 	related: {
@@ -370,13 +358,12 @@ var BGLTerms = [
 {
 	number: "13",
 	name: "City Mythology",
-	theme: "red",
+	theme: "green",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/13/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/13/"
 		}
 	},
 	related: {
@@ -396,13 +383,12 @@ var BGLTerms = [
 {
 	number: "14",
 	name: "Cityness",
-	theme: "red",
+	theme: "green",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/14/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/14/"
 		}
 	},
 	related: {
@@ -421,13 +407,12 @@ var BGLTerms = [
 {
 	number: "15",
 	name: "Collaborative Urban Mapping",
-	theme: "red",
+	theme: "green",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/15/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/15/"
 		}
 	},
 	related: {
@@ -455,13 +440,12 @@ var BGLTerms = [
 {
 	number: "16",
 	name: "Collective Memory",
-	theme: "red",
+	theme: "green",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/16/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/16/"
 		}
 	},
 	related: {
@@ -485,13 +469,12 @@ var BGLTerms = [
 {
 	number: "17",
 	name: "Commuting",
-	theme: "red",
+	theme: "green",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/17/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/17/"
 		}
 	},
 	related: {
@@ -519,13 +502,12 @@ var BGLTerms = [
 {
 	number: "18",
 	name: "Confronting Comfort",
-	theme: "red",
+	theme: "green",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/18/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/18/"
 		}
 	},
 	related: {
@@ -551,13 +533,12 @@ var BGLTerms = [
 {
 	number: "19",
 	name: "Container Architecture",
-	theme: "red",
+	theme: "green",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/19/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/19/"
 		}
 	},
 	related: {
@@ -574,13 +555,12 @@ var BGLTerms = [
 {
 	number: "20",
 	name: "Corruption",
-	theme: "red",
+	theme: "green",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/20/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/20/"
 		}
 	},
 	related: {
@@ -604,13 +584,12 @@ var BGLTerms = [
 {
 	number: "21",
 	name: "Crowdsourcing/Crowdfunding",
-	theme: "red",
+	theme: "blue",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/21/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/21/"
 		}
 	},
 	related: {
@@ -639,13 +618,12 @@ var BGLTerms = [
 {
 	number: "22",
 	name: "Customization",
-	theme: "red",
+	theme: "blue",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/22/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/22/"
 		}
 	},
 	related: {
@@ -671,13 +649,12 @@ var BGLTerms = [
 {
 	number: "23",
 	name: "Data Visualization",
-	theme: "red",
+	theme: "blue",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/23/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/23/"
 		}
 	},
 	related: {
@@ -696,13 +673,12 @@ var BGLTerms = [
 {
 	number: "24",
 	name: "Decentralization",
-	theme: "red",
+	theme: "blue",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/24/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/24/"
 		}
 	},
 	related: {
@@ -730,13 +706,12 @@ var BGLTerms = [
 {
 	number: "25",
 	name: "Density",
-	theme: "red",
+	theme: "blue",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/25/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/25/"
 		}
 	},
 	related: {
@@ -765,13 +740,12 @@ var BGLTerms = [
 {
 	number: "26",
 	name: "Department of Listening",
-	theme: "red",
+	theme: "blue",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/26/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/26/"
 		}
 	},
 	related: {
@@ -794,13 +768,12 @@ var BGLTerms = [
 {
 	number: "27",
 	name: "Design barriers",
-	theme: "red",
+	theme: "blue",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/27/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/27/"
 		}
 	},
 	related: {
@@ -824,13 +797,12 @@ var BGLTerms = [
 {
 	number: "28",
 	name: "Development incentives",
-	theme: "red",
+	theme: "blue",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/28/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/28/"
 		}
 	},
 	related: {
@@ -858,13 +830,12 @@ var BGLTerms = [
 {
 	number: "29",
 	name: "Disneyfication",
-	theme: "red",
+	theme: "blue",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/29/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/29/"
 		}
 	},
 	related: {
@@ -882,13 +853,12 @@ var BGLTerms = [
 {
 	number: "30",
 	name: "Empowerment technologies",
-	theme: "red",
+	theme: "blue",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/30/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/30/"
 		}
 	},
 	related: {
@@ -914,13 +884,12 @@ var BGLTerms = [
 {
 	number: "31",
 	name: "Encroachment",
-	theme: "red",
+	theme: "orange",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/31/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/31/"
 		}
 	},
 	related: {
@@ -943,13 +912,12 @@ var BGLTerms = [
 {
 	number: "32",
 	name: "Eviction",
-	theme: "red",
+	theme: "orange",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/32/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/32/"
 		}
 	},
 	related: {
@@ -970,13 +938,12 @@ var BGLTerms = [
 {
 	number: "33",
 	name: "Fear",
-	theme: "red",
+	theme: "orange",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/33/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/33/"
 		}
 	},
 	related: {
@@ -1001,13 +968,12 @@ var BGLTerms = [
 {
 	number: "34",
 	name: "Feel good urbanism",
-	theme: "red",
+	theme: "orange",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/34/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/34/"
 		}
 	},
 	related: {
@@ -1029,13 +995,12 @@ var BGLTerms = [
 {
 	number: "35",
 	name: "Floor Space Index",
-	theme: "red",
+	theme: "orange",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/35/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/35/"
 		}
 	},
 	related: {
@@ -1054,13 +1019,12 @@ var BGLTerms = [
 {
 	number: "36",
 	name: "Food Distribution",
-	theme: "red",
+	theme: "orange",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/36/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/36/"
 		}
 	},
 	related: {
@@ -1082,13 +1046,12 @@ var BGLTerms = [
 {
 	number: "37",
 	name: "Genius Hub",
-	theme: "red",
+	theme: "orange",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/37/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/37/"
 		}
 	},
 	related: {
@@ -1107,13 +1070,12 @@ var BGLTerms = [
 {
 	number: "38",
 	name: "Gentrification",
-	theme: "red",
+	theme: "orange",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/38/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/38/"
 		}
 	},
 	related: {
@@ -1142,13 +1104,12 @@ var BGLTerms = [
 {
 	number: "39",
 	name: "Glocalism",
-	theme: "red",
+	theme: "orange",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/39/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/39/"
 		}
 	},
 	related: {
@@ -1178,13 +1139,12 @@ var BGLTerms = [
 {
 	number: "40",
 	name: "Green Space",
-	theme: "red",
+	theme: "orange",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/40/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/40/"
 		}
 	},
 	related: {
@@ -1213,13 +1173,12 @@ var BGLTerms = [
 {
 	number: "41",
 	name: "Hacking the city",
-	theme: "red",
+	theme: "orange",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/41/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/41/"
 		}
 	},
 	related: {
@@ -1249,13 +1208,12 @@ var BGLTerms = [
 {
 	number: "42",
 	name: "Happy city",
-	theme: "red",
+	theme: "orange",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/42/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/42/"
 		}
 	},
 	related: {
@@ -1291,13 +1249,12 @@ var BGLTerms = [
 {
 	number: "43",
 	name: "Hawker",
-	theme: "red",
+	theme: "purple",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/43/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/43/"
 		}
 	},
 	related: {
@@ -1316,13 +1273,12 @@ var BGLTerms = [
 {
 	number: "44",
 	name: "Informal economy",
-	theme: "red",
+	theme: "purple",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/44/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/44/"
 		}
 	},
 	related: {
@@ -1346,13 +1302,12 @@ var BGLTerms = [
 {
 	number: "45",
 	name: "Infraspace",
-	theme: "red",
+	theme: "purple",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/45/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/45/"
 		}
 	},
 	related: {
@@ -1375,13 +1330,12 @@ var BGLTerms = [
 {
 	number: "46",
 	name: "Infrastructure of Waste",
-	theme: "red",
+	theme: "purple",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/46/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/46/"
 		}
 	},
 	related: {
@@ -1399,13 +1353,12 @@ var BGLTerms = [
 {
 	number: "47",
 	name: "Interdependence",
-	theme: "red",
+	theme: "purple",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/47/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/47/"
 		}
 	},
 	related: {
@@ -1437,13 +1390,12 @@ var BGLTerms = [
 {
 	number: "48",
 	name: "Intergenerational Interaction",
-	theme: "red",
+	theme: "purple",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/48/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/48/"
 		}
 	},
 	related: {
@@ -1461,13 +1413,12 @@ var BGLTerms = [
 {
 	number: "49",
 	name: "Intuition",
-	theme: "red",
+	theme: "purple",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/49/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/49/"
 		}
 	},
 	related: {
@@ -1487,13 +1438,12 @@ var BGLTerms = [
 {
 	number: "50",
 	name: "Learning by doing",
-	theme: "red",
+	theme: "purple",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/50/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/50/"
 		}
 	},
 	related: {
@@ -1519,13 +1469,12 @@ var BGLTerms = [
 {
 	number: "51",
 	name: "Local Food",
-	theme: "red",
+	theme: "purple",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/51/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/51/"
 		}
 	},
 	related: {
@@ -1546,13 +1495,12 @@ var BGLTerms = [
 {
 	number: "52",
 	name: "Maker movement",
-	theme: "red",
+	theme: "purple",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/52/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/52/"
 		}
 	},
 	related: {
@@ -1579,13 +1527,12 @@ var BGLTerms = [
 {
 	number: "53",
 	name: "Me=We",
-	theme: "red",
+	theme: "purple",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/53/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/53/"
 		}
 	},
 	related: {
@@ -1615,11 +1562,10 @@ var BGLTerms = [
 	name: "Megaprojects",
 	theme: "red",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/54/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/54/"
 		}
 	},
 	related: {
@@ -1645,11 +1591,10 @@ var BGLTerms = [
 	name: "Microarchitecture",
 	theme: "red",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/55/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/55/"
 		}
 	},
 	related: {
@@ -1670,11 +1615,10 @@ var BGLTerms = [
 	name: "Mixed Use",
 	theme: "red",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/56/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/56/"
 		}
 	},
 	related: {
@@ -1698,11 +1642,10 @@ var BGLTerms = [
 	name: "Mortgage Crisis",
 	theme: "red",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/57/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/57/"
 		}
 	},
 	related: {
@@ -1723,11 +1666,10 @@ var BGLTerms = [
 	name: "Multicultural Cities",
 	theme: "red",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/58/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/58/"
 		}
 	},
 	related: {
@@ -1752,11 +1694,10 @@ var BGLTerms = [
 	name: "Mumbai Mills",
 	theme: "red",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/59/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/59/"
 		}
 	},
 	related: {
@@ -1781,11 +1722,10 @@ var BGLTerms = [
 	name: "Non-expert",
 	theme: "red",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/60/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/60/"
 		}
 	},
 	related: {
@@ -1810,11 +1750,10 @@ var BGLTerms = [
 	name: "Non-Iconic Architecture",
 	theme: "red",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/61/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/61/"
 		}
 	},
 	related: {
@@ -1835,11 +1774,10 @@ var BGLTerms = [
 	name: "Occupy Wall Street",
 	theme: "red",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/62/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/62/"
 		}
 	},
 	related: {
@@ -1864,11 +1802,10 @@ var BGLTerms = [
 	name: "Open Governance",
 	theme: "red",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/63/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/63/"
 		}
 	},
 	related: {
@@ -1896,11 +1833,10 @@ var BGLTerms = [
 	name: "Open Source",
 	theme: "red",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/64/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/64/"
 		}
 	},
 	related: {
@@ -1937,11 +1873,10 @@ var BGLTerms = [
 	name: "Ostrich Effect",
 	theme: "red",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/65/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/65/"
 		}
 	},
 	related: {
@@ -1962,11 +1897,10 @@ var BGLTerms = [
 	name: "Participatory Urbanism",
 	theme: "red",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/66/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/66/"
 		}
 	},
 	related: {
@@ -2001,11 +1935,10 @@ var BGLTerms = [
 	name: "Pet Slum",
 	theme: "red",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/67/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/67/"
 		}
 	},
 	related: {
@@ -2031,11 +1964,10 @@ var BGLTerms = [
 	name: "Privacy",
 	theme: "red",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/68/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/68/"
 		}
 	},
 	related: {
@@ -2060,11 +1992,10 @@ var BGLTerms = [
 	name: "Privatization",
 	theme: "red",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/69/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/69/"
 		}
 	},
 	related: {
@@ -2084,11 +2015,10 @@ var BGLTerms = [
 	name: "Property Fund Politics",
 	theme: "red",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/70/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/70/"
 		}
 	},
 	related: {
@@ -2110,11 +2040,10 @@ var BGLTerms = [
 	name: "Protest",
 	theme: "red",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/71/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/71/"
 		}
 	},
 	related: {
@@ -2155,11 +2084,10 @@ var BGLTerms = [
 	name: "Public Space",
 	theme: "red",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/72/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/72/"
 		}
 	},
 	related: {
@@ -2198,11 +2126,10 @@ var BGLTerms = [
 	name: "Public-Private Partnership",
 	theme: "red",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/73/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/73/"
 		}
 	},
 	related: {
@@ -2228,11 +2155,10 @@ var BGLTerms = [
 	name: "Rainwater Harvesting",
 	theme: "red",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/74/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/74/"
 		}
 	},
 	related: {
@@ -2252,11 +2178,10 @@ var BGLTerms = [
 	name: "Rapid Prototyping",
 	theme: "red",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/75/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/75/"
 		}
 	},
 	related: {
@@ -2280,11 +2205,10 @@ var BGLTerms = [
 	name: "Responsive Infrastructure",
 	theme: "red",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/76/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/76/"
 		}
 	},
 	related: {
@@ -2307,11 +2231,10 @@ var BGLTerms = [
 	name: "Retrofitting Infrastructure",
 	theme: "red",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/77/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/77/"
 		}
 	},
 	related: {
@@ -2332,11 +2255,10 @@ var BGLTerms = [
 	name: "Rural Migration",
 	theme: "red",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/78/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/78/"
 		}
 	},
 	related: {
@@ -2362,11 +2284,10 @@ var BGLTerms = [
 	name: "Sensor",
 	theme: "red",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/79/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/79/"
 		}
 	},
 	related: {
@@ -2393,11 +2314,10 @@ var BGLTerms = [
 	name: "Share culture",
 	theme: "red",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/80/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/80/"
 		}
 	},
 	related: {
@@ -2432,11 +2352,10 @@ var BGLTerms = [
 	name: "Slowing Down",
 	theme: "red",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/81/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/81/"
 		}
 	},
 	related: {
@@ -2464,11 +2383,10 @@ var BGLTerms = [
 	name: "Squatter",
 	theme: "red",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/82/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/82/"
 		}
 	},
 	related: {
@@ -2489,11 +2407,10 @@ var BGLTerms = [
 	name: "Suburban Sprawl",
 	theme: "red",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/83/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/83/"
 		}
 	},
 	related: {
@@ -2528,11 +2445,10 @@ var BGLTerms = [
 	name: "Temporary Architecture",
 	theme: "red",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/84/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/84/"
 		}
 	},
 	related: {
@@ -2559,11 +2475,10 @@ var BGLTerms = [
 	name: "The New Architect",
 	theme: "red",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/85/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/85/"
 		}
 	},
 	related: {
@@ -2587,11 +2502,10 @@ var BGLTerms = [
 	name: "Thinkering",
 	theme: "red",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/86/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/86/"
 		}
 	},
 	related: {
@@ -2612,11 +2526,10 @@ var BGLTerms = [
 	name: "Time Scarcity",
 	theme: "red",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/87/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/87/"
 		}
 	},
 	related: {
@@ -2637,11 +2550,10 @@ var BGLTerms = [
 	name: "Toxic Neighborhoods",
 	theme: "red",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/88/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/88/"
 		}
 	},
 	related: {
@@ -2665,11 +2577,10 @@ var BGLTerms = [
 	name: "Trust",
 	theme: "red",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/89/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/89/"
 		}
 	},
 	related: {
@@ -2697,11 +2608,10 @@ var BGLTerms = [
 	name: "Unconscious Perception",
 	theme: "red",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/90/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/90/"
 		}
 	},
 	related: {
@@ -2731,11 +2641,10 @@ var BGLTerms = [
 	name: "Urban Data",
 	theme: "red",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/91/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/91/"
 		}
 	},
 	related: {
@@ -2768,11 +2677,10 @@ var BGLTerms = [
 	name: "Urban Farming",
 	theme: "red",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/92/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/92/"
 		}
 	},
 	related: {
@@ -2794,11 +2702,10 @@ var BGLTerms = [
 	name: "Urban Fatigue",
 	theme: "red",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/93/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/93/"
 		}
 	},
 	related: {
@@ -2822,11 +2729,10 @@ var BGLTerms = [
 	name: "Urban History",
 	theme: "red",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/94/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/94/"
 		}
 	},
 	related: {
@@ -2859,11 +2765,10 @@ var BGLTerms = [
 	name: "Urban Psychology",
 	theme: "red",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/95/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/95/"
 		}
 	},
 	related: {
@@ -2897,11 +2802,10 @@ var BGLTerms = [
 	name: "Urban Sound",
 	theme: "red",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/96/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/96/"
 		}
 	},
 	related: {
@@ -2923,11 +2827,10 @@ var BGLTerms = [
 	name: "Urban Spontaneity",
 	theme: "red",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/97/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/97/"
 		}
 	},
 	related: {
@@ -2951,11 +2854,10 @@ var BGLTerms = [
 	name: "Urban Ugliness",
 	theme: "red",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/98/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/98/"
 		}
 	},
 	related: {
@@ -2977,11 +2879,10 @@ var BGLTerms = [
 	name: "Urban Violence",
 	theme: "red",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/99/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/99/"
 		}
 	},
 	related: {
@@ -3005,11 +2906,10 @@ var BGLTerms = [
 	name: "Vacant Space",
 	theme: "red",
 	content: {
-		"intro": "Accumsan dolor.",
-		"idea": "Pellentesque eget.",
-		"media": {
-			"type": "video",
-			"url": "./media/100/"
+		intro: "Accumsan dolor.",
+		idea: "Pellentesque eget.",
+		media: {
+			photo: "./media/100/"
 		}
 	},
 	related: {

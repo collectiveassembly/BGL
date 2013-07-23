@@ -98,6 +98,18 @@ section {
   width: 960px;
   float: left;
   outline: 1px solid #ccc; }
+  section svg {
+    position: absolute;
+    top: 0;
+    left: 0; }
+    section svg * {
+      -webkit-transition: all 4s ease 0; }
+    section svg#LAB-L * {
+      -webkit-transition-delay: 0s; }
+    section svg#LAB-A * {
+      -webkit-transition-delay: 2s; }
+    section svg#LAB-B * {
+      -webkit-transition-delay: 4s; }
   section canvas {
     position: absolute;
     top: 20px;
@@ -124,23 +136,25 @@ section {
     -webkit-column-gap: 2em; }
   section article .media {
     width: 37%;
-    margin-right: 3%; }
+    margin-right: 3%;
+    min-height: 100px; }
+    section article .media > * {
+      display: block;
+      width: 100%;
+      height: auto;
+      min-height: 100px; }
   section article .idea {
     width: 17%; }
   section[data-theme="red"] {
-    color: red; }
+    color: #ff001a; }
   section[data-theme="green"] {
-    color: green; }
+    color: #00992d; }
   section[data-theme="blue"] {
     color: blue; }
   section[data-theme="purple"] {
-    color: purple; }
-  section[data-theme="LAB"]:nth-child(1) {
-    background: red; }
-  section[data-theme="LAB"]:nth-child(2) {
-    background: green; }
-  section[data-theme="LAB"]:nth-child(3) {
-    background: blue; }
+    color: #93288a; }
+  section[data-theme="orange"] {
+    color: orange; }
   section[data-theme="LAB"] canvas {
     opacity: 0; }
 
