@@ -96,7 +96,7 @@ var BGLTerms = [
 		intro: "The Maker movement is a participatory, social culture that invites and inspires all kinds of people and communities to invent, build, and hack. Making and doing with your hands encourages creativity, innovation, and ultimately, design thinking. This mentality advocates for transparency in design and production and resists built-in obsolescence. It also favors self-initiated production over consumerism. The Maker Faire, which was founded by Dale Dougherty in 2006, is an important meeting point for makers worldwide, as are the two leading maker-oriented journals, Make and Craft.",
 		idea: "The Marathon of Transformation was a daylong program presenting a variety of projects&mdash;big and small&mdash;that have transformed, are transforming, or will transform our urban environment. Speakers shared their experiences of obstacles they have had to overcome, their success stories, and their current processes toward city transformation. Short presentations by each of the speakers were followed by an interactive discussion with the audience.",
 		media: {
-			video: "./media/52/video.mov"
+			photo: "./media/52/photo.jpg"
 		}
 	},
 	related: {

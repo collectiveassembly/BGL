@@ -14,7 +14,7 @@ var templates = {
 				<img src='{{content.media.photo}}'/>\
 			{{/content.media.photo}}\
 			{{#content.media.video}}\
-				<video><source src='{{content.media.video}}' type='video/mp4'></video>\
+				<video autoplay><source src='{{content.media.video}}' type='video/mp4'></video>\
 			{{/content.media.video}}\
 		</div>\
 		<div class='idea'>{{ content.idea }}</div>")
