@@ -27,6 +27,8 @@ html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre
 
 * {
 	box-sizing: border-box;
+	-webkit-perspective: 1000;
+	-webkit-backface-visibility: hidden;
 }
 
 html, body {
@@ -123,6 +125,7 @@ section {
 	}
 
 	&[data-theme="LAB"] {
+		color: white;
 		canvas { opacity: 0;}
 	}
 
@@ -163,11 +166,14 @@ section {
 			-webkit-transform: scale(.6);
 		}
 		
-/*
-		.intro { -webkit-transition-delay: .5s}
-		.media { -webkit-transition-delay: .8s}
-		.idea  { -webkit-transition-delay: 1.1s}
-*/
+	}
+	
+	&.active {
+		
+		header {
+			opacity: 1;
+			-webkit-transform: translate3d(0, -50px, 0);
+		}
 		
 	}
 
@@ -175,4 +181,8 @@ section {
 
 p.notify {
 	background: yellow;
+	color: black;
+	text-align: center;
+	padding: 15px;
+	font-size: 20px;
 }

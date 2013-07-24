@@ -81,7 +81,9 @@ figure {
  *
  **************************************/
 * {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  -webkit-perspective: 1000;
+  -webkit-backface-visibility: hidden; }
 
 html, body {
   background: #ccc;
@@ -159,8 +161,10 @@ section {
     color: #93288a; }
   section[data-theme="orange"] {
     color: orange; }
-  section[data-theme="LAB"] canvas {
-    opacity: 0; }
+  section[data-theme="LAB"] {
+    color: white; }
+    section[data-theme="LAB"] canvas {
+      opacity: 0; }
   section header {
     -webkit-transition: all 2s ease; }
   section .intro, section .media, section .idea {
@@ -175,21 +179,22 @@ section {
     opacity: 1;
     -webkit-transform: scale(1);
     -webkit-transition: all 1s ease; }
-  section.transitioning {
-    /*
-    		.intro { -webkit-transition-delay: .5s}
-    		.media { -webkit-transition-delay: .8s}
-    		.idea  { -webkit-transition-delay: 1.1s}
-    */ }
-    section.transitioning header {
-      opacity: 0;
-      -webkit-transform: translate3d(0, -200px, 0); }
-    section.transitioning .intro, section.transitioning .media, section.transitioning .idea {
-      opacity: 0;
-      -webkit-transform: translate3d(0, 200px, 0); }
-    section.transitioning canvas {
-      opacity: 0;
-      -webkit-transform: scale(0.6); }
+  section.transitioning header {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -200px, 0); }
+  section.transitioning .intro, section.transitioning .media, section.transitioning .idea {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 200px, 0); }
+  section.transitioning canvas {
+    opacity: 0;
+    -webkit-transform: scale(0.6); }
+  section.active header {
+    opacity: 1;
+    -webkit-transform: translate3d(0, -50px, 0); }
 
 p.notify {
-  background: yellow; }
+  background: yellow;
+  color: black;
+  text-align: center;
+  padding: 15px;
+  font-size: 20px; }

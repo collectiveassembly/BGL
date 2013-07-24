@@ -71,6 +71,7 @@ jQuery.fn.springy = function(params) {
 		return new Springy.Vector(px, py);
 	};
 
+/*
 	// half-assed drag and drop
 	var selected = null;
 	var nearest = null;
@@ -119,6 +120,7 @@ jQuery.fn.springy = function(params) {
 	jQuery(window).bind('mouseup',function(e) {
 		dragged = null;
 	});
+*/
 
 	Springy.Node.prototype.getWidth = function() {
 		var text = (this.data.label !== undefined) ? this.data.label : this.id;

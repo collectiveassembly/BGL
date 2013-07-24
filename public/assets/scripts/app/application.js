@@ -84,7 +84,7 @@ $(function(){
 	$(window).on("labLogo", function(){
 		
 		$sections.attr('data-theme', 'LAB');
-		$('section header, section article').empty();
+		$('section header, section article').html('<p class="notify">LAB</p>');
 
 		show_interstitial(L_Groups);
 		show_interstitial(A_Groups);
@@ -111,27 +111,29 @@ $(function(){
 			head: templates.head.render(term),
 			body: templates.body.render(term)
 		};
-	
-		// set props
-		$target_section
-			.attr('data-theme', term.theme)
-			.addClass('transitioning');
 		
 		setTimeout(function(){
 
-			// replace term html
-			$target_section.find('header').html(output.head);
-			$target_section.find('article').html(output.body);
-			
-			// createnode-graph
-			var graph = new Springy.Graph();
-			graph.loadJSON(term.related);
-			var springy_instance = $target_section.find('canvas').springy({graph: graph});
+			$target_section.attr('data-theme', term.theme)
+			$target_section.addClass('transitioning');
 
 			// show
-			$target_section.removeClass('transitioning');			
+			setTimeout(function(){
 
-		}, (target*2000)+2000);
+				// replace term html
+				$target_section.find('header').html(output.head);
+				$target_section.find('article').html(output.body);
+				
+				// createnode-graph
+				var graph = new Springy.Graph();
+				graph.loadJSON(term.related);
+				var springy_instance = $target_section.find('canvas').springy({graph: graph});
+
+				$target_section.removeClass('transitioning');
+				
+			}, (target*2000)+1000);		
+
+		}, (target*2000)+1000);
 		
 	};
 
@@ -182,8 +184,10 @@ $(function(){
 	 ***********************************************/
 
 	$sections.attr('data-theme', 'LAB');
+/*
 	scatter_interstitial(L_Groups);
 	scatter_interstitial(A_Groups);
 	scatter_interstitial(B_Groups);
+*/
 	
 });
