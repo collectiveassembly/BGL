@@ -82,8 +82,10 @@ figure {
  **************************************/
 * {
   box-sizing: border-box;
-  -webkit-perspective: 1000;
-  -webkit-backface-visibility: hidden; }
+  /*
+  	-webkit-perspective: 1000;
+  	-webkit-backface-visibility: hidden;
+  */ }
 
 html, body {
   background: #ccc;
@@ -105,9 +107,12 @@ section {
    *
    */ }
   section svg {
+    opacity: 0;
     position: absolute;
-    top: 0;
-    left: 0; }
+    top: 250px;
+    left: 200px;
+    -webkit-transform: scale(1.5);
+    -webkit-transition: opacity 2s ease 0; }
     section svg * {
       -webkit-transition: all 4s ease 0; }
     section svg#LAB-L * {
@@ -163,6 +168,8 @@ section {
     color: orange; }
   section[data-theme="LAB"] {
     color: white; }
+    section[data-theme="LAB"] svg {
+      opacity: 1; }
     section[data-theme="LAB"] canvas {
       opacity: 0; }
   section header {
@@ -188,9 +195,6 @@ section {
   section.transitioning canvas {
     opacity: 0;
     -webkit-transform: scale(0.6); }
-  section.active header {
-    opacity: 1;
-    -webkit-transform: translate3d(0, -50px, 0); }
 
 p.notify {
   background: yellow;

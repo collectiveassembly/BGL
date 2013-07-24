@@ -22,7 +22,7 @@ var templates = {
 
 $(function(){
 
-	$('svg').remove(); // debug...
+	//$('svg').remove();
 	
 	/***********************************************
 	 *
@@ -84,7 +84,7 @@ $(function(){
 	$(window).on("labLogo", function(){
 		
 		$sections.attr('data-theme', 'LAB');
-		$('section header, section article').html('<p class="notify">LAB</p>');
+		$('section header, section article').empty();
 
 		show_interstitial(L_Groups);
 		show_interstitial(A_Groups);
@@ -158,6 +158,7 @@ $(function(){
 		
 		console.log('scattering interstitial', group);
 		
+/*
 		group.$els.each(function(index){
 			var $this = $(this);
 			setTimeout(function(){
@@ -172,6 +173,7 @@ $(function(){
 				}
 			}, index * 150);
 		});
+*/
 
 	};
 

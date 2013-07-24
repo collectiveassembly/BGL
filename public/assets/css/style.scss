@@ -27,8 +27,10 @@ html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre
 
 * {
 	box-sizing: border-box;
+/*
 	-webkit-perspective: 1000;
 	-webkit-backface-visibility: hidden;
+*/
 }
 
 html, body {
@@ -51,9 +53,12 @@ section {
 	outline: 1px solid #ccc;
 	
 	svg {
+		opacity: 0;
 		position: absolute;
-		top: 0;
-		left: 0;
+		top: 250px;
+		left: 200px;
+		-webkit-transform: scale(1.5);
+		-webkit-transition: opacity 2s ease 0;
 		* { -webkit-transition: all 4s ease 0;}
 		&#LAB-L * { -webkit-transition-delay: 0s;}
 		&#LAB-A * { -webkit-transition-delay: 2s;}
@@ -126,6 +131,7 @@ section {
 
 	&[data-theme="LAB"] {
 		color: white;
+		svg { opacity: 1;}
 		canvas { opacity: 0;}
 	}
 
@@ -164,15 +170,6 @@ section {
 		canvas {
 			opacity: 0;
 			-webkit-transform: scale(.6);
-		}
-		
-	}
-	
-	&.active {
-		
-		header {
-			opacity: 1;
-			-webkit-transform: translate3d(0, -50px, 0);
 		}
 		
 	}
