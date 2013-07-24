@@ -97,7 +97,11 @@ section {
   background: white;
   width: 960px;
   float: left;
-  outline: 1px solid #ccc; }
+  outline: 1px solid #ccc;
+  /*
+   *	Term animation styles
+   *
+   */ }
   section svg {
     position: absolute;
     top: 0;
@@ -157,6 +161,35 @@ section {
     color: orange; }
   section[data-theme="LAB"] canvas {
     opacity: 0; }
+  section header {
+    -webkit-transition: all 2s ease; }
+  section .intro, section .media, section .idea {
+    -webkit-transition: all 1.5s ease; }
+  section .intro {
+    -webkit-transition-delay: .5s; }
+  section .media {
+    -webkit-transition-delay: .8s; }
+  section .idea {
+    -webkit-transition-delay: 1.1s; }
+  section canvas {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -webkit-transition: all 1s ease; }
+  section.transitioning {
+    /*
+    		.intro { -webkit-transition-delay: .5s}
+    		.media { -webkit-transition-delay: .8s}
+    		.idea  { -webkit-transition-delay: 1.1s}
+    */ }
+    section.transitioning header {
+      opacity: 0;
+      -webkit-transform: translate3d(0, -200px, 0); }
+    section.transitioning .intro, section.transitioning .media, section.transitioning .idea {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 200px, 0); }
+    section.transitioning canvas {
+      opacity: 0;
+      -webkit-transform: scale(0.6); }
 
 p.notify {
   background: yellow; }

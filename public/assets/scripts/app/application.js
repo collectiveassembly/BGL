@@ -22,6 +22,8 @@ var templates = {
 
 $(function(){
 
+	$('svg').remove(); // debug...
+	
 	/***********************************************
 	 *
 	 *	Set initial scroll position (#0, #1, #2)
@@ -56,7 +58,6 @@ $(function(){
 	B_Groups.total = B_Groups.$els.length;
 	B_Groups.lastIndex = B_Groups.total - 1;
 
-	console.log(B_Groups);
 	
 	/***********************************************
 	 *
@@ -72,11 +73,11 @@ $(function(){
 			scatter_interstitial(A_Groups);
 			scatter_interstitial(B_Groups);			
 		}
-		
+
 		// render each term's contents to screen
 		terms.forEach(function(term, i){
 			render_term(term, i);
-		});
+		});			
 
 	});
 
@@ -106,20 +107,31 @@ $(function(){
 	var render_term = function(term, target){
 		
 		var $target_section = $('section').eq(target);
-		
 		var output = {
 			head: templates.head.render(term),
 			body: templates.body.render(term)
 		};
-				
-		$target_section.attr('data-theme', term.theme);
-		$target_section.find('header').html(output.head);
-		$target_section.find('article').html(output.body);
+	
+		// set props
+		$target_section
+			.attr('data-theme', term.theme)
+			.addClass('transitioning');
 		
-		// node-graph
-		var graph = new Springy.Graph();
-		graph.loadJSON(term.related);
-		var springy_instance = $target_section.find('canvas').springy({graph: graph});
+		setTimeout(function(){
+
+			// replace term html
+			$target_section.find('header').html(output.head);
+			$target_section.find('article').html(output.body);
+			
+			// createnode-graph
+			var graph = new Springy.Graph();
+			graph.loadJSON(term.related);
+			var springy_instance = $target_section.find('canvas').springy({graph: graph});
+
+			// show
+			$target_section.removeClass('transitioning');			
+
+		}, (target*2000)+2000);
 		
 	};
 

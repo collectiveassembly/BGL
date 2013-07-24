@@ -103,6 +103,7 @@ section {
 		.idea {
 			width: 17%;
 		}
+		
 	}
 	
 	&[data-theme="red"] {
@@ -122,10 +123,54 @@ section {
 	}
 
 	&[data-theme="LAB"] {
-		//svg { opacity: 1;}
 		canvas { opacity: 0;}
 	}
-	
+
+	/*
+	 *	Term animation styles
+	 *
+	 */
+
+	header {
+		-webkit-transition: all 2s ease;
+	}
+	.intro, .media, .idea {
+		-webkit-transition: all 1.5s ease;
+	}
+	.intro { -webkit-transition-delay: .5s}
+	.media { -webkit-transition-delay: .8s}
+	.idea  { -webkit-transition-delay: 1.1s}
+
+	canvas {
+		opacity: 1;
+		-webkit-transform: scale(1);
+		-webkit-transition: all 1s ease;
+	}
+
+	&.transitioning {
+
+		header {
+			opacity: 0;
+			-webkit-transform: translate3d(0, -200px, 0);
+		}
+		.intro, .media, .idea {
+			opacity: 0;
+			-webkit-transform: translate3d(0, 200px, 0);
+		}
+
+		canvas {
+			opacity: 0;
+			-webkit-transform: scale(.6);
+		}
+		
+/*
+		.intro { -webkit-transition-delay: .5s}
+		.media { -webkit-transition-delay: .8s}
+		.idea  { -webkit-transition-delay: 1.1s}
+*/
+		
+	}
+
 }
 
 p.notify {
