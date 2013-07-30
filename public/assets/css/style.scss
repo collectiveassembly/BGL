@@ -48,18 +48,6 @@ section {
 	width: 1920px;
 	float: left;
 	outline: 1px solid #ccc;
-
-	svg {
-		opacity: 0;
-		position: absolute;
-		top: 0;
-		left: 0;
-		-webkit-transition: opacity 2s ease 0;
-		* { -webkit-transition: all 4s ease 0;}
-		&#LAB-L * { -webkit-transition-delay: 0s;}
-		&#LAB-A * { -webkit-transition-delay: 1.5s;}
-		&#LAB-B * { -webkit-transition-delay: 2.5s;}
-	}
 	
 	canvas {
 		position: absolute;
@@ -84,70 +72,100 @@ section {
 	article {
 		&>div {
 			float: left;
-			font-size: 18px;
+			font-size: 16px;
+			max-height: 905px;
+			overflow: hidden;
 		}
-		.intro {
-			width: 37%;
-			margin-right: 3%;
-			-webkit-column-width: 10em;
-			-webkit-column-gap: 2em;
+		.term-description {
+			width: 23%;
+			margin-right: 2%;
 		}
 		.media {
-			width: 37%;
-			margin-right: 3%;
-			min-height: 200px;
-			&>* {
+			position: relative;
+			width: 35%;
+			margin-right: 2%;
+			min-height: 150px;
+			&>video,
+			&>img {
 				display: block;
 				width: 100%;
 				height: auto;
-				min-height: 200px;
+				min-height: 150px;
+			}
+			.progress-bar {
+				position: absolute;
+				width: 1%;
+				height: 10px;
+				background: black;
+				z-index: 10;
+				-webkit-transition: width 11s linear, background 1s ease 2s;
+				&.active { width: 100%;}				
+			}
+			.caption {
+				margin-top: 1em;
 			}
 		}
-		.idea {
-			width: 17%;
+		.project-desc {
+			width: 23%;
+			margin-right: 2%;
+		}
+		.project-meta {
+			width: 13%;
 		}
 		
 	}
 	
 	&[data-theme="red"] {
 		color: #ff001a;
+		article .media .progress-bar { background: #ff001a;}
 	}
 	&[data-theme="green"] {
 		color: #00992d;
+		article .media .progress-bar { background: #00992d;}
 	}
 	&[data-theme="blue-light"] {
 		color: #00b1ea;
+		article .media .progress-bar { background: #00b1ea;}
 	}
 	&[data-theme="blue-dark"] {
 		color: #006fb8;
+		article .media .progress-bar { background: #006fb8;}
 	}
 	&[data-theme="purple"] {
 		color: #93288a;
+		article .media .progress-bar { background: #93288a;}
 	}
 	&[data-theme="orange"] {
 		color: #fdaa32;
+		article .media .progress-bar { background: #fdaa32;}
 	}
 
 	&[data-theme="LAB"] {
 		color: white;
-		svg { opacity: 1;}
 		canvas { opacity: 0;}
 	}
 
-	/*
+
+
+	/**************************************
+	 *
 	 *	Term animation styles
 	 *
-	 */
+	 **************************************/
 
 	header {
 		-webkit-transition: all 2s ease;
 	}
-	.intro, .media, .idea {
+	.term-description, 
+	.media,
+	.project-desc,
+	.project-meta {
 		-webkit-transition: all 1.5s ease;
 	}
-	.intro { -webkit-transition-delay: .5s}
-	.media { -webkit-transition-delay: .8s}
-	.idea  { -webkit-transition-delay: 1.1s}
+	.term-description	{ -webkit-transition-delay: .5s}
+	.media				{ -webkit-transition-delay: .7s}
+	.project-desc		{ -webkit-transition-delay: .9s}
+	.project-meta		{ -webkit-transition-delay: 1.1s}
 
 	canvas {
 		opacity: 1;
@@ -161,7 +179,10 @@ section {
 			opacity: 0;
 			-webkit-transform: translate3d(0, -300px, 0);
 		}
-		.intro, .media, .idea {
+		.term-description,
+		.media ,
+		.project-desc,
+		.project-meta {
 			opacity: 0;
 		}
 
@@ -174,6 +195,11 @@ section {
 
 }
 
+/**************************************
+ *
+ *	LAB interstitial
+ *
+ **************************************/
 
 #interstitial {
 
@@ -192,7 +218,6 @@ section {
 		.term { 
 
 			position: absolute;
-			font-family:'HelveticaNeueLTPro-Md';
 			font-size:43.9998894px;
 			color: white;
 			-webkit-transition: all 4s ease 0;

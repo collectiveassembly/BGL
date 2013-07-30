@@ -8,16 +8,20 @@ function intInRangeFloat(from,to){
 var templates = {
 	head: Hogan.compile('<h1>{{ number }}</h1><h2>{{ name }}</h2>'),
 	body: Hogan.compile("\
-		<div class='intro'>{{ content.intro }}</div>\
+		<div class='term-description'>{{ content.term }}</div>\
 		<div class='media'>\
+			<div class='progress-bar'></div>\
 			{{#content.media.photo}}\
 				<img src='{{content.media.photo}}'/>\
+				<p class='caption'>Lorem ipsum sit dolor amet.</p>\
 			{{/content.media.photo}}\
 			{{#content.media.video}}\
 				<video autoplay><source src='{{content.media.video}}' type='video/mp4'></video>\
+				<p class='caption'>Lorem ipsum sit dolor amet.</p>\
 			{{/content.media.video}}\
 		</div>\
-		<div class='idea'>{{ content.idea }}</div>")
+		<div class='project-desc'>{{ content.project_desc }}</div>\
+		<div class='project-meta'>{{ content.project_meta }}</div>")
 }
 
 $(function(){
@@ -154,7 +158,9 @@ $(function(){
 				graph.loadJSON(term.related);
 				var springy_instance = $target_section.find('canvas').springy({graph: graph});
 
+				// clean up
 				$target_section.removeClass('transitioning');
+				$target_section.find('.progress-bar').addClass('active');
 				
 			}, (target*500)+2000);		
 

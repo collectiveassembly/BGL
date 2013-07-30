@@ -128,7 +128,7 @@ jQuery.fn.springy = function(params) {
 			return this._width[text];
 
 		ctx.save();
-		ctx.font = "16px 'Helvetica Neue', Arial";
+		ctx.font = "18px 'Helvetica Neue', Arial";
 		var width = ctx.measureText(text).width + 10;
 		ctx.restore();
 
@@ -237,7 +237,7 @@ jQuery.fn.springy = function(params) {
 				break;
 			}
 			
-			ctx.font = "16px 'Helvetica Neue', Arial";
+			ctx.font = "18px 'Helvetica Neue', Arial";
 			var text = (node.data.name !== undefined) ? node.data.name : node.id;
 			ctx.fillText(text, s.x - boxWidth/2 + 25, s.y - 8);
 			

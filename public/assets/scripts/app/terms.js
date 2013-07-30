@@ -4,8 +4,9 @@ var BGLTerms = [
 	name: "3D Printing",
 	theme: "red",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/1/"
 		}
@@ -32,8 +33,9 @@ var BGLTerms = [
 	name: "Activist Citizen",
 	theme: "orange",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/2/"
 		}
@@ -64,8 +66,9 @@ var BGLTerms = [
 	name: "Aging Population",
 	theme: "green",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/3/"
 		}
@@ -93,8 +96,9 @@ var BGLTerms = [
 	name: "Altruism",
 	theme: "orange",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/4/"
 		}
@@ -122,8 +126,9 @@ var BGLTerms = [
 	name: "Architectural Restoration",
 	theme: "orange",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/5/"
 		}
@@ -153,8 +158,9 @@ var BGLTerms = [
 	name: "Arduino",
 	theme: "orange",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/6/"
 		}
@@ -181,8 +187,9 @@ var BGLTerms = [
 	name: "Bike Sharing",
 	theme: "purple",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/7/"
 		}
@@ -209,8 +216,9 @@ var BGLTerms = [
 	name: "Bottom-up Urban Engagement",
 	theme: "blue-dark",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/8/"
 		}
@@ -245,8 +253,9 @@ var BGLTerms = [
 	name: "Bridging Infrastructure",
 	theme: "green",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/9/"
 		}
@@ -273,8 +282,9 @@ var BGLTerms = [
 	name: "Chawls",
 	theme: "green",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/10/"
 		}
@@ -300,8 +310,9 @@ var BGLTerms = [
 	name: "City Apps",
 	theme: "green",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/11/"
 		}
@@ -334,8 +345,9 @@ var BGLTerms = [
 	name: "City Manifesto",
 	theme: "orange",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/12/"
 		}
@@ -360,8 +372,9 @@ var BGLTerms = [
 	name: "City Mythology",
 	theme: "red",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/13/"
 		}
@@ -385,8 +398,9 @@ var BGLTerms = [
 	name: "Cityness",
 	theme: "green",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/14/"
 		}
@@ -409,8 +423,9 @@ var BGLTerms = [
 	name: "Collaborative Urban Mapping",
 	theme: "blue-light",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/15/"
 		}
@@ -442,8 +457,9 @@ var BGLTerms = [
 	name: "Collective Memory",
 	theme: "blue-light",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/16/"
 		}
@@ -471,8 +487,9 @@ var BGLTerms = [
 	name: "Commuting",
 	theme: "blue-light",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/17/"
 		}
@@ -504,8 +521,9 @@ var BGLTerms = [
 	name: "Confronting Comfort",
 	theme: "blue-dark",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/18/"
 		}
@@ -535,8 +553,9 @@ var BGLTerms = [
 	name: "Container Architecture",
 	theme: "blue-dark",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/19/"
 		}
@@ -557,8 +576,9 @@ var BGLTerms = [
 	name: "Corruption",
 	theme: "purple",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/20/"
 		}
@@ -586,8 +606,9 @@ var BGLTerms = [
 	name: "Crowdsourcing/Crowdfunding",
 	theme: "purple",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/21/"
 		}
@@ -620,8 +641,9 @@ var BGLTerms = [
 	name: "Customization",
 	theme: "purple",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/22/"
 		}
@@ -651,8 +673,9 @@ var BGLTerms = [
 	name: "Data Visualization",
 	theme: "red",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/23/"
 		}
@@ -675,8 +698,9 @@ var BGLTerms = [
 	name: "Decentralization",
 	theme: "red",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/24/"
 		}
@@ -708,8 +732,9 @@ var BGLTerms = [
 	name: "Density",
 	theme: "orange",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/25/"
 		}
@@ -742,8 +767,9 @@ var BGLTerms = [
 	name: "Department of Listening",
 	theme: "purple",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/26/"
 		}
@@ -770,8 +796,9 @@ var BGLTerms = [
 	name: "Design barriers",
 	theme: "red",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/27/"
 		}
@@ -799,8 +826,9 @@ var BGLTerms = [
 	name: "Development incentives",
 	theme: "red",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/28/"
 		}
@@ -832,8 +860,9 @@ var BGLTerms = [
 	name: "Disneyfication",
 	theme: "red",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/29/"
 		}
@@ -855,8 +884,9 @@ var BGLTerms = [
 	name: "Empowerment technologies",
 	theme: "green",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/30/"
 		}
@@ -886,8 +916,9 @@ var BGLTerms = [
 	name: "Encroachment",
 	theme: "green",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/31/"
 		}
@@ -914,8 +945,9 @@ var BGLTerms = [
 	name: "Eviction",
 	theme: "green",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/32/"
 		}
@@ -940,8 +972,9 @@ var BGLTerms = [
 	name: "Fear",
 	theme: "blue-light",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/33/"
 		}
@@ -970,8 +1003,9 @@ var BGLTerms = [
 	name: "Feel good urbanism",
 	theme: "blue-light",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/34/"
 		}
@@ -997,8 +1031,9 @@ var BGLTerms = [
 	name: "Floor Space Index",
 	theme: "blue-light",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/35/"
 		}
@@ -1021,8 +1056,9 @@ var BGLTerms = [
 	name: "Food Distribution",
 	theme: "green",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/36/"
 		}
@@ -1048,8 +1084,9 @@ var BGLTerms = [
 	name: "Genius Hub",
 	theme: "green",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/37/"
 		}
@@ -1072,8 +1109,9 @@ var BGLTerms = [
 	name: "Gentrification",
 	theme: "green",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/38/"
 		}
@@ -1106,8 +1144,9 @@ var BGLTerms = [
 	name: "Glocalism",
 	theme: "green",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/39/"
 		}
@@ -1141,8 +1180,9 @@ var BGLTerms = [
 	name: "Green Space",
 	theme: "red",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/40/"
 		}
@@ -1175,8 +1215,9 @@ var BGLTerms = [
 	name: "Hacking the city",
 	theme: "red",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/41/"
 		}
@@ -1210,8 +1251,9 @@ var BGLTerms = [
 	name: "Happy city",
 	theme: "red",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/42/"
 		}
@@ -1264,8 +1306,9 @@ var BGLTerms = [
 	name: "Hawker",
 	theme: "red",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/43/"
 		}
@@ -1288,8 +1331,9 @@ var BGLTerms = [
 	name: "Informal economy",
 	theme: "purple",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/44/"
 		}
@@ -1317,8 +1361,9 @@ var BGLTerms = [
 	name: "Infraspace",
 	theme: "purple",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/45/"
 		}
@@ -1345,8 +1390,9 @@ var BGLTerms = [
 	name: "Infrastructure of Waste",
 	theme: "purple",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/46/"
 		}
@@ -1368,8 +1414,9 @@ var BGLTerms = [
 	name: "Interdependence",
 	theme: "purple",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/47/"
 		}
@@ -1405,8 +1452,9 @@ var BGLTerms = [
 	name: "Intergenerational Interaction",
 	theme: "orange",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/48/"
 		}
@@ -1428,8 +1476,9 @@ var BGLTerms = [
 	name: "Intuition",
 	theme: "orange",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/49/"
 		}
@@ -1453,8 +1502,9 @@ var BGLTerms = [
 	name: "Learning by doing",
 	theme: "orange",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/50/"
 		}
@@ -1484,8 +1534,9 @@ var BGLTerms = [
 	name: "Local Food",
 	theme: "blue-dark",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/51/"
 		}
@@ -1510,8 +1561,9 @@ var BGLTerms = [
 	name: "Maker movement",
 	theme: "blue-dark",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/52/"
 		}
@@ -1549,8 +1601,9 @@ var BGLTerms = [
 	name: "Me=We",
 	theme: "blue-dark",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/53/"
 		}
@@ -1582,8 +1635,9 @@ var BGLTerms = [
 	name: "Megaprojects",
 	theme: "blue-light",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/54/"
 		}
@@ -1611,8 +1665,9 @@ var BGLTerms = [
 	name: "Microarchitecture",
 	theme: "blue-light",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/55/"
 		}
@@ -1635,8 +1690,9 @@ var BGLTerms = [
 	name: "Mixed Use",
 	theme: "blue-light",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/56/"
 		}
@@ -1662,8 +1718,9 @@ var BGLTerms = [
 	name: "Mortgage Crisis",
 	theme: "blue-light",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/57/"
 		}
@@ -1686,8 +1743,9 @@ var BGLTerms = [
 	name: "Multicultural Cities",
 	theme: "blue-light",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/58/"
 		}
@@ -1714,8 +1772,9 @@ var BGLTerms = [
 	name: "Mumbai Mills",
 	theme: "green",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/59/"
 		}
@@ -1742,8 +1801,9 @@ var BGLTerms = [
 	name: "Non-expert",
 	theme: "green",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/60/"
 		}
@@ -1770,8 +1830,9 @@ var BGLTerms = [
 	name: "Non-Iconic Architecture",
 	theme: "green",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/61/"
 		}
@@ -1794,8 +1855,9 @@ var BGLTerms = [
 	name: "Occupy Wall Street",
 	theme: "green",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/62/"
 		}
@@ -1829,8 +1891,9 @@ var BGLTerms = [
 	name: "Open Governance",
 	theme: "green",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/63/"
 		}
@@ -1860,8 +1923,9 @@ var BGLTerms = [
 	name: "Open Source",
 	theme: "green",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/64/"
 		}
@@ -1900,8 +1964,9 @@ var BGLTerms = [
 	name: "Ostrich Effect",
 	theme: "red",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/65/"
 		}
@@ -1928,8 +1993,9 @@ var BGLTerms = [
 	name: "Participatory Urbanism",
 	theme: "red",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/66/"
 		}
@@ -1966,8 +2032,9 @@ var BGLTerms = [
 	name: "Pet Slum",
 	theme: "red",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/67/"
 		}
@@ -1995,8 +2062,9 @@ var BGLTerms = [
 	name: "Privacy",
 	theme: "red",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/68/"
 		}
@@ -2023,8 +2091,9 @@ var BGLTerms = [
 	name: "Privatization",
 	theme: "red",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/69/"
 		}
@@ -2046,8 +2115,9 @@ var BGLTerms = [
 	name: "Property Fund Politics",
 	theme: "blue-light",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/70/"
 		}
@@ -2071,8 +2141,9 @@ var BGLTerms = [
 	name: "Protest",
 	theme: "blue-light",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/71/"
 		}
@@ -2115,8 +2186,9 @@ var BGLTerms = [
 	name: "Public Space",
 	theme: "blue-light",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/72/"
 		}
@@ -2157,8 +2229,9 @@ var BGLTerms = [
 	name: "Public-Private Partnership",
 	theme: "blue-light",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/73/"
 		}
@@ -2186,8 +2259,9 @@ var BGLTerms = [
 	name: "Rainwater Harvesting",
 	theme: "blue-light",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/74/"
 		}
@@ -2212,8 +2286,9 @@ var BGLTerms = [
 	name: "Rapid Prototyping",
 	theme: "blue-dark",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/75/"
 		}
@@ -2239,8 +2314,9 @@ var BGLTerms = [
 	name: "Responsive Infrastructure",
 	theme: "blue-dark",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/76/"
 		}
@@ -2265,8 +2341,9 @@ var BGLTerms = [
 	name: "Retrofitting Infrastructure",
 	theme: "orange",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/77/"
 		}
@@ -2289,8 +2366,9 @@ var BGLTerms = [
 	name: "Rural Migration",
 	theme: "orange",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/78/"
 		}
@@ -2318,8 +2396,9 @@ var BGLTerms = [
 	name: "Sensor",
 	theme: "purple",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/79/"
 		}
@@ -2348,8 +2427,9 @@ var BGLTerms = [
 	name: "Share culture",
 	theme: "purple",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/80/"
 		}
@@ -2386,8 +2466,9 @@ var BGLTerms = [
 	name: "Slowing Down",
 	theme: "purple",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/81/"
 		}
@@ -2417,8 +2498,9 @@ var BGLTerms = [
 	name: "Squatter",
 	theme: "purple",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/82/"
 		}
@@ -2441,8 +2523,9 @@ var BGLTerms = [
 	name: "Suburban Sprawl",
 	theme: "blue-dark",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/83/"
 		}
@@ -2479,8 +2562,9 @@ var BGLTerms = [
 	name: "Temporary Architecture",
 	theme: "blue-dark",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/84/"
 		}
@@ -2509,8 +2593,9 @@ var BGLTerms = [
 	name: "The New Architect",
 	theme: "green",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/85/"
 		}
@@ -2536,8 +2621,9 @@ var BGLTerms = [
 	name: "Thinkering",
 	theme: "green",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/86/"
 		}
@@ -2560,8 +2646,9 @@ var BGLTerms = [
 	name: "Time Scarcity",
 	theme: "green",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/87/"
 		}
@@ -2584,8 +2671,9 @@ var BGLTerms = [
 	name: "Toxic Neighborhoods",
 	theme: "red",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/88/"
 		}
@@ -2611,8 +2699,9 @@ var BGLTerms = [
 	name: "Trust",
 	theme: "green",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/89/"
 		}
@@ -2642,8 +2731,9 @@ var BGLTerms = [
 	name: "Unconscious Perception",
 	theme: "orange",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/90/"
 		}
@@ -2675,8 +2765,9 @@ var BGLTerms = [
 	name: "Urban Data",
 	theme: "purple",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/91/"
 		}
@@ -2711,8 +2802,9 @@ var BGLTerms = [
 	name: "Urban Farming",
 	theme: "purple",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/92/"
 		}
@@ -2736,8 +2828,9 @@ var BGLTerms = [
 	name: "Urban Fatigue",
 	theme: "red",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/93/"
 		}
@@ -2763,8 +2856,9 @@ var BGLTerms = [
 	name: "Urban History",
 	theme: "red",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/94/"
 		}
@@ -2799,8 +2893,9 @@ var BGLTerms = [
 	name: "Urban Psychology",
 	theme: "red",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/95/"
 		}
@@ -2836,8 +2931,9 @@ var BGLTerms = [
 	name: "Urban Sound",
 	theme: "blue-light",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/96/"
 		}
@@ -2861,8 +2957,9 @@ var BGLTerms = [
 	name: "Urban Spontaneity",
 	theme: "blue-light",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/97/"
 		}
@@ -2888,8 +2985,9 @@ var BGLTerms = [
 	name: "Urban Ugliness",
 	theme: "blue-dark",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/98/"
 		}
@@ -2913,8 +3011,9 @@ var BGLTerms = [
 	name: "Urban Violence",
 	theme: "blue-dark",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/99/"
 		}
@@ -2940,8 +3039,9 @@ var BGLTerms = [
 	name: "Vacant Space",
 	theme: "blue-dark",
 	content: {
-		intro: "Accumsan dolor.",
-		idea: "Pellentesque eget.",
+		term: "Accumsan dolor.",
+		project_desc: "Pellentesque eget.",
+		project_meta: "Lorem ipsum sit dolor...",
 		media: {
 			photo: "./media/100/"
 		}
