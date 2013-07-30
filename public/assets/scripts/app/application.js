@@ -21,8 +21,28 @@ var templates = {
 }
 
 $(function(){
+	
+	/*
+	// generate output string for SVG generator
+	var str = '';
+	BGLTerms.forEach(function(term, i){
+		str += term.number + ' ' + term.name + ' ';
+	});
+	console.log(str);
+	*/	
 
-	//$('svg').remove();
+	/*
+	// generate skeletal HTML src from tspan-SVG
+	var tspan_to_div = '';
+	var $tspan = $('tspan');		
+	$tspan.each(function(){
+		var $this = $(this);
+		tspan_to_div += '<div style="top:'+$this.attr('y')+'px;left:'+$this.attr('x')+'px;'+$this.attr('style')+'">'+$this.text()+'</div>';
+	});
+	console.log(tspan_to_div);
+	*/
+
+
 	
 	/***********************************************
 	 *
@@ -43,20 +63,14 @@ $(function(){
 
 	var canvases = document.querySelectorAll('canvas');
 	var $sections = $('section');
+	
+	var $interstitial = $('#interstitial');
+	var $interstitial_terms_L = $interstitial.find('.letter.L > div');
+	var $interstitial_terms_A = $interstitial.find('.letter.A > div');
+	var $interstitial_terms_B = $interstitial.find('.letter.B > div');
+	
 	var w = $(window).width();
 	var h = $(window).height();
-	var L_Groups = {};
-	L_Groups.$els = $('#LAB-L g, #LAB-L > path')
-	L_Groups.total = L_Groups.$els.length;
-	L_Groups.lastIndex = L_Groups.total - 1;
-	var A_Groups = {};
-	A_Groups.$els = $('#LAB-A g, #LAB-A > path')
-	A_Groups.total = A_Groups.$els.length;
-	A_Groups.lastIndex = A_Groups.total - 1;
-	var B_Groups = {};
-	B_Groups.$els = $('#LAB-B svg g, #LAB-B > path')
-	B_Groups.total = B_Groups.$els.length;
-	B_Groups.lastIndex = B_Groups.total - 1;
 
 	
 	/***********************************************
@@ -69,15 +83,15 @@ $(function(){
 
 		// scatter interstitials if on-screen
 		if ($sections.eq(0).attr('data-theme') === 'LAB') {
-			scatter_interstitial(L_Groups);
-			scatter_interstitial(A_Groups);
-			scatter_interstitial(B_Groups);			
+			scatter_interstitial($interstitial_terms_L, 'left');
+			scatter_interstitial($interstitial_terms_A, 'center');
+			scatter_interstitial($interstitial_terms_B, 'right');
 		}
 
 		// render each term's contents to screen
 		terms.forEach(function(term, i){
 			render_term(term, i);
-		});			
+		});
 
 	});
 
@@ -86,9 +100,9 @@ $(function(){
 		$sections.attr('data-theme', 'LAB');
 		$('section header, section article').empty();
 
-		show_interstitial(L_Groups);
-		show_interstitial(A_Groups);
-		show_interstitial(B_Groups);
+		show_interstitial($interstitial_terms_L);
+		show_interstitial($interstitial_terms_A);
+		show_interstitial($interstitial_terms_B);
 
 		// clear canvases
 		for (var i = 0; i < canvases.length; ++i) {
@@ -98,9 +112,21 @@ $(function(){
 
 	});
 
+
+
+
+
+
+
+
+
+
+
+
+
 	/***********************************************
 	 *
-	 *	MAKE IT HAPPEN
+	 *	Render term
 	 *
 	 ***********************************************/
 
@@ -114,10 +140,9 @@ $(function(){
 		
 		setTimeout(function(){
 
-			$target_section.attr('data-theme', term.theme)
+			$target_section.attr('data-theme', term.theme);
 			$target_section.addClass('transitioning');
 
-			// show
 			setTimeout(function(){
 
 				// replace term html
@@ -131,49 +156,66 @@ $(function(){
 
 				$target_section.removeClass('transitioning');
 				
-			}, (target*1000)+1000);		
+			}, (target*500)+2000);		
 
 		}, (target*1000)+1000);
 		
 	};
 
-	var show_interstitial = function(group){
+	/***********************************************
+	 *
+	 *	Start interstitial
+	 *
+	 ***********************************************/
 
-		console.log('showing interstitial', group);
-
-		group.$els.each(function(index){
-			if (index === group.lastIndex){
-				group.$els.each(function(index){
-					var $this = $(this);
-					setTimeout(function(){
-						$this.removeAttr('style').find('path').removeAttr('style');
-					}, index * 50);
-				});
-			}
+	var show_interstitial = function(terms){
+		
+		console.log('show interstitial');
+		
+		terms.each(function(i){
+			var $this = $(this);
+			setTimeout(function(){
+				$this.css({'opacity': 1,'-webkit-transform': 'scale(1) translate3d(0px,0px,0px)'});
+			}, i * 30);
 		});
 		
 	};
 
-	var scatter_interstitial = function(group){
+	/***********************************************
+	 *
+	 *	End interstitial
+	 *
+	 ***********************************************/
+
+	var scatter_interstitial = function(terms, animDirection){
 		
-		console.log('scattering interstitial', group);
+		if (typeof animDirection === "undefined") var animDirection = 'center';		
+		console.log('scatter interstitial in direction', animDirection);
 		
-/*
-		group.$els.each(function(index){
+		terms.each(function(i){
+
 			var $this = $(this);
-			setTimeout(function(){
-				if (index%2) {
-					$this.css({
-						'-webkit-transform': 'scale('+intInRangeFloat(0.5,3.2)+') translate3d('+intInRange(-900,-1200)+'px,'+intInRange(-900,-1200)+'px,0px)'
-					});
-				} else {
-					$this.css({
-						'-webkit-transform': 'scale('+intInRangeFloat(0.5,3.2)+') translate3d('+intInRange(-900,-1200)+'px,'+intInRange(900,1200)+'px,0px)'
-					});
-				}
-			}, index * 150);
+			var multiplier = 10;
+
+			if (animDirection === 'left') {
+				setTimeout(function(){
+					$this.css({'opacity':0,'-webkit-transform':'scale('+intInRangeFloat(0.5,3.2)+') translate3d('+intInRange(-900,-1200)+'px,'+intInRange(-1200,1200)+'px,0px)'});
+				}, i * multiplier);
+			} 
+			else if (animDirection === 'center') {
+				setTimeout(function(){
+					$this.css({'opacity':0,'-webkit-transform':'scale('+intInRangeFloat(0.5,3.2)+') translate3d('+intInRange(-900,900)+'px,'+intInRange(-1200,1200)+'px,0px)'});
+				}, i * multiplier);
+			}
+			else if (animDirection === 'right') {
+				setTimeout(function(){
+					$this.css({'opacity':0,'-webkit-transform':'scale('+intInRangeFloat(0.5,3.2)+') translate3d('+intInRange(900,1200)+'px,'+intInRange(-1200,1200)+'px,0px)'});
+				}, i * multiplier);
+			} else {
+				console.warn('no animDirection specified');
+			}
+			
 		});
-*/
 
 	};
 
@@ -186,10 +228,22 @@ $(function(){
 	 ***********************************************/
 
 	$sections.attr('data-theme', 'LAB');
-/*
-	scatter_interstitial(L_Groups);
-	scatter_interstitial(A_Groups);
-	scatter_interstitial(B_Groups);
-*/
+
+
+
+	$('.term').each(function(){
+		
+		var $this = $(this);
+		var classes = $this.attr('class').split(' ');
+		
+		if (classes[1]) {
+			var numref = parseInt(classes[1].replace( /^\D+/g, ''), 10) - 1;
+			$this.addClass(BGLTerms[numref].theme);
+		} else {
+			var numref2 = parseInt($this.find('span').attr('class').replace( /^\D+/g, ''), 10);
+			$this.addClass(BGLTerms[numref2].theme);
+		}
+		
+	});
 	
 });

@@ -30,7 +30,7 @@ var BGLTerms = [
 {
 	number: "02",
 	name: "Activist Citizen",
-	theme: "red",
+	theme: "orange",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -62,7 +62,7 @@ var BGLTerms = [
 {
 	number: "03",
 	name: "Aging Population",
-	theme: "purple",
+	theme: "green",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -91,7 +91,7 @@ var BGLTerms = [
 {
 	number: "04",
 	name: "Altruism",
-	theme: "red",
+	theme: "orange",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -120,7 +120,7 @@ var BGLTerms = [
 {
 	number: "05",
 	name: "Architectural Restoration",
-	theme: "red",
+	theme: "orange",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -151,7 +151,7 @@ var BGLTerms = [
 {
 	number: "06",
 	name: "Arduino",
-	theme: "red",
+	theme: "orange",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -179,7 +179,7 @@ var BGLTerms = [
 {
 	number: "07",
 	name: "Bike Sharing",
-	theme: "red",
+	theme: "purple",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -207,7 +207,7 @@ var BGLTerms = [
 {
 	number: "08",
 	name: "Bottom-up Urban Engagement",
-	theme: "red",
+	theme: "blue-dark",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -243,7 +243,7 @@ var BGLTerms = [
 {
 	number: "09",
 	name: "Bridging Infrastructure",
-	theme: "red",
+	theme: "green",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -271,7 +271,7 @@ var BGLTerms = [
 {
 	number: "10",
 	name: "Chawls",
-	theme: "red",
+	theme: "green",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -332,7 +332,7 @@ var BGLTerms = [
 {
 	number: "12",
 	name: "City Manifesto",
-	theme: "green",
+	theme: "orange",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -358,7 +358,7 @@ var BGLTerms = [
 {
 	number: "13",
 	name: "City Mythology",
-	theme: "green",
+	theme: "red",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -407,7 +407,7 @@ var BGLTerms = [
 {
 	number: "15",
 	name: "Collaborative Urban Mapping",
-	theme: "green",
+	theme: "blue-light",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -440,7 +440,7 @@ var BGLTerms = [
 {
 	number: "16",
 	name: "Collective Memory",
-	theme: "green",
+	theme: "blue-light",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -469,7 +469,7 @@ var BGLTerms = [
 {
 	number: "17",
 	name: "Commuting",
-	theme: "green",
+	theme: "blue-light",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -502,7 +502,7 @@ var BGLTerms = [
 {
 	number: "18",
 	name: "Confronting Comfort",
-	theme: "green",
+	theme: "blue-dark",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -533,7 +533,7 @@ var BGLTerms = [
 {
 	number: "19",
 	name: "Container Architecture",
-	theme: "green",
+	theme: "blue-dark",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -555,7 +555,7 @@ var BGLTerms = [
 {
 	number: "20",
 	name: "Corruption",
-	theme: "green",
+	theme: "purple",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -584,7 +584,7 @@ var BGLTerms = [
 {
 	number: "21",
 	name: "Crowdsourcing/Crowdfunding",
-	theme: "blue",
+	theme: "purple",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -618,7 +618,7 @@ var BGLTerms = [
 {
 	number: "22",
 	name: "Customization",
-	theme: "blue",
+	theme: "purple",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -649,7 +649,7 @@ var BGLTerms = [
 {
 	number: "23",
 	name: "Data Visualization",
-	theme: "blue",
+	theme: "red",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -673,7 +673,7 @@ var BGLTerms = [
 {
 	number: "24",
 	name: "Decentralization",
-	theme: "blue",
+	theme: "red",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -706,7 +706,7 @@ var BGLTerms = [
 {
 	number: "25",
 	name: "Density",
-	theme: "blue",
+	theme: "orange",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -740,7 +740,7 @@ var BGLTerms = [
 {
 	number: "26",
 	name: "Department of Listening",
-	theme: "blue",
+	theme: "purple",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -768,7 +768,7 @@ var BGLTerms = [
 {
 	number: "27",
 	name: "Design barriers",
-	theme: "blue",
+	theme: "red",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -797,7 +797,7 @@ var BGLTerms = [
 {
 	number: "28",
 	name: "Development incentives",
-	theme: "blue",
+	theme: "red",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -830,7 +830,7 @@ var BGLTerms = [
 {
 	number: "29",
 	name: "Disneyfication",
-	theme: "blue",
+	theme: "red",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -853,7 +853,7 @@ var BGLTerms = [
 {
 	number: "30",
 	name: "Empowerment technologies",
-	theme: "blue",
+	theme: "green",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -884,7 +884,7 @@ var BGLTerms = [
 {
 	number: "31",
 	name: "Encroachment",
-	theme: "orange",
+	theme: "green",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -912,7 +912,7 @@ var BGLTerms = [
 {
 	number: "32",
 	name: "Eviction",
-	theme: "orange",
+	theme: "green",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -938,7 +938,7 @@ var BGLTerms = [
 {
 	number: "33",
 	name: "Fear",
-	theme: "orange",
+	theme: "blue-light",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -968,7 +968,7 @@ var BGLTerms = [
 {
 	number: "34",
 	name: "Feel good urbanism",
-	theme: "orange",
+	theme: "blue-light",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -995,7 +995,7 @@ var BGLTerms = [
 {
 	number: "35",
 	name: "Floor Space Index",
-	theme: "orange",
+	theme: "blue-light",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -1019,7 +1019,7 @@ var BGLTerms = [
 {
 	number: "36",
 	name: "Food Distribution",
-	theme: "orange",
+	theme: "green",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -1046,7 +1046,7 @@ var BGLTerms = [
 {
 	number: "37",
 	name: "Genius Hub",
-	theme: "orange",
+	theme: "green",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -1070,7 +1070,7 @@ var BGLTerms = [
 {
 	number: "38",
 	name: "Gentrification",
-	theme: "orange",
+	theme: "green",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -1104,7 +1104,7 @@ var BGLTerms = [
 {
 	number: "39",
 	name: "Glocalism",
-	theme: "orange",
+	theme: "green",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -1139,7 +1139,7 @@ var BGLTerms = [
 {
 	number: "40",
 	name: "Green Space",
-	theme: "orange",
+	theme: "red",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -1173,7 +1173,7 @@ var BGLTerms = [
 {
 	number: "41",
 	name: "Hacking the city",
-	theme: "orange",
+	theme: "red",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -1208,7 +1208,7 @@ var BGLTerms = [
 {
 	number: "42",
 	name: "Happy city",
-	theme: "orange",
+	theme: "red",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -1262,7 +1262,7 @@ var BGLTerms = [
 {
 	number: "43",
 	name: "Hawker",
-	theme: "purple",
+	theme: "red",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -1403,7 +1403,7 @@ var BGLTerms = [
 {
 	number: "48",
 	name: "Intergenerational Interaction",
-	theme: "purple",
+	theme: "orange",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -1426,7 +1426,7 @@ var BGLTerms = [
 {
 	number: "49",
 	name: "Intuition",
-	theme: "purple",
+	theme: "orange",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -1451,7 +1451,7 @@ var BGLTerms = [
 {
 	number: "50",
 	name: "Learning by doing",
-	theme: "purple",
+	theme: "orange",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -1482,7 +1482,7 @@ var BGLTerms = [
 {
 	number: "51",
 	name: "Local Food",
-	theme: "purple",
+	theme: "blue-dark",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -1508,7 +1508,7 @@ var BGLTerms = [
 {
 	number: "52",
 	name: "Maker movement",
-	theme: "purple",
+	theme: "blue-dark",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -1547,7 +1547,7 @@ var BGLTerms = [
 {
 	number: "53",
 	name: "Me=We",
-	theme: "purple",
+	theme: "blue-dark",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -1580,7 +1580,7 @@ var BGLTerms = [
 {
 	number: "54",
 	name: "Megaprojects",
-	theme: "red",
+	theme: "blue-light",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -1609,7 +1609,7 @@ var BGLTerms = [
 {
 	number: "55",
 	name: "Microarchitecture",
-	theme: "red",
+	theme: "blue-light",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -1633,7 +1633,7 @@ var BGLTerms = [
 {
 	number: "56",
 	name: "Mixed Use",
-	theme: "red",
+	theme: "blue-light",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -1660,7 +1660,7 @@ var BGLTerms = [
 {
 	number: "57",
 	name: "Mortgage Crisis",
-	theme: "red",
+	theme: "blue-light",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -1684,7 +1684,7 @@ var BGLTerms = [
 {
 	number: "58",
 	name: "Multicultural Cities",
-	theme: "red",
+	theme: "blue-light",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -1712,7 +1712,7 @@ var BGLTerms = [
 {
 	number: "59",
 	name: "Mumbai Mills",
-	theme: "red",
+	theme: "green",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -1740,7 +1740,7 @@ var BGLTerms = [
 {
 	number: "60",
 	name: "Non-expert",
-	theme: "red",
+	theme: "green",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -1768,7 +1768,7 @@ var BGLTerms = [
 {
 	number: "61",
 	name: "Non-Iconic Architecture",
-	theme: "red",
+	theme: "green",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -1792,7 +1792,7 @@ var BGLTerms = [
 {
 	number: "62",
 	name: "Occupy Wall Street",
-	theme: "red",
+	theme: "green",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -1827,7 +1827,7 @@ var BGLTerms = [
 {
 	number: "63",
 	name: "Open Governance",
-	theme: "red",
+	theme: "green",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -1858,7 +1858,7 @@ var BGLTerms = [
 {
 	number: "64",
 	name: "Open Source",
-	theme: "red",
+	theme: "green",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -2044,7 +2044,7 @@ var BGLTerms = [
 {
 	number: "70",
 	name: "Property Fund Politics",
-	theme: "red",
+	theme: "blue-light",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -2069,7 +2069,7 @@ var BGLTerms = [
 {
 	number: "71",
 	name: "Protest",
-	theme: "red",
+	theme: "blue-light",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -2113,7 +2113,7 @@ var BGLTerms = [
 {
 	number: "72",
 	name: "Public Space",
-	theme: "red",
+	theme: "blue-light",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -2155,7 +2155,7 @@ var BGLTerms = [
 {
 	number: "73",
 	name: "Public-Private Partnership",
-	theme: "red",
+	theme: "blue-light",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -2184,7 +2184,7 @@ var BGLTerms = [
 {
 	number: "74",
 	name: "Rainwater Harvesting",
-	theme: "red",
+	theme: "blue-light",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -2210,7 +2210,7 @@ var BGLTerms = [
 {
 	number: "75",
 	name: "Rapid Prototyping",
-	theme: "red",
+	theme: "blue-dark",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -2237,7 +2237,7 @@ var BGLTerms = [
 {
 	number: "76",
 	name: "Responsive Infrastructure",
-	theme: "red",
+	theme: "blue-dark",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -2263,7 +2263,7 @@ var BGLTerms = [
 {
 	number: "77",
 	name: "Retrofitting Infrastructure",
-	theme: "red",
+	theme: "orange",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -2287,7 +2287,7 @@ var BGLTerms = [
 {
 	number: "78",
 	name: "Rural Migration",
-	theme: "red",
+	theme: "orange",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -2316,7 +2316,7 @@ var BGLTerms = [
 {
 	number: "79",
 	name: "Sensor",
-	theme: "red",
+	theme: "purple",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -2346,7 +2346,7 @@ var BGLTerms = [
 {
 	number: "80",
 	name: "Share culture",
-	theme: "red",
+	theme: "purple",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -2384,7 +2384,7 @@ var BGLTerms = [
 {
 	number: "81",
 	name: "Slowing Down",
-	theme: "red",
+	theme: "purple",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -2415,7 +2415,7 @@ var BGLTerms = [
 {
 	number: "82",
 	name: "Squatter",
-	theme: "red",
+	theme: "purple",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -2439,7 +2439,7 @@ var BGLTerms = [
 {
 	number: "83",
 	name: "Suburban Sprawl",
-	theme: "red",
+	theme: "blue-dark",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -2477,7 +2477,7 @@ var BGLTerms = [
 {
 	number: "84",
 	name: "Temporary Architecture",
-	theme: "red",
+	theme: "blue-dark",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -2507,7 +2507,7 @@ var BGLTerms = [
 {
 	number: "85",
 	name: "The New Architect",
-	theme: "red",
+	theme: "green",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -2534,7 +2534,7 @@ var BGLTerms = [
 {
 	number: "86",
 	name: "Thinkering",
-	theme: "red",
+	theme: "green",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -2558,7 +2558,7 @@ var BGLTerms = [
 {
 	number: "87",
 	name: "Time Scarcity",
-	theme: "red",
+	theme: "green",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -2609,7 +2609,7 @@ var BGLTerms = [
 {
 	number: "89",
 	name: "Trust",
-	theme: "red",
+	theme: "green",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -2640,7 +2640,7 @@ var BGLTerms = [
 {
 	number: "90",
 	name: "Unconscious Perception",
-	theme: "red",
+	theme: "orange",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -2673,7 +2673,7 @@ var BGLTerms = [
 {
 	number: "91",
 	name: "Urban Data",
-	theme: "red",
+	theme: "purple",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -2709,7 +2709,7 @@ var BGLTerms = [
 {
 	number: "92",
 	name: "Urban Farming",
-	theme: "red",
+	theme: "purple",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -2834,7 +2834,7 @@ var BGLTerms = [
 {
 	number: "96",
 	name: "Urban Sound",
-	theme: "red",
+	theme: "blue-light",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -2859,7 +2859,7 @@ var BGLTerms = [
 {
 	number: "97",
 	name: "Urban Spontaneity",
-	theme: "red",
+	theme: "blue-light",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -2886,7 +2886,7 @@ var BGLTerms = [
 {
 	number: "98",
 	name: "Urban Ugliness",
-	theme: "red",
+	theme: "blue-dark",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -2911,7 +2911,7 @@ var BGLTerms = [
 {
 	number: "99",
 	name: "Urban Violence",
-	theme: "red",
+	theme: "blue-dark",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -2938,7 +2938,7 @@ var BGLTerms = [
 {
 	number: "100",
 	name: "Vacant Space",
-	theme: "red",
+	theme: "blue-dark",
 	content: {
 		intro: "Accumsan dolor.",
 		idea: "Pellentesque eget.",
@@ -2967,5 +2967,5 @@ var BGLTerms = [
 
 //the node.js part
 if (typeof module !== "undefined"){
-module.exports.terms = BGLTerms;
+	module.exports.terms = BGLTerms;
 }

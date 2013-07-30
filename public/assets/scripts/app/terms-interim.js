@@ -72,7 +72,6 @@ var BGLTerms = [
 		],
 		edges: [
 			[94, 39],
-			[94, 39],
 			[3, 94],
 			[3, 6],
 			[6, 94],
@@ -91,7 +90,7 @@ var BGLTerms = [
 {
 	number: "52",
 	name: "Maker movement",
-	theme: "blue",
+	theme: "blue-light",
 	content: {
 		intro: "The Maker movement is a participatory, social culture that invites and inspires all kinds of people and communities to invent, build, and hack. Making and doing with your hands encourages creativity, innovation, and ultimately, design thinking. This mentality advocates for transparency in design and production and resists built-in obsolescence. It also favors self-initiated production over consumerism. The Maker Faire, which was founded by Dale Dougherty in 2006, is an important meeting point for makers worldwide, as are the two leading maker-oriented journals, Make and Craft.",
 		idea: "The Marathon of Transformation was a daylong program presenting a variety of projects&mdash;big and small&mdash;that have transformed, are transforming, or will transform our urban environment. Speakers shared their experiences of obstacles they have had to overcome, their success stories, and their current processes toward city transformation. Short presentations by each of the speakers were followed by an interactive discussion with the audience.",
@@ -130,7 +129,7 @@ var BGLTerms = [
 {
 	number: "62",
 	name: "Occupy Wall Street",
-	theme: "blue",
+	theme: "blue-dark",
 	content: {
 		intro: "Occupy Wall Street is a global grassroots protest movement that began on September 17, 2011, with a two-month occupation of Zuccotti Park in New York?s financial district. The original occupation inspired encampments and a variety of protest activities around the globe in resistance to social and economic inequality, corporate influence on government, and a widening divide in income distribution. The movement produced the slogan, ?We are the 99 percent,? which refers to the divide between the wealthiest one percent and the rest of the population.",
 		idea: "Led by Greg Smithsimon, coauthor of The Beach Beneath the Streets, the Wall Street Occupation Tour brought visitors to Zuccotti Park, a ?bonus plaza? in Lower Manhattan. Bonus plazas are privately owned public spaces that are designed in response to setback regulations for skyscrapers.",
@@ -219,5 +218,5 @@ var BGLTerms = [
 
 //the node.js part
 if (typeof module !== "undefined"){
-module.exports.terms = BGLTerms;
+	module.exports.terms = BGLTerms;
 }

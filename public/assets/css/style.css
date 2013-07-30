@@ -82,24 +82,21 @@ figure {
  **************************************/
 * {
   box-sizing: border-box;
-  /*
-  	-webkit-perspective: 1000;
-  	-webkit-backface-visibility: hidden;
-  */ }
+  -webkit-backface-visibility: hidden;
+  -webkit-transform-style: preserve-3d; }
 
 html, body {
   background: #ccc;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 300;
-  font-size: 14px; }
+  font-weight: 300; }
 
 #wrapper {
-  width: 2880px; }
+  width: 5760px; }
 
 section {
   position: relative;
   background: white;
-  width: 960px;
+  width: 1920px;
   float: left;
   outline: 1px solid #ccc;
   /*
@@ -109,26 +106,25 @@ section {
   section svg {
     opacity: 0;
     position: absolute;
-    top: 250px;
-    left: 200px;
-    -webkit-transform: scale(1.5);
+    top: 0;
+    left: 0;
     -webkit-transition: opacity 2s ease 0; }
     section svg * {
       -webkit-transition: all 4s ease 0; }
     section svg#LAB-L * {
       -webkit-transition-delay: 0s; }
     section svg#LAB-A * {
-      -webkit-transition-delay: 2s; }
+      -webkit-transition-delay: 1.5s; }
     section svg#LAB-B * {
-      -webkit-transition-delay: 4s; }
+      -webkit-transition-delay: 2.5s; }
   section canvas {
     position: absolute;
-    top: 20px;
-    right: 20px;
+    top: 40px;
+    right: 40px;
     z-index: 0; }
   section header, section article {
     display: block;
-    height: 540px;
+    height: 1080px;
     padding: 0 11.5%;
     overflow: scroll; }
   section header {
@@ -136,36 +132,38 @@ section {
     section header h1 {
       font-size: 7.5em; }
     section header h2 {
-      font-size: 30px; }
+      font-size: 60px; }
   section article > div {
     float: left;
-    font-size: .6em; }
+    font-size: 18px; }
   section article .intro {
     width: 37%;
     margin-right: 3%;
-    -webkit-column-width: 15em;
+    -webkit-column-width: 10em;
     -webkit-column-gap: 2em; }
   section article .media {
     width: 37%;
     margin-right: 3%;
-    min-height: 100px; }
+    min-height: 200px; }
     section article .media > * {
       display: block;
       width: 100%;
       height: auto;
-      min-height: 100px; }
+      min-height: 200px; }
   section article .idea {
     width: 17%; }
   section[data-theme="red"] {
     color: #ff001a; }
   section[data-theme="green"] {
     color: #00992d; }
-  section[data-theme="blue"] {
-    color: blue; }
+  section[data-theme="blue-light"] {
+    color: #00b1ea; }
+  section[data-theme="blue-dark"] {
+    color: #006fb8; }
   section[data-theme="purple"] {
     color: #93288a; }
   section[data-theme="orange"] {
-    color: orange; }
+    color: #fdaa32; }
   section[data-theme="LAB"] {
     color: white; }
     section[data-theme="LAB"] svg {
@@ -188,17 +186,52 @@ section {
     -webkit-transition: all 1s ease; }
   section.transitioning header {
     opacity: 0;
-    -webkit-transform: translate3d(0, -200px, 0); }
+    -webkit-transform: translate3d(0, -300px, 0); }
   section.transitioning .intro, section.transitioning .media, section.transitioning .idea {
-    opacity: 0;
-    -webkit-transform: translate3d(0, 200px, 0); }
+    opacity: 0; }
   section.transitioning canvas {
     opacity: 0;
     -webkit-transform: scale(0.6); }
 
-p.notify {
-  background: yellow;
-  color: black;
-  text-align: center;
-  padding: 15px;
-  font-size: 20px; }
+#interstitial {
+  position: absolute;
+  top: 0;
+  left: -450px;
+  width: 6210px;
+  height: 2160px;
+  overflow: hidden; }
+  #interstitial .letter {
+    position: absolute;
+    top: 450px; }
+    #interstitial .letter .term {
+      position: absolute;
+      font-family: 'HelveticaNeueLTPro-Md';
+      font-size: 43.9998894px;
+      color: white;
+      -webkit-transition: all 4s ease 0; }
+      #interstitial .letter .term.red {
+        color: #ff001a; }
+      #interstitial .letter .term.green {
+        color: #00992d; }
+      #interstitial .letter .term.blue-light {
+        color: #00b1ea; }
+      #interstitial .letter .term.blue-dark {
+        color: #006fb8; }
+      #interstitial .letter .term.purple {
+        color: #93288a; }
+      #interstitial .letter .term.orange {
+        color: #fdaa32; }
+    #interstitial .letter.L {
+      width: 815px;
+      height: 1085px;
+      left: 1080px; }
+    #interstitial .letter.A {
+      width: 1140px;
+      height: 1085px;
+      left: 2750px; }
+      #interstitial .letter.A .term {
+        margin-left: 370px; }
+    #interstitial .letter.B {
+      width: 1005px;
+      height: 1085px;
+      left: 4800px; }

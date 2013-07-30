@@ -27,54 +27,50 @@ html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre
 
 * {
 	box-sizing: border-box;
-/*
-	-webkit-perspective: 1000;
-	-webkit-backface-visibility: hidden;
-*/
+	 -webkit-backface-visibility: hidden;
+	 -webkit-transform-style: preserve-3d;
 }
 
 html, body {
 	background: #ccc;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: 300;
-	font-size: 14px;
 }
 
 #wrapper {
-	width: 2880px;
+	width: 5760px;
 }
 
 section {
 	
 	position: relative;
 	background: white;
-	width: 960px;
+	width: 1920px;
 	float: left;
 	outline: 1px solid #ccc;
-	
+
 	svg {
 		opacity: 0;
 		position: absolute;
-		top: 250px;
-		left: 200px;
-		-webkit-transform: scale(1.5);
+		top: 0;
+		left: 0;
 		-webkit-transition: opacity 2s ease 0;
 		* { -webkit-transition: all 4s ease 0;}
 		&#LAB-L * { -webkit-transition-delay: 0s;}
-		&#LAB-A * { -webkit-transition-delay: 2s;}
-		&#LAB-B * { -webkit-transition-delay: 4s;}
+		&#LAB-A * { -webkit-transition-delay: 1.5s;}
+		&#LAB-B * { -webkit-transition-delay: 2.5s;}
 	}
 	
 	canvas {
 		position: absolute;
-		top: 20px;
-		right: 20px;
+		top: 40px;
+		right: 40px;
 		z-index: 0;
 	}
 	
 	header, article {
 		display: block;
-		height: 540px;
+		height: 1080px;
 		padding: 0 11.5%;
 		overflow: scroll;
 	}
@@ -82,29 +78,29 @@ section {
 	header {
 		padding-top: 27%;
 		h1 { font-size: 7.5em;}
-		h2 { font-size: 30px;}
+		h2 { font-size: 60px;}
 	}
 	
 	article {
 		&>div {
 			float: left;
-			font-size: .6em;
+			font-size: 18px;
 		}
 		.intro {
 			width: 37%;
 			margin-right: 3%;
-			-webkit-column-width: 15em;
+			-webkit-column-width: 10em;
 			-webkit-column-gap: 2em;
 		}
 		.media {
 			width: 37%;
 			margin-right: 3%;
-			min-height: 100px;
+			min-height: 200px;
 			&>* {
 				display: block;
 				width: 100%;
 				height: auto;
-				min-height: 100px;
+				min-height: 200px;
 			}
 		}
 		.idea {
@@ -119,14 +115,17 @@ section {
 	&[data-theme="green"] {
 		color: #00992d;
 	}
-	&[data-theme="blue"] {
-		color: blue;
+	&[data-theme="blue-light"] {
+		color: #00b1ea;
+	}
+	&[data-theme="blue-dark"] {
+		color: #006fb8;
 	}
 	&[data-theme="purple"] {
 		color: #93288a;
 	}
 	&[data-theme="orange"] {
-		color: orange;
+		color: #fdaa32;
 	}
 
 	&[data-theme="LAB"] {
@@ -160,11 +159,10 @@ section {
 
 		header {
 			opacity: 0;
-			-webkit-transform: translate3d(0, -200px, 0);
+			-webkit-transform: translate3d(0, -300px, 0);
 		}
 		.intro, .media, .idea {
 			opacity: 0;
-			-webkit-transform: translate3d(0, 200px, 0);
 		}
 
 		canvas {
@@ -176,10 +174,69 @@ section {
 
 }
 
-p.notify {
-	background: yellow;
-	color: black;
-	text-align: center;
-	padding: 15px;
-	font-size: 20px;
+
+#interstitial {
+
+	position: absolute;
+	top: 0;
+	left: -450px;	
+	width: 6210px; // (5760 + 450^^)
+	height: 2160px;
+	overflow: hidden;
+	
+	.letter {
+
+		position: absolute;
+		top: 450px;
+
+		.term { 
+
+			position: absolute;
+			font-family:'HelveticaNeueLTPro-Md';
+			font-size:43.9998894px;
+			color: white;
+			-webkit-transition: all 4s ease 0;
+
+			&.red {
+				color: #ff001a;
+			}
+			&.green {
+				color: #00992d;
+			}
+			&.blue-light {
+				color: #00b1ea;
+			}
+			&.blue-dark {
+				color: #006fb8;
+			}
+			&.purple {
+				color: #93288a;
+			}
+			&.orange {
+				color: #fdaa32;
+			}
+
+		}
+
+		&.L {
+			width: 815px;
+			height: 1085px;
+			left: 1080px;
+		}
+
+		&.A {
+			width: 1140px;
+			height: 1085px;
+			left: 2750px;
+			.term { margin-left: 370px;}
+		}
+
+		&.B {
+			width: 1005px;
+			height: 1085px;
+			left: 4800px;
+		}
+		
+	}
+
 }

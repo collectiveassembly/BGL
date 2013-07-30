@@ -216,6 +216,27 @@ jQuery.fn.springy = function(params) {
 			ctx.textAlign = "left";
 			ctx.textBaseline = "top";
 			ctx.fillStyle = (node.data.theme !== undefined) ? node.data.theme : 'black';
+			switch (node.data.theme) {
+				case 'red':
+					ctx.fillStyle = '#ff001a';
+				break;
+				case 'green':
+					ctx.fillStyle = '#00992d';
+				break;
+				case 'blue-light':
+					ctx.fillStyle = '#00b1ea';
+				break;
+				case 'blue-dark':
+					ctx.fillStyle = '#006fb8';
+				break;
+				case 'purple':
+					ctx.fillStyle = '#93288a';
+				break;
+				case 'orange':
+					ctx.fillStyle = '#fdaa32';
+				break;
+			}
+			
 			ctx.font = "16px 'Helvetica Neue', Arial";
 			var text = (node.data.name !== undefined) ? node.data.name : node.id;
 			ctx.fillText(text, s.x - boxWidth/2 + 25, s.y - 8);
