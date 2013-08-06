@@ -25,6 +25,11 @@ var templates = {
 }
 
 $(function(){
+
+	var paused = false;
+	$('#pause').on('click', function(){
+		paused = !paused;
+	});
 	
 	/*
 	// generate output string for SVG generator
@@ -69,9 +74,9 @@ $(function(){
 	var $sections = $('section');
 	
 	var $interstitial = $('#interstitial');
-	var $interstitial_terms_L = $interstitial.find('.letter.L > div');
-	var $interstitial_terms_A = $interstitial.find('.letter.A > div');
-	var $interstitial_terms_B = $interstitial.find('.letter.B > div');
+	var $interstitial_terms_L = $interstitial.find('.L .term');
+	var $interstitial_terms_A = $interstitial.find('.A .term');
+	var $interstitial_terms_B = $interstitial.find('.B .term');
 	
 	var w = $(window).width();
 	var h = $(window).height();
@@ -84,12 +89,16 @@ $(function(){
 	 ***********************************************/
 
 	$(window).on("nextTerm", function(event, terms){
-
+		
+		if (!paused) {
+		
+		console.log('was last state interstitial?', last_state_was_interstitial);
+			
 		// scatter interstitials if on-screen
 		if ($sections.eq(0).attr('data-theme') === 'LAB') {
-			scatter_interstitial($interstitial_terms_L, 'left');
-			scatter_interstitial($interstitial_terms_A, 'center');
-			scatter_interstitial($interstitial_terms_B, 'right');
+			scatter_interstitial($interstitial_terms_L, 'left', terms[0]);
+			scatter_interstitial($interstitial_terms_A, 'center', terms[1]);
+			scatter_interstitial($interstitial_terms_B, 'right', terms[2]);
 		}
 
 		// render each term's contents to screen
@@ -97,9 +106,17 @@ $(function(){
 			render_term(term, i);
 		});
 
+		last_state_was_interstitial = false;
+		
+		}
+
 	});
 
 	$(window).on("labLogo", function(){
+		
+		if (!paused) {
+		
+		console.log('was last state interstitial?', last_state_was_interstitial);
 		
 		$sections.attr('data-theme', 'LAB');
 		$('section header, section article').empty();
@@ -113,17 +130,12 @@ $(function(){
 			var context = canvases[i].getContext('2d');
 			context.clearRect(0, 0, context.canvas.width, context.canvas.height);
 		}
+		
+		last_state_was_interstitial = true;
+		
+		}
 
 	});
-
-
-
-
-
-
-
-
-
 
 
 
@@ -149,11 +161,18 @@ $(function(){
 
 			setTimeout(function(){
 
+				if (!last_state_was_interstitial) {
+					console.log('removing .transition-term(s)');
+					$('.transition-term').fadeOut(2000, function(){
+						$(this).remove();
+					});
+				}
+
 				// replace term html
 				$target_section.find('header').html(output.head);
 				$target_section.find('article').html(output.body);
 				
-				// createnode-graph
+				// create node-graph
 				var graph = new Springy.Graph();
 				graph.loadJSON(term.related);
 				var springy_instance = $target_section.find('canvas').springy({graph: graph});
@@ -177,7 +196,7 @@ $(function(){
 	var show_interstitial = function(terms){
 		
 		console.log('show interstitial');
-		
+				
 		terms.each(function(i){
 			var $this = $(this);
 			setTimeout(function(){
@@ -193,10 +212,33 @@ $(function(){
 	 *
 	 ***********************************************/
 
-	var scatter_interstitial = function(terms, animDirection){
+	var scatter_interstitial = function(terms, animDirection, targetTerm){
 		
-		if (typeof animDirection === "undefined") var animDirection = 'center';		
-		console.log('scatter interstitial in direction', animDirection);
+		// create the transitional term 
+		// (which optically links the interstitial to a term)
+
+		var $transition_term = $interstitial
+			.find('.term-' + targetTerm.number)
+			.first()
+			.clone()
+				.addClass('transition-term')
+				.text(targetTerm.name);
+		
+		if (animDirection === 'left') {
+			$transition_term.appendTo($interstitial.find('.L'));
+		}
+		else if (animDirection === 'center') {
+			$transition_term.appendTo($interstitial.find('.A'));
+		}
+		else if (animDirection === 'right') {
+			$transition_term.appendTo($interstitial.find('.B'));
+		}
+				
+		setTimeout(function(){
+			$transition_term.addClass('active');
+		}, 10)
+
+		// scatter all terms off-screen
 		
 		terms.each(function(i){
 
@@ -217,12 +259,10 @@ $(function(){
 				setTimeout(function(){
 					$this.css({'opacity':0,'-webkit-transform':'scale('+intInRangeFloat(0.5,3.2)+') translate3d('+intInRange(900,1200)+'px,'+intInRange(-1200,1200)+'px,0px)'});
 				}, i * multiplier);
-			} else {
-				console.warn('no animDirection specified');
 			}
-			
+						
 		});
-
+		
 	};
 
 
@@ -234,12 +274,14 @@ $(function(){
 	 ***********************************************/
 
 	$sections.attr('data-theme', 'LAB');
+	var last_state_was_interstitial = true;
 
-
-
+	// set interstitial colours
 	$('.term').each(function(){
 		
 		var $this = $(this);
+		if ($this.text() == ' ') $this.remove();
+		
 		var classes = $this.attr('class').split(' ');
 		
 		if (classes[1]) {
