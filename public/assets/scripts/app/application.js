@@ -6,28 +6,31 @@ function intInRangeFloat(from,to){
 }
 
 var templates = {
-	head: Hogan.compile('<h1>{{ number }}</h1><h2>{{ name }}</h2>'),
-	body: Hogan.compile("\
-		<div class='term-description'>{{ content.term }}</div>\
+	head: Handlebars.compile('<h1>{{ number }}</h1><h2>{{ name }}</h2>'),
+	body: Handlebars.compile("\
+		<div class='term-description'>{{{ content.term }}}</div>\
 		<div class='media'>\
 			<div class='progress-bar'></div>\
-			{{#content.media.photo}}\
+			{{#if content.media.photo }}\
 				<img src='{{content.media.photo}}'/>\
-				<p class='caption'>Lorem ipsum sit dolor amet.</p>\
-			{{/content.media.photo}}\
-			{{#content.media.video}}\
-				<video autoplay><source src='{{content.media.video}}' type='video/mp4'></video>\
-				<p class='caption'>Lorem ipsum sit dolor amet.</p>\
-			{{/content.media.video}}\
+			{{else}}\
+				{{#if content.media.video}}\
+					<video autoplay><source src='{{content.media.video}}' type='video/mp4'></video>\
+					<p class='caption'>Lorem ipsum sit dolor amet.</p>\
+				{{else}}\
+					<script>console.warn('No media assets found for {{ number }} {{ name }}');</script>\
+				{{/if}}\
+			{{/if}}\
 		</div>\
-		<div class='project-desc'>{{ content.project_desc }}</div>\
-		<div class='project-meta'>{{ content.project_meta }}</div>")
+		<div class='project-desc'>{{{ content.project_desc }}}</div>\
+		<div class='project-meta'>{{{ content.project_meta }}}</div>")
 }
 
 $(function(){
 
 	var paused = false;
 	$('#pause').on('click', function(){
+		$(this).toggleClass('paused');
 		paused = !paused;
 	});
 	
@@ -150,8 +153,8 @@ $(function(){
 		
 		var $target_section = $('section').eq(target);
 		var output = {
-			head: templates.head.render(term),
-			body: templates.body.render(term)
+			head: templates.head(term),
+			body: templates.body(term)
 		};
 		
 		setTimeout(function(){
@@ -167,11 +170,11 @@ $(function(){
 						$(this).remove();
 					});
 				}
-
+								
 				// replace term html
 				$target_section.find('header').html(output.head);
 				$target_section.find('article').html(output.body);
-				
+								
 				// create node-graph
 				var graph = new Springy.Graph();
 				graph.loadJSON(term.related);

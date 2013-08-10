@@ -122,14 +122,14 @@ jQuery.fn.springy = function(params) {
 	});
 */
 
-	Springy.Node.prototype.getWidth = function() {
-		var text = (this.data.label !== undefined) ? this.data.label : this.id;
+	Springy.Node.prototype.getWidth = function() {		
+		var text = (this.data.name !== undefined) ? this.data.name : this.id;
 		if (this._width && this._width[text])
 			return this._width[text];
 
 		ctx.save();
 		ctx.font = "18px 'Helvetica Neue', Arial";
-		var width = ctx.measureText(text).width + 10;
+		var width = ctx.measureText(text).width + 30;
 		ctx.restore();
 
 		this._width || (this._width = {});

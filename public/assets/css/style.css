@@ -126,7 +126,14 @@ section {
     float: left;
     font-size: 16px;
     max-height: 905px;
-    overflow: hidden; }
+    overflow: hidden;
+    line-height: 130%; }
+    section article > div p {
+      margin-bottom: 1em; }
+    section article > div strong {
+      display: block;
+      text-transform: uppercase;
+      font-weight: bold; }
   section article .term-description {
     width: 23%;
     margin-right: 2%; }
@@ -279,3 +286,17 @@ section {
       left: 4800px; }
       #interstitial .letter.B .term.transition-term.active {
         -webkit-transform: translate3d(-289px, 213px, 0) !important; }
+
+#pause {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  font-size: 40px;
+  background: white;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  outline: 2px solid black;
+  border: 0;
+  -webkit-appearance: none; }
+  #pause.paused {
+    background: red; }

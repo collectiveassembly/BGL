@@ -75,6 +75,15 @@ section {
 			font-size: 16px;
 			max-height: 905px;
 			overflow: hidden;
+			line-height: 130%;
+			p {
+				margin-bottom: 1em;
+			}
+			strong {
+				display: block;
+				text-transform: uppercase;
+				font-weight: bold;
+			}
 		}
 		.term-description {
 			width: 23%;
@@ -287,4 +296,20 @@ section {
 		
 	}
 	
+}
+
+#pause {
+	position: absolute;
+	bottom: 20px;
+	left: 20px;
+	font-size:40px;
+	background: white;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	outline: 2px solid black;
+	border: 0;
+	-webkit-appearance: none;
+	&.paused {
+		background: red;
+	}
 }
