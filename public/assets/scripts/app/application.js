@@ -62,10 +62,13 @@ $(function(){
 	 *
 	 ***********************************************/
 
-	var hash = parseInt(window.location.hash.substring(1));
-	if (hash === 0) $('body').scrollLeft(0);
-	if (hash === 1) $('body').scrollLeft(960);
-	if (hash === 2) $('body').scrollLeft(1920);
+	var hash = window.location.hash.substring(1);
+	var coords = hash.split(",");
+	$("body").scrollLeft( parseInt(coords[0]) * 1920);
+	$("body").scrollTop( parseInt(coords[1]) * 1080);
+	setTimeout(function(){
+		
+	}, 4000);
 
 	/***********************************************
 	 *
