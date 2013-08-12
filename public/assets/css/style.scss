@@ -259,7 +259,7 @@ section {
 				letter-spacing: 0 !important;
 				opacity: 1 !important;
 				font-size: 60px !important;
-				-webkit-transition: all 2s ease;
+				-webkit-transition: -webkit-transform 2.5s ease, opacity 1s ease;
 				z-index: 999;
 			}
 

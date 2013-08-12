@@ -223,13 +223,18 @@ $(function(){
 		// create the transitional term 
 		// (which optically links the interstitial to a term)
 
-		var $transition_term = $interstitial
-			.find('.term-' + targetTerm.number)
+		var $transition_term = $interstitial.find('.term-' + targetTerm.number)
 			.first()
-			.clone()
-				.addClass('transition-term')
-				.text(targetTerm.name);
-		
+			.clone();
+
+		$transition_term.text(targetTerm.name)
+			.css({
+				// TODO: set additional offset for position relative to term letter
+				'opacity': 0,
+				'-webkit-transform': 'translate3d('+$transition_term.css('left')+','+$transition_term.css('top')+',0)'
+			})
+			.addClass('transition-term');
+	
 		if (animDirection === 'left') {
 			$transition_term.appendTo($interstitial.find('.L'));
 		}
