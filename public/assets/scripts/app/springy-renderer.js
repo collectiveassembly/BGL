@@ -237,12 +237,12 @@ jQuery.fn.springy = function(params) {
 				break;
 			}
 			
-			ctx.font = "18px 'Helvetica Neue', Arial";
+			ctx.font = "28px 'Helvetica Neue', Arial";
 			var text = (node.data.name !== undefined) ? node.data.name : node.id;
 			ctx.fillText(text, s.x - boxWidth/2 + 25, s.y - 8);
 			
 			// node box
-			ctx.fillRect(s.x - boxWidth/2 + 5, s.y - 8, 16, 16);
+			// ctx.fillRect(s.x - boxWidth/2 + 5, s.y - 8, 16, 16);
 
 			ctx.restore();
 		},

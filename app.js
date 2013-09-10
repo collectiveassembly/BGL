@@ -2,7 +2,7 @@ var express = require('express');
 var async = require('async');
 var fs = require('fs');
 var WebSocketServer = require('ws').Server;
-var terms = require("./public/assets/scripts/app/terms-interim");
+var terms = require("./public/assets/scripts/app/terms");
 var app = express();
 
 /*
@@ -32,7 +32,7 @@ var termCounter = 0;
 
 //send events
 function sendWSEvent(){
-	setTimeout(sendWSEvent, 12000);
+	setTimeout(sendWSEvent, 15000);
 	//shuffle a copy of the array
 	var shuffled = terms.terms.slice().sort( function() { return 0.5 - Math.random() } );
 	var args = shuffled.slice(0, 3);
@@ -47,9 +47,9 @@ function sendWSEvent(){
 		//send it
 		ws.send(JSON.stringify(msg));
 	}
-	//increment and make sure the count doesn't go over 10 (debug: 3)
+	//increment and make sure the count doesn't go over 10 (debug: 4)
 	termCounter++;
-	termCounter = termCounter % 3; // debug: 3
+	termCounter = termCounter % 4;
 }
 //start the loop
 sendWSEvent();

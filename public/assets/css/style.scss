@@ -72,7 +72,7 @@ section {
 	article {
 		&>div {
 			float: left;
-			font-size: 16px;
+			font-size: 18px;
 			max-height: 905px;
 			overflow: hidden;
 			line-height: 130%;
@@ -84,6 +84,10 @@ section {
 				text-transform: uppercase;
 				font-weight: bold;
 			}
+			em {
+				font-weight: 300;
+				font-style: italic;
+			}
 		}
 		.term-description {
 			width: 23%;
@@ -93,20 +97,30 @@ section {
 			position: relative;
 			width: 35%;
 			margin-right: 2%;
-			min-height: 150px;
+			min-height: 700px;
 			&>video,
 			&>img {
+				position: absolute;
+				top: 0;
+				left: 0;
 				display: block;
 				width: 100%;
 				height: auto;
-				min-height: 150px;
 			}
+			
+			img:nth-child(2) { z-index: 19;}
+			img:nth-child(3) { z-index: 18;}
+			img:nth-child(4) { z-index: 17;}
+			img:nth-child(5) { z-index: 16;}
+			img:nth-child(6) { z-index: 15;}
+			img:nth-child(7) { z-index: 14;}
+
 			.progress-bar {
 				position: absolute;
 				width: 1%;
 				height: 10px;
 				background: black;
-				z-index: 10;
+				z-index: 30;
 				-webkit-transition: width 11s linear, background 1s ease 2s;
 				&.active { width: 100%;}				
 			}
@@ -120,6 +134,22 @@ section {
 		}
 		.project-meta {
 			width: 13%;
+			&>div:before {
+				display: block;
+				text-transform: uppercase;
+				font-weight: 700;			
+			}
+			.location:before {
+				content: "Location";
+			}
+			.program:before {
+				content: "Program Example";
+				margin-top: 1em;
+			}
+			.date:before {
+				content: "Date";
+				margin-top: 1em;
+			}
 		}
 		
 	}

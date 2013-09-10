@@ -124,7 +124,7 @@ section {
       font-weight: 300; }
   section article > div {
     float: left;
-    font-size: 16px;
+    font-size: 18px;
     max-height: 905px;
     overflow: hidden;
     line-height: 130%; }
@@ -134,6 +134,9 @@ section {
       display: block;
       text-transform: uppercase;
       font-weight: bold; }
+    section article > div em {
+      font-weight: 300;
+      font-style: italic; }
   section article .term-description {
     width: 23%;
     margin-right: 2%; }
@@ -141,18 +144,32 @@ section {
     position: relative;
     width: 35%;
     margin-right: 2%;
-    min-height: 150px; }
+    min-height: 700px; }
     section article .media > video, section article .media > img {
+      position: absolute;
+      top: 0;
+      left: 0;
       display: block;
       width: 100%;
-      height: auto;
-      min-height: 150px; }
+      height: auto; }
+    section article .media img:nth-child(2) {
+      z-index: 19; }
+    section article .media img:nth-child(3) {
+      z-index: 18; }
+    section article .media img:nth-child(4) {
+      z-index: 17; }
+    section article .media img:nth-child(5) {
+      z-index: 16; }
+    section article .media img:nth-child(6) {
+      z-index: 15; }
+    section article .media img:nth-child(7) {
+      z-index: 14; }
     section article .media .progress-bar {
       position: absolute;
       width: 1%;
       height: 10px;
       background: black;
-      z-index: 10;
+      z-index: 30;
       -webkit-transition: width 11s linear, background 1s ease 2s; }
       section article .media .progress-bar.active {
         width: 100%; }
@@ -163,6 +180,18 @@ section {
     margin-right: 2%; }
   section article .project-meta {
     width: 13%; }
+    section article .project-meta > div:before {
+      display: block;
+      text-transform: uppercase;
+      font-weight: 700; }
+    section article .project-meta .location:before {
+      content: "Location"; }
+    section article .project-meta .program:before {
+      content: "Program Example";
+      margin-top: 1em; }
+    section article .project-meta .date:before {
+      content: "Date";
+      margin-top: 1em; }
   section[data-theme="red"] {
     color: #ff001a; }
     section[data-theme="red"] article .media .progress-bar {
