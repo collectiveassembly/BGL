@@ -5,25 +5,36 @@ function intInRangeFloat(from,to){
     return Math.random()*(to-from+1)+from;
 }
 
+Handlebars.registerHelper('eachProperty', function(context, options) {
+    var ret = "";
+    for(var prop in context)
+    {
+        ret = ret + options.fn({property:prop,value:context[prop]});
+    }
+    return ret;
+});
+
 var templates = {
 	head: Handlebars.compile('<h1>{{ number }}</h1><h2>{{ name }}</h2>'),
 	body: Handlebars.compile("\
-		<div class='term-description'>{{{ content.term }}}</div>\
+		<div class='term-description'>{{{ content.term_desc }}}</div>\
 		<div class='media'>\
 			<div class='progress-bar'></div>\
-			{{#if content.media.photo }}\
-				<img src='{{content.media.photo}}'/>\
+			{{#if content.media.video}}\
+				<video autoplay><source src='{{content.media.video}}' type='video/mp4'></video>\
+				<p class='caption'>Lorem ipsum sit dolor amet.</p>\
 			{{else}}\
-				{{#if content.media.video}}\
-					<video autoplay><source src='{{content.media.video}}' type='video/mp4'></video>\
-					<p class='caption'>Lorem ipsum sit dolor amet.</p>\
-				{{else}}\
-					<script>console.warn('No media assets found for {{ number }} {{ name }}');</script>\
-				{{/if}}\
+				{{#eachProperty content.media}}\
+					<img src='{{value.photo}}'/>\
+				{{/eachProperty }}\
 			{{/if}}\
 		</div>\
 		<div class='project-desc'>{{{ content.project_desc }}}</div>\
-		<div class='project-meta'>{{{ content.project_meta }}}</div>")
+		<div class='project-meta'>\
+			<div class='location'>{{{ content.project_meta.location }}}</div>\
+			<div class='program'>{{{ content.project_meta.program }}}</div>\
+			<div class='date'>{{{ content.project_meta.date }}}</div>\
+		</div>")
 }
 
 $(function(){
@@ -66,9 +77,7 @@ $(function(){
 	var coords = hash.split(",");
 	$("body").scrollLeft( parseInt(coords[0]) * 1920);
 	$("body").scrollTop( parseInt(coords[1]) * 1080);
-	setTimeout(function(){
-		
-	}, 4000);
+
 
 	/***********************************************
 	 *
@@ -187,6 +196,16 @@ $(function(){
 				$target_section.removeClass('transitioning');
 				$target_section.find('.progress-bar').addClass('active');
 				
+				// lo-fi slideshow
+				var $imgs = $target_section.find('.media > img');
+				var interval = 12000 / $imgs.length;
+				$imgs.each(function(i){
+					var $img = $(this);
+					setTimeout(function(){
+						$img.fadeOut(1000);
+					}, i*interval + interval);
+				});
+				
 			}, (target*500)+2000);		
 
 		}, (target*1000)+1000);
@@ -220,6 +239,7 @@ $(function(){
 
 	var scatter_interstitial = function(terms, animDirection, targetTerm){
 		
+/*
 		// create the transitional term 
 		// (which optically links the interstitial to a term)
 
@@ -247,7 +267,8 @@ $(function(){
 				
 		setTimeout(function(){
 			$transition_term.addClass('active');
-		}, 10)
+		}, 10);
+*/
 
 		// scatter all terms off-screen
 		
