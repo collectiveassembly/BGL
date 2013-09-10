@@ -131,6 +131,12 @@ section {
 		.project-desc {
 			width: 23%;
 			margin-right: 2%;
+			&:before {
+				content: "Program Example";
+				display: block;
+				text-transform: uppercase;
+				font-weight: 700;
+			}
 		}
 		.project-meta {
 			width: 13%;
@@ -143,7 +149,7 @@ section {
 				content: "Location";
 			}
 			.program:before {
-				content: "Program Example";
+				content: "Program";
 				margin-top: 1em;
 			}
 			.date:before {

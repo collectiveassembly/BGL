@@ -178,6 +178,11 @@ section {
   section article .project-desc {
     width: 23%;
     margin-right: 2%; }
+    section article .project-desc:before {
+      content: "Program Example";
+      display: block;
+      text-transform: uppercase;
+      font-weight: 700; }
   section article .project-meta {
     width: 13%; }
     section article .project-meta > div:before {
@@ -187,7 +192,7 @@ section {
     section article .project-meta .location:before {
       content: "Location"; }
     section article .project-meta .program:before {
-      content: "Program Example";
+      content: "Program";
       margin-top: 1em; }
     section article .project-meta .date:before {
       content: "Date";
