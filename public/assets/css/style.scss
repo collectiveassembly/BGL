@@ -65,8 +65,8 @@ section {
 	
 	header {
 		padding-top: 27%;
-		h1 { font-size: 7.5em; font-weight: 300;}
-		h2 { font-size: 60px; font-weight: 300;}
+		h1 { font-size: 7.5em; font-weight: 300; margin-top: 40px;}
+		h2 { font-size: 66px; font-weight: 300;}
 	}
 	
 	article {
@@ -74,7 +74,7 @@ section {
 			float: left;
 			font-size: 18px;
 			max-height: 905px;
-			overflow: hidden;
+			//overflow: hidden;
 			line-height: 130%;
 			p {
 				margin-bottom: 1em;
@@ -101,7 +101,7 @@ section {
 			&>video,
 			&>img {
 				position: absolute;
-				top: 0;
+				top: 10px;
 				left: 0;
 				display: block;
 				width: 100%;
@@ -181,8 +181,8 @@ section {
 		article .media .progress-bar { background: #93288a;}
 	}
 	&[data-theme="orange"] {
-		color: #fdaa32;
-		article .media .progress-bar { background: #fdaa32;}
+		color: #dd9122;
+		article .media .progress-bar { background: #dd9122;}
 	}
 
 	&[data-theme="LAB"] {
@@ -286,8 +286,8 @@ section {
 				color: #93288a;
 			}
 			&.orange {
-				color: #fdaa32;
-			}	
+				color: #dd9122;
+			}
 
 			&.transition-term.active {
 				top: 0 !important;
@@ -297,6 +297,10 @@ section {
 				font-size: 60px !important;
 				-webkit-transition: -webkit-transform 2.5s ease, opacity 1s ease;
 				z-index: 999;
+			}
+			
+			.slash {
+				color: black !important;
 			}
 
 		}

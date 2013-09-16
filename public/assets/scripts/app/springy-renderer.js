@@ -187,7 +187,7 @@ jQuery.fn.springy = function(params) {
 			}
 
 			// line
-			var stroke = (edge.data.color !== undefined) ? edge.data.color : '#cccccc';
+			var stroke = (edge.data.color !== undefined) ? edge.data.color : '#999999';
 			var weight = 0.5;
 			ctx.lineWidth = Math.max(weight *  2, 0.1);
 			var lineEnd = s2;
@@ -233,7 +233,7 @@ jQuery.fn.springy = function(params) {
 					ctx.fillStyle = '#93288a';
 				break;
 				case 'orange':
-					ctx.fillStyle = '#fdaa32';
+					ctx.fillStyle = '#dd9122';
 				break;
 			}
 			

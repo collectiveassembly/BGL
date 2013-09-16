@@ -45,14 +45,15 @@ $(function(){
 		paused = !paused;
 	});
 	
-	/*
+/*
 	// generate output string for SVG generator
 	var str = '';
 	BGLTerms.forEach(function(term, i){
-		str += term.number + ' ' + term.name + ' ';
+		str += term.number + ' ' + term.name + ' / ';
 	});
 	console.log(str);
-	*/	
+*/
+		
 
 	/*
 	// generate skeletal HTML src from tspan-SVG
@@ -313,7 +314,7 @@ $(function(){
 		
 		var $this = $(this);
 		if ($this.text() == ' ') $this.remove();
-		
+				
 		var classes = $this.attr('class').split(' ');
 		
 		if (classes[1]) {
@@ -323,6 +324,8 @@ $(function(){
 			var numref2 = parseInt($this.find('span').attr('class').replace( /^\D+/g, ''), 10);
 			$this.addClass(BGLTerms[numref2].theme);
 		}
+		
+		
 		
 	});
 	

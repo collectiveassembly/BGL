@@ -118,15 +118,15 @@ section {
     padding-top: 27%; }
     section header h1 {
       font-size: 7.5em;
-      font-weight: 300; }
+      font-weight: 300;
+      margin-top: 40px; }
     section header h2 {
-      font-size: 60px;
+      font-size: 66px;
       font-weight: 300; }
   section article > div {
     float: left;
     font-size: 18px;
     max-height: 905px;
-    overflow: hidden;
     line-height: 130%; }
     section article > div p {
       margin-bottom: 1em; }
@@ -147,7 +147,7 @@ section {
     min-height: 700px; }
     section article .media > video, section article .media > img {
       position: absolute;
-      top: 0;
+      top: 10px;
       left: 0;
       display: block;
       width: 100%;
@@ -218,9 +218,9 @@ section {
     section[data-theme="purple"] article .media .progress-bar {
       background: #93288a; }
   section[data-theme="orange"] {
-    color: #fdaa32; }
+    color: #dd9122; }
     section[data-theme="orange"] article .media .progress-bar {
-      background: #fdaa32; }
+      background: #dd9122; }
   section[data-theme="LAB"] {
     color: white; }
     section[data-theme="LAB"] canvas {
@@ -290,7 +290,7 @@ section {
       #interstitial .letter .term.purple {
         color: #93288a; }
       #interstitial .letter .term.orange {
-        color: #fdaa32; }
+        color: #dd9122; }
       #interstitial .letter .term.transition-term.active {
         top: 0 !important;
         left: 0 !important;
@@ -299,6 +299,8 @@ section {
         font-size: 60px !important;
         -webkit-transition: -webkit-transform 2.5s ease, opacity 1s ease;
         z-index: 999; }
+      #interstitial .letter .term .slash {
+        color: black !important; }
     #interstitial .letter.L {
       width: 815px;
       height: 1085px;

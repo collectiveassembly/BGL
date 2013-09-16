@@ -4989,6 +4989,36 @@
 				node_indices.push( parseInt($(this).attr('data-index'), 10) );
 			});
 			
+			// get node edges
+			// nb: these are arbitrary, all connected and then we filter out 75% of the possible connections
+			var connections = [];
+			$.each(node_indices, function(index, value){	
+				//if (index % 2) {
+				$.each(node_indices, function(index2, value2){	
+					if (index2 % 2) {
+						if (value !== value2) {
+							var connection = [value, value2];
+							connection.sort(function(a,b){return a-b});
+							connections.push(connection);
+						}						
+					}
+				});
+				//}
+			});
+			// remove duplicate node-edges (no need for bi-drectional)
+			var connections_unique = [];
+			for (var i=0; i<connections.length; i++) {
+				var e1 = connections[i];
+				var exists = false;
+				for (var j=0; j<connections_unique.length; j++) {
+					if (connections_unique[j][0] == e1[0] && connections_unique[j][1] == e1[1]) exists = true;
+				}
+				if (exists == false) {
+					connections_unique[connections_unique.length] = e1;
+				}
+			}
+			console.log(connections_unique.length);
+			
 			// set theme by display-number
 			var theme;
 			switch (number) {
@@ -5120,7 +5150,7 @@
 					video: './media/'+number+'.mov'
 				});				
 			}
-			
+						
 			BGLTerms.push(
 				{
 					number:	paddify(number, 2),
@@ -5138,7 +5168,7 @@
 					},
 					related: {
 						nodes: 			node_indices,
-						edges: 			matrixify(node_indices, 2)
+						edges: 			connections_unique
 					}
 				}			
 			);
