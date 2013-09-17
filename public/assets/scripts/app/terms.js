@@ -313,7 +313,7 @@ var BGLTerms = [
 			},
 			"media": [
 				{
-					"video": "./media/3.mov"
+					"video": "./media/3.mp4"
 				}
 			]
 		},
@@ -738,7 +738,7 @@ var BGLTerms = [
 			},
 			"media": [
 				{
-					"video": "./media/5.mov"
+					"video": "./media/5.mp4"
 				}
 			]
 		},
@@ -3090,7 +3090,7 @@ var BGLTerms = [
 			},
 			"media": [
 				{
-					"video": "./media/16.mov"
+					"video": "./media/16.mp4"
 				}
 			]
 		},
@@ -5863,7 +5863,7 @@ var BGLTerms = [
 			},
 			"media": [
 				{
-					"video": "./media/27.mov"
+					"video": "./media/27.mp4"
 				}
 			]
 		},
@@ -7553,7 +7553,7 @@ var BGLTerms = [
 			},
 			"media": [
 				{
-					"video": "./media/37.mov"
+					"video": "./media/37.mp4"
 				}
 			]
 		},
@@ -8061,7 +8061,7 @@ var BGLTerms = [
 			},
 			"media": [
 				{
-					"video": "./media/40.mov"
+					"video": "./media/40.mp4"
 				}
 			]
 		},
@@ -10788,7 +10788,7 @@ var BGLTerms = [
 			},
 			"media": [
 				{
-					"video": "./media/48.mov"
+					"video": "./media/48.mp4"
 				}
 			]
 		},
@@ -11743,7 +11743,7 @@ var BGLTerms = [
 			},
 			"media": [
 				{
-					"video": "./media/53.mov"
+					"video": "./media/53.mp4"
 				}
 			]
 		},
@@ -12732,7 +12732,7 @@ var BGLTerms = [
 			},
 			"media": [
 				{
-					"video": "./media/58.mov"
+					"video": "./media/58.mp4"
 				}
 			]
 		},
@@ -13269,7 +13269,7 @@ var BGLTerms = [
 			},
 			"media": [
 				{
-					"video": "./media/63.mov"
+					"video": "./media/63.mp4"
 				}
 			]
 		},
@@ -13661,7 +13661,7 @@ var BGLTerms = [
 			},
 			"media": [
 				{
-					"video": "./media/65.mov"
+					"video": "./media/65.mp4"
 				}
 			]
 		},
@@ -14457,7 +14457,7 @@ var BGLTerms = [
 			},
 			"media": [
 				{
-					"video": "./media/66.mov"
+					"video": "./media/66.mp4"
 				}
 			]
 		},
@@ -15152,7 +15152,7 @@ var BGLTerms = [
 			},
 			"media": [
 				{
-					"video": "./media/68.mov"
+					"video": "./media/68.mp4"
 				}
 			]
 		},
@@ -15589,7 +15589,7 @@ var BGLTerms = [
 			},
 			"media": [
 				{
-					"video": "./media/70.mov"
+					"video": "./media/70.mp4"
 				}
 			]
 		},
@@ -17049,7 +17049,7 @@ var BGLTerms = [
 			},
 			"media": [
 				{
-					"video": "./media/77.mov"
+					"video": "./media/77.mp4"
 				}
 			]
 		},
@@ -18893,7 +18893,7 @@ var BGLTerms = [
 			},
 			"media": [
 				{
-					"video": "./media/83.mov"
+					"video": "./media/83.mp4"
 				}
 			]
 		},
@@ -19216,7 +19216,7 @@ var BGLTerms = [
 			},
 			"media": [
 				{
-					"video": "./media/85.mov"
+					"video": "./media/85.mp4"
 				}
 			]
 		},
@@ -19469,7 +19469,7 @@ var BGLTerms = [
 			},
 			"media": [
 				{
-					"video": "./media/88.mov"
+					"video": "./media/88.mp4"
 				}
 			]
 		},
@@ -20299,7 +20299,7 @@ var BGLTerms = [
 			},
 			"media": [
 				{
-					"video": "./media/91.mov"
+					"video": "./media/91.mp4"
 				}
 			]
 		},
@@ -21350,7 +21350,7 @@ var BGLTerms = [
 			},
 			"media": [
 				{
-					"video": "./media/95.mov"
+					"video": "./media/95.mp4"
 				}
 			]
 		},
@@ -22199,7 +22199,7 @@ var BGLTerms = [
 			},
 			"media": [
 				{
-					"video": "./media/98.mov"
+					"video": "./media/98.mp4"
 				}
 			]
 		},
@@ -22278,7 +22278,7 @@ var BGLTerms = [
 			},
 			"media": [
 				{
-					"video": "./media/99.mov"
+					"video": "./media/99.mp4"
 				}
 			]
 		},
