@@ -20,14 +20,13 @@ var templates = {
 		<div class='term-description'>{{{ content.term_desc }}}</div>\
 		<div class='media'>\
 			<div class='progress-bar'></div>\
-			{{#if content.media.video}}\
-				<video autoplay><source src='{{content.media.video}}' type='video/mp4'></video>\
-				<p class='caption'>Lorem ipsum sit dolor amet.</p>\
-			{{else}}\
-				{{#eachProperty content.media}}\
+			{{#eachProperty content.media}}\
+				{{#if value.photo}}\
 					<img src='{{value.photo}}'/>\
-				{{/eachProperty }}\
-			{{/if}}\
+				{{else}}\
+					<video autoplay><source src='{{value.video}}' type='video/mp4'></video>\
+				{{/if}}\
+			{{/eachProperty }}\
 		</div>\
 		<div class='project-desc'>{{{ content.project_desc }}}</div>\
 		<div class='project-meta'>\
@@ -169,7 +168,7 @@ $(function(){
 			head: templates.head(term),
 			body: templates.body(term)
 		};
-		
+				
 		setTimeout(function(){
 
 			$target_section.attr('data-theme', term.theme);
