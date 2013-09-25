@@ -51,6 +51,10 @@ var BGLTerms = [
 				],
 				[
 					8,
+					26
+				],
+				[
+					8,
 					53
 				],
 				[
@@ -59,11 +63,19 @@ var BGLTerms = [
 				],
 				[
 					12,
+					26
+				],
+				[
+					12,
 					53
 				],
 				[
 					12,
 					92
+				],
+				[
+					12,
+					17
 				],
 				[
 					17,
@@ -74,12 +86,20 @@ var BGLTerms = [
 					53
 				],
 				[
+					17,
+					92
+				],
+				[
 					26,
 					53
 				],
 				[
 					26,
 					92
+				],
+				[
+					12,
+					28
 				],
 				[
 					26,
@@ -90,11 +110,19 @@ var BGLTerms = [
 					53
 				],
 				[
+					28,
+					92
+				],
+				[
 					53,
 					92
 				],
 				[
 					12,
+					88
+				],
+				[
+					26,
 					88
 				],
 				[
@@ -106,11 +134,19 @@ var BGLTerms = [
 					92
 				],
 				[
+					12,
+					95
+				],
+				[
 					26,
 					95
 				],
 				[
 					53,
+					95
+				],
+				[
+					92,
 					95
 				]
 			]
@@ -162,6 +198,10 @@ var BGLTerms = [
 				],
 				[
 					6,
+					30
+				],
+				[
+					6,
 					49
 				],
 				[
@@ -170,11 +210,19 @@ var BGLTerms = [
 				],
 				[
 					22,
+					30
+				],
+				[
+					22,
 					49
 				],
 				[
 					22,
 					64
+				],
+				[
+					22,
+					24
 				],
 				[
 					24,
@@ -185,12 +233,20 @@ var BGLTerms = [
 					49
 				],
 				[
+					24,
+					64
+				],
+				[
 					30,
 					49
 				],
 				[
 					30,
 					64
+				],
+				[
+					22,
+					40
 				],
 				[
 					30,
@@ -201,11 +257,19 @@ var BGLTerms = [
 					49
 				],
 				[
+					40,
+					64
+				],
+				[
 					49,
 					64
 				],
 				[
 					22,
+					52
+				],
+				[
+					30,
 					52
 				],
 				[
@@ -217,11 +281,19 @@ var BGLTerms = [
 					64
 				],
 				[
+					22,
+					89
+				],
+				[
 					30,
 					89
 				],
 				[
 					49,
+					89
+				],
+				[
+					64,
 					89
 				]
 			]
@@ -241,7 +313,7 @@ var BGLTerms = [
 			},
 			"media": [
 				{
-					"video": "./media/3.mov"
+					"video": "./media/3.mp4"
 				}
 			]
 		},
@@ -267,11 +339,19 @@ var BGLTerms = [
 				],
 				[
 					8,
+					40
+				],
+				[
+					8,
 					53
 				],
 				[
 					8,
 					62
+				],
+				[
+					8,
+					71
 				],
 				[
 					8,
@@ -283,11 +363,19 @@ var BGLTerms = [
 				],
 				[
 					12,
+					53
+				],
+				[
+					12,
 					62
 				],
 				[
 					12,
 					71
+				],
+				[
+					12,
+					83
 				],
 				[
 					12,
@@ -299,11 +387,19 @@ var BGLTerms = [
 				],
 				[
 					20,
+					53
+				],
+				[
+					20,
 					62
 				],
 				[
 					20,
 					71
+				],
+				[
+					20,
+					83
 				],
 				[
 					40,
@@ -315,10 +411,18 @@ var BGLTerms = [
 				],
 				[
 					40,
+					71
+				],
+				[
+					40,
 					83
 				],
 				[
 					12,
+					49
+				],
+				[
+					40,
 					49
 				],
 				[
@@ -331,11 +435,19 @@ var BGLTerms = [
 				],
 				[
 					49,
+					71
+				],
+				[
+					49,
 					83
 				],
 				[
 					53,
 					62
+				],
+				[
+					53,
+					71
 				],
 				[
 					53,
@@ -346,12 +458,20 @@ var BGLTerms = [
 					60
 				],
 				[
+					40,
+					60
+				],
+				[
 					53,
 					60
 				],
 				[
 					60,
 					62
+				],
+				[
+					60,
+					71
 				],
 				[
 					60,
@@ -362,11 +482,19 @@ var BGLTerms = [
 					71
 				],
 				[
+					62,
+					83
+				],
+				[
 					12,
 					66
 				],
 				[
 					40,
+					66
+				],
+				[
+					53,
 					66
 				],
 				[
@@ -378,6 +506,10 @@ var BGLTerms = [
 					71
 				],
 				[
+					66,
+					83
+				],
+				[
 					71,
 					83
 				],
@@ -386,11 +518,19 @@ var BGLTerms = [
 					79
 				],
 				[
+					40,
+					79
+				],
+				[
 					53,
 					79
 				],
 				[
 					62,
+					79
+				],
+				[
+					71,
 					79
 				],
 				[
@@ -406,7 +546,7 @@ var BGLTerms = [
 		"theme": "orange",
 		"content": {
 			"term_desc": "<p>Today, 20 percent of the world population is older than sixty-five; by 2060, every third person will have reached that age. The effect of an aging population on the urban environment and on social services is one of the most significant global challenges and opportunities of the next fifty years. Intergenerational exchange creates possibilities for knowledge sharing and social interaction. Urban design, community initiatives, and public services can help meet the needs of young and old citizens alike.</p>",
-			"project_desc": "<p>A group of older men and women in the community near Sambhaji Park regularly practice laughter yoga. The group held a workshop at the Lab, sencouraging onlookers to participate and creating an open exchange between older and younger generations. The practice involves several exercises that promote laughter as a form of release, including making noises, faces, and movements, and has been proven to have the same physiological benefits as authentic laughter.</p>",
+			"project_desc": "<p>A group of older men and women in the community near Sambhaji Park regularly practice laughter yoga. The group held a workshop at the Lab, encouraging onlookers to participate and creating an open exchange between older and younger generations. The practice involves several exercises that promote laughter as a form of release, including making noises, faces, and movements, and has been proven to have the same physiological benefits as authentic laughter.</p>",
 			"project_meta": {
 				"location": "BMW Guggenheim Lab, Mumbai, Sambhaji Park",
 				"program": "Laughter Yoga\n\t\t\t",
@@ -447,11 +587,19 @@ var BGLTerms = [
 				],
 				[
 					4,
+					25
+				],
+				[
+					4,
 					47
 				],
 				[
 					4,
 					56
+				],
+				[
+					4,
+					81
 				],
 				[
 					5,
@@ -463,6 +611,10 @@ var BGLTerms = [
 				],
 				[
 					5,
+					56
+				],
+				[
+					5,
 					81
 				],
 				[
@@ -471,6 +623,10 @@ var BGLTerms = [
 				],
 				[
 					16,
+					25
+				],
+				[
+					16,
 					47
 				],
 				[
@@ -478,12 +634,20 @@ var BGLTerms = [
 					56
 				],
 				[
+					16,
+					81
+				],
+				[
 					25,
 					47
 				],
 				[
 					25,
 					56
+				],
+				[
+					25,
+					81
 				],
 				[
 					5,
@@ -492,6 +656,10 @@ var BGLTerms = [
 				[
 					25,
 					27
+				],
+				[
+					27,
+					47
 				],
 				[
 					27,
@@ -503,10 +671,18 @@ var BGLTerms = [
 				],
 				[
 					47,
+					56
+				],
+				[
+					47,
 					81
 				],
 				[
 					5,
+					51
+				],
+				[
+					25,
 					51
 				],
 				[
@@ -518,11 +694,19 @@ var BGLTerms = [
 					56
 				],
 				[
+					51,
+					81
+				],
+				[
 					56,
 					81
 				],
 				[
 					5,
+					77
+				],
+				[
+					25,
 					77
 				],
 				[
@@ -532,6 +716,10 @@ var BGLTerms = [
 				[
 					56,
 					77
+				],
+				[
+					77,
+					81
 				]
 			]
 		}
@@ -550,7 +738,7 @@ var BGLTerms = [
 			},
 			"media": [
 				{
-					"video": "./media/5.mov"
+					"video": "./media/5.mp4"
 				}
 			]
 		},
@@ -575,11 +763,19 @@ var BGLTerms = [
 				],
 				[
 					3,
+					65
+				],
+				[
+					3,
 					79
 				],
 				[
 					3,
 					88
+				],
+				[
+					3,
+					96
 				],
 				[
 					41,
@@ -591,6 +787,10 @@ var BGLTerms = [
 				],
 				[
 					41,
+					88
+				],
+				[
+					41,
 					96
 				],
 				[
@@ -599,6 +799,10 @@ var BGLTerms = [
 				],
 				[
 					53,
+					65
+				],
+				[
+					53,
 					79
 				],
 				[
@@ -606,12 +810,20 @@ var BGLTerms = [
 					88
 				],
 				[
+					53,
+					96
+				],
+				[
 					65,
 					79
 				],
 				[
 					65,
 					88
+				],
+				[
+					65,
+					96
 				],
 				[
 					41,
@@ -620,6 +832,10 @@ var BGLTerms = [
 				[
 					65,
 					68
+				],
+				[
+					68,
+					79
 				],
 				[
 					68,
@@ -631,10 +847,18 @@ var BGLTerms = [
 				],
 				[
 					79,
+					88
+				],
+				[
+					79,
 					96
 				],
 				[
 					41,
+					87
+				],
+				[
+					65,
 					87
 				],
 				[
@@ -646,11 +870,19 @@ var BGLTerms = [
 					88
 				],
 				[
+					87,
+					96
+				],
+				[
 					88,
 					96
 				],
 				[
 					41,
+					94
+				],
+				[
+					65,
 					94
 				],
 				[
@@ -662,11 +894,19 @@ var BGLTerms = [
 					94
 				],
 				[
+					94,
+					96
+				],
+				[
 					41,
 					98
 				],
 				[
 					65,
+					98
+				],
+				[
+					79,
 					98
 				],
 				[
@@ -730,11 +970,19 @@ var BGLTerms = [
 				],
 				[
 					3,
+					16
+				],
+				[
+					3,
 					51
 				],
 				[
 					3,
 					56
+				],
+				[
+					3,
+					73
 				],
 				[
 					3,
@@ -746,11 +994,19 @@ var BGLTerms = [
 				],
 				[
 					8,
+					51
+				],
+				[
+					8,
 					56
 				],
 				[
 					8,
 					73
+				],
+				[
+					8,
+					83
 				],
 				[
 					8,
@@ -762,11 +1018,19 @@ var BGLTerms = [
 				],
 				[
 					13,
+					51
+				],
+				[
+					13,
 					56
 				],
 				[
 					13,
 					73
+				],
+				[
+					13,
+					83
 				],
 				[
 					16,
@@ -778,10 +1042,18 @@ var BGLTerms = [
 				],
 				[
 					16,
+					73
+				],
+				[
+					16,
 					83
 				],
 				[
 					8,
+					34
+				],
+				[
+					16,
 					34
 				],
 				[
@@ -794,11 +1066,19 @@ var BGLTerms = [
 				],
 				[
 					34,
+					73
+				],
+				[
+					34,
 					83
 				],
 				[
 					51,
 					56
+				],
+				[
+					51,
+					73
 				],
 				[
 					51,
@@ -809,12 +1089,20 @@ var BGLTerms = [
 					54
 				],
 				[
+					16,
+					54
+				],
+				[
 					51,
 					54
 				],
 				[
 					54,
 					56
+				],
+				[
+					54,
+					73
 				],
 				[
 					54,
@@ -825,11 +1113,19 @@ var BGLTerms = [
 					73
 				],
 				[
+					56,
+					83
+				],
+				[
 					8,
 					59
 				],
 				[
 					16,
+					59
+				],
+				[
+					51,
 					59
 				],
 				[
@@ -841,6 +1137,10 @@ var BGLTerms = [
 					73
 				],
 				[
+					59,
+					83
+				],
+				[
 					73,
 					83
 				],
@@ -849,11 +1149,19 @@ var BGLTerms = [
 					76
 				],
 				[
+					16,
+					76
+				],
+				[
 					51,
 					76
 				],
 				[
 					56,
+					76
+				],
+				[
+					73,
 					76
 				],
 				[
@@ -865,11 +1173,19 @@ var BGLTerms = [
 					93
 				],
 				[
+					16,
+					93
+				],
+				[
 					51,
 					93
 				],
 				[
 					56,
+					93
+				],
+				[
+					73,
 					93
 				],
 				[
@@ -885,7 +1201,7 @@ var BGLTerms = [
 		"theme": "purple",
 		"content": {
 			"term_desc": "<p>An Arduino is a single-board microcontroller used to create basic hardware-to-software communication through flexible circuitry control. Developed by a team of inventors led by Massimo Banzi, Arduinos are widely used in computer programming by amateurs and experts alike. As an easy-to-use module, the device can be employed to test basic programming functionality or even operate a small robot. Its design is distributed under the Creative Commons license and low-cost kits are available through a number of organizations.</p>",
-			"project_desc": "<p>Making Things Sense with Arduinos empowered visitors to engage with basic electronics and programming in an effort to make small-scale interventions into the urban environment. The workshop was presented in collaboration with the Little Devices Group, MIT, and Andr&amp;eacute; Kn&amp;ouml;rig of Fritzing, Berlin.</p>",
+			"project_desc": "<p>Making Things Sense with Arduinos empowered visitors to engage with basic electronics and programming in an effort to make small-scale interventions into the urban environment. The workshop was presented in collaboration with the Little Devices Group, MIT, and Andr&eacute; Kn&ouml;rig of Fritzing, Berlin.</p>",
 			"project_meta": {
 				"location": "BMW Guggenheim Lab, Berlin",
 				"program": "Making Things Sense with Arduinos",
@@ -930,6 +1246,10 @@ var BGLTerms = [
 				],
 				[
 					1,
+					49
+				],
+				[
+					1,
 					64
 				],
 				[
@@ -938,11 +1258,19 @@ var BGLTerms = [
 				],
 				[
 					30,
+					49
+				],
+				[
+					30,
 					64
 				],
 				[
 					30,
 					84
+				],
+				[
+					30,
+					40
 				],
 				[
 					40,
@@ -953,12 +1281,20 @@ var BGLTerms = [
 					64
 				],
 				[
+					40,
+					84
+				],
+				[
 					49,
 					64
 				],
 				[
 					49,
 					84
+				],
+				[
+					30,
+					52
 				],
 				[
 					49,
@@ -969,11 +1305,19 @@ var BGLTerms = [
 					64
 				],
 				[
+					52,
+					84
+				],
+				[
 					64,
 					84
 				],
 				[
 					30,
+					78
+				],
+				[
+					49,
 					78
 				],
 				[
@@ -1039,6 +1383,10 @@ var BGLTerms = [
 				],
 				[
 					11,
+					18
+				],
+				[
+					11,
 					41
 				],
 				[
@@ -1047,11 +1395,19 @@ var BGLTerms = [
 				],
 				[
 					15,
+					18
+				],
+				[
+					15,
 					41
 				],
 				[
 					15,
 					73
+				],
+				[
+					15,
+					17
 				],
 				[
 					17,
@@ -1062,12 +1418,20 @@ var BGLTerms = [
 					41
 				],
 				[
+					17,
+					73
+				],
+				[
 					18,
 					41
 				],
 				[
 					18,
 					73
+				],
+				[
+					15,
+					34
 				],
 				[
 					18,
@@ -1078,11 +1442,19 @@ var BGLTerms = [
 					41
 				],
 				[
+					34,
+					73
+				],
+				[
 					41,
 					73
 				],
 				[
 					15,
+					53
+				],
+				[
+					18,
 					53
 				],
 				[
@@ -1094,11 +1466,19 @@ var BGLTerms = [
 					73
 				],
 				[
+					15,
+					79
+				],
+				[
 					18,
 					79
 				],
 				[
 					41,
+					79
+				],
+				[
+					73,
 					79
 				]
 			]
@@ -1152,11 +1532,19 @@ var BGLTerms = [
 				],
 				[
 					0,
+					11
+				],
+				[
+					0,
 					20
 				],
 				[
 					0,
 					26
+				],
+				[
+					0,
+					36
 				],
 				[
 					0,
@@ -1168,11 +1556,19 @@ var BGLTerms = [
 				],
 				[
 					0,
+					66
+				],
+				[
+					0,
 					79
 				],
 				[
 					0,
 					90
+				],
+				[
+					2,
+					11
 				],
 				[
 					2,
@@ -1184,6 +1580,10 @@ var BGLTerms = [
 				],
 				[
 					2,
+					36
+				],
+				[
+					2,
 					51
 				],
 				[
@@ -1192,11 +1592,19 @@ var BGLTerms = [
 				],
 				[
 					2,
+					66
+				],
+				[
+					2,
 					79
 				],
 				[
 					2,
 					90
+				],
+				[
+					2,
+					5
 				],
 				[
 					5,
@@ -1208,6 +1616,10 @@ var BGLTerms = [
 				],
 				[
 					5,
+					26
+				],
+				[
+					5,
 					36
 				],
 				[
@@ -1216,11 +1628,19 @@ var BGLTerms = [
 				],
 				[
 					5,
+					63
+				],
+				[
+					5,
 					66
 				],
 				[
 					5,
 					79
+				],
+				[
+					5,
+					90
 				],
 				[
 					11,
@@ -1232,6 +1652,10 @@ var BGLTerms = [
 				],
 				[
 					11,
+					36
+				],
+				[
+					11,
 					51
 				],
 				[
@@ -1240,11 +1664,19 @@ var BGLTerms = [
 				],
 				[
 					11,
+					66
+				],
+				[
+					11,
 					79
 				],
 				[
 					11,
 					90
+				],
+				[
+					2,
+					15
 				],
 				[
 					11,
@@ -1256,6 +1688,10 @@ var BGLTerms = [
 				],
 				[
 					15,
+					26
+				],
+				[
+					15,
 					36
 				],
 				[
@@ -1264,11 +1700,19 @@ var BGLTerms = [
 				],
 				[
 					15,
+					63
+				],
+				[
+					15,
 					66
 				],
 				[
 					15,
 					79
+				],
+				[
+					15,
+					90
 				],
 				[
 					20,
@@ -1280,6 +1724,10 @@ var BGLTerms = [
 				],
 				[
 					20,
+					51
+				],
+				[
+					20,
 					63
 				],
 				[
@@ -1288,10 +1736,18 @@ var BGLTerms = [
 				],
 				[
 					20,
+					79
+				],
+				[
+					20,
 					90
 				],
 				[
 					2,
+					24
+				],
+				[
+					11,
 					24
 				],
 				[
@@ -1304,11 +1760,19 @@ var BGLTerms = [
 				],
 				[
 					24,
+					36
+				],
+				[
+					24,
 					51
 				],
 				[
 					24,
 					63
+				],
+				[
+					24,
+					66
 				],
 				[
 					24,
@@ -1320,6 +1784,10 @@ var BGLTerms = [
 				],
 				[
 					26,
+					36
+				],
+				[
+					26,
 					51
 				],
 				[
@@ -1328,11 +1796,19 @@ var BGLTerms = [
 				],
 				[
 					26,
+					66
+				],
+				[
+					26,
 					79
 				],
 				[
 					26,
 					90
+				],
+				[
+					2,
+					30
 				],
 				[
 					11,
@@ -1340,6 +1816,10 @@ var BGLTerms = [
 				],
 				[
 					20,
+					30
+				],
+				[
+					26,
 					30
 				],
 				[
@@ -1352,11 +1832,19 @@ var BGLTerms = [
 				],
 				[
 					30,
+					63
+				],
+				[
+					30,
 					66
 				],
 				[
 					30,
 					79
+				],
+				[
+					30,
+					90
 				],
 				[
 					36,
@@ -1368,11 +1856,19 @@ var BGLTerms = [
 				],
 				[
 					36,
+					66
+				],
+				[
+					36,
 					79
 				],
 				[
 					36,
 					90
+				],
+				[
+					2,
+					40
 				],
 				[
 					11,
@@ -1383,6 +1879,10 @@ var BGLTerms = [
 					40
 				],
 				[
+					26,
+					40
+				],
+				[
 					36,
 					40
 				],
@@ -1392,11 +1892,19 @@ var BGLTerms = [
 				],
 				[
 					40,
+					63
+				],
+				[
+					40,
 					66
 				],
 				[
 					40,
 					79
+				],
+				[
+					40,
+					90
 				],
 				[
 					51,
@@ -1408,10 +1916,18 @@ var BGLTerms = [
 				],
 				[
 					51,
+					79
+				],
+				[
+					51,
 					90
 				],
 				[
 					2,
+					52
+				],
+				[
+					11,
 					52
 				],
 				[
@@ -1423,6 +1939,10 @@ var BGLTerms = [
 					52
 				],
 				[
+					36,
+					52
+				],
+				[
 					51,
 					52
 				],
@@ -1432,6 +1952,10 @@ var BGLTerms = [
 				],
 				[
 					52,
+					66
+				],
+				[
+					52,
 					79
 				],
 				[
@@ -1440,11 +1964,19 @@ var BGLTerms = [
 				],
 				[
 					63,
+					66
+				],
+				[
+					63,
 					79
 				],
 				[
 					63,
 					90
+				],
+				[
+					2,
+					64
 				],
 				[
 					11,
@@ -1455,11 +1987,19 @@ var BGLTerms = [
 					64
 				],
 				[
+					26,
+					64
+				],
+				[
 					36,
 					64
 				],
 				[
 					51,
+					64
+				],
+				[
+					63,
 					64
 				],
 				[
@@ -1471,12 +2011,20 @@ var BGLTerms = [
 					79
 				],
 				[
+					64,
+					90
+				],
+				[
 					66,
 					79
 				],
 				[
 					66,
 					90
+				],
+				[
+					2,
+					68
 				],
 				[
 					11,
@@ -1487,11 +2035,19 @@ var BGLTerms = [
 					68
 				],
 				[
+					26,
+					68
+				],
+				[
 					36,
 					68
 				],
 				[
 					51,
+					68
+				],
+				[
+					63,
 					68
 				],
 				[
@@ -1503,11 +2059,19 @@ var BGLTerms = [
 					79
 				],
 				[
+					68,
+					90
+				],
+				[
 					79,
 					90
 				],
 				[
 					2,
+					89
+				],
+				[
+					11,
 					89
 				],
 				[
@@ -1519,11 +2083,19 @@ var BGLTerms = [
 					89
 				],
 				[
+					36,
+					89
+				],
+				[
 					51,
 					89
 				],
 				[
 					63,
+					89
+				],
+				[
+					66,
 					89
 				],
 				[
@@ -1598,6 +2170,10 @@ var BGLTerms = [
 				],
 				[
 					17,
+					28
+				],
+				[
+					17,
 					45
 				],
 				[
@@ -1606,11 +2182,19 @@ var BGLTerms = [
 				],
 				[
 					26,
+					28
+				],
+				[
+					26,
 					45
 				],
 				[
 					26,
 					73
+				],
+				[
+					26,
+					27
 				],
 				[
 					27,
@@ -1621,12 +2205,20 @@ var BGLTerms = [
 					45
 				],
 				[
+					27,
+					73
+				],
+				[
 					28,
 					45
 				],
 				[
 					28,
 					73
+				],
+				[
+					26,
+					44
 				],
 				[
 					28,
@@ -1637,11 +2229,19 @@ var BGLTerms = [
 					45
 				],
 				[
+					44,
+					73
+				],
+				[
 					45,
 					73
 				],
 				[
 					26,
+					46
+				],
+				[
+					28,
 					46
 				],
 				[
@@ -1653,11 +2253,19 @@ var BGLTerms = [
 					73
 				],
 				[
+					26,
+					76
+				],
+				[
 					28,
 					76
 				],
 				[
 					45,
+					76
+				],
+				[
+					73,
 					76
 				]
 			]
@@ -1713,11 +2321,19 @@ var BGLTerms = [
 				],
 				[
 					27,
+					54
+				],
+				[
+					27,
 					77
 				],
 				[
 					28,
 					54
+				],
+				[
+					28,
+					77
 				],
 				[
 					28,
@@ -1728,6 +2344,10 @@ var BGLTerms = [
 					54
 				],
 				[
+					38,
+					77
+				],
+				[
 					54,
 					77
 				],
@@ -1736,11 +2356,19 @@ var BGLTerms = [
 					59
 				],
 				[
+					54,
+					59
+				],
+				[
 					59,
 					77
 				],
 				[
 					28,
+					93
+				],
+				[
+					54,
 					93
 				],
 				[
@@ -1809,6 +2437,10 @@ var BGLTerms = [
 				],
 				[
 					7,
+					17
+				],
+				[
+					7,
 					23
 				],
 				[
@@ -1817,11 +2449,19 @@ var BGLTerms = [
 				],
 				[
 					7,
+					40
+				],
+				[
+					7,
 					63
 				],
 				[
 					7,
 					73
+				],
+				[
+					7,
+					90
 				],
 				[
 					8,
@@ -1833,11 +2473,19 @@ var BGLTerms = [
 				],
 				[
 					8,
+					30
+				],
+				[
+					8,
 					40
 				],
 				[
 					8,
 					63
+				],
+				[
+					8,
+					73
 				],
 				[
 					8,
@@ -1849,11 +2497,19 @@ var BGLTerms = [
 				],
 				[
 					15,
+					17
+				],
+				[
+					15,
 					23
 				],
 				[
 					15,
 					30
+				],
+				[
+					15,
+					40
 				],
 				[
 					15,
@@ -1864,6 +2520,10 @@ var BGLTerms = [
 					73
 				],
 				[
+					15,
+					90
+				],
+				[
 					17,
 					23
 				],
@@ -1873,11 +2533,19 @@ var BGLTerms = [
 				],
 				[
 					17,
+					40
+				],
+				[
+					17,
 					63
 				],
 				[
 					17,
 					73
+				],
+				[
+					17,
+					90
 				],
 				[
 					8,
@@ -1889,11 +2557,19 @@ var BGLTerms = [
 				],
 				[
 					21,
+					23
+				],
+				[
+					21,
 					30
 				],
 				[
 					21,
 					40
+				],
+				[
+					21,
+					63
 				],
 				[
 					21,
@@ -1905,6 +2581,10 @@ var BGLTerms = [
 				],
 				[
 					23,
+					30
+				],
+				[
+					23,
 					40
 				],
 				[
@@ -1913,10 +2593,18 @@ var BGLTerms = [
 				],
 				[
 					23,
+					73
+				],
+				[
+					23,
 					90
 				],
 				[
 					8,
+					26
+				],
+				[
+					17,
 					26
 				],
 				[
@@ -1929,11 +2617,19 @@ var BGLTerms = [
 				],
 				[
 					26,
+					40
+				],
+				[
+					26,
 					63
 				],
 				[
 					26,
 					73
+				],
+				[
+					26,
+					90
 				],
 				[
 					30,
@@ -1945,10 +2641,18 @@ var BGLTerms = [
 				],
 				[
 					30,
+					73
+				],
+				[
+					30,
 					90
 				],
 				[
 					8,
+					36
+				],
+				[
+					17,
 					36
 				],
 				[
@@ -1961,6 +2665,10 @@ var BGLTerms = [
 				],
 				[
 					36,
+					40
+				],
+				[
+					36,
 					63
 				],
 				[
@@ -1968,12 +2676,20 @@ var BGLTerms = [
 					73
 				],
 				[
+					36,
+					90
+				],
+				[
 					40,
 					63
 				],
 				[
 					40,
 					73
+				],
+				[
+					40,
+					90
 				],
 				[
 					8,
@@ -1984,12 +2700,20 @@ var BGLTerms = [
 					51
 				],
 				[
+					23,
+					51
+				],
+				[
 					30,
 					51
 				],
 				[
 					40,
 					51
+				],
+				[
+					51,
+					63
 				],
 				[
 					51,
@@ -2001,10 +2725,18 @@ var BGLTerms = [
 				],
 				[
 					63,
+					73
+				],
+				[
+					63,
 					90
 				],
 				[
 					8,
+					64
+				],
+				[
+					17,
 					64
 				],
 				[
@@ -2013,6 +2745,10 @@ var BGLTerms = [
 				],
 				[
 					30,
+					64
+				],
+				[
+					40,
 					64
 				],
 				[
@@ -2024,11 +2760,19 @@ var BGLTerms = [
 					73
 				],
 				[
+					64,
+					90
+				],
+				[
 					73,
 					90
 				],
 				[
 					8,
+					79
+				],
+				[
+					17,
 					79
 				],
 				[
@@ -2040,12 +2784,20 @@ var BGLTerms = [
 					79
 				],
 				[
+					40,
+					79
+				],
+				[
 					63,
 					79
 				],
 				[
 					73,
 					79
+				],
+				[
+					79,
+					90
 				]
 			]
 		}
@@ -2108,11 +2860,19 @@ var BGLTerms = [
 				],
 				[
 					0,
+					38
+				],
+				[
+					0,
 					66
 				],
 				[
 					2,
 					38
+				],
+				[
+					2,
+					66
 				],
 				[
 					2,
@@ -2123,11 +2883,19 @@ var BGLTerms = [
 					38
 				],
 				[
+					26,
+					66
+				],
+				[
 					38,
 					66
 				],
 				[
 					2,
+					62
+				],
+				[
+					38,
 					62
 				],
 				[
@@ -2187,11 +2955,19 @@ var BGLTerms = [
 				],
 				[
 					5,
+					51
+				],
+				[
+					5,
 					72
 				],
 				[
 					16,
 					51
+				],
+				[
+					16,
+					72
 				],
 				[
 					16,
@@ -2202,6 +2978,10 @@ var BGLTerms = [
 					51
 				],
 				[
+					47,
+					72
+				],
+				[
 					51,
 					72
 				],
@@ -2210,11 +2990,19 @@ var BGLTerms = [
 					58
 				],
 				[
+					51,
+					58
+				],
+				[
 					58,
 					72
 				],
 				[
 					16,
+					93
+				],
+				[
+					51,
 					93
 				],
 				[
@@ -2270,8 +3058,16 @@ var BGLTerms = [
 					44
 				],
 				[
+					24,
+					79
+				],
+				[
 					44,
 					79
+				],
+				[
+					44,
+					72
 				],
 				[
 					72,
@@ -2294,7 +3090,7 @@ var BGLTerms = [
 			},
 			"media": [
 				{
-					"video": "./media/16.mov"
+					"video": "./media/16.mp4"
 				}
 			]
 		},
@@ -2324,6 +3120,10 @@ var BGLTerms = [
 				],
 				[
 					7,
+					17
+				],
+				[
+					7,
 					23
 				],
 				[
@@ -2332,11 +3132,19 @@ var BGLTerms = [
 				],
 				[
 					7,
+					53
+				],
+				[
+					7,
 					66
 				],
 				[
 					7,
 					78
+				],
+				[
+					7,
+					90
 				],
 				[
 					8,
@@ -2348,11 +3156,19 @@ var BGLTerms = [
 				],
 				[
 					8,
+					30
+				],
+				[
+					8,
 					53
 				],
 				[
 					8,
 					66
+				],
+				[
+					8,
+					78
 				],
 				[
 					8,
@@ -2364,11 +3180,19 @@ var BGLTerms = [
 				],
 				[
 					11,
+					17
+				],
+				[
+					11,
 					23
 				],
 				[
 					11,
 					30
+				],
+				[
+					11,
+					53
 				],
 				[
 					11,
@@ -2379,6 +3203,10 @@ var BGLTerms = [
 					78
 				],
 				[
+					11,
+					90
+				],
+				[
 					17,
 					23
 				],
@@ -2388,11 +3216,19 @@ var BGLTerms = [
 				],
 				[
 					17,
+					53
+				],
+				[
+					17,
 					66
 				],
 				[
 					17,
 					78
+				],
+				[
+					17,
+					90
 				],
 				[
 					8,
@@ -2404,11 +3240,19 @@ var BGLTerms = [
 				],
 				[
 					21,
+					23
+				],
+				[
+					21,
 					30
 				],
 				[
 					21,
 					53
+				],
+				[
+					21,
+					66
 				],
 				[
 					21,
@@ -2420,6 +3264,10 @@ var BGLTerms = [
 				],
 				[
 					23,
+					30
+				],
+				[
+					23,
 					53
 				],
 				[
@@ -2428,10 +3276,18 @@ var BGLTerms = [
 				],
 				[
 					23,
+					78
+				],
+				[
+					23,
 					90
 				],
 				[
 					8,
+					24
+				],
+				[
+					17,
 					24
 				],
 				[
@@ -2444,11 +3300,19 @@ var BGLTerms = [
 				],
 				[
 					24,
+					53
+				],
+				[
+					24,
 					66
 				],
 				[
 					24,
 					78
+				],
+				[
+					24,
+					90
 				],
 				[
 					30,
@@ -2460,10 +3324,18 @@ var BGLTerms = [
 				],
 				[
 					30,
+					78
+				],
+				[
+					30,
 					90
 				],
 				[
 					8,
+					51
+				],
+				[
+					17,
 					51
 				],
 				[
@@ -2476,6 +3348,10 @@ var BGLTerms = [
 				],
 				[
 					51,
+					53
+				],
+				[
+					51,
 					66
 				],
 				[
@@ -2483,12 +3359,20 @@ var BGLTerms = [
 					78
 				],
 				[
+					51,
+					90
+				],
+				[
 					53,
 					66
 				],
 				[
 					53,
 					78
+				],
+				[
+					53,
+					90
 				],
 				[
 					8,
@@ -2499,12 +3383,20 @@ var BGLTerms = [
 					64
 				],
 				[
+					23,
+					64
+				],
+				[
 					30,
 					64
 				],
 				[
 					53,
 					64
+				],
+				[
+					64,
+					66
 				],
 				[
 					64,
@@ -2516,10 +3408,18 @@ var BGLTerms = [
 				],
 				[
 					66,
+					78
+				],
+				[
+					66,
 					90
 				],
 				[
 					8,
+					68
+				],
+				[
+					17,
 					68
 				],
 				[
@@ -2528,6 +3428,10 @@ var BGLTerms = [
 				],
 				[
 					30,
+					68
+				],
+				[
+					53,
 					68
 				],
 				[
@@ -2539,11 +3443,19 @@ var BGLTerms = [
 					78
 				],
 				[
+					68,
+					90
+				],
+				[
 					78,
 					90
 				],
 				[
 					8,
+					79
+				],
+				[
+					17,
 					79
 				],
 				[
@@ -2555,12 +3467,20 @@ var BGLTerms = [
 					79
 				],
 				[
+					53,
+					79
+				],
+				[
 					66,
 					79
 				],
 				[
 					78,
 					79
+				],
+				[
+					79,
+					90
 				]
 			]
 		}
@@ -2570,8 +3490,8 @@ var BGLTerms = [
 		"name": "Collective Memory",
 		"theme": "blue-light",
 		"content": {
-			"term_desc": "<p>The term &ldquo;collective memory,&rdquo; as it is commonly used today, can be traced back to the work of French sociologist &amp;Eacute;mile Durkheim in the late nineteenth and early twentieth centuries, and is closely related to the concept of collective consciousness. It refers to a memory shared by a group of people, sometimes passed from one generation to the next. In sociology, it can also be defined as group representations of the past that inform actions in the present.</p>",
-			"project_desc": "<p>On the ten-year anniversary of 9/11, Jake Barton of the design firm Local Projects presented his firm&#39;s work on interpreting and integrating collective memory into the media design of Manhattan&#39;s National September 11 Memorial &amp;amp; Museum, and discussed the role of collective memory in the creation of public memorials.</p>",
+			"term_desc": "<p>The term &ldquo;collective memory,&rdquo; as it is commonly used today, can be traced back to the work of French sociologist &Eacute;mile Durkheim in the late nineteenth and early twentieth centuries, and is closely related to the concept of collective consciousness. It refers to a memory shared by a group of people, sometimes passed from one generation to the next. In sociology, it can also be defined as group representations of the past that inform actions in the present.</p>",
+			"project_desc": "<p>On the ten-year anniversary of 9/11, Jake Barton of the design firm Local Projects presented his firm&#39;s work on interpreting and integrating collective memory into the media design of Manhattan&#39;s National September 11 Memorial &amp; Museum, and discussed the role of collective memory in the creation of public memorials.</p>",
 			"project_meta": {
 				"location": "BMW Guggenheim Lab, New York",
 				"program": "9/11 Memorial and Museum: Collective Memory",
@@ -2604,11 +3524,19 @@ var BGLTerms = [
 				],
 				[
 					3,
+					41
+				],
+				[
+					3,
 					47
 				],
 				[
 					3,
 					53
+				],
+				[
+					3,
+					77
 				],
 				[
 					5,
@@ -2620,6 +3548,10 @@ var BGLTerms = [
 				],
 				[
 					5,
+					53
+				],
+				[
+					5,
 					77
 				],
 				[
@@ -2628,6 +3560,10 @@ var BGLTerms = [
 				],
 				[
 					13,
+					41
+				],
+				[
+					13,
 					47
 				],
 				[
@@ -2635,12 +3571,20 @@ var BGLTerms = [
 					53
 				],
 				[
+					13,
+					77
+				],
+				[
 					41,
 					47
 				],
 				[
 					41,
 					53
+				],
+				[
+					41,
+					77
 				],
 				[
 					5,
@@ -2649,6 +3593,10 @@ var BGLTerms = [
 				[
 					41,
 					46
+				],
+				[
+					46,
+					47
 				],
 				[
 					46,
@@ -2660,10 +3608,18 @@ var BGLTerms = [
 				],
 				[
 					47,
+					53
+				],
+				[
+					47,
 					77
 				],
 				[
 					5,
+					51
+				],
+				[
+					41,
 					51
 				],
 				[
@@ -2675,11 +3631,19 @@ var BGLTerms = [
 					53
 				],
 				[
+					51,
+					77
+				],
+				[
 					53,
 					77
 				],
 				[
 					5,
+					58
+				],
+				[
+					41,
 					58
 				],
 				[
@@ -2691,11 +3655,19 @@ var BGLTerms = [
 					58
 				],
 				[
+					58,
+					77
+				],
+				[
 					5,
 					93
 				],
 				[
 					41,
+					93
+				],
+				[
+					47,
 					93
 				],
 				[
@@ -2758,11 +3730,19 @@ var BGLTerms = [
 				],
 				[
 					0,
+					11
+				],
+				[
+					0,
 					41
 				],
 				[
 					0,
 					73
+				],
+				[
+					0,
+					79
 				],
 				[
 					0,
@@ -2774,6 +3754,10 @@ var BGLTerms = [
 				],
 				[
 					7,
+					11
+				],
+				[
+					7,
 					41
 				],
 				[
@@ -2782,11 +3766,19 @@ var BGLTerms = [
 				],
 				[
 					7,
+					79
+				],
+				[
+					7,
 					85
 				],
 				[
 					7,
 					94
+				],
+				[
+					7,
+					9
 				],
 				[
 					9,
@@ -2798,11 +3790,19 @@ var BGLTerms = [
 				],
 				[
 					9,
+					73
+				],
+				[
+					9,
 					79
 				],
 				[
 					9,
 					85
+				],
+				[
+					9,
+					94
 				],
 				[
 					11,
@@ -2814,11 +3814,19 @@ var BGLTerms = [
 				],
 				[
 					11,
+					79
+				],
+				[
+					11,
 					85
 				],
 				[
 					11,
 					94
+				],
+				[
+					7,
+					15
 				],
 				[
 					11,
@@ -2830,11 +3838,19 @@ var BGLTerms = [
 				],
 				[
 					15,
+					73
+				],
+				[
+					15,
 					79
 				],
 				[
 					15,
 					85
+				],
+				[
+					15,
+					94
 				],
 				[
 					41,
@@ -2843,6 +3859,10 @@ var BGLTerms = [
 				[
 					41,
 					79
+				],
+				[
+					41,
+					85
 				],
 				[
 					41,
@@ -2853,6 +3873,10 @@ var BGLTerms = [
 					43
 				],
 				[
+					11,
+					43
+				],
+				[
 					41,
 					43
 				],
@@ -2862,6 +3886,10 @@ var BGLTerms = [
 				],
 				[
 					43,
+					79
+				],
+				[
+					43,
 					85
 				],
 				[
@@ -2870,6 +3898,10 @@ var BGLTerms = [
 				],
 				[
 					73,
+					79
+				],
+				[
+					73,
 					85
 				],
 				[
@@ -2877,11 +3909,19 @@ var BGLTerms = [
 					94
 				],
 				[
+					7,
+					76
+				],
+				[
 					11,
 					76
 				],
 				[
 					41,
+					76
+				],
+				[
+					73,
 					76
 				],
 				[
@@ -2893,6 +3933,10 @@ var BGLTerms = [
 					85
 				],
 				[
+					76,
+					94
+				],
+				[
 					79,
 					85
 				],
@@ -2901,11 +3945,19 @@ var BGLTerms = [
 					94
 				],
 				[
+					7,
+					81
+				],
+				[
 					11,
 					81
 				],
 				[
 					41,
+					81
+				],
+				[
+					73,
 					81
 				],
 				[
@@ -2917,11 +3969,19 @@ var BGLTerms = [
 					85
 				],
 				[
+					81,
+					94
+				],
+				[
 					85,
 					94
 				],
 				[
 					7,
+					92
+				],
+				[
+					11,
 					92
 				],
 				[
@@ -2933,12 +3993,20 @@ var BGLTerms = [
 					92
 				],
 				[
+					79,
+					92
+				],
+				[
 					85,
 					92
 				],
 				[
 					92,
 					94
+				],
+				[
+					7,
+					95
 				],
 				[
 					11,
@@ -2949,11 +4017,19 @@ var BGLTerms = [
 					95
 				],
 				[
+					73,
+					95
+				],
+				[
 					79,
 					95
 				],
 				[
 					85,
+					95
+				],
+				[
+					94,
 					95
 				]
 			]
@@ -3011,11 +4087,19 @@ var BGLTerms = [
 				],
 				[
 					7,
+					46
+				],
+				[
+					7,
 					53
 				],
 				[
 					7,
 					72
+				],
+				[
+					7,
+					88
 				],
 				[
 					7,
@@ -3027,11 +4111,19 @@ var BGLTerms = [
 				],
 				[
 					39,
+					53
+				],
+				[
+					39,
 					72
 				],
 				[
 					39,
 					88
+				],
+				[
+					39,
+					94
 				],
 				[
 					39,
@@ -3043,11 +4135,19 @@ var BGLTerms = [
 				],
 				[
 					41,
+					53
+				],
+				[
+					41,
 					72
 				],
 				[
 					41,
 					88
+				],
+				[
+					41,
+					94
 				],
 				[
 					46,
@@ -3059,10 +4159,18 @@ var BGLTerms = [
 				],
 				[
 					46,
+					88
+				],
+				[
+					46,
 					94
 				],
 				[
 					39,
+					50
+				],
+				[
+					46,
 					50
 				],
 				[
@@ -3075,11 +4183,19 @@ var BGLTerms = [
 				],
 				[
 					50,
+					88
+				],
+				[
+					50,
 					94
 				],
 				[
 					53,
 					72
+				],
+				[
+					53,
+					88
 				],
 				[
 					53,
@@ -3090,12 +4206,20 @@ var BGLTerms = [
 					69
 				],
 				[
+					46,
+					69
+				],
+				[
 					53,
 					69
 				],
 				[
 					69,
 					72
+				],
+				[
+					69,
+					88
 				],
 				[
 					69,
@@ -3106,11 +4230,19 @@ var BGLTerms = [
 					88
 				],
 				[
+					72,
+					94
+				],
+				[
 					39,
 					80
 				],
 				[
 					46,
+					80
+				],
+				[
+					53,
 					80
 				],
 				[
@@ -3122,6 +4254,10 @@ var BGLTerms = [
 					88
 				],
 				[
+					80,
+					94
+				],
+				[
 					88,
 					94
 				],
@@ -3130,11 +4266,19 @@ var BGLTerms = [
 					89
 				],
 				[
+					46,
+					89
+				],
+				[
 					53,
 					89
 				],
 				[
 					72,
+					89
+				],
+				[
+					88,
 					89
 				],
 				[
@@ -3150,7 +4294,7 @@ var BGLTerms = [
 		"theme": "purple",
 		"content": {
 			"term_desc": "<p>Container architecture involves the use of shipping containers as construction units. Typically, the containers are built out as makeshift shelters that house construction trailers, military-related structures, or disaster-relief solutions, but they can also be used to construct permanent homes and offices. The structures have increasingly been used in creative and commercial industries, adopting the industrial, rugged look as a fashionable expression of temporality. No longer as cutting-edge as it once was, container architecture has largely been adopted for commercial purposes in cities such as Berlin, London, and New York.</p>",
-			"project_desc": "<p>In the field of architecture, durability and permanence are widely considered stamps of quality. Government programs around the world aim to increase the lifespan of buildings. But is &ldquo;long-lasting&rdquo; the most important quality for buildings? What could we gain by seeing architecture as temporary and flexible? These were among the questions addressed in this panel, which featured Teddy Cruz, Estudio Teddy Cruz; Peter Fattinger, Fattinger Orso Architektur; J&amp;uuml;rgen Mayer H., J. Mayer H. Architects; Lena Kleinheinz, Magma Architecture; and Robert Kronenberg, University of Liverpool, School of Architecture.</p>",
+			"project_desc": "<p>In the field of architecture, durability and permanence are widely considered stamps of quality. Government programs around the world aim to increase the lifespan of buildings. But is &ldquo;long-lasting&rdquo; the most important quality for buildings? What could we gain by seeing architecture as temporary and flexible? These were among the questions addressed in this panel, which featured Teddy Cruz, Estudio Teddy Cruz; Peter Fattinger, Fattinger Orso Architektur; J&uuml;rgen Mayer H., J. Mayer H. Architects; Lena Kleinheinz, Magma Architecture; and Robert Kronenberg, University of Liverpool, School of Architecture.</p>",
 			"project_meta": {
 				"location": "BMW Guggenheim Lab, Berlin",
 				"program": "Temporary Architecture Panel",
@@ -3244,6 +4388,10 @@ var BGLTerms = [
 				],
 				[
 					2,
+					31
+				],
+				[
+					2,
 					43
 				],
 				[
@@ -3252,11 +4400,19 @@ var BGLTerms = [
 				],
 				[
 					8,
+					31
+				],
+				[
+					8,
 					43
 				],
 				[
 					8,
 					66
+				],
+				[
+					8,
+					24
 				],
 				[
 					24,
@@ -3267,12 +4423,20 @@ var BGLTerms = [
 					43
 				],
 				[
+					24,
+					66
+				],
+				[
 					31,
 					43
 				],
 				[
 					31,
 					66
+				],
+				[
+					8,
+					33
 				],
 				[
 					31,
@@ -3283,11 +4447,19 @@ var BGLTerms = [
 					43
 				],
 				[
+					33,
+					66
+				],
+				[
 					43,
 					66
 				],
 				[
 					8,
+					63
+				],
+				[
+					31,
 					63
 				],
 				[
@@ -3299,11 +4471,19 @@ var BGLTerms = [
 					66
 				],
 				[
+					8,
+					87
+				],
+				[
 					31,
 					87
 				],
 				[
 					43,
+					87
+				],
+				[
+					66,
 					87
 				]
 			]
@@ -3378,11 +4558,19 @@ var BGLTerms = [
 				],
 				[
 					11,
+					26
+				],
+				[
+					11,
 					40
 				],
 				[
 					11,
 					49
+				],
+				[
+					11,
+					63
 				],
 				[
 					11,
@@ -3394,6 +4582,10 @@ var BGLTerms = [
 				],
 				[
 					15,
+					26
+				],
+				[
+					15,
 					40
 				],
 				[
@@ -3402,11 +4594,19 @@ var BGLTerms = [
 				],
 				[
 					15,
+					63
+				],
+				[
+					15,
 					66
 				],
 				[
 					15,
 					90
+				],
+				[
+					15,
+					23
 				],
 				[
 					23,
@@ -3418,11 +4618,19 @@ var BGLTerms = [
 				],
 				[
 					23,
+					49
+				],
+				[
+					23,
 					63
 				],
 				[
 					23,
 					66
+				],
+				[
+					23,
+					90
 				],
 				[
 					26,
@@ -3434,11 +4642,19 @@ var BGLTerms = [
 				],
 				[
 					26,
+					63
+				],
+				[
+					26,
 					66
 				],
 				[
 					26,
 					90
+				],
+				[
+					15,
+					37
 				],
 				[
 					26,
@@ -3450,11 +4666,19 @@ var BGLTerms = [
 				],
 				[
 					37,
+					49
+				],
+				[
+					37,
 					63
 				],
 				[
 					37,
 					66
+				],
+				[
+					37,
+					90
 				],
 				[
 					40,
@@ -3463,6 +4687,10 @@ var BGLTerms = [
 				[
 					40,
 					63
+				],
+				[
+					40,
+					66
 				],
 				[
 					40,
@@ -3473,6 +4701,10 @@ var BGLTerms = [
 					46
 				],
 				[
+					26,
+					46
+				],
+				[
 					40,
 					46
 				],
@@ -3482,6 +4714,10 @@ var BGLTerms = [
 				],
 				[
 					46,
+					63
+				],
+				[
+					46,
 					66
 				],
 				[
@@ -3490,6 +4726,10 @@ var BGLTerms = [
 				],
 				[
 					49,
+					63
+				],
+				[
+					49,
 					66
 				],
 				[
@@ -3497,11 +4737,19 @@ var BGLTerms = [
 					90
 				],
 				[
+					15,
+					60
+				],
+				[
 					26,
 					60
 				],
 				[
 					40,
+					60
+				],
+				[
+					49,
 					60
 				],
 				[
@@ -3513,6 +4761,10 @@ var BGLTerms = [
 					66
 				],
 				[
+					60,
+					90
+				],
+				[
 					63,
 					66
 				],
@@ -3521,11 +4773,19 @@ var BGLTerms = [
 					90
 				],
 				[
+					15,
+					64
+				],
+				[
 					26,
 					64
 				],
 				[
 					40,
+					64
+				],
+				[
+					49,
 					64
 				],
 				[
@@ -3537,6 +4797,10 @@ var BGLTerms = [
 					66
 				],
 				[
+					64,
+					90
+				],
+				[
 					66,
 					90
 				],
@@ -3545,11 +4809,19 @@ var BGLTerms = [
 					79
 				],
 				[
+					26,
+					79
+				],
+				[
 					40,
 					79
 				],
 				[
 					49,
+					79
+				],
+				[
+					63,
 					79
 				],
 				[
@@ -3569,7 +4841,7 @@ var BGLTerms = [
 		"theme": "red",
 		"content": {
 			"term_desc": "<p>Customization is a method of responding to individual needs and directives. The term, which dates back at least as far as the turn of the twentieth century, was featured in the 1997 book <em>Future Perfect</em> by Stan Davis, in which he discussed its application to mass production. The last decade has seen a dramatic increase in products and services that are designed and built to user specifications. Customization has the potential to transform the way we build cities, making them ever more flexible, personalized, and livable.</p>",
-			"project_desc": "<p>Kaja K&amp;uuml;hl, founder and principal of research, design, and planning practice youarethecity, was joined by psychologists, urban designers, and Lab visitors to create customized devices that alter one&#39;s sensory experience. Interested in how spaces can produce and illicit feelings of anxiety, fear, pleasure, and excitement, K&amp;uuml;hl&#39;s program interrogated this relationship with experimentation and play as participants created wearable objects that would alter and enhance their experience of the environment.</p>",
+			"project_desc": "<p>Kaja K&uuml;hl, founder and principal of research, design, and planning practice youarethecity, was joined by psychologists, urban designers, and Lab visitors to create customized devices that alter one&#39;s sensory experience. Interested in how spaces can produce and illicit feelings of anxiety, fear, pleasure, and excitement, K&uuml;hl&#39;s program interrogated this relationship with experimentation and play as participants created wearable objects that would alter and enhance their experience of the environment.</p>",
 			"project_meta": {
 				"location": "BMW Guggenheim Lab, New York",
 				"program": "Urban Sensation Transformer Workshop",
@@ -3621,11 +4893,19 @@ var BGLTerms = [
 				],
 				[
 					1,
+					40
+				],
+				[
+					1,
 					52
 				],
 				[
 					1,
 					64
+				],
+				[
+					1,
+					75
 				],
 				[
 					1,
@@ -3637,11 +4917,19 @@ var BGLTerms = [
 				],
 				[
 					28,
+					52
+				],
+				[
+					28,
 					64
 				],
 				[
 					28,
 					75
+				],
+				[
+					28,
+					89
 				],
 				[
 					28,
@@ -3653,11 +4941,19 @@ var BGLTerms = [
 				],
 				[
 					30,
+					52
+				],
+				[
+					30,
 					64
 				],
 				[
 					30,
 					75
+				],
+				[
+					30,
+					89
 				],
 				[
 					40,
@@ -3669,10 +4965,18 @@ var BGLTerms = [
 				],
 				[
 					40,
+					75
+				],
+				[
+					40,
 					89
 				],
 				[
 					28,
+					44
+				],
+				[
+					40,
 					44
 				],
 				[
@@ -3685,11 +4989,19 @@ var BGLTerms = [
 				],
 				[
 					44,
+					75
+				],
+				[
+					44,
 					89
 				],
 				[
 					52,
 					64
+				],
+				[
+					52,
+					75
 				],
 				[
 					52,
@@ -3700,12 +5012,20 @@ var BGLTerms = [
 					55
 				],
 				[
+					40,
+					55
+				],
+				[
 					52,
 					55
 				],
 				[
 					55,
 					64
+				],
+				[
+					55,
+					75
 				],
 				[
 					55,
@@ -3716,11 +5036,19 @@ var BGLTerms = [
 					75
 				],
 				[
+					64,
+					89
+				],
+				[
 					28,
 					66
 				],
 				[
 					40,
+					66
+				],
+				[
+					52,
 					66
 				],
 				[
@@ -3732,6 +5060,10 @@ var BGLTerms = [
 					75
 				],
 				[
+					66,
+					89
+				],
+				[
 					75,
 					89
 				],
@@ -3740,11 +5072,19 @@ var BGLTerms = [
 					82
 				],
 				[
+					40,
+					82
+				],
+				[
 					52,
 					82
 				],
 				[
 					64,
+					82
+				],
+				[
+					75,
 					82
 				],
 				[
@@ -3759,7 +5099,7 @@ var BGLTerms = [
 		"name": "Data Visualization",
 		"theme": "red",
 		"content": {
-			"term_desc": "<p>Data visualization is the representation of information through graphs and other visual means. The purpose of data visualization is to translate complex data sets or subjective information into easily digestible, graphic forms, bringing together the practical need to communicate with an aesthetic sensibility. Visualizing urban behavior and patterns can create awareness about important urban conditions (such as traffic, cellphone use, bike use, and pollution levels) and can also enable planners and other observers to diagnose situations that need improvement.</p>",
+			"term_desc": "<p>Data visualization is the representation of information through graphs and other visual means. The purpose of data visualization is to translate complex data sets or subjective information into easily digestible, graphic forms, bringing together the practical need to communicate with an aesthetic sensibility. Visualizing urban behavior and patterns can create awareness about important urban conditions (such as traffic, cell phone use, bike use, and pollution levels) and can also enable planners and other observers to diagnose situations that need improvement.</p>",
 			"project_desc": "<p>Dissected Trash Objects allowed visitors to engage in real-time data collection, analysis, and visualization. The workshop exposed the hidden waste processes associated with global consumables by measuring the weight of packaging versus its contents. This program was led by Dietmar Offenhuber, media artist and Ph.D. candidate in the department for urban studies and planning, MIT, and artist Pablo Rey from the creative collective Basurama.</p>",
 			"project_meta": {
 				"location": "BMW Guggenheim Lab, Berlin",
@@ -3792,8 +5132,16 @@ var BGLTerms = [
 					15
 				],
 				[
+					11,
+					64
+				],
+				[
 					15,
 					64
+				],
+				[
+					15,
+					21
 				],
 				[
 					21,
@@ -3801,6 +5149,10 @@ var BGLTerms = [
 				],
 				[
 					15,
+					90
+				],
+				[
+					64,
 					90
 				]
 			]
@@ -3812,10 +5164,10 @@ var BGLTerms = [
 		"theme": "orange",
 		"content": {
 			"term_desc": "<p>Decentralization is the process by which elements of a whole are dispersed. The term is commonly used in the context of government to refer to a process that involves a greater sharing of power among various sectors and players. Additionally, dispersion of centers is seen as a way to avoid dependency on a centralized system whose malfunction could cause widespread disruption. In the field of urban planning, decentralization has been referred to as an alternative to cities&#39; central infrastructure and social systems. </p>",
-			"project_desc": "<p>Artist Maurice de Martin organized C-Zone, a tour of Berlin&#39;s fringe and often-neglected outer ring in the East Berlin neighborhoods of Lichtenberg, Treptow-K&amp;ouml;penick, and Marzahn. The tour visited local experts and residents of noncentral Berlin to emphasize the fact that the city exists beyond the central zone that is more widely accessible to tourists.</p>",
+			"project_desc": "<p>Artist Maurice de Martin organized C-Zone, a tour of Berlin&#39;s fringe and often-neglected outer ring in the East Berlin neighborhoods of Lichtenberg, Treptow-K&ouml;penick, and Marzahn. The tour visited local experts and residents of noncentral Berlin to emphasize the fact that the city exists beyond the central zone that is more widely accessible to tourists.</p>",
 			"project_meta": {
 				"location": "BMW Guggenheim Lab, Berlin",
-				"program": "C-Zone I &amp;amp; II",
+				"program": "C-Zone I &amp; II",
 				"date": "July 13, 2012"
 			},
 			"media": [
@@ -3866,11 +5218,19 @@ var BGLTerms = [
 				],
 				[
 					1,
+					15
+				],
+				[
+					1,
 					30
 				],
 				[
 					1,
 					40
+				],
+				[
+					1,
+					46
 				],
 				[
 					1,
@@ -3882,6 +5242,10 @@ var BGLTerms = [
 				],
 				[
 					8,
+					15
+				],
+				[
+					8,
 					30
 				],
 				[
@@ -3890,11 +5254,19 @@ var BGLTerms = [
 				],
 				[
 					8,
+					46
+				],
+				[
+					8,
 					64
 				],
 				[
 					8,
 					79
+				],
+				[
+					8,
+					14
 				],
 				[
 					14,
@@ -3906,11 +5278,19 @@ var BGLTerms = [
 				],
 				[
 					14,
+					40
+				],
+				[
+					14,
 					46
 				],
 				[
 					14,
 					64
+				],
+				[
+					14,
+					79
 				],
 				[
 					15,
@@ -3922,11 +5302,19 @@ var BGLTerms = [
 				],
 				[
 					15,
+					46
+				],
+				[
+					15,
 					64
 				],
 				[
 					15,
 					79
+				],
+				[
+					8,
+					20
 				],
 				[
 					15,
@@ -3938,11 +5326,19 @@ var BGLTerms = [
 				],
 				[
 					20,
+					40
+				],
+				[
+					20,
 					46
 				],
 				[
 					20,
 					64
+				],
+				[
+					20,
+					79
 				],
 				[
 					30,
@@ -3951,6 +5347,10 @@ var BGLTerms = [
 				[
 					30,
 					46
+				],
+				[
+					30,
+					64
 				],
 				[
 					30,
@@ -3961,6 +5361,10 @@ var BGLTerms = [
 					36
 				],
 				[
+					15,
+					36
+				],
+				[
 					30,
 					36
 				],
@@ -3970,6 +5374,10 @@ var BGLTerms = [
 				],
 				[
 					36,
+					46
+				],
+				[
+					36,
 					64
 				],
 				[
@@ -3978,6 +5386,10 @@ var BGLTerms = [
 				],
 				[
 					40,
+					46
+				],
+				[
+					40,
 					64
 				],
 				[
@@ -3985,11 +5397,19 @@ var BGLTerms = [
 					79
 				],
 				[
+					8,
+					43
+				],
+				[
 					15,
 					43
 				],
 				[
 					30,
+					43
+				],
+				[
+					40,
 					43
 				],
 				[
@@ -4001,6 +5421,10 @@ var BGLTerms = [
 					64
 				],
 				[
+					43,
+					79
+				],
+				[
 					46,
 					64
 				],
@@ -4009,11 +5433,19 @@ var BGLTerms = [
 					79
 				],
 				[
+					8,
+					63
+				],
+				[
 					15,
 					63
 				],
 				[
 					30,
+					63
+				],
+				[
+					40,
 					63
 				],
 				[
@@ -4025,6 +5457,10 @@ var BGLTerms = [
 					64
 				],
 				[
+					63,
+					79
+				],
+				[
 					64,
 					79
 				],
@@ -4033,11 +5469,19 @@ var BGLTerms = [
 					66
 				],
 				[
+					15,
+					66
+				],
+				[
 					30,
 					66
 				],
 				[
 					40,
+					66
+				],
+				[
+					46,
 					66
 				],
 				[
@@ -4100,11 +5544,19 @@ var BGLTerms = [
 				],
 				[
 					3,
+					35
+				],
+				[
+					3,
 					41
 				],
 				[
 					3,
 					55
+				],
+				[
+					3,
+					67
 				],
 				[
 					3,
@@ -4116,6 +5568,10 @@ var BGLTerms = [
 				],
 				[
 					27,
+					35
+				],
+				[
+					27,
 					41
 				],
 				[
@@ -4124,11 +5580,19 @@ var BGLTerms = [
 				],
 				[
 					27,
+					67
+				],
+				[
+					27,
 					72
 				],
 				[
 					27,
 					81
+				],
+				[
+					27,
+					31
 				],
 				[
 					31,
@@ -4140,11 +5604,19 @@ var BGLTerms = [
 				],
 				[
 					31,
+					55
+				],
+				[
+					31,
 					67
 				],
 				[
 					31,
 					72
+				],
+				[
+					31,
+					81
 				],
 				[
 					35,
@@ -4156,11 +5628,19 @@ var BGLTerms = [
 				],
 				[
 					35,
+					67
+				],
+				[
+					35,
 					72
 				],
 				[
 					35,
 					81
+				],
+				[
+					27,
+					39
 				],
 				[
 					35,
@@ -4172,11 +5652,19 @@ var BGLTerms = [
 				],
 				[
 					39,
+					55
+				],
+				[
+					39,
 					67
 				],
 				[
 					39,
 					72
+				],
+				[
+					39,
+					81
 				],
 				[
 					41,
@@ -4185,6 +5673,10 @@ var BGLTerms = [
 				[
 					41,
 					67
+				],
+				[
+					41,
+					72
 				],
 				[
 					41,
@@ -4195,6 +5687,10 @@ var BGLTerms = [
 					44
 				],
 				[
+					35,
+					44
+				],
+				[
 					41,
 					44
 				],
@@ -4204,6 +5700,10 @@ var BGLTerms = [
 				],
 				[
 					44,
+					67
+				],
+				[
+					44,
 					72
 				],
 				[
@@ -4212,6 +5712,10 @@ var BGLTerms = [
 				],
 				[
 					55,
+					67
+				],
+				[
+					55,
 					72
 				],
 				[
@@ -4219,11 +5723,19 @@ var BGLTerms = [
 					81
 				],
 				[
+					27,
+					56
+				],
+				[
 					35,
 					56
 				],
 				[
 					41,
+					56
+				],
+				[
+					55,
 					56
 				],
 				[
@@ -4235,6 +5747,10 @@ var BGLTerms = [
 					72
 				],
 				[
+					56,
+					81
+				],
+				[
 					67,
 					72
 				],
@@ -4243,11 +5759,19 @@ var BGLTerms = [
 					81
 				],
 				[
+					27,
+					69
+				],
+				[
 					35,
 					69
 				],
 				[
 					41,
+					69
+				],
+				[
+					55,
 					69
 				],
 				[
@@ -4259,11 +5783,19 @@ var BGLTerms = [
 					72
 				],
 				[
+					69,
+					81
+				],
+				[
 					72,
 					81
 				],
 				[
 					27,
+					77
+				],
+				[
+					35,
 					77
 				],
 				[
@@ -4275,12 +5807,20 @@ var BGLTerms = [
 					77
 				],
 				[
+					67,
+					77
+				],
+				[
 					72,
 					77
 				],
 				[
 					77,
 					81
+				],
+				[
+					27,
+					99
 				],
 				[
 					35,
@@ -4291,11 +5831,19 @@ var BGLTerms = [
 					99
 				],
 				[
+					55,
+					99
+				],
+				[
 					67,
 					99
 				],
 				[
 					72,
+					99
+				],
+				[
+					81,
 					99
 				]
 			]
@@ -4307,15 +5855,15 @@ var BGLTerms = [
 		"theme": "red",
 		"content": {
 			"term_desc": "<p>The Department of Listening is an imaginary city office designed to receive and respond to citizen feedback. This fictional government entity would truly listen to the needs of citizens with a sense of immediacy, and would allow for a more direct path of citizen-to-government communication. Coined by Lab curator Maria Nicanor during the United Nations Social Media week in October 2011, the term came out of a session devoted to the possible uses of social media for more effective citizen participation. </p>",
-			"project_desc": "<p>Free Space Berlin/Freir&amp;auml;ume Berlin increased awareness and citizen participation surrounding the selling of public land in Berlin. The initiative consisted of an interactive online map of the locations of publicly owned plots, a mobile workshop, and a series of events at sites throughout Berlin that were undergoing the selling process, in which neighbors, visitors, and passersby were asked what their vision for these spaces would be. Free Space Berlin/Freir&amp;auml;ume Berlin was organized by Berlin Lab Team member Corinne Rose with openBerlin cofounders Johannes Dumpe, Felix Zai&amp;szlig;, and Rocco Z&amp;uuml;hlke, in collaboration with Florian Schmidt, cofounder of Initiative Stadt Neudenken (ISN; Rethink the City Initiative), and J&amp;uuml;rgen Breiter, an urban curator.</p>",
+			"project_desc": "<p>Free Space Berlin/Freir&auml;ume Berlin increased awareness and citizen participation surrounding the selling of public land in Berlin. The initiative consisted of an interactive online map of the locations of publicly owned plots, a mobile workshop, and a series of events at sites throughout Berlin that were undergoing the selling process, in which neighbors, visitors, and passersby were asked what their vision for these spaces would be. Free Space Berlin/Freir&auml;ume Berlin was organized by Berlin Lab Team member Corinne Rose with openBerlin cofounders Johannes Dumpe, Felix Zai&szlig;, and Rocco Z&uuml;hlke, in collaboration with Florian Schmidt, cofounder of Initiative Stadt Neudenken (ISN; Rethink the City Initiative), and J&uuml;rgen Breiter, an urban curator.</p>",
 			"project_meta": {
 				"location": "BMW Guggenheim Lab, Berlin",
-				"program": "Free Space Berlin/Freir&amp;auml;ume Berlin<br>Corinne Rose, Berlin Lab Team member",
+				"program": "Free Space Berlin/Freir&auml;ume Berlin<br>Corinne Rose, Berlin Lab Team member",
 				"date": "June 15&ndash;July 29, 2012"
 			},
 			"media": [
 				{
-					"video": "./media/27.mov"
+					"video": "./media/27.mp4"
 				}
 			]
 		},
@@ -4340,11 +5888,19 @@ var BGLTerms = [
 				],
 				[
 					0,
+					11
+				],
+				[
+					0,
 					21
 				],
 				[
 					0,
 					63
+				],
+				[
+					0,
+					66
 				],
 				[
 					8,
@@ -4356,6 +5912,10 @@ var BGLTerms = [
 				],
 				[
 					8,
+					63
+				],
+				[
+					8,
 					66
 				],
 				[
@@ -4364,6 +5924,10 @@ var BGLTerms = [
 				],
 				[
 					9,
+					11
+				],
+				[
+					9,
 					21
 				],
 				[
@@ -4371,12 +5935,20 @@ var BGLTerms = [
 					63
 				],
 				[
+					9,
+					66
+				],
+				[
 					11,
 					21
 				],
 				[
 					11,
 					63
+				],
+				[
+					11,
+					66
 				],
 				[
 					8,
@@ -4385,6 +5957,10 @@ var BGLTerms = [
 				[
 					11,
 					12
+				],
+				[
+					12,
+					21
 				],
 				[
 					12,
@@ -4396,10 +5972,18 @@ var BGLTerms = [
 				],
 				[
 					21,
+					63
+				],
+				[
+					21,
 					66
 				],
 				[
 					8,
+					51
+				],
+				[
+					11,
 					51
 				],
 				[
@@ -4411,11 +5995,19 @@ var BGLTerms = [
 					63
 				],
 				[
+					51,
+					66
+				],
+				[
 					63,
 					66
 				],
 				[
 					8,
+					64
+				],
+				[
+					11,
 					64
 				],
 				[
@@ -4427,11 +6019,19 @@ var BGLTerms = [
 					64
 				],
 				[
+					64,
+					66
+				],
+				[
 					8,
 					90
 				],
 				[
 					11,
+					90
+				],
+				[
+					21,
 					90
 				],
 				[
@@ -4451,7 +6051,7 @@ var BGLTerms = [
 		"theme": "red",
 		"content": {
 			"term_desc": "<p>Design barriers are construction choices that limit or control an individual&#39;s access to urban spaces. From &ldquo;No Loitering&rdquo; signs to benches with armrests designed to prevent homeless people from sleeping on them, our cities are full of devices meant to disperse and divide citizens along lines of race, class, and age.</p>",
-			"project_desc": "<p>Interboro Partners and friends Andrew Kahrl, Kaja Kuhl, Amy Lavine, Damon Rich, Berryl Sattyr, and Meredith Tenhoor discussed how architecture can be used to include and exclude. The group analyzed racial steering, beach badges, and the many ways in which cities are designed to segregate urban populations based on race, economic means, and age.</p>",
+			"project_desc": "<p>Interboro Partners and friends Andrew Kahrl, Kaja K&uuml;hl, Amy Lavine, Damon Rich, Berryl Sattyr, and Meredith Tenhoor discussed how architecture can be used to include and exclude. The group analyzed racial steering, beach badges, and the many ways in which cities are designed to segregate urban populations based on race, economic means, and age.</p>",
 			"project_meta": {
 				"location": "BMW Guggenheim Lab, New York",
 				"program": "Architecture for Everyone, by Interboro Partners\n\t\t\t",
@@ -4505,11 +6105,19 @@ var BGLTerms = [
 				],
 				[
 					3,
+					25
+				],
+				[
+					3,
 					35
 				],
 				[
 					3,
 					59
+				],
+				[
+					3,
+					72
 				],
 				[
 					9,
@@ -4521,6 +6129,10 @@ var BGLTerms = [
 				],
 				[
 					9,
+					59
+				],
+				[
+					9,
 					72
 				],
 				[
@@ -4529,6 +6141,10 @@ var BGLTerms = [
 				],
 				[
 					10,
+					25
+				],
+				[
+					10,
 					35
 				],
 				[
@@ -4536,12 +6152,20 @@ var BGLTerms = [
 					59
 				],
 				[
+					10,
+					72
+				],
+				[
 					25,
 					35
 				],
 				[
 					25,
 					59
+				],
+				[
+					25,
+					72
 				],
 				[
 					9,
@@ -4550,6 +6174,10 @@ var BGLTerms = [
 				[
 					25,
 					31
+				],
+				[
+					31,
+					35
 				],
 				[
 					31,
@@ -4561,10 +6189,18 @@ var BGLTerms = [
 				],
 				[
 					35,
+					59
+				],
+				[
+					35,
 					72
 				],
 				[
 					9,
+					42
+				],
+				[
+					25,
 					42
 				],
 				[
@@ -4576,11 +6212,19 @@ var BGLTerms = [
 					59
 				],
 				[
+					42,
+					72
+				],
+				[
 					59,
 					72
 				],
 				[
 					9,
+					68
+				],
+				[
+					25,
 					68
 				],
 				[
@@ -4592,11 +6236,19 @@ var BGLTerms = [
 					68
 				],
 				[
+					68,
+					72
+				],
+				[
 					9,
 					86
 				],
 				[
 					25,
+					86
+				],
+				[
+					35,
 					86
 				],
 				[
@@ -4658,11 +6310,19 @@ var BGLTerms = [
 				],
 				[
 					0,
+					22
+				],
+				[
+					0,
 					38
 				],
 				[
 					0,
 					59
+				],
+				[
+					0,
+					71
 				],
 				[
 					0,
@@ -4674,6 +6334,10 @@ var BGLTerms = [
 				],
 				[
 					9,
+					22
+				],
+				[
+					9,
 					38
 				],
 				[
@@ -4682,11 +6346,19 @@ var BGLTerms = [
 				],
 				[
 					9,
+					71
+				],
+				[
+					9,
 					77
 				],
 				[
 					9,
 					99
+				],
+				[
+					9,
+					10
 				],
 				[
 					10,
@@ -4698,11 +6370,19 @@ var BGLTerms = [
 				],
 				[
 					10,
+					59
+				],
+				[
+					10,
 					71
 				],
 				[
 					10,
 					77
+				],
+				[
+					10,
+					99
 				],
 				[
 					22,
@@ -4714,11 +6394,19 @@ var BGLTerms = [
 				],
 				[
 					22,
+					71
+				],
+				[
+					22,
 					77
 				],
 				[
 					22,
 					99
+				],
+				[
+					9,
+					35
 				],
 				[
 					22,
@@ -4730,11 +6418,19 @@ var BGLTerms = [
 				],
 				[
 					35,
+					59
+				],
+				[
+					35,
 					71
 				],
 				[
 					35,
 					77
+				],
+				[
+					35,
+					99
 				],
 				[
 					38,
@@ -4743,6 +6439,10 @@ var BGLTerms = [
 				[
 					38,
 					71
+				],
+				[
+					38,
+					77
 				],
 				[
 					38,
@@ -4753,6 +6453,10 @@ var BGLTerms = [
 					54
 				],
 				[
+					22,
+					54
+				],
+				[
 					38,
 					54
 				],
@@ -4762,6 +6466,10 @@ var BGLTerms = [
 				],
 				[
 					54,
+					71
+				],
+				[
+					54,
 					77
 				],
 				[
@@ -4770,6 +6478,10 @@ var BGLTerms = [
 				],
 				[
 					59,
+					71
+				],
+				[
+					59,
 					77
 				],
 				[
@@ -4777,11 +6489,19 @@ var BGLTerms = [
 					99
 				],
 				[
+					9,
+					67
+				],
+				[
 					22,
 					67
 				],
 				[
 					38,
+					67
+				],
+				[
+					59,
 					67
 				],
 				[
@@ -4793,6 +6513,10 @@ var BGLTerms = [
 					77
 				],
 				[
+					67,
+					99
+				],
+				[
 					71,
 					77
 				],
@@ -4801,11 +6525,19 @@ var BGLTerms = [
 					99
 				],
 				[
+					9,
+					73
+				],
+				[
 					22,
 					73
 				],
 				[
 					38,
+					73
+				],
+				[
+					59,
 					73
 				],
 				[
@@ -4817,6 +6549,10 @@ var BGLTerms = [
 					77
 				],
 				[
+					73,
+					99
+				],
+				[
 					77,
 					99
 				],
@@ -4825,11 +6561,19 @@ var BGLTerms = [
 					81
 				],
 				[
+					22,
+					81
+				],
+				[
 					38,
 					81
 				],
 				[
 					59,
+					81
+				],
+				[
+					71,
 					81
 				],
 				[
@@ -4890,8 +6634,16 @@ var BGLTerms = [
 					38
 				],
 				[
+					34,
+					88
+				],
+				[
 					38,
 					88
+				],
+				[
+					38,
+					81
 				],
 				[
 					81,
@@ -4899,6 +6651,10 @@ var BGLTerms = [
 				],
 				[
 					38,
+					93
+				],
+				[
+					88,
 					93
 				]
 			]
@@ -4910,7 +6666,7 @@ var BGLTerms = [
 		"theme": "green",
 		"content": {
 			"term_desc": "<p>Empowerment technologies are innovative uses of technology that empower citizens in the process of actively contributing to their built environment. Following a DIY philosophy, tangible actions like making, building, and hacking lead to greater citizen participation and thus empowerment within the urban environment.</p>",
-			"project_desc": "<p>Medical device designer for MIT&#39;s Little Devices Lab and Berlin Lab Team member Jos&amp;eacute; G&amp;oacute;mez-M&amp;aacute;rquez conceived of the Marathon of Making, a daylong event that brought together creative groups from across Berlin to lead hands-on building activities. Following a DIY philosophy, the event offered practical workshops to empower citizens in the process of actively contributing to their environment through technology and the creative use of tools for rapid prototyping and construction.</p>",
+			"project_desc": "<p>Medical device designer for MIT&#39;s Little Devices Lab and Berlin Lab Team member Jos&eacute; G&oacute;mez-M&aacute;rquez conceived of the Marathon of Making, a daylong event that brought together creative groups from across Berlin to lead hands-on building activities. Following a DIY philosophy, the event offered practical workshops to empower citizens in the process of actively contributing to their environment through technology and the creative use of tools for rapid prototyping and construction.</p>",
 			"project_meta": {
 				"location": "BMW Guggenheim Lab, Berlin",
 				"program": "Marathon of Making",
@@ -4965,11 +6721,19 @@ var BGLTerms = [
 				],
 				[
 					1,
+					11
+				],
+				[
+					1,
 					22
 				],
 				[
 					1,
 					37
+				],
+				[
+					1,
+					52
 				],
 				[
 					1,
@@ -4981,11 +6745,19 @@ var BGLTerms = [
 				],
 				[
 					6,
+					22
+				],
+				[
+					6,
 					37
 				],
 				[
 					6,
 					52
+				],
+				[
+					6,
+					81
 				],
 				[
 					6,
@@ -4997,11 +6769,19 @@ var BGLTerms = [
 				],
 				[
 					8,
+					22
+				],
+				[
+					8,
 					37
 				],
 				[
 					8,
 					52
+				],
+				[
+					8,
+					81
 				],
 				[
 					11,
@@ -5013,10 +6793,18 @@ var BGLTerms = [
 				],
 				[
 					11,
+					52
+				],
+				[
+					11,
 					81
 				],
 				[
 					6,
+					15
+				],
+				[
+					11,
 					15
 				],
 				[
@@ -5029,11 +6817,19 @@ var BGLTerms = [
 				],
 				[
 					15,
+					52
+				],
+				[
+					15,
 					81
 				],
 				[
 					22,
 					37
+				],
+				[
+					22,
+					52
 				],
 				[
 					22,
@@ -5044,12 +6840,20 @@ var BGLTerms = [
 					24
 				],
 				[
+					11,
+					24
+				],
+				[
 					22,
 					24
 				],
 				[
 					24,
 					37
+				],
+				[
+					24,
+					52
 				],
 				[
 					24,
@@ -5060,11 +6864,19 @@ var BGLTerms = [
 					52
 				],
 				[
+					37,
+					81
+				],
+				[
 					6,
 					40
 				],
 				[
 					11,
+					40
+				],
+				[
+					22,
 					40
 				],
 				[
@@ -5076,6 +6888,10 @@ var BGLTerms = [
 					52
 				],
 				[
+					40,
+					81
+				],
+				[
 					52,
 					81
 				],
@@ -5084,11 +6900,19 @@ var BGLTerms = [
 					64
 				],
 				[
+					11,
+					64
+				],
+				[
 					22,
 					64
 				],
 				[
 					37,
+					64
+				],
+				[
+					52,
 					64
 				],
 				[
@@ -5134,6 +6958,10 @@ var BGLTerms = [
 				],
 				[
 					20,
+					32
+				],
+				[
+					20,
 					42
 				],
 				[
@@ -5142,11 +6970,19 @@ var BGLTerms = [
 				],
 				[
 					25,
+					32
+				],
+				[
+					25,
 					42
 				],
 				[
 					25,
 					98
+				],
+				[
+					25,
+					27
 				],
 				[
 					27,
@@ -5157,12 +6993,20 @@ var BGLTerms = [
 					42
 				],
 				[
+					27,
+					98
+				],
+				[
 					32,
 					42
 				],
 				[
 					32,
 					98
+				],
+				[
+					25,
+					39
 				],
 				[
 					32,
@@ -5173,11 +7017,19 @@ var BGLTerms = [
 					42
 				],
 				[
+					39,
+					98
+				],
+				[
 					42,
 					98
 				],
 				[
 					25,
+					72
+				],
+				[
+					32,
 					72
 				],
 				[
@@ -5235,8 +7087,16 @@ var BGLTerms = [
 					33
 				],
 				[
+					31,
+					57
+				],
+				[
 					33,
 					57
+				],
+				[
+					33,
+					38
 				],
 				[
 					38,
@@ -5244,6 +7104,10 @@ var BGLTerms = [
 				],
 				[
 					33,
+					98
+				],
+				[
+					57,
 					98
 				]
 			]
@@ -5308,11 +7172,19 @@ var BGLTerms = [
 				],
 				[
 					20,
+					41
+				],
+				[
+					20,
 					65
 				],
 				[
 					20,
 					87
+				],
+				[
+					20,
+					98
 				],
 				[
 					32,
@@ -5324,6 +7196,10 @@ var BGLTerms = [
 				],
 				[
 					32,
+					87
+				],
+				[
+					32,
 					98
 				],
 				[
@@ -5332,6 +7208,10 @@ var BGLTerms = [
 				],
 				[
 					38,
+					41
+				],
+				[
+					38,
 					65
 				],
 				[
@@ -5339,12 +7219,20 @@ var BGLTerms = [
 					87
 				],
 				[
+					38,
+					98
+				],
+				[
 					41,
 					65
 				],
 				[
 					41,
 					87
+				],
+				[
+					41,
+					98
 				],
 				[
 					32,
@@ -5353,6 +7241,10 @@ var BGLTerms = [
 				[
 					41,
 					48
+				],
+				[
+					48,
+					65
 				],
 				[
 					48,
@@ -5364,10 +7256,18 @@ var BGLTerms = [
 				],
 				[
 					65,
+					87
+				],
+				[
+					65,
 					98
 				],
 				[
 					32,
+					78
+				],
+				[
+					41,
 					78
 				],
 				[
@@ -5379,11 +7279,19 @@ var BGLTerms = [
 					87
 				],
 				[
+					78,
+					98
+				],
+				[
 					87,
 					98
 				],
 				[
 					32,
+					94
+				],
+				[
+					41,
 					94
 				],
 				[
@@ -5393,6 +7301,10 @@ var BGLTerms = [
 				[
 					87,
 					94
+				],
+				[
+					94,
+					98
 				]
 			]
 		}
@@ -5448,6 +7360,10 @@ var BGLTerms = [
 				],
 				[
 					5,
+					38
+				],
+				[
+					5,
 					50
 				],
 				[
@@ -5456,11 +7372,19 @@ var BGLTerms = [
 				],
 				[
 					7,
+					38
+				],
+				[
+					7,
 					50
 				],
 				[
 					7,
 					91
+				],
+				[
+					7,
+					29
 				],
 				[
 					29,
@@ -5471,12 +7395,20 @@ var BGLTerms = [
 					50
 				],
 				[
+					29,
+					91
+				],
+				[
 					38,
 					50
 				],
 				[
 					38,
 					91
+				],
+				[
+					7,
+					39
 				],
 				[
 					38,
@@ -5487,11 +7419,19 @@ var BGLTerms = [
 					50
 				],
 				[
+					39,
+					91
+				],
+				[
 					50,
 					91
 				],
 				[
 					7,
+					89
+				],
+				[
+					38,
 					89
 				],
 				[
@@ -5554,11 +7494,19 @@ var BGLTerms = [
 				],
 				[
 					25,
+					54
+				],
+				[
+					25,
 					99
 				],
 				[
 					27,
 					54
+				],
+				[
+					27,
+					99
 				],
 				[
 					27,
@@ -5569,11 +7517,19 @@ var BGLTerms = [
 					54
 				],
 				[
+					28,
+					99
+				],
+				[
 					54,
 					99
 				],
 				[
 					27,
+					81
+				],
+				[
+					54,
 					81
 				],
 				[
@@ -5597,7 +7553,7 @@ var BGLTerms = [
 			},
 			"media": [
 				{
-					"video": "./media/37.mov"
+					"video": "./media/37.mp4"
 				}
 			]
 		},
@@ -5618,11 +7574,19 @@ var BGLTerms = [
 				],
 				[
 					8,
+					46
+				],
+				[
+					8,
 					80
 				],
 				[
 					11,
 					46
+				],
+				[
+					11,
+					80
 				],
 				[
 					11,
@@ -5633,6 +7597,10 @@ var BGLTerms = [
 					46
 				],
 				[
+					24,
+					80
+				],
+				[
 					46,
 					80
 				],
@@ -5641,11 +7609,19 @@ var BGLTerms = [
 					50
 				],
 				[
+					46,
+					50
+				],
+				[
 					50,
 					80
 				],
 				[
 					11,
+					91
+				],
+				[
+					46,
 					91
 				],
 				[
@@ -5692,11 +7668,19 @@ var BGLTerms = [
 				],
 				[
 					21,
+					64
+				],
+				[
+					21,
 					90
 				],
 				[
 					30,
 					64
+				],
+				[
+					30,
+					90
 				],
 				[
 					30,
@@ -5707,11 +7691,19 @@ var BGLTerms = [
 					64
 				],
 				[
+					51,
+					90
+				],
+				[
 					64,
 					90
 				],
 				[
 					30,
+					79
+				],
+				[
+					64,
 					79
 				],
 				[
@@ -5778,11 +7770,19 @@ var BGLTerms = [
 				],
 				[
 					10,
+					29
+				],
+				[
+					10,
 					33
 				],
 				[
 					10,
 					46
+				],
+				[
+					10,
+					59
 				],
 				[
 					10,
@@ -5794,6 +7794,10 @@ var BGLTerms = [
 				],
 				[
 					12,
+					29
+				],
+				[
+					12,
 					33
 				],
 				[
@@ -5802,11 +7806,19 @@ var BGLTerms = [
 				],
 				[
 					12,
+					59
+				],
+				[
+					12,
 					89
 				],
 				[
 					12,
 					97
+				],
+				[
+					12,
+					28
 				],
 				[
 					28,
@@ -5818,11 +7830,19 @@ var BGLTerms = [
 				],
 				[
 					28,
+					46
+				],
+				[
+					28,
 					59
 				],
 				[
 					28,
 					89
+				],
+				[
+					28,
+					97
 				],
 				[
 					29,
@@ -5834,11 +7854,19 @@ var BGLTerms = [
 				],
 				[
 					29,
+					59
+				],
+				[
+					29,
 					89
 				],
 				[
 					29,
 					97
+				],
+				[
+					12,
+					32
 				],
 				[
 					29,
@@ -5850,11 +7878,19 @@ var BGLTerms = [
 				],
 				[
 					32,
+					46
+				],
+				[
+					32,
 					59
 				],
 				[
 					32,
 					89
+				],
+				[
+					32,
+					97
 				],
 				[
 					33,
@@ -5863,6 +7899,10 @@ var BGLTerms = [
 				[
 					33,
 					59
+				],
+				[
+					33,
+					89
 				],
 				[
 					33,
@@ -5873,6 +7913,10 @@ var BGLTerms = [
 					34
 				],
 				[
+					29,
+					34
+				],
+				[
 					33,
 					34
 				],
@@ -5882,6 +7926,10 @@ var BGLTerms = [
 				],
 				[
 					34,
+					59
+				],
+				[
+					34,
 					89
 				],
 				[
@@ -5890,6 +7938,10 @@ var BGLTerms = [
 				],
 				[
 					46,
+					59
+				],
+				[
+					46,
 					89
 				],
 				[
@@ -5897,11 +7949,19 @@ var BGLTerms = [
 					97
 				],
 				[
+					12,
+					58
+				],
+				[
 					29,
 					58
 				],
 				[
 					33,
+					58
+				],
+				[
+					46,
 					58
 				],
 				[
@@ -5913,6 +7973,10 @@ var BGLTerms = [
 					89
 				],
 				[
+					58,
+					97
+				],
+				[
 					59,
 					89
 				],
@@ -5921,11 +7985,19 @@ var BGLTerms = [
 					97
 				],
 				[
+					12,
+					81
+				],
+				[
 					29,
 					81
 				],
 				[
 					33,
+					81
+				],
+				[
+					46,
 					81
 				],
 				[
@@ -5937,6 +8009,10 @@ var BGLTerms = [
 					89
 				],
 				[
+					81,
+					97
+				],
+				[
 					89,
 					97
 				],
@@ -5945,11 +8021,19 @@ var BGLTerms = [
 					93
 				],
 				[
+					29,
+					93
+				],
+				[
 					33,
 					93
 				],
 				[
 					46,
+					93
+				],
+				[
+					59,
 					93
 				],
 				[
@@ -5977,7 +8061,7 @@ var BGLTerms = [
 			},
 			"media": [
 				{
-					"video": "./media/40.mov"
+					"video": "./media/40.mp4"
 				}
 			]
 		},
@@ -6006,11 +8090,19 @@ var BGLTerms = [
 				],
 				[
 					18,
+					34
+				],
+				[
+					18,
 					44
 				],
 				[
 					18,
 					72
+				],
+				[
+					18,
+					80
 				],
 				[
 					18,
@@ -6022,6 +8114,10 @@ var BGLTerms = [
 				],
 				[
 					25,
+					34
+				],
+				[
+					25,
 					44
 				],
 				[
@@ -6030,11 +8126,19 @@ var BGLTerms = [
 				],
 				[
 					25,
+					80
+				],
+				[
+					25,
 					88
 				],
 				[
 					25,
 					92
+				],
+				[
+					25,
+					31
 				],
 				[
 					31,
@@ -6046,11 +8150,19 @@ var BGLTerms = [
 				],
 				[
 					31,
+					72
+				],
+				[
+					31,
 					80
 				],
 				[
 					31,
 					88
+				],
+				[
+					31,
+					92
 				],
 				[
 					34,
@@ -6062,11 +8174,19 @@ var BGLTerms = [
 				],
 				[
 					34,
+					80
+				],
+				[
+					34,
 					88
 				],
 				[
 					34,
 					92
+				],
+				[
+					25,
+					41
 				],
 				[
 					34,
@@ -6078,11 +8198,19 @@ var BGLTerms = [
 				],
 				[
 					41,
+					72
+				],
+				[
+					41,
 					80
 				],
 				[
 					41,
 					88
+				],
+				[
+					41,
+					92
 				],
 				[
 					44,
@@ -6091,6 +8219,10 @@ var BGLTerms = [
 				[
 					44,
 					80
+				],
+				[
+					44,
+					88
 				],
 				[
 					44,
@@ -6101,6 +8233,10 @@ var BGLTerms = [
 					68
 				],
 				[
+					34,
+					68
+				],
+				[
 					44,
 					68
 				],
@@ -6110,6 +8246,10 @@ var BGLTerms = [
 				],
 				[
 					68,
+					80
+				],
+				[
+					68,
 					88
 				],
 				[
@@ -6118,6 +8258,10 @@ var BGLTerms = [
 				],
 				[
 					72,
+					80
+				],
+				[
+					72,
 					88
 				],
 				[
@@ -6125,11 +8269,19 @@ var BGLTerms = [
 					92
 				],
 				[
+					25,
+					74
+				],
+				[
 					34,
 					74
 				],
 				[
 					44,
+					74
+				],
+				[
+					72,
 					74
 				],
 				[
@@ -6141,6 +8293,10 @@ var BGLTerms = [
 					88
 				],
 				[
+					74,
+					92
+				],
+				[
 					80,
 					88
 				],
@@ -6149,11 +8305,19 @@ var BGLTerms = [
 					92
 				],
 				[
+					25,
+					81
+				],
+				[
 					34,
 					81
 				],
 				[
 					44,
+					81
+				],
+				[
+					72,
 					81
 				],
 				[
@@ -6165,11 +8329,19 @@ var BGLTerms = [
 					88
 				],
 				[
+					81,
+					92
+				],
+				[
 					88,
 					92
 				],
 				[
 					25,
+					91
+				],
+				[
+					34,
 					91
 				],
 				[
@@ -6181,12 +8353,20 @@ var BGLTerms = [
 					91
 				],
 				[
+					80,
+					91
+				],
+				[
 					88,
 					91
 				],
 				[
 					91,
 					92
+				],
+				[
+					25,
+					94
 				],
 				[
 					34,
@@ -6197,11 +8377,19 @@ var BGLTerms = [
 					94
 				],
 				[
+					72,
+					94
+				],
+				[
 					80,
 					94
 				],
 				[
 					88,
+					94
+				],
+				[
+					92,
 					94
 				]
 			]
@@ -6213,10 +8401,10 @@ var BGLTerms = [
 		"theme": "red",
 		"content": {
 			"term_desc": "<p>&ldquo;Hacking the city&rdquo; means transforming a city through informal actions by its own inhabitants. Sociologist Saskia Sassen developed the idea for this form of grassroots participation as a means of avoiding the implosion of an imagined future city characterized by machinelike buildings. Hacking the city is a way for people to interact with their surroundings and revive cities through small or citywide actions.</p>",
-			"project_desc": "<p>Weekend Warrior was a weekly outdoor training program held at the Berlin Lab and its surrounding neighborhood and led by Arne Sch&amp;ouml;nwald, a Berlin-based sports scientist, trainer, and former high-performance athlete. Based on circuit training, CrossFit, boxing, and parkour, the program used the city as a ready-made gym and activated the entire urban environment as a site for training.</p>",
+			"project_desc": "<p>Weekend Warrior was a weekly outdoor training program held at the Berlin Lab and its surrounding neighborhood and led by Arne Sch&ouml;nwald, a Berlin-based sports scientist, trainer, and former high-performance athlete. Based on circuit training, CrossFit, boxing, and parkour, the program used the city as a ready-made gym and activated the entire urban environment as a site for training.</p>",
 			"project_meta": {
 				"location": "BMW Guggenheim Lab, Berlin",
-				"program": "Weekend Warrior: Outdoor Fitness with Arne Sch&amp;ouml;nwald",
+				"program": "Weekend Warrior: Outdoor Fitness with Arne Sch&ouml;nwald",
 				"date": "July 22&ndash;August 24, 2012\n\t\t\t"
 			},
 			"media": [
@@ -6269,6 +8457,10 @@ var BGLTerms = [
 				],
 				[
 					1,
+					8
+				],
+				[
+					1,
 					21
 				],
 				[
@@ -6277,11 +8469,19 @@ var BGLTerms = [
 				],
 				[
 					1,
+					49
+				],
+				[
+					1,
 					64
 				],
 				[
 					1,
 					84
+				],
+				[
+					1,
+					90
 				],
 				[
 					2,
@@ -6293,11 +8493,19 @@ var BGLTerms = [
 				],
 				[
 					2,
+					24
+				],
+				[
+					2,
 					49
 				],
 				[
 					2,
 					64
+				],
+				[
+					2,
+					84
 				],
 				[
 					2,
@@ -6309,11 +8517,19 @@ var BGLTerms = [
 				],
 				[
 					6,
+					8
+				],
+				[
+					6,
 					21
 				],
 				[
 					6,
 					24
+				],
+				[
+					6,
+					49
 				],
 				[
 					6,
@@ -6324,6 +8540,10 @@ var BGLTerms = [
 					84
 				],
 				[
+					6,
+					90
+				],
+				[
 					8,
 					21
 				],
@@ -6333,11 +8553,19 @@ var BGLTerms = [
 				],
 				[
 					8,
+					49
+				],
+				[
+					8,
 					64
 				],
 				[
 					8,
 					84
+				],
+				[
+					8,
+					90
 				],
 				[
 					2,
@@ -6349,11 +8577,19 @@ var BGLTerms = [
 				],
 				[
 					11,
+					21
+				],
+				[
+					11,
 					24
 				],
 				[
 					11,
 					49
+				],
+				[
+					11,
+					64
 				],
 				[
 					11,
@@ -6365,6 +8601,10 @@ var BGLTerms = [
 				],
 				[
 					21,
+					24
+				],
+				[
+					21,
 					49
 				],
 				[
@@ -6373,10 +8613,18 @@ var BGLTerms = [
 				],
 				[
 					21,
+					84
+				],
+				[
+					21,
 					90
 				],
 				[
 					2,
+					22
+				],
+				[
+					8,
 					22
 				],
 				[
@@ -6389,11 +8637,19 @@ var BGLTerms = [
 				],
 				[
 					22,
+					49
+				],
+				[
+					22,
 					64
 				],
 				[
 					22,
 					84
+				],
+				[
+					22,
+					90
 				],
 				[
 					24,
@@ -6405,10 +8661,18 @@ var BGLTerms = [
 				],
 				[
 					24,
+					84
+				],
+				[
+					24,
 					90
 				],
 				[
 					2,
+					30
+				],
+				[
+					8,
 					30
 				],
 				[
@@ -6421,6 +8685,10 @@ var BGLTerms = [
 				],
 				[
 					30,
+					49
+				],
+				[
+					30,
 					64
 				],
 				[
@@ -6428,12 +8696,20 @@ var BGLTerms = [
 					84
 				],
 				[
+					30,
+					90
+				],
+				[
 					49,
 					64
 				],
 				[
 					49,
 					84
+				],
+				[
+					49,
+					90
 				],
 				[
 					2,
@@ -6444,12 +8720,20 @@ var BGLTerms = [
 					52
 				],
 				[
+					21,
+					52
+				],
+				[
 					24,
 					52
 				],
 				[
 					49,
 					52
+				],
+				[
+					52,
+					64
 				],
 				[
 					52,
@@ -6461,10 +8745,18 @@ var BGLTerms = [
 				],
 				[
 					64,
+					84
+				],
+				[
+					64,
 					90
 				],
 				[
 					2,
+					66
+				],
+				[
+					8,
 					66
 				],
 				[
@@ -6473,6 +8765,10 @@ var BGLTerms = [
 				],
 				[
 					24,
+					66
+				],
+				[
+					49,
 					66
 				],
 				[
@@ -6484,11 +8780,19 @@ var BGLTerms = [
 					84
 				],
 				[
+					66,
+					90
+				],
+				[
 					84,
 					90
 				],
 				[
 					2,
+					89
+				],
+				[
+					8,
 					89
 				],
 				[
@@ -6500,12 +8804,20 @@ var BGLTerms = [
 					89
 				],
 				[
+					49,
+					89
+				],
+				[
 					64,
 					89
 				],
 				[
 					84,
 					89
+				],
+				[
+					89,
+					90
 				]
 			]
 		}
@@ -6580,11 +8892,19 @@ var BGLTerms = [
 				],
 				[
 					4,
+					17
+				],
+				[
+					4,
 					25
 				],
 				[
 					4,
 					39
+				],
+				[
+					4,
+					53
 				],
 				[
 					4,
@@ -6596,11 +8916,19 @@ var BGLTerms = [
 				],
 				[
 					4,
+					79
+				],
+				[
+					4,
 					81
 				],
 				[
 					4,
 					92
+				],
+				[
+					4,
+					95
 				],
 				[
 					4,
@@ -6612,11 +8940,19 @@ var BGLTerms = [
 				],
 				[
 					7,
+					25
+				],
+				[
+					7,
 					39
 				],
 				[
 					7,
 					53
+				],
+				[
+					7,
+					58
 				],
 				[
 					7,
@@ -6628,11 +8964,19 @@ var BGLTerms = [
 				],
 				[
 					7,
+					81
+				],
+				[
+					7,
 					92
 				],
 				[
 					7,
 					95
+				],
+				[
+					7,
+					98
 				],
 				[
 					7,
@@ -6644,11 +8988,19 @@ var BGLTerms = [
 				],
 				[
 					16,
+					25
+				],
+				[
+					16,
 					39
 				],
 				[
 					16,
 					53
+				],
+				[
+					16,
+					58
 				],
 				[
 					16,
@@ -6660,11 +9012,19 @@ var BGLTerms = [
 				],
 				[
 					16,
+					81
+				],
+				[
+					16,
 					92
 				],
 				[
 					16,
 					95
+				],
+				[
+					16,
+					98
 				],
 				[
 					17,
@@ -6676,11 +9036,19 @@ var BGLTerms = [
 				],
 				[
 					17,
+					53
+				],
+				[
+					17,
 					58
 				],
 				[
 					17,
 					72
+				],
+				[
+					17,
+					79
 				],
 				[
 					17,
@@ -6692,10 +9060,18 @@ var BGLTerms = [
 				],
 				[
 					17,
+					95
+				],
+				[
+					17,
 					98
 				],
 				[
 					7,
+					18
+				],
+				[
+					17,
 					18
 				],
 				[
@@ -6708,6 +9084,10 @@ var BGLTerms = [
 				],
 				[
 					18,
+					53
+				],
+				[
+					18,
 					58
 				],
 				[
@@ -6716,11 +9096,19 @@ var BGLTerms = [
 				],
 				[
 					18,
+					79
+				],
+				[
+					18,
 					81
 				],
 				[
 					18,
 					92
+				],
+				[
+					18,
+					95
 				],
 				[
 					18,
@@ -6732,11 +9120,19 @@ var BGLTerms = [
 				],
 				[
 					25,
+					53
+				],
+				[
+					25,
 					58
 				],
 				[
 					25,
 					72
+				],
+				[
+					25,
+					79
 				],
 				[
 					25,
@@ -6748,10 +9144,18 @@ var BGLTerms = [
 				],
 				[
 					25,
+					95
+				],
+				[
+					25,
 					98
 				],
 				[
 					7,
+					33
+				],
+				[
+					17,
 					33
 				],
 				[
@@ -6764,6 +9168,10 @@ var BGLTerms = [
 				],
 				[
 					33,
+					53
+				],
+				[
+					33,
 					58
 				],
 				[
@@ -6772,11 +9180,19 @@ var BGLTerms = [
 				],
 				[
 					33,
+					79
+				],
+				[
+					33,
 					81
 				],
 				[
 					33,
 					92
+				],
+				[
+					33,
+					95
 				],
 				[
 					33,
@@ -6788,11 +9204,19 @@ var BGLTerms = [
 				],
 				[
 					39,
+					58
+				],
+				[
+					39,
 					72
 				],
 				[
 					39,
 					79
+				],
+				[
+					39,
+					81
 				],
 				[
 					39,
@@ -6803,11 +9227,19 @@ var BGLTerms = [
 					95
 				],
 				[
+					39,
+					98
+				],
+				[
 					7,
 					46
 				],
 				[
 					17,
+					46
+				],
+				[
+					25,
 					46
 				],
 				[
@@ -6820,6 +9252,10 @@ var BGLTerms = [
 				],
 				[
 					46,
+					58
+				],
+				[
+					46,
 					72
 				],
 				[
@@ -6828,11 +9264,19 @@ var BGLTerms = [
 				],
 				[
 					46,
+					81
+				],
+				[
+					46,
 					92
 				],
 				[
 					46,
 					95
+				],
+				[
+					46,
+					98
 				],
 				[
 					53,
@@ -6844,11 +9288,19 @@ var BGLTerms = [
 				],
 				[
 					53,
+					79
+				],
+				[
+					53,
 					81
 				],
 				[
 					53,
 					92
+				],
+				[
+					53,
+					95
 				],
 				[
 					53,
@@ -6859,11 +9311,19 @@ var BGLTerms = [
 					56
 				],
 				[
+					17,
+					56
+				],
+				[
 					25,
 					56
 				],
 				[
 					39,
+					56
+				],
+				[
+					53,
 					56
 				],
 				[
@@ -6876,11 +9336,19 @@ var BGLTerms = [
 				],
 				[
 					56,
+					79
+				],
+				[
+					56,
 					81
 				],
 				[
 					56,
 					92
+				],
+				[
+					56,
+					95
 				],
 				[
 					56,
@@ -6892,6 +9360,10 @@ var BGLTerms = [
 				],
 				[
 					58,
+					79
+				],
+				[
+					58,
 					81
 				],
 				[
@@ -6900,10 +9372,18 @@ var BGLTerms = [
 				],
 				[
 					58,
+					95
+				],
+				[
+					58,
 					98
 				],
 				[
 					7,
+					68
+				],
+				[
+					17,
 					68
 				],
 				[
@@ -6915,12 +9395,20 @@ var BGLTerms = [
 					68
 				],
 				[
+					53,
+					68
+				],
+				[
 					58,
 					68
 				],
 				[
 					68,
 					72
+				],
+				[
+					68,
+					79
 				],
 				[
 					68,
@@ -6932,6 +9420,10 @@ var BGLTerms = [
 				],
 				[
 					68,
+					95
+				],
+				[
+					68,
 					98
 				],
 				[
@@ -6940,11 +9432,19 @@ var BGLTerms = [
 				],
 				[
 					72,
+					81
+				],
+				[
+					72,
 					92
 				],
 				[
 					72,
 					95
+				],
+				[
+					72,
+					98
 				],
 				[
 					7,
@@ -6955,11 +9455,19 @@ var BGLTerms = [
 					78
 				],
 				[
+					25,
+					78
+				],
+				[
 					39,
 					78
 				],
 				[
 					53,
+					78
+				],
+				[
+					58,
 					78
 				],
 				[
@@ -6972,6 +9480,10 @@ var BGLTerms = [
 				],
 				[
 					78,
+					81
+				],
+				[
+					78,
 					92
 				],
 				[
@@ -6979,6 +9491,10 @@ var BGLTerms = [
 					95
 				],
 				[
+					78,
+					98
+				],
+				[
 					79,
 					81
 				],
@@ -6988,10 +9504,18 @@ var BGLTerms = [
 				],
 				[
 					79,
+					95
+				],
+				[
+					79,
 					98
 				],
 				[
 					7,
+					80
+				],
+				[
+					17,
 					80
 				],
 				[
@@ -7003,11 +9527,19 @@ var BGLTerms = [
 					80
 				],
 				[
+					53,
+					80
+				],
+				[
 					58,
 					80
 				],
 				[
 					72,
+					80
+				],
+				[
+					79,
 					80
 				],
 				[
@@ -7020,6 +9552,10 @@ var BGLTerms = [
 				],
 				[
 					80,
+					95
+				],
+				[
+					80,
 					98
 				],
 				[
@@ -7028,10 +9564,18 @@ var BGLTerms = [
 				],
 				[
 					81,
+					95
+				],
+				[
+					81,
 					98
 				],
 				[
 					7,
+					87
+				],
+				[
+					17,
 					87
 				],
 				[
@@ -7043,11 +9587,19 @@ var BGLTerms = [
 					87
 				],
 				[
+					53,
+					87
+				],
+				[
 					58,
 					87
 				],
 				[
 					72,
+					87
+				],
+				[
+					79,
 					87
 				],
 				[
@@ -7057,6 +9609,10 @@ var BGLTerms = [
 				[
 					87,
 					92
+				],
+				[
+					87,
+					95
 				],
 				[
 					87,
@@ -7067,11 +9623,19 @@ var BGLTerms = [
 					95
 				],
 				[
+					92,
+					98
+				],
+				[
 					7,
 					94
 				],
 				[
 					17,
+					94
+				],
+				[
+					25,
 					94
 				],
 				[
@@ -7083,11 +9647,19 @@ var BGLTerms = [
 					94
 				],
 				[
+					58,
+					94
+				],
+				[
 					72,
 					94
 				],
 				[
 					79,
+					94
+				],
+				[
+					81,
 					94
 				],
 				[
@@ -7099,11 +9671,19 @@ var BGLTerms = [
 					95
 				],
 				[
+					94,
+					98
+				],
+				[
 					95,
 					98
 				],
 				[
 					7,
+					97
+				],
+				[
+					17,
 					97
 				],
 				[
@@ -7115,6 +9695,10 @@ var BGLTerms = [
 					97
 				],
 				[
+					53,
+					97
+				],
+				[
 					58,
 					97
 				],
@@ -7123,11 +9707,19 @@ var BGLTerms = [
 					97
 				],
 				[
+					79,
+					97
+				],
+				[
 					81,
 					97
 				],
 				[
 					92,
+					97
+				],
+				[
+					95,
 					97
 				],
 				[
@@ -7187,8 +9779,16 @@ var BGLTerms = [
 					31
 				],
 				[
+					27,
+					50
+				],
+				[
 					31,
 					50
+				],
+				[
+					31,
+					43
 				],
 				[
 					43,
@@ -7196,6 +9796,10 @@ var BGLTerms = [
 				],
 				[
 					31,
+					72
+				],
+				[
+					50,
 					72
 				]
 			]
@@ -7250,11 +9854,19 @@ var BGLTerms = [
 				],
 				[
 					17,
+					24
+				],
+				[
+					17,
 					46
 				],
 				[
 					17,
 					51
+				],
+				[
+					17,
+					60
 				],
 				[
 					17,
@@ -7266,11 +9878,19 @@ var BGLTerms = [
 				],
 				[
 					18,
+					46
+				],
+				[
+					18,
 					51
 				],
 				[
 					18,
 					60
+				],
+				[
+					18,
+					77
 				],
 				[
 					18,
@@ -7282,11 +9902,19 @@ var BGLTerms = [
 				],
 				[
 					20,
+					46
+				],
+				[
+					20,
 					51
 				],
 				[
 					20,
 					60
+				],
+				[
+					20,
+					77
 				],
 				[
 					24,
@@ -7298,10 +9926,18 @@ var BGLTerms = [
 				],
 				[
 					24,
+					60
+				],
+				[
+					24,
 					77
 				],
 				[
 					18,
+					42
+				],
+				[
+					24,
 					42
 				],
 				[
@@ -7314,11 +9950,19 @@ var BGLTerms = [
 				],
 				[
 					42,
+					60
+				],
+				[
+					42,
 					77
 				],
 				[
 					46,
 					51
+				],
+				[
+					46,
+					60
 				],
 				[
 					46,
@@ -7329,12 +9973,20 @@ var BGLTerms = [
 					49
 				],
 				[
+					24,
+					49
+				],
+				[
 					46,
 					49
 				],
 				[
 					49,
 					51
+				],
+				[
+					49,
+					60
 				],
 				[
 					49,
@@ -7345,11 +9997,19 @@ var BGLTerms = [
 					60
 				],
 				[
+					51,
+					77
+				],
+				[
 					18,
 					53
 				],
 				[
 					24,
+					53
+				],
+				[
+					46,
 					53
 				],
 				[
@@ -7361,6 +10021,10 @@ var BGLTerms = [
 					60
 				],
 				[
+					53,
+					77
+				],
+				[
 					60,
 					77
 				],
@@ -7369,11 +10033,19 @@ var BGLTerms = [
 					67
 				],
 				[
+					24,
+					67
+				],
+				[
 					46,
 					67
 				],
 				[
 					51,
+					67
+				],
+				[
+					60,
 					67
 				],
 				[
@@ -7465,6 +10137,10 @@ var BGLTerms = [
 				],
 				[
 					9,
+					25
+				],
+				[
+					9,
 					46
 				],
 				[
@@ -7473,11 +10149,19 @@ var BGLTerms = [
 				],
 				[
 					14,
+					25
+				],
+				[
+					14,
 					46
 				],
 				[
 					14,
 					75
+				],
+				[
+					14,
+					22
 				],
 				[
 					22,
@@ -7488,12 +10172,20 @@ var BGLTerms = [
 					46
 				],
 				[
+					22,
+					75
+				],
+				[
 					25,
 					46
 				],
 				[
 					25,
 					75
+				],
+				[
+					14,
+					39
 				],
 				[
 					25,
@@ -7504,11 +10196,19 @@ var BGLTerms = [
 					46
 				],
 				[
+					39,
+					75
+				],
+				[
 					46,
 					75
 				],
 				[
 					14,
+					56
+				],
+				[
+					25,
 					56
 				],
 				[
@@ -7520,11 +10220,19 @@ var BGLTerms = [
 					75
 				],
 				[
+					14,
+					76
+				],
+				[
 					25,
 					76
 				],
 				[
 					46,
+					76
+				],
+				[
+					75,
 					76
 				]
 			]
@@ -7597,8 +10305,16 @@ var BGLTerms = [
 					46
 				],
 				[
+					9,
+					86
+				],
+				[
 					46,
 					86
+				],
+				[
+					46,
+					76
 				],
 				[
 					76,
@@ -7661,6 +10377,10 @@ var BGLTerms = [
 				],
 				[
 					9,
+					21
+				],
+				[
+					9,
 					36
 				],
 				[
@@ -7669,11 +10389,19 @@ var BGLTerms = [
 				],
 				[
 					9,
+					44
+				],
+				[
+					9,
 					53
 				],
 				[
 					9,
 					73
+				],
+				[
+					9,
+					79
 				],
 				[
 					16,
@@ -7685,11 +10413,19 @@ var BGLTerms = [
 				],
 				[
 					16,
+					41
+				],
+				[
+					16,
 					44
 				],
 				[
 					16,
 					53
+				],
+				[
+					16,
+					73
 				],
 				[
 					16,
@@ -7701,11 +10437,19 @@ var BGLTerms = [
 				],
 				[
 					18,
+					21
+				],
+				[
+					18,
 					36
 				],
 				[
 					18,
 					41
+				],
+				[
+					18,
+					44
 				],
 				[
 					18,
@@ -7716,6 +10460,10 @@ var BGLTerms = [
 					73
 				],
 				[
+					18,
+					79
+				],
+				[
 					21,
 					36
 				],
@@ -7725,11 +10473,19 @@ var BGLTerms = [
 				],
 				[
 					21,
+					44
+				],
+				[
+					21,
 					53
 				],
 				[
 					21,
 					73
+				],
+				[
+					21,
+					79
 				],
 				[
 					16,
@@ -7741,11 +10497,19 @@ var BGLTerms = [
 				],
 				[
 					24,
+					36
+				],
+				[
+					24,
 					41
 				],
 				[
 					24,
 					44
+				],
+				[
+					24,
+					53
 				],
 				[
 					24,
@@ -7757,6 +10521,10 @@ var BGLTerms = [
 				],
 				[
 					36,
+					41
+				],
+				[
+					36,
 					44
 				],
 				[
@@ -7765,10 +10533,18 @@ var BGLTerms = [
 				],
 				[
 					36,
+					73
+				],
+				[
+					36,
 					79
 				],
 				[
 					16,
+					38
+				],
+				[
+					21,
 					38
 				],
 				[
@@ -7781,11 +10557,19 @@ var BGLTerms = [
 				],
 				[
 					38,
+					44
+				],
+				[
+					38,
 					53
 				],
 				[
 					38,
 					73
+				],
+				[
+					38,
+					79
 				],
 				[
 					41,
@@ -7797,10 +10581,18 @@ var BGLTerms = [
 				],
 				[
 					41,
+					73
+				],
+				[
+					41,
 					79
 				],
 				[
 					16,
+					43
+				],
+				[
+					21,
 					43
 				],
 				[
@@ -7813,6 +10605,10 @@ var BGLTerms = [
 				],
 				[
 					43,
+					44
+				],
+				[
+					43,
 					53
 				],
 				[
@@ -7820,12 +10616,20 @@ var BGLTerms = [
 					73
 				],
 				[
+					43,
+					79
+				],
+				[
 					44,
 					53
 				],
 				[
 					44,
 					73
+				],
+				[
+					44,
+					79
 				],
 				[
 					16,
@@ -7836,12 +10640,20 @@ var BGLTerms = [
 					45
 				],
 				[
+					36,
+					45
+				],
+				[
 					41,
 					45
 				],
 				[
 					44,
 					45
+				],
+				[
+					45,
+					53
 				],
 				[
 					45,
@@ -7853,10 +10665,18 @@ var BGLTerms = [
 				],
 				[
 					53,
+					73
+				],
+				[
+					53,
 					79
 				],
 				[
 					16,
+					63
+				],
+				[
+					21,
 					63
 				],
 				[
@@ -7865,6 +10685,10 @@ var BGLTerms = [
 				],
 				[
 					41,
+					63
+				],
+				[
+					44,
 					63
 				],
 				[
@@ -7876,11 +10700,19 @@ var BGLTerms = [
 					73
 				],
 				[
+					63,
+					79
+				],
+				[
 					73,
 					79
 				],
 				[
 					16,
+					74
+				],
+				[
+					21,
 					74
 				],
 				[
@@ -7892,12 +10724,20 @@ var BGLTerms = [
 					74
 				],
 				[
+					44,
+					74
+				],
+				[
 					53,
 					74
 				],
 				[
 					73,
 					74
+				],
+				[
+					74,
+					79
 				],
 				[
 					16,
@@ -7908,11 +10748,19 @@ var BGLTerms = [
 					94
 				],
 				[
+					36,
+					94
+				],
+				[
 					41,
 					94
 				],
 				[
 					44,
+					94
+				],
+				[
+					53,
 					94
 				],
 				[
@@ -7940,7 +10788,7 @@ var BGLTerms = [
 			},
 			"media": [
 				{
-					"video": "./media/48.mov"
+					"video": "./media/48.mp4"
 				}
 			]
 		},
@@ -7958,8 +10806,16 @@ var BGLTerms = [
 					13
 				],
 				[
+					3,
+					68
+				],
+				[
 					13,
 					68
+				],
+				[
+					13,
+					16
 				],
 				[
 					16,
@@ -7967,6 +10823,10 @@ var BGLTerms = [
 				],
 				[
 					13,
+					93
+				],
+				[
+					68,
 					93
 				]
 			]
@@ -8007,11 +10867,19 @@ var BGLTerms = [
 				],
 				[
 					33,
+					60
+				],
+				[
+					33,
 					88
 				],
 				[
 					49,
 					60
+				],
+				[
+					49,
+					88
 				],
 				[
 					49,
@@ -8022,6 +10890,10 @@ var BGLTerms = [
 					60
 				],
 				[
+					51,
+					88
+				],
+				[
 					60,
 					88
 				],
@@ -8030,11 +10902,19 @@ var BGLTerms = [
 					87
 				],
 				[
+					60,
+					87
+				],
+				[
 					87,
 					88
 				],
 				[
 					49,
+					96
+				],
+				[
+					60,
 					96
 				],
 				[
@@ -8096,11 +10976,19 @@ var BGLTerms = [
 				],
 				[
 					1,
+					21
+				],
+				[
+					1,
 					43
 				],
 				[
 					1,
 					60
+				],
+				[
+					1,
+					64
 				],
 				[
 					1,
@@ -8112,11 +11000,19 @@ var BGLTerms = [
 				],
 				[
 					2,
+					43
+				],
+				[
+					2,
 					60
 				],
 				[
 					2,
 					64
+				],
+				[
+					2,
+					68
 				],
 				[
 					2,
@@ -8128,11 +11024,19 @@ var BGLTerms = [
 				],
 				[
 					6,
+					43
+				],
+				[
+					6,
 					60
 				],
 				[
 					6,
 					64
+				],
+				[
+					6,
+					68
 				],
 				[
 					21,
@@ -8144,10 +11048,18 @@ var BGLTerms = [
 				],
 				[
 					21,
+					64
+				],
+				[
+					21,
 					68
 				],
 				[
 					2,
+					40
+				],
+				[
+					21,
 					40
 				],
 				[
@@ -8160,11 +11072,19 @@ var BGLTerms = [
 				],
 				[
 					40,
+					64
+				],
+				[
+					40,
 					68
 				],
 				[
 					43,
 					60
+				],
+				[
+					43,
+					64
 				],
 				[
 					43,
@@ -8175,6 +11095,10 @@ var BGLTerms = [
 					48
 				],
 				[
+					21,
+					48
+				],
+				[
 					43,
 					48
 				],
@@ -8184,11 +11108,19 @@ var BGLTerms = [
 				],
 				[
 					48,
+					64
+				],
+				[
+					48,
 					68
 				],
 				[
 					60,
 					64
+				],
+				[
+					60,
+					68
 				],
 				[
 					2,
@@ -8199,12 +11131,20 @@ var BGLTerms = [
 					52
 				],
 				[
+					43,
+					52
+				],
+				[
 					52,
 					60
 				],
 				[
 					52,
 					64
+				],
+				[
+					52,
+					68
 				],
 				[
 					64,
@@ -8215,11 +11155,19 @@ var BGLTerms = [
 					66
 				],
 				[
+					21,
+					66
+				],
+				[
 					43,
 					66
 				],
 				[
 					60,
+					66
+				],
+				[
+					64,
 					66
 				],
 				[
@@ -8291,11 +11239,19 @@ var BGLTerms = [
 				],
 				[
 					18,
+					42
+				],
+				[
+					18,
 					80
 				],
 				[
 					34,
 					42
+				],
+				[
+					34,
+					80
 				],
 				[
 					34,
@@ -8306,6 +11262,10 @@ var BGLTerms = [
 					42
 				],
 				[
+					36,
+					80
+				],
+				[
 					42,
 					80
 				],
@@ -8314,11 +11274,19 @@ var BGLTerms = [
 					51
 				],
 				[
+					42,
+					51
+				],
+				[
 					51,
 					80
 				],
 				[
 					34,
+					91
+				],
+				[
+					42,
 					91
 				],
 				[
@@ -8396,6 +11364,10 @@ var BGLTerms = [
 				],
 				[
 					3,
+					11
+				],
+				[
+					3,
 					15
 				],
 				[
@@ -8404,11 +11376,19 @@ var BGLTerms = [
 				],
 				[
 					3,
+					43
+				],
+				[
+					3,
 					50
 				],
 				[
 					3,
 					79
+				],
+				[
+					3,
+					93
 				],
 				[
 					5,
@@ -8420,11 +11400,19 @@ var BGLTerms = [
 				],
 				[
 					5,
+					26
+				],
+				[
+					5,
 					43
 				],
 				[
 					5,
 					50
+				],
+				[
+					5,
+					79
 				],
 				[
 					5,
@@ -8436,11 +11424,19 @@ var BGLTerms = [
 				],
 				[
 					8,
+					11
+				],
+				[
+					8,
 					15
 				],
 				[
 					8,
 					26
+				],
+				[
+					8,
+					43
 				],
 				[
 					8,
@@ -8451,6 +11447,10 @@ var BGLTerms = [
 					79
 				],
 				[
+					8,
+					93
+				],
+				[
 					11,
 					15
 				],
@@ -8460,11 +11460,19 @@ var BGLTerms = [
 				],
 				[
 					11,
+					43
+				],
+				[
+					11,
 					50
 				],
 				[
 					11,
 					79
+				],
+				[
+					11,
+					93
 				],
 				[
 					5,
@@ -8476,11 +11484,19 @@ var BGLTerms = [
 				],
 				[
 					13,
+					15
+				],
+				[
+					13,
 					26
 				],
 				[
 					13,
 					43
+				],
+				[
+					13,
+					50
 				],
 				[
 					13,
@@ -8492,6 +11508,10 @@ var BGLTerms = [
 				],
 				[
 					15,
+					26
+				],
+				[
+					15,
 					43
 				],
 				[
@@ -8500,10 +11520,18 @@ var BGLTerms = [
 				],
 				[
 					15,
+					79
+				],
+				[
+					15,
 					93
 				],
 				[
 					5,
+					16
+				],
+				[
+					11,
 					16
 				],
 				[
@@ -8516,11 +11544,19 @@ var BGLTerms = [
 				],
 				[
 					16,
+					43
+				],
+				[
+					16,
 					50
 				],
 				[
 					16,
 					79
+				],
+				[
+					16,
+					93
 				],
 				[
 					26,
@@ -8532,10 +11568,18 @@ var BGLTerms = [
 				],
 				[
 					26,
+					79
+				],
+				[
+					26,
 					93
 				],
 				[
 					5,
+					37
+				],
+				[
+					11,
 					37
 				],
 				[
@@ -8548,6 +11592,10 @@ var BGLTerms = [
 				],
 				[
 					37,
+					43
+				],
+				[
+					37,
 					50
 				],
 				[
@@ -8555,12 +11603,20 @@ var BGLTerms = [
 					79
 				],
 				[
+					37,
+					93
+				],
+				[
 					43,
 					50
 				],
 				[
 					43,
 					79
+				],
+				[
+					43,
+					93
 				],
 				[
 					5,
@@ -8571,12 +11627,20 @@ var BGLTerms = [
 					48
 				],
 				[
+					15,
+					48
+				],
+				[
 					26,
 					48
 				],
 				[
 					43,
 					48
+				],
+				[
+					48,
+					50
 				],
 				[
 					48,
@@ -8588,10 +11652,18 @@ var BGLTerms = [
 				],
 				[
 					50,
+					79
+				],
+				[
+					50,
 					93
 				],
 				[
 					5,
+					66
+				],
+				[
+					11,
 					66
 				],
 				[
@@ -8600,6 +11672,10 @@ var BGLTerms = [
 				],
 				[
 					26,
+					66
+				],
+				[
+					43,
 					66
 				],
 				[
@@ -8611,11 +11687,19 @@ var BGLTerms = [
 					79
 				],
 				[
+					66,
+					93
+				],
+				[
 					79,
 					93
 				],
 				[
 					5,
+					91
+				],
+				[
+					11,
 					91
 				],
 				[
@@ -8627,12 +11711,20 @@ var BGLTerms = [
 					91
 				],
 				[
+					43,
+					91
+				],
+				[
 					50,
 					91
 				],
 				[
 					79,
 					91
+				],
+				[
+					91,
+					93
 				]
 			]
 		}
@@ -8651,7 +11743,7 @@ var BGLTerms = [
 			},
 			"media": [
 				{
-					"video": "./media/53.mov"
+					"video": "./media/53.mp4"
 				}
 			]
 		},
@@ -8678,11 +11770,19 @@ var BGLTerms = [
 				],
 				[
 					1,
+					22
+				],
+				[
+					1,
 					40
 				],
 				[
 					1,
 					64
+				],
+				[
+					1,
+					68
 				],
 				[
 					1,
@@ -8694,11 +11794,19 @@ var BGLTerms = [
 				],
 				[
 					6,
+					40
+				],
+				[
+					6,
 					64
 				],
 				[
 					6,
 					68
+				],
+				[
+					6,
+					84
 				],
 				[
 					6,
@@ -8710,11 +11818,19 @@ var BGLTerms = [
 				],
 				[
 					8,
+					40
+				],
+				[
+					8,
 					64
 				],
 				[
 					8,
 					68
+				],
+				[
+					8,
+					84
 				],
 				[
 					22,
@@ -8726,10 +11842,18 @@ var BGLTerms = [
 				],
 				[
 					22,
+					68
+				],
+				[
+					22,
 					84
 				],
 				[
 					6,
+					30
+				],
+				[
+					22,
 					30
 				],
 				[
@@ -8742,11 +11866,19 @@ var BGLTerms = [
 				],
 				[
 					30,
+					68
+				],
+				[
+					30,
 					84
 				],
 				[
 					40,
 					64
+				],
+				[
+					40,
+					68
 				],
 				[
 					40,
@@ -8757,6 +11889,10 @@ var BGLTerms = [
 					49
 				],
 				[
+					22,
+					49
+				],
+				[
 					40,
 					49
 				],
@@ -8766,11 +11902,19 @@ var BGLTerms = [
 				],
 				[
 					49,
+					68
+				],
+				[
+					49,
 					84
 				],
 				[
 					64,
 					68
+				],
+				[
+					64,
+					84
 				],
 				[
 					6,
@@ -8781,12 +11925,20 @@ var BGLTerms = [
 					60
 				],
 				[
+					40,
+					60
+				],
+				[
 					60,
 					64
 				],
 				[
 					60,
 					68
+				],
+				[
+					60,
+					84
 				],
 				[
 					68,
@@ -8797,11 +11949,19 @@ var BGLTerms = [
 					74
 				],
 				[
+					22,
+					74
+				],
+				[
 					40,
 					74
 				],
 				[
 					64,
+					74
+				],
+				[
+					68,
 					74
 				],
 				[
@@ -8813,11 +11973,19 @@ var BGLTerms = [
 					89
 				],
 				[
+					22,
+					89
+				],
+				[
 					40,
 					89
 				],
 				[
 					64,
+					89
+				],
+				[
+					68,
 					89
 				],
 				[
@@ -8833,10 +12001,10 @@ var BGLTerms = [
 		"theme": "blue-light",
 		"content": {
 			"term_desc": "<p>&ldquo;ME=WE,&rdquo; a phrase coined by the Mumbai Lab Team, refers to the interconnected and constantly shifting needs of the individual (&ldquo;me&rdquo;) and community (&ldquo;we&rdquo;), which shape city life. Individual needs, actions, and decisions ultimately affect those of the community, and vice versa. Examining how citizens negotiate the blurred concepts of the &ldquo;me&rdquo; and &ldquo;we&rdquo; in their urban environment may redefine notions of individual and community, private and public, and part and whole, which can inform urban design for the future.</p>",
-			"project_desc": "<p>The Mobile Lab Units brought together temporary off-site Lab structures with informal flash mobs and a song written for the Lab. The interventions&mdash;which were experienced in or around the Lab&#39;s satellite locations&mdash;heightened awareness of the Lab&#39;s presence and the message of ME=WE, welcoming onlookers to participate in the festive events. The Mobile Lab Units project was spearheaded by Mumbai Lab Team member H&amp;eacute;ctor Zamora with Lab program consultant Swati Abhijit.</p>",
+			"project_desc": "<p>The Mobile Lab Units brought together temporary off-site Lab structures with informal flash mobs and a song written for the Lab. The interventions&mdash;which were experienced in or around the Lab&#39;s satellite locations&mdash;heightened awareness of the Lab&#39;s presence and the message of ME=WE, welcoming onlookers to participate in the festive events. The Mobile Lab Units project was spearheaded by Mumbai Lab Team member H&eacute;ctor Zamora with Lab program consultant Swati Abhijit.</p>",
 			"project_meta": {
 				"location": "BMW Guggenheim Lab, Mumbai",
-				"program": "Mobile Lab Units<br>H&amp;eacute;ctor Zamora, Mumbai Lab Team member",
+				"program": "Mobile Lab Units<br>H&eacute;ctor Zamora, Mumbai Lab Team member",
 				"date": "December 9, 2012&ndash;January 20, 2013"
 			},
 			"media": [
@@ -8887,11 +12055,19 @@ var BGLTerms = [
 				],
 				[
 					0,
+					7
+				],
+				[
+					0,
 					16
 				],
 				[
 					0,
 					41
+				],
+				[
+					0,
+					46
 				],
 				[
 					0,
@@ -8903,6 +12079,10 @@ var BGLTerms = [
 				],
 				[
 					2,
+					7
+				],
+				[
+					2,
 					16
 				],
 				[
@@ -8911,11 +12091,19 @@ var BGLTerms = [
 				],
 				[
 					2,
+					46
+				],
+				[
+					2,
 					62
 				],
 				[
 					2,
 					79
+				],
+				[
+					2,
+					4
 				],
 				[
 					4,
@@ -8927,11 +12115,19 @@ var BGLTerms = [
 				],
 				[
 					4,
+					41
+				],
+				[
+					4,
 					46
 				],
 				[
 					4,
 					62
+				],
+				[
+					4,
+					79
 				],
 				[
 					7,
@@ -8943,11 +12139,19 @@ var BGLTerms = [
 				],
 				[
 					7,
+					46
+				],
+				[
+					7,
 					62
 				],
 				[
 					7,
 					79
+				],
+				[
+					2,
+					15
 				],
 				[
 					7,
@@ -8959,11 +12163,19 @@ var BGLTerms = [
 				],
 				[
 					15,
+					41
+				],
+				[
+					15,
 					46
 				],
 				[
 					15,
 					62
+				],
+				[
+					15,
+					79
 				],
 				[
 					16,
@@ -8972,6 +12184,10 @@ var BGLTerms = [
 				[
 					16,
 					46
+				],
+				[
+					16,
+					62
 				],
 				[
 					16,
@@ -8982,6 +12198,10 @@ var BGLTerms = [
 					18
 				],
 				[
+					7,
+					18
+				],
+				[
 					16,
 					18
 				],
@@ -8991,6 +12211,10 @@ var BGLTerms = [
 				],
 				[
 					18,
+					46
+				],
+				[
+					18,
 					62
 				],
 				[
@@ -8999,6 +12223,10 @@ var BGLTerms = [
 				],
 				[
 					41,
+					46
+				],
+				[
+					41,
 					62
 				],
 				[
@@ -9006,11 +12234,19 @@ var BGLTerms = [
 					79
 				],
 				[
+					2,
+					43
+				],
+				[
 					7,
 					43
 				],
 				[
 					16,
+					43
+				],
+				[
+					41,
 					43
 				],
 				[
@@ -9022,6 +12258,10 @@ var BGLTerms = [
 					62
 				],
 				[
+					43,
+					79
+				],
+				[
 					46,
 					62
 				],
@@ -9030,11 +12270,19 @@ var BGLTerms = [
 					79
 				],
 				[
+					2,
+					58
+				],
+				[
 					7,
 					58
 				],
 				[
 					16,
+					58
+				],
+				[
+					41,
 					58
 				],
 				[
@@ -9046,6 +12294,10 @@ var BGLTerms = [
 					62
 				],
 				[
+					58,
+					79
+				],
+				[
 					62,
 					79
 				],
@@ -9054,11 +12306,19 @@ var BGLTerms = [
 					74
 				],
 				[
+					7,
+					74
+				],
+				[
 					16,
 					74
 				],
 				[
 					41,
+					74
+				],
+				[
+					46,
 					74
 				],
 				[
@@ -9074,11 +12334,11 @@ var BGLTerms = [
 	},
 	{
 		"number": "55",
-		"name": "Mega Projects",
+		"name": "Megaprojects",
 		"theme": "blue-light",
 		"content": {
-			"term_desc": "<p>Mega Projects are exceptionally large-scale investment projects, such as bridges, tunnels, highways, railways, and airports that typically cost more than one billion dollars. Critics have assailed mega projects for their top-down planning approaches and for the fact that the communities most affected by the initiatives are often disregarded in the planning process. While not always financially advantageous, desired by the general public, or environmentally friendly, mega project investments have been used by governments as a tactic to stimulate economies.</p>",
-			"project_desc": "<p>Rethinking Skywalks and Sealinks focused on the Bandra-Worli Sea Link. This controversial mega project bridge has garnered criticism for its massive expense, poor traffic design, and lack of accessibility and availability to the majority of the city&#39;s residents, due to the prohibitive cost of its toll.</p>",
+			"term_desc": "<p>Megaprojects are exceptionally large-scale investment projects, such as bridges, tunnels, highways, railways, and airports that typically cost more than one billion dollars. Critics have assailed megaprojects for their top-down planning approaches and for the fact that the communities most affected by the initiatives are often disregarded in the planning process. While not always financially advantageous, desired by the general public, or environmentally friendly, megaproject investments have been used by governments as a tactic to stimulate economies.</p>",
+			"project_desc": "<p>Rethinking Skywalks and Sealinks focused on the Bandra-Worli Sea Link. This controversial megaproject bridge has garnered criticism for its massive expense, poor traffic design, and lack of accessibility and availability to the majority of the city&#39;s residents, due to the prohibitive cost of its toll.</p>",
 			"project_meta": {
 				"location": "BMW Guggenheim Lab, Mumbai, Dr. Bhau Daji Lad Museum",
 				"program": "Rethinking Skywalks and Sealinks\n\t\t\t",
@@ -9124,6 +12384,10 @@ var BGLTerms = [
 				],
 				[
 					5,
+					35
+				],
+				[
+					5,
 					67
 				],
 				[
@@ -9132,11 +12396,19 @@ var BGLTerms = [
 				],
 				[
 					10,
+					35
+				],
+				[
+					10,
 					67
 				],
 				[
 					10,
 					82
+				],
+				[
+					10,
+					28
 				],
 				[
 					28,
@@ -9147,12 +12419,20 @@ var BGLTerms = [
 					67
 				],
 				[
+					28,
+					82
+				],
+				[
 					35,
 					67
 				],
 				[
 					35,
 					82
+				],
+				[
+					10,
+					59
 				],
 				[
 					35,
@@ -9163,11 +12443,19 @@ var BGLTerms = [
 					67
 				],
 				[
+					59,
+					82
+				],
+				[
 					67,
 					82
 				],
 				[
 					10,
+					73
+				],
+				[
+					35,
 					73
 				],
 				[
@@ -9179,11 +12467,19 @@ var BGLTerms = [
 					82
 				],
 				[
+					10,
+					99
+				],
+				[
 					35,
 					99
 				],
 				[
 					67,
+					99
+				],
+				[
+					82,
 					99
 				]
 			]
@@ -9245,8 +12541,16 @@ var BGLTerms = [
 					22
 				],
 				[
+					19,
+					61
+				],
+				[
 					22,
 					61
+				],
+				[
+					22,
+					25
 				],
 				[
 					25,
@@ -9254,6 +12558,10 @@ var BGLTerms = [
 				],
 				[
 					22,
+					82
+				],
+				[
+					61,
 					82
 				]
 			]
@@ -9325,6 +12633,10 @@ var BGLTerms = [
 				],
 				[
 					3,
+					41
+				],
+				[
+					3,
 					72
 				],
 				[
@@ -9333,11 +12645,19 @@ var BGLTerms = [
 				],
 				[
 					5,
+					41
+				],
+				[
+					5,
 					72
 				],
 				[
 					5,
 					99
+				],
+				[
+					5,
+					25
 				],
 				[
 					25,
@@ -9348,12 +12668,20 @@ var BGLTerms = [
 					72
 				],
 				[
+					25,
+					99
+				],
+				[
 					41,
 					72
 				],
 				[
 					41,
 					99
+				],
+				[
+					5,
+					44
 				],
 				[
 					41,
@@ -9364,11 +12692,19 @@ var BGLTerms = [
 					72
 				],
 				[
+					44,
+					99
+				],
+				[
 					72,
 					99
 				],
 				[
 					5,
+					82
+				],
+				[
+					41,
 					82
 				],
 				[
@@ -9396,7 +12732,7 @@ var BGLTerms = [
 			},
 			"media": [
 				{
-					"video": "./media/58.mov"
+					"video": "./media/58.mp4"
 				}
 			]
 		},
@@ -9467,6 +12803,10 @@ var BGLTerms = [
 				],
 				[
 					13,
+					41
+				],
+				[
+					13,
 					72
 				],
 				[
@@ -9475,11 +12815,19 @@ var BGLTerms = [
 				],
 				[
 					16,
+					41
+				],
+				[
+					16,
 					72
 				],
 				[
 					16,
 					87
+				],
+				[
+					16,
+					38
 				],
 				[
 					38,
@@ -9490,12 +12838,20 @@ var BGLTerms = [
 					72
 				],
 				[
+					38,
+					87
+				],
+				[
 					41,
 					72
 				],
 				[
 					41,
 					87
+				],
+				[
+					16,
+					53
 				],
 				[
 					41,
@@ -9506,11 +12862,19 @@ var BGLTerms = [
 					72
 				],
 				[
+					53,
+					87
+				],
+				[
 					72,
 					87
 				],
 				[
 					16,
+					77
+				],
+				[
+					41,
 					77
 				],
 				[
@@ -9522,11 +12886,19 @@ var BGLTerms = [
 					87
 				],
 				[
+					16,
+					93
+				],
+				[
 					41,
 					93
 				],
 				[
 					72,
+					93
+				],
+				[
+					87,
 					93
 				]
 			]
@@ -9580,6 +12952,10 @@ var BGLTerms = [
 				],
 				[
 					5,
+					28
+				],
+				[
+					5,
 					54
 				],
 				[
@@ -9588,11 +12964,19 @@ var BGLTerms = [
 				],
 				[
 					10,
+					28
+				],
+				[
+					10,
 					54
 				],
 				[
 					10,
 					93
+				],
+				[
+					10,
+					27
 				],
 				[
 					27,
@@ -9603,12 +12987,20 @@ var BGLTerms = [
 					54
 				],
 				[
+					27,
+					93
+				],
+				[
 					28,
 					54
 				],
 				[
 					28,
 					93
+				],
+				[
+					10,
+					38
 				],
 				[
 					28,
@@ -9619,11 +13011,19 @@ var BGLTerms = [
 					54
 				],
 				[
+					38,
+					93
+				],
+				[
 					54,
 					93
 				],
 				[
 					10,
+					77
+				],
+				[
+					28,
 					77
 				],
 				[
@@ -9643,7 +13043,7 @@ var BGLTerms = [
 		"theme": "green",
 		"content": {
 			"term_desc": "<p>A non-expert is an individual who engages in an activity despite having no formal training or background in it. This type of participation is essential to city development. Non-experts have powerful lived experiences that can be harnessed as valuable resources for identifying city issues and solutions. The role of the non-expert is of particular importance within the rise of crowdsourced urban initiatives. </p>",
-			"project_desc": "<p>Field Trips was led by William Schwartz and Derya G&amp;ouml;rg&amp;uuml;, who organized seven unique excursions throughout Berlin, serving as platforms for collective exploration and knowledge sharing. Each week the itinerant lecture series encountered and received personal presentations from residents of Berlin in their homes, workplaces, and other unconventional settings. Meandering by bike through main streets, side streets, and dirt roads, participants cycled from one site to the next. Over the two-month period, they eventually traveled through each of the city&#39;s twelve boroughs.</p>",
+			"project_desc": "<p>Field Trips was led by William Schwartz and Derya G&ouml;rg&uuml;, who organized seven unique excursions throughout Berlin, serving as platforms for collective exploration and knowledge sharing. Each week the itinerant lecture series encountered and received personal presentations from residents of Berlin in their homes, workplaces, and other unconventional settings. Meandering by bike through main streets, side streets, and dirt roads, participants cycled from one site to the next. Over the two-month period, they eventually traveled through each of the city&#39;s twelve boroughs.</p>",
 			"project_meta": {
 				"location": "BMW Guggenheim Lab, Berlin",
 				"program": "Field Trips",
@@ -9706,6 +13106,10 @@ var BGLTerms = [
 				],
 				[
 					2,
+					48
+				],
+				[
+					2,
 					52
 				],
 				[
@@ -9714,11 +13118,19 @@ var BGLTerms = [
 				],
 				[
 					21,
+					48
+				],
+				[
+					21,
 					52
 				],
 				[
 					21,
 					66
+				],
+				[
+					21,
+					43
 				],
 				[
 					43,
@@ -9729,12 +13141,20 @@ var BGLTerms = [
 					52
 				],
 				[
+					43,
+					66
+				],
+				[
 					48,
 					52
 				],
 				[
 					48,
 					66
+				],
+				[
+					21,
+					49
 				],
 				[
 					48,
@@ -9745,11 +13165,19 @@ var BGLTerms = [
 					52
 				],
 				[
+					49,
+					66
+				],
+				[
 					52,
 					66
 				],
 				[
 					21,
+					64
+				],
+				[
+					48,
 					64
 				],
 				[
@@ -9801,8 +13229,16 @@ var BGLTerms = [
 					55
 				],
 				[
+					19,
+					83
+				],
+				[
 					55,
 					83
+				],
+				[
+					55,
+					82
 				],
 				[
 					82,
@@ -9810,6 +13246,10 @@ var BGLTerms = [
 				],
 				[
 					55,
+					96
+				],
+				[
+					83,
 					96
 				]
 			]
@@ -9829,7 +13269,7 @@ var BGLTerms = [
 			},
 			"media": [
 				{
-					"video": "./media/63.mov"
+					"video": "./media/63.mp4"
 				}
 			]
 		},
@@ -9851,6 +13291,10 @@ var BGLTerms = [
 				],
 				[
 					2,
+					57
+				],
+				[
+					2,
 					66
 				],
 				[
@@ -9859,11 +13303,19 @@ var BGLTerms = [
 				],
 				[
 					12,
+					57
+				],
+				[
+					12,
 					66
 				],
 				[
 					12,
 					82
+				],
+				[
+					12,
+					53
 				],
 				[
 					53,
@@ -9874,12 +13326,20 @@ var BGLTerms = [
 					66
 				],
 				[
+					53,
+					82
+				],
+				[
 					57,
 					66
 				],
 				[
 					57,
 					82
+				],
+				[
+					12,
+					63
 				],
 				[
 					57,
@@ -9890,11 +13350,19 @@ var BGLTerms = [
 					66
 				],
 				[
+					63,
+					82
+				],
+				[
 					66,
 					82
 				],
 				[
 					12,
+					72
+				],
+				[
+					57,
 					72
 				],
 				[
@@ -9978,11 +13446,19 @@ var BGLTerms = [
 				],
 				[
 					8,
+					21
+				],
+				[
+					8,
 					26
 				],
 				[
 					8,
 					57
+				],
+				[
+					8,
+					64
 				],
 				[
 					8,
@@ -9994,11 +13470,19 @@ var BGLTerms = [
 				],
 				[
 					11,
+					26
+				],
+				[
+					11,
 					57
 				],
 				[
 					11,
 					64
+				],
+				[
+					11,
+					71
 				],
 				[
 					11,
@@ -10010,11 +13494,19 @@ var BGLTerms = [
 				],
 				[
 					20,
+					26
+				],
+				[
+					20,
 					57
 				],
 				[
 					20,
 					64
+				],
+				[
+					20,
+					71
 				],
 				[
 					21,
@@ -10026,10 +13518,18 @@ var BGLTerms = [
 				],
 				[
 					21,
+					64
+				],
+				[
+					21,
 					71
 				],
 				[
 					11,
+					24
+				],
+				[
+					21,
 					24
 				],
 				[
@@ -10042,11 +13542,19 @@ var BGLTerms = [
 				],
 				[
 					24,
+					64
+				],
+				[
+					24,
 					71
 				],
 				[
 					26,
 					57
+				],
+				[
+					26,
+					64
 				],
 				[
 					26,
@@ -10057,12 +13565,20 @@ var BGLTerms = [
 					46
 				],
 				[
+					21,
+					46
+				],
+				[
 					26,
 					46
 				],
 				[
 					46,
 					57
+				],
+				[
+					46,
+					64
 				],
 				[
 					46,
@@ -10073,11 +13589,19 @@ var BGLTerms = [
 					64
 				],
 				[
+					57,
+					71
+				],
+				[
 					11,
 					62
 				],
 				[
 					21,
+					62
+				],
+				[
+					26,
 					62
 				],
 				[
@@ -10089,6 +13613,10 @@ var BGLTerms = [
 					64
 				],
 				[
+					62,
+					71
+				],
+				[
 					64,
 					71
 				],
@@ -10097,11 +13625,19 @@ var BGLTerms = [
 					66
 				],
 				[
+					21,
+					66
+				],
+				[
 					26,
 					66
 				],
 				[
 					57,
+					66
+				],
+				[
+					64,
 					66
 				],
 				[
@@ -10125,7 +13661,7 @@ var BGLTerms = [
 			},
 			"media": [
 				{
-					"video": "./media/65.mov"
+					"video": "./media/65.mp4"
 				}
 			]
 		},
@@ -10162,11 +13698,19 @@ var BGLTerms = [
 				],
 				[
 					1,
+					8
+				],
+				[
+					1,
 					15
 				],
 				[
 					1,
 					22
+				],
+				[
+					1,
+					24
 				],
 				[
 					1,
@@ -10178,11 +13722,19 @@ var BGLTerms = [
 				],
 				[
 					1,
+					52
+				],
+				[
+					1,
 					63
 				],
 				[
 					1,
 					75
+				],
+				[
+					1,
+					83
 				],
 				[
 					2,
@@ -10194,6 +13746,10 @@ var BGLTerms = [
 				],
 				[
 					2,
+					22
+				],
+				[
+					2,
 					24
 				],
 				[
@@ -10202,11 +13758,19 @@ var BGLTerms = [
 				],
 				[
 					2,
+					40
+				],
+				[
+					2,
 					52
 				],
 				[
 					2,
 					63
+				],
+				[
+					2,
+					75
 				],
 				[
 					2,
@@ -10218,11 +13782,19 @@ var BGLTerms = [
 				],
 				[
 					6,
+					8
+				],
+				[
+					6,
 					15
 				],
 				[
 					6,
 					22
+				],
+				[
+					6,
+					24
 				],
 				[
 					6,
@@ -10234,11 +13806,19 @@ var BGLTerms = [
 				],
 				[
 					6,
+					52
+				],
+				[
+					6,
 					63
 				],
 				[
 					6,
 					75
+				],
+				[
+					6,
+					83
 				],
 				[
 					8,
@@ -10250,6 +13830,10 @@ var BGLTerms = [
 				],
 				[
 					8,
+					24
+				],
+				[
+					8,
 					30
 				],
 				[
@@ -10258,11 +13842,19 @@ var BGLTerms = [
 				],
 				[
 					8,
+					52
+				],
+				[
+					8,
 					63
 				],
 				[
 					8,
 					75
+				],
+				[
+					8,
+					83
 				],
 				[
 					2,
@@ -10274,11 +13866,19 @@ var BGLTerms = [
 				],
 				[
 					11,
+					15
+				],
+				[
+					11,
 					22
 				],
 				[
 					11,
 					24
+				],
+				[
+					11,
+					30
 				],
 				[
 					11,
@@ -10290,11 +13890,19 @@ var BGLTerms = [
 				],
 				[
 					11,
+					63
+				],
+				[
+					11,
 					75
 				],
 				[
 					11,
 					83
+				],
+				[
+					15,
+					22
 				],
 				[
 					15,
@@ -10306,6 +13914,10 @@ var BGLTerms = [
 				],
 				[
 					15,
+					40
+				],
+				[
+					15,
 					52
 				],
 				[
@@ -10314,10 +13926,18 @@ var BGLTerms = [
 				],
 				[
 					15,
+					75
+				],
+				[
+					15,
 					83
 				],
 				[
 					2,
+					21
+				],
+				[
+					8,
 					21
 				],
 				[
@@ -10330,6 +13950,10 @@ var BGLTerms = [
 				],
 				[
 					21,
+					24
+				],
+				[
+					21,
 					30
 				],
 				[
@@ -10338,11 +13962,19 @@ var BGLTerms = [
 				],
 				[
 					21,
+					52
+				],
+				[
+					21,
 					63
 				],
 				[
 					21,
 					75
+				],
+				[
+					21,
+					83
 				],
 				[
 					22,
@@ -10354,6 +13986,10 @@ var BGLTerms = [
 				],
 				[
 					22,
+					40
+				],
+				[
+					22,
 					52
 				],
 				[
@@ -10362,10 +13998,18 @@ var BGLTerms = [
 				],
 				[
 					22,
+					75
+				],
+				[
+					22,
 					83
 				],
 				[
 					2,
+					23
+				],
+				[
+					8,
 					23
 				],
 				[
@@ -10378,11 +14022,19 @@ var BGLTerms = [
 				],
 				[
 					23,
+					24
+				],
+				[
+					23,
 					30
 				],
 				[
 					23,
 					40
+				],
+				[
+					23,
+					52
 				],
 				[
 					23,
@@ -10393,6 +14045,10 @@ var BGLTerms = [
 					75
 				],
 				[
+					23,
+					83
+				],
+				[
 					24,
 					30
 				],
@@ -10402,11 +14058,19 @@ var BGLTerms = [
 				],
 				[
 					24,
+					52
+				],
+				[
+					24,
 					63
 				],
 				[
 					24,
 					75
+				],
+				[
+					24,
+					83
 				],
 				[
 					2,
@@ -10417,6 +14081,10 @@ var BGLTerms = [
 					26
 				],
 				[
+					15,
+					26
+				],
+				[
 					22,
 					26
 				],
@@ -10426,11 +14094,19 @@ var BGLTerms = [
 				],
 				[
 					26,
+					30
+				],
+				[
+					26,
 					40
 				],
 				[
 					26,
 					52
+				],
+				[
+					26,
+					63
 				],
 				[
 					26,
@@ -10442,11 +14118,19 @@ var BGLTerms = [
 				],
 				[
 					30,
+					40
+				],
+				[
+					30,
 					52
 				],
 				[
 					30,
 					63
+				],
+				[
+					30,
+					75
 				],
 				[
 					30,
@@ -10457,11 +14141,19 @@ var BGLTerms = [
 					37
 				],
 				[
+					8,
+					37
+				],
+				[
 					15,
 					37
 				],
 				[
 					22,
+					37
+				],
+				[
+					24,
 					37
 				],
 				[
@@ -10474,11 +14166,19 @@ var BGLTerms = [
 				],
 				[
 					37,
+					52
+				],
+				[
+					37,
 					63
 				],
 				[
 					37,
 					75
+				],
+				[
+					37,
+					83
 				],
 				[
 					40,
@@ -10490,10 +14190,18 @@ var BGLTerms = [
 				],
 				[
 					40,
+					75
+				],
+				[
+					40,
 					83
 				],
 				[
 					2,
+					49
+				],
+				[
+					8,
 					49
 				],
 				[
@@ -10502,6 +14210,10 @@ var BGLTerms = [
 				],
 				[
 					22,
+					49
+				],
+				[
+					24,
 					49
 				],
 				[
@@ -10514,6 +14226,10 @@ var BGLTerms = [
 				],
 				[
 					49,
+					52
+				],
+				[
+					49,
 					63
 				],
 				[
@@ -10521,6 +14237,10 @@ var BGLTerms = [
 					75
 				],
 				[
+					49,
+					83
+				],
+				[
 					52,
 					63
 				],
@@ -10529,11 +14249,19 @@ var BGLTerms = [
 					75
 				],
 				[
+					52,
+					83
+				],
+				[
 					2,
 					60
 				],
 				[
 					8,
+					60
+				],
+				[
+					15,
 					60
 				],
 				[
@@ -10545,12 +14273,20 @@ var BGLTerms = [
 					60
 				],
 				[
+					30,
+					60
+				],
+				[
 					40,
 					60
 				],
 				[
 					52,
 					60
+				],
+				[
+					60,
+					63
 				],
 				[
 					60,
@@ -10562,10 +14298,18 @@ var BGLTerms = [
 				],
 				[
 					63,
+					75
+				],
+				[
+					63,
 					83
 				],
 				[
 					2,
+					66
+				],
+				[
+					8,
 					66
 				],
 				[
@@ -10577,11 +14321,19 @@ var BGLTerms = [
 					66
 				],
 				[
+					24,
+					66
+				],
+				[
 					30,
 					66
 				],
 				[
 					40,
+					66
+				],
+				[
+					52,
 					66
 				],
 				[
@@ -10593,11 +14345,19 @@ var BGLTerms = [
 					75
 				],
 				[
+					66,
+					83
+				],
+				[
 					75,
 					83
 				],
 				[
 					2,
+					79
+				],
+				[
+					8,
 					79
 				],
 				[
@@ -10609,11 +14369,19 @@ var BGLTerms = [
 					79
 				],
 				[
+					24,
+					79
+				],
+				[
 					30,
 					79
 				],
 				[
 					40,
+					79
+				],
+				[
+					52,
 					79
 				],
 				[
@@ -10625,11 +14393,19 @@ var BGLTerms = [
 					79
 				],
 				[
+					79,
+					83
+				],
+				[
 					2,
 					90
 				],
 				[
 					8,
+					90
+				],
+				[
+					15,
 					90
 				],
 				[
@@ -10641,11 +14417,19 @@ var BGLTerms = [
 					90
 				],
 				[
+					30,
+					90
+				],
+				[
 					40,
 					90
 				],
 				[
 					52,
+					90
+				],
+				[
+					63,
 					90
 				],
 				[
@@ -10673,7 +14457,7 @@ var BGLTerms = [
 			},
 			"media": [
 				{
-					"video": "./media/66.mov"
+					"video": "./media/66.mp4"
 				}
 			]
 		},
@@ -10691,8 +14475,16 @@ var BGLTerms = [
 					33
 				],
 				[
+					4,
+					94
+				],
+				[
 					33,
 					94
+				],
+				[
+					33,
+					88
 				],
 				[
 					88,
@@ -10700,6 +14492,10 @@ var BGLTerms = [
 				],
 				[
 					33,
+					98
+				],
+				[
+					94,
 					98
 				]
 			]
@@ -10765,11 +14561,19 @@ var BGLTerms = [
 				],
 				[
 					2,
+					15
+				],
+				[
+					2,
 					21
 				],
 				[
 					2,
 					24
+				],
+				[
+					2,
+					40
 				],
 				[
 					2,
@@ -10781,11 +14585,19 @@ var BGLTerms = [
 				],
 				[
 					2,
+					64
+				],
+				[
+					2,
 					83
 				],
 				[
 					2,
 					96
+				],
+				[
+					8,
+					15
 				],
 				[
 					8,
@@ -10797,6 +14609,10 @@ var BGLTerms = [
 				],
 				[
 					8,
+					40
+				],
+				[
+					8,
 					51
 				],
 				[
@@ -10805,11 +14621,19 @@ var BGLTerms = [
 				],
 				[
 					8,
+					64
+				],
+				[
+					8,
 					83
 				],
 				[
 					8,
 					96
+				],
+				[
+					8,
+					12
 				],
 				[
 					12,
@@ -10821,6 +14645,10 @@ var BGLTerms = [
 				],
 				[
 					12,
+					24
+				],
+				[
+					12,
 					40
 				],
 				[
@@ -10829,11 +14657,19 @@ var BGLTerms = [
 				],
 				[
 					12,
+					62
+				],
+				[
+					12,
 					64
 				],
 				[
 					12,
 					83
+				],
+				[
+					12,
+					96
 				],
 				[
 					15,
@@ -10845,6 +14681,10 @@ var BGLTerms = [
 				],
 				[
 					15,
+					40
+				],
+				[
+					15,
 					51
 				],
 				[
@@ -10853,11 +14693,19 @@ var BGLTerms = [
 				],
 				[
 					15,
+					64
+				],
+				[
+					15,
 					83
 				],
 				[
 					15,
 					96
+				],
+				[
+					8,
+					20
 				],
 				[
 					15,
@@ -10869,6 +14717,10 @@ var BGLTerms = [
 				],
 				[
 					20,
+					24
+				],
+				[
+					20,
 					40
 				],
 				[
@@ -10877,11 +14729,19 @@ var BGLTerms = [
 				],
 				[
 					20,
+					62
+				],
+				[
+					20,
 					64
 				],
 				[
 					20,
 					83
+				],
+				[
+					20,
+					96
 				],
 				[
 					21,
@@ -10893,6 +14753,10 @@ var BGLTerms = [
 				],
 				[
 					21,
+					51
+				],
+				[
+					21,
 					62
 				],
 				[
@@ -10901,10 +14765,18 @@ var BGLTerms = [
 				],
 				[
 					21,
+					83
+				],
+				[
+					21,
 					96
 				],
 				[
 					8,
+					22
+				],
+				[
+					15,
 					22
 				],
 				[
@@ -10917,11 +14789,19 @@ var BGLTerms = [
 				],
 				[
 					22,
+					40
+				],
+				[
+					22,
 					51
 				],
 				[
 					22,
 					62
+				],
+				[
+					22,
+					64
 				],
 				[
 					22,
@@ -10933,6 +14813,10 @@ var BGLTerms = [
 				],
 				[
 					24,
+					40
+				],
+				[
+					24,
 					51
 				],
 				[
@@ -10941,11 +14825,19 @@ var BGLTerms = [
 				],
 				[
 					24,
+					64
+				],
+				[
+					24,
 					83
 				],
 				[
 					24,
 					96
+				],
+				[
+					8,
+					26
 				],
 				[
 					15,
@@ -10953,6 +14845,10 @@ var BGLTerms = [
 				],
 				[
 					21,
+					26
+				],
+				[
+					24,
 					26
 				],
 				[
@@ -10965,11 +14861,19 @@ var BGLTerms = [
 				],
 				[
 					26,
+					62
+				],
+				[
+					26,
 					64
 				],
 				[
 					26,
 					83
+				],
+				[
+					26,
+					96
 				],
 				[
 					40,
@@ -10981,11 +14885,19 @@ var BGLTerms = [
 				],
 				[
 					40,
+					64
+				],
+				[
+					40,
 					83
 				],
 				[
 					40,
 					96
+				],
+				[
+					8,
+					49
 				],
 				[
 					15,
@@ -10996,6 +14908,10 @@ var BGLTerms = [
 					49
 				],
 				[
+					24,
+					49
+				],
+				[
 					40,
 					49
 				],
@@ -11005,11 +14921,19 @@ var BGLTerms = [
 				],
 				[
 					49,
+					62
+				],
+				[
+					49,
 					64
 				],
 				[
 					49,
 					83
+				],
+				[
+					49,
+					96
 				],
 				[
 					51,
@@ -11021,10 +14945,18 @@ var BGLTerms = [
 				],
 				[
 					51,
+					83
+				],
+				[
+					51,
 					96
 				],
 				[
 					8,
+					60
+				],
+				[
+					15,
 					60
 				],
 				[
@@ -11036,6 +14968,10 @@ var BGLTerms = [
 					60
 				],
 				[
+					40,
+					60
+				],
+				[
 					51,
 					60
 				],
@@ -11045,6 +14981,10 @@ var BGLTerms = [
 				],
 				[
 					60,
+					64
+				],
+				[
+					60,
 					83
 				],
 				[
@@ -11053,11 +14993,19 @@ var BGLTerms = [
 				],
 				[
 					62,
+					64
+				],
+				[
+					62,
 					83
 				],
 				[
 					62,
 					96
+				],
+				[
+					8,
+					63
 				],
 				[
 					15,
@@ -11068,11 +15016,19 @@ var BGLTerms = [
 					63
 				],
 				[
+					24,
+					63
+				],
+				[
 					40,
 					63
 				],
 				[
 					51,
+					63
+				],
+				[
+					62,
 					63
 				],
 				[
@@ -11084,12 +15040,20 @@ var BGLTerms = [
 					83
 				],
 				[
+					63,
+					96
+				],
+				[
 					64,
 					83
 				],
 				[
 					64,
 					96
+				],
+				[
+					8,
+					72
 				],
 				[
 					15,
@@ -11100,11 +15064,19 @@ var BGLTerms = [
 					72
 				],
 				[
+					24,
+					72
+				],
+				[
 					40,
 					72
 				],
 				[
 					51,
+					72
+				],
+				[
+					62,
 					72
 				],
 				[
@@ -11116,11 +15088,19 @@ var BGLTerms = [
 					83
 				],
 				[
+					72,
+					96
+				],
+				[
 					83,
 					96
 				],
 				[
 					8,
+					90
+				],
+				[
+					15,
 					90
 				],
 				[
@@ -11132,11 +15112,19 @@ var BGLTerms = [
 					90
 				],
 				[
+					40,
+					90
+				],
+				[
 					51,
 					90
 				],
 				[
 					62,
+					90
+				],
+				[
+					64,
 					90
 				],
 				[
@@ -11164,7 +15152,7 @@ var BGLTerms = [
 			},
 			"media": [
 				{
-					"video": "./media/68.mov"
+					"video": "./media/68.mp4"
 				}
 			]
 		},
@@ -11187,6 +15175,10 @@ var BGLTerms = [
 				],
 				[
 					25,
+					54
+				],
+				[
+					25,
 					77
 				],
 				[
@@ -11195,11 +15187,19 @@ var BGLTerms = [
 				],
 				[
 					28,
+					54
+				],
+				[
+					28,
 					77
 				],
 				[
 					28,
 					84
+				],
+				[
+					28,
+					43
 				],
 				[
 					43,
@@ -11210,12 +15210,20 @@ var BGLTerms = [
 					77
 				],
 				[
+					43,
+					84
+				],
+				[
 					54,
 					77
 				],
 				[
 					54,
 					84
+				],
+				[
+					28,
+					69
 				],
 				[
 					54,
@@ -11226,11 +15234,19 @@ var BGLTerms = [
 					77
 				],
 				[
+					69,
+					84
+				],
+				[
 					77,
 					84
 				],
 				[
 					28,
+					82
+				],
+				[
+					54,
 					82
 				],
 				[
@@ -11242,11 +15258,19 @@ var BGLTerms = [
 					84
 				],
 				[
+					28,
+					86
+				],
+				[
 					54,
 					86
 				],
 				[
 					77,
+					86
+				],
+				[
+					84,
 					86
 				]
 			]
@@ -11326,11 +15350,19 @@ var BGLTerms = [
 				],
 				[
 					4,
+					27
+				],
+				[
+					4,
 					41
 				],
 				[
 					4,
 					49
+				],
+				[
+					4,
+					72
 				],
 				[
 					4,
@@ -11342,11 +15374,19 @@ var BGLTerms = [
 				],
 				[
 					8,
+					41
+				],
+				[
+					8,
 					49
 				],
 				[
 					8,
 					72
+				],
+				[
+					8,
+					80
 				],
 				[
 					8,
@@ -11358,11 +15398,19 @@ var BGLTerms = [
 				],
 				[
 					15,
+					41
+				],
+				[
+					15,
 					49
 				],
 				[
 					15,
 					72
+				],
+				[
+					15,
+					80
 				],
 				[
 					27,
@@ -11374,10 +15422,18 @@ var BGLTerms = [
 				],
 				[
 					27,
+					72
+				],
+				[
+					27,
 					80
 				],
 				[
 					8,
+					39
+				],
+				[
+					27,
 					39
 				],
 				[
@@ -11390,11 +15446,19 @@ var BGLTerms = [
 				],
 				[
 					39,
+					72
+				],
+				[
+					39,
 					80
 				],
 				[
 					41,
 					49
+				],
+				[
+					41,
+					72
 				],
 				[
 					41,
@@ -11405,12 +15469,20 @@ var BGLTerms = [
 					47
 				],
 				[
+					27,
+					47
+				],
+				[
 					41,
 					47
 				],
 				[
 					47,
 					49
+				],
+				[
+					47,
+					72
 				],
 				[
 					47,
@@ -11421,11 +15493,19 @@ var BGLTerms = [
 					72
 				],
 				[
+					49,
+					80
+				],
+				[
 					8,
 					52
 				],
 				[
 					27,
+					52
+				],
+				[
+					41,
 					52
 				],
 				[
@@ -11437,6 +15517,10 @@ var BGLTerms = [
 					72
 				],
 				[
+					52,
+					80
+				],
+				[
 					72,
 					80
 				],
@@ -11445,11 +15529,19 @@ var BGLTerms = [
 					79
 				],
 				[
+					27,
+					79
+				],
+				[
 					41,
 					79
 				],
 				[
 					49,
+					79
+				],
+				[
+					72,
 					79
 				],
 				[
@@ -11461,11 +15553,19 @@ var BGLTerms = [
 					96
 				],
 				[
+					27,
+					96
+				],
+				[
 					41,
 					96
 				],
 				[
 					49,
+					96
+				],
+				[
+					72,
 					96
 				],
 				[
@@ -11489,7 +15589,7 @@ var BGLTerms = [
 			},
 			"media": [
 				{
-					"video": "./media/70.mov"
+					"video": "./media/70.mp4"
 				}
 			]
 		},
@@ -11512,6 +15612,10 @@ var BGLTerms = [
 				],
 				[
 					18,
+					72
+				],
+				[
+					18,
 					81
 				],
 				[
@@ -11520,11 +15624,19 @@ var BGLTerms = [
 				],
 				[
 					25,
+					72
+				],
+				[
+					25,
 					81
 				],
 				[
 					25,
 					90
+				],
+				[
+					25,
+					67
 				],
 				[
 					67,
@@ -11535,12 +15647,20 @@ var BGLTerms = [
 					81
 				],
 				[
+					67,
+					90
+				],
+				[
 					72,
 					81
 				],
 				[
 					72,
 					90
+				],
+				[
+					25,
+					78
 				],
 				[
 					72,
@@ -11551,11 +15671,19 @@ var BGLTerms = [
 					81
 				],
 				[
+					78,
+					90
+				],
+				[
 					81,
 					90
 				],
 				[
 					25,
+					88
+				],
+				[
+					72,
 					88
 				],
 				[
@@ -11567,11 +15695,19 @@ var BGLTerms = [
 					90
 				],
 				[
+					25,
+					94
+				],
+				[
 					72,
 					94
 				],
 				[
 					81,
+					94
+				],
+				[
+					90,
 					94
 				]
 			]
@@ -11625,10 +15761,10 @@ var BGLTerms = [
 		"theme": "blue-light",
 		"content": {
 			"term_desc": "<p><em>Liegenschaftsfonds</em> (property fund politics) is a policy whereby city-owned plots in Berlin are sold in a bidding process in which monetary value determines the selling process. The policy raises a number of important issues, including the privatization of public land and the support of organizations whose social contribution is high, but whose operating budget is low. The Liegenschaftsfonds property fund was established in 2001, the full shareholder of which is the city of Berlin.</p>",
-			"project_desc": "<p>Free Space Berlin/Freir&amp;auml;ume Berlin increased awareness and citizen participation surrounding the selling of public land in Berlin. The initiative consisted of an interactive online map of the locations of publicly owned plots, a mobile workshop, and a series of events at sites throughout Berlin that were undergoing the selling process, in which neighbors, visitors, and passersby were asked what their vision for these spaces would be. Free Space Berlin/Freir&amp;auml;ume Berlin was organized by Berlin Lab Team member Corinne Rose with openBerlin cofounders Johannes Dumpe, Felix Zai&amp;szlig;, and Rocco Z&amp;uuml;hlke, in collaboration with Florian Schmidt, cofounder of Initiative Stadt Neudenken (ISN;Rethink the City Initiative), and J&amp;uuml;rgen Breiter, an urban curator.</p>",
+			"project_desc": "<p>Free Space Berlin/Freir&auml;ume Berlin increased awareness and citizen participation surrounding the selling of public land in Berlin. The initiative consisted of an interactive online map of the locations of publicly owned plots, a mobile workshop, and a series of events at sites throughout Berlin that were undergoing the selling process, in which neighbors, visitors, and passersby were asked what their vision for these spaces would be. Free Space Berlin/Freir&auml;ume Berlin was organized by Berlin Lab Team member Corinne Rose with openBerlin cofounders Johannes Dumpe, Felix Zai&szlig;, and Rocco Z&uuml;hlke, in collaboration with Florian Schmidt, cofounder of Initiative Stadt Neudenken (ISN;Rethink the City Initiative), and J&uuml;rgen Breiter, an urban curator.</p>",
 			"project_meta": {
 				"location": "BMW Guggenheim Lab, Berlin",
-				"program": "Free Space Berlin/Freir&amp;auml;ume Berlin<br>Corinne Rose, Berlin Lab Team member",
+				"program": "Free Space Berlin/Freir&auml;ume Berlin<br>Corinne Rose, Berlin Lab Team member",
 				"date": "June 15&ndash;July 29, 2012"
 			},
 			"media": [
@@ -11674,11 +15810,19 @@ var BGLTerms = [
 				],
 				[
 					2,
+					70
+				],
+				[
+					2,
 					99
 				],
 				[
 					28,
 					70
+				],
+				[
+					28,
+					99
 				],
 				[
 					28,
@@ -11689,11 +15833,19 @@ var BGLTerms = [
 					70
 				],
 				[
+					63,
+					99
+				],
+				[
 					70,
 					99
 				],
 				[
 					28,
+					72
+				],
+				[
+					70,
 					72
 				],
 				[
@@ -11796,11 +15948,19 @@ var BGLTerms = [
 				],
 				[
 					13,
+					25
+				],
+				[
+					13,
 					31
 				],
 				[
 					13,
 					41
+				],
+				[
+					13,
+					56
 				],
 				[
 					13,
@@ -11812,11 +15972,19 @@ var BGLTerms = [
 				],
 				[
 					13,
+					70
+				],
+				[
+					13,
 					80
 				],
 				[
 					13,
 					94
+				],
+				[
+					13,
+					97
 				],
 				[
 					14,
@@ -11828,6 +15996,10 @@ var BGLTerms = [
 				],
 				[
 					14,
+					41
+				],
+				[
+					14,
 					56
 				],
 				[
@@ -11836,11 +16008,19 @@ var BGLTerms = [
 				],
 				[
 					14,
+					68
+				],
+				[
+					14,
 					70
 				],
 				[
 					14,
 					80
+				],
+				[
+					14,
+					94
 				],
 				[
 					14,
@@ -11852,11 +16032,19 @@ var BGLTerms = [
 				],
 				[
 					18,
+					25
+				],
+				[
+					18,
 					31
 				],
 				[
 					18,
 					41
+				],
+				[
+					18,
+					56
 				],
 				[
 					18,
@@ -11868,11 +16056,19 @@ var BGLTerms = [
 				],
 				[
 					18,
+					70
+				],
+				[
+					18,
 					80
 				],
 				[
 					18,
 					94
+				],
+				[
+					18,
+					97
 				],
 				[
 					25,
@@ -11884,6 +16080,10 @@ var BGLTerms = [
 				],
 				[
 					25,
+					56
+				],
+				[
+					25,
 					62
 				],
 				[
@@ -11892,11 +16092,19 @@ var BGLTerms = [
 				],
 				[
 					25,
+					70
+				],
+				[
+					25,
 					80
 				],
 				[
 					25,
 					94
+				],
+				[
+					25,
+					97
 				],
 				[
 					14,
@@ -11908,11 +16116,19 @@ var BGLTerms = [
 				],
 				[
 					27,
+					31
+				],
+				[
+					27,
 					41
 				],
 				[
 					27,
 					56
+				],
+				[
+					27,
+					62
 				],
 				[
 					27,
@@ -11924,11 +16140,19 @@ var BGLTerms = [
 				],
 				[
 					27,
+					80
+				],
+				[
+					27,
 					94
 				],
 				[
 					27,
 					97
+				],
+				[
+					31,
+					41
 				],
 				[
 					31,
@@ -11940,6 +16164,10 @@ var BGLTerms = [
 				],
 				[
 					31,
+					68
+				],
+				[
+					31,
 					70
 				],
 				[
@@ -11948,10 +16176,18 @@ var BGLTerms = [
 				],
 				[
 					31,
+					94
+				],
+				[
+					31,
 					97
 				],
 				[
 					14,
+					39
+				],
+				[
+					25,
 					39
 				],
 				[
@@ -11964,6 +16200,10 @@ var BGLTerms = [
 				],
 				[
 					39,
+					56
+				],
+				[
+					39,
 					62
 				],
 				[
@@ -11972,11 +16212,19 @@ var BGLTerms = [
 				],
 				[
 					39,
+					70
+				],
+				[
+					39,
 					80
 				],
 				[
 					39,
 					94
+				],
+				[
+					39,
+					97
 				],
 				[
 					41,
@@ -11988,6 +16236,10 @@ var BGLTerms = [
 				],
 				[
 					41,
+					68
+				],
+				[
+					41,
 					70
 				],
 				[
@@ -11996,10 +16248,18 @@ var BGLTerms = [
 				],
 				[
 					41,
+					94
+				],
+				[
+					41,
 					97
 				],
 				[
 					14,
+					42
+				],
+				[
+					25,
 					42
 				],
 				[
@@ -12012,11 +16272,19 @@ var BGLTerms = [
 				],
 				[
 					42,
+					56
+				],
+				[
+					42,
 					62
 				],
 				[
 					42,
 					68
+				],
+				[
+					42,
+					70
 				],
 				[
 					42,
@@ -12027,6 +16295,10 @@ var BGLTerms = [
 					94
 				],
 				[
+					42,
+					97
+				],
+				[
 					56,
 					62
 				],
@@ -12036,11 +16308,19 @@ var BGLTerms = [
 				],
 				[
 					56,
+					70
+				],
+				[
+					56,
 					80
 				],
 				[
 					56,
 					94
+				],
+				[
+					56,
+					97
 				],
 				[
 					14,
@@ -12051,6 +16331,10 @@ var BGLTerms = [
 					58
 				],
 				[
+					31,
+					58
+				],
+				[
 					41,
 					58
 				],
@@ -12060,11 +16344,19 @@ var BGLTerms = [
 				],
 				[
 					58,
+					62
+				],
+				[
+					58,
 					68
 				],
 				[
 					58,
 					70
+				],
+				[
+					58,
+					80
 				],
 				[
 					58,
@@ -12076,11 +16368,19 @@ var BGLTerms = [
 				],
 				[
 					62,
+					68
+				],
+				[
+					62,
 					70
 				],
 				[
 					62,
 					80
+				],
+				[
+					62,
+					94
 				],
 				[
 					62,
@@ -12091,11 +16391,19 @@ var BGLTerms = [
 					66
 				],
 				[
+					25,
+					66
+				],
+				[
 					31,
 					66
 				],
 				[
 					41,
+					66
+				],
+				[
+					56,
 					66
 				],
 				[
@@ -12108,11 +16416,19 @@ var BGLTerms = [
 				],
 				[
 					66,
+					70
+				],
+				[
+					66,
 					80
 				],
 				[
 					66,
 					94
+				],
+				[
+					66,
+					97
 				],
 				[
 					68,
@@ -12124,10 +16440,18 @@ var BGLTerms = [
 				],
 				[
 					68,
+					94
+				],
+				[
+					68,
 					97
 				],
 				[
 					14,
+					69
+				],
+				[
+					25,
 					69
 				],
 				[
@@ -12136,6 +16460,10 @@ var BGLTerms = [
 				],
 				[
 					41,
+					69
+				],
+				[
+					56,
 					69
 				],
 				[
@@ -12148,6 +16476,10 @@ var BGLTerms = [
 				],
 				[
 					69,
+					70
+				],
+				[
+					69,
 					80
 				],
 				[
@@ -12155,6 +16487,10 @@ var BGLTerms = [
 					94
 				],
 				[
+					69,
+					97
+				],
+				[
 					70,
 					80
 				],
@@ -12163,11 +16499,19 @@ var BGLTerms = [
 					94
 				],
 				[
+					70,
+					97
+				],
+				[
 					14,
 					71
 				],
 				[
 					25,
+					71
+				],
+				[
+					31,
 					71
 				],
 				[
@@ -12179,12 +16523,20 @@ var BGLTerms = [
 					71
 				],
 				[
+					62,
+					71
+				],
+				[
 					68,
 					71
 				],
 				[
 					70,
 					71
+				],
+				[
+					71,
+					80
 				],
 				[
 					71,
@@ -12196,10 +16548,18 @@ var BGLTerms = [
 				],
 				[
 					80,
+					94
+				],
+				[
+					80,
 					97
 				],
 				[
 					14,
+					88
+				],
+				[
+					25,
 					88
 				],
 				[
@@ -12211,11 +16571,19 @@ var BGLTerms = [
 					88
 				],
 				[
+					56,
+					88
+				],
+				[
 					62,
 					88
 				],
 				[
 					68,
+					88
+				],
+				[
+					70,
 					88
 				],
 				[
@@ -12227,11 +16595,19 @@ var BGLTerms = [
 					94
 				],
 				[
+					88,
+					97
+				],
+				[
 					94,
 					97
 				],
 				[
 					14,
+					96
+				],
+				[
+					25,
 					96
 				],
 				[
@@ -12243,11 +16619,19 @@ var BGLTerms = [
 					96
 				],
 				[
+					56,
+					96
+				],
+				[
 					62,
 					96
 				],
 				[
 					68,
+					96
+				],
+				[
+					70,
 					96
 				],
 				[
@@ -12259,11 +16643,19 @@ var BGLTerms = [
 					96
 				],
 				[
+					96,
+					97
+				],
+				[
 					14,
 					98
 				],
 				[
 					25,
+					98
+				],
+				[
+					31,
 					98
 				],
 				[
@@ -12275,11 +16667,19 @@ var BGLTerms = [
 					98
 				],
 				[
+					62,
+					98
+				],
+				[
 					68,
 					98
 				],
 				[
 					70,
+					98
+				],
+				[
+					80,
 					98
 				],
 				[
@@ -12345,6 +16745,10 @@ var BGLTerms = [
 				],
 				[
 					5,
+					11
+				],
+				[
+					5,
 					28
 				],
 				[
@@ -12353,11 +16757,19 @@ var BGLTerms = [
 				],
 				[
 					7,
+					11
+				],
+				[
+					7,
 					28
 				],
 				[
 					7,
 					54
+				],
+				[
+					7,
+					9
 				],
 				[
 					9,
@@ -12368,12 +16780,20 @@ var BGLTerms = [
 					28
 				],
 				[
+					9,
+					54
+				],
+				[
 					11,
 					28
 				],
 				[
 					11,
 					54
+				],
+				[
+					7,
+					17
 				],
 				[
 					11,
@@ -12384,11 +16804,19 @@ var BGLTerms = [
 					28
 				],
 				[
+					17,
+					54
+				],
+				[
 					28,
 					54
 				],
 				[
 					7,
+					46
+				],
+				[
+					11,
 					46
 				],
 				[
@@ -12400,11 +16828,19 @@ var BGLTerms = [
 					54
 				],
 				[
+					7,
+					70
+				],
+				[
 					11,
 					70
 				],
 				[
 					28,
+					70
+				],
+				[
+					54,
 					70
 				]
 			]
@@ -12483,8 +16919,16 @@ var BGLTerms = [
 					46
 				],
 				[
+					39,
+					53
+				],
+				[
 					46,
 					53
+				],
+				[
+					46,
+					52
 				],
 				[
 					52,
@@ -12534,11 +16978,19 @@ var BGLTerms = [
 				],
 				[
 					22,
+					78
+				],
+				[
+					22,
 					90
 				],
 				[
 					44,
 					78
+				],
+				[
+					44,
+					90
 				],
 				[
 					44,
@@ -12549,6 +17001,10 @@ var BGLTerms = [
 					78
 				],
 				[
+					64,
+					90
+				],
+				[
 					78,
 					90
 				],
@@ -12557,11 +17013,19 @@ var BGLTerms = [
 					88
 				],
 				[
+					78,
+					88
+				],
+				[
 					88,
 					90
 				],
 				[
 					44,
+					94
+				],
+				[
+					78,
 					94
 				],
 				[
@@ -12585,7 +17049,7 @@ var BGLTerms = [
 			},
 			"media": [
 				{
-					"video": "./media/77.mov"
+					"video": "./media/77.mp4"
 				}
 			]
 		},
@@ -12603,8 +17067,16 @@ var BGLTerms = [
 					9
 				],
 				[
+					5,
+					44
+				],
+				[
 					9,
 					44
+				],
+				[
+					9,
+					17
 				],
 				[
 					17,
@@ -12612,6 +17084,10 @@ var BGLTerms = [
 				],
 				[
 					9,
+					45
+				],
+				[
+					44,
 					45
 				]
 			]
@@ -12664,11 +17140,19 @@ var BGLTerms = [
 				],
 				[
 					3,
+					25
+				],
+				[
+					3,
 					43
 				],
 				[
 					3,
 					59
+				],
+				[
+					3,
+					93
 				],
 				[
 					10,
@@ -12680,6 +17164,10 @@ var BGLTerms = [
 				],
 				[
 					10,
+					59
+				],
+				[
+					10,
 					93
 				],
 				[
@@ -12688,6 +17176,10 @@ var BGLTerms = [
 				],
 				[
 					16,
+					25
+				],
+				[
+					16,
 					43
 				],
 				[
@@ -12695,12 +17187,20 @@ var BGLTerms = [
 					59
 				],
 				[
+					16,
+					93
+				],
+				[
 					25,
 					43
 				],
 				[
 					25,
 					59
+				],
+				[
+					25,
+					93
 				],
 				[
 					10,
@@ -12709,6 +17209,10 @@ var BGLTerms = [
 				[
 					25,
 					28
+				],
+				[
+					28,
+					43
 				],
 				[
 					28,
@@ -12720,10 +17224,18 @@ var BGLTerms = [
 				],
 				[
 					43,
+					59
+				],
+				[
+					43,
 					93
 				],
 				[
 					10,
+					58
+				],
+				[
+					25,
 					58
 				],
 				[
@@ -12735,11 +17247,19 @@ var BGLTerms = [
 					59
 				],
 				[
+					58,
+					93
+				],
+				[
 					59,
 					93
 				],
 				[
 					10,
+					67
+				],
+				[
+					25,
 					67
 				],
 				[
@@ -12749,6 +17269,10 @@ var BGLTerms = [
 				[
 					59,
 					67
+				],
+				[
+					67,
+					93
 				]
 			]
 		}
@@ -12816,11 +17340,19 @@ var BGLTerms = [
 				],
 				[
 					6,
+					41
+				],
+				[
+					6,
 					75
 				],
 				[
 					6,
 					87
+				],
+				[
+					6,
+					90
 				],
 				[
 					15,
@@ -12832,6 +17364,10 @@ var BGLTerms = [
 				],
 				[
 					15,
+					87
+				],
+				[
+					15,
 					90
 				],
 				[
@@ -12840,6 +17376,10 @@ var BGLTerms = [
 				],
 				[
 					33,
+					41
+				],
+				[
+					33,
 					75
 				],
 				[
@@ -12847,12 +17387,20 @@ var BGLTerms = [
 					87
 				],
 				[
+					33,
+					90
+				],
+				[
 					41,
 					75
 				],
 				[
 					41,
 					87
+				],
+				[
+					41,
+					90
 				],
 				[
 					15,
@@ -12861,6 +17409,10 @@ var BGLTerms = [
 				[
 					41,
 					69
+				],
+				[
+					69,
+					75
 				],
 				[
 					69,
@@ -12872,10 +17424,18 @@ var BGLTerms = [
 				],
 				[
 					75,
+					87
+				],
+				[
+					75,
 					90
 				],
 				[
 					15,
+					83
+				],
+				[
+					41,
 					83
 				],
 				[
@@ -12887,11 +17447,19 @@ var BGLTerms = [
 					87
 				],
 				[
+					83,
+					90
+				],
+				[
 					87,
 					90
 				],
 				[
 					15,
+					88
+				],
+				[
+					41,
 					88
 				],
 				[
@@ -12903,11 +17471,19 @@ var BGLTerms = [
 					88
 				],
 				[
+					88,
+					90
+				],
+				[
 					15,
 					94
 				],
 				[
 					41,
+					94
+				],
+				[
+					75,
 					94
 				],
 				[
@@ -12982,11 +17558,19 @@ var BGLTerms = [
 				],
 				[
 					2,
+					8
+				],
+				[
+					2,
 					14
 				],
 				[
 					2,
 					17
+				],
+				[
+					2,
+					24
 				],
 				[
 					2,
@@ -12998,11 +17582,19 @@ var BGLTerms = [
 				],
 				[
 					2,
+					64
+				],
+				[
+					2,
 					68
 				],
 				[
 					2,
 					89
+				],
+				[
+					4,
+					8
 				],
 				[
 					4,
@@ -13014,6 +17606,10 @@ var BGLTerms = [
 				],
 				[
 					4,
+					24
+				],
+				[
+					4,
 					41
 				],
 				[
@@ -13022,11 +17618,19 @@ var BGLTerms = [
 				],
 				[
 					4,
+					64
+				],
+				[
+					4,
 					68
 				],
 				[
 					4,
 					89
+				],
+				[
+					4,
+					7
 				],
 				[
 					7,
@@ -13038,6 +17642,10 @@ var BGLTerms = [
 				],
 				[
 					7,
+					17
+				],
+				[
+					7,
 					24
 				],
 				[
@@ -13046,11 +17654,19 @@ var BGLTerms = [
 				],
 				[
 					7,
+					51
+				],
+				[
+					7,
 					64
 				],
 				[
 					7,
 					68
+				],
+				[
+					7,
+					89
 				],
 				[
 					8,
@@ -13062,6 +17678,10 @@ var BGLTerms = [
 				],
 				[
 					8,
+					24
+				],
+				[
+					8,
 					41
 				],
 				[
@@ -13070,11 +17690,19 @@ var BGLTerms = [
 				],
 				[
 					8,
+					64
+				],
+				[
+					8,
 					68
 				],
 				[
 					8,
 					89
+				],
+				[
+					4,
+					11
 				],
 				[
 					8,
@@ -13086,6 +17714,10 @@ var BGLTerms = [
 				],
 				[
 					11,
+					17
+				],
+				[
+					11,
 					24
 				],
 				[
@@ -13094,11 +17726,19 @@ var BGLTerms = [
 				],
 				[
 					11,
+					51
+				],
+				[
+					11,
 					64
 				],
 				[
 					11,
 					68
+				],
+				[
+					11,
+					89
 				],
 				[
 					14,
@@ -13110,6 +17750,10 @@ var BGLTerms = [
 				],
 				[
 					14,
+					41
+				],
+				[
+					14,
 					51
 				],
 				[
@@ -13118,10 +17762,18 @@ var BGLTerms = [
 				],
 				[
 					14,
+					68
+				],
+				[
+					14,
 					89
 				],
 				[
 					4,
+					15
+				],
+				[
+					8,
 					15
 				],
 				[
@@ -13134,11 +17786,19 @@ var BGLTerms = [
 				],
 				[
 					15,
+					24
+				],
+				[
+					15,
 					41
 				],
 				[
 					15,
 					51
+				],
+				[
+					15,
+					64
 				],
 				[
 					15,
@@ -13150,6 +17810,10 @@ var BGLTerms = [
 				],
 				[
 					17,
+					24
+				],
+				[
+					17,
 					41
 				],
 				[
@@ -13158,11 +17822,19 @@ var BGLTerms = [
 				],
 				[
 					17,
+					64
+				],
+				[
+					17,
 					68
 				],
 				[
 					17,
 					89
+				],
+				[
+					4,
+					21
 				],
 				[
 					8,
@@ -13170,6 +17842,10 @@ var BGLTerms = [
 				],
 				[
 					14,
+					21
+				],
+				[
+					17,
 					21
 				],
 				[
@@ -13182,11 +17858,19 @@ var BGLTerms = [
 				],
 				[
 					21,
+					51
+				],
+				[
+					21,
 					64
 				],
 				[
 					21,
 					68
+				],
+				[
+					21,
+					89
 				],
 				[
 					24,
@@ -13198,11 +17882,19 @@ var BGLTerms = [
 				],
 				[
 					24,
+					64
+				],
+				[
+					24,
 					68
 				],
 				[
 					24,
 					89
+				],
+				[
+					4,
+					37
 				],
 				[
 					8,
@@ -13213,6 +17905,10 @@ var BGLTerms = [
 					37
 				],
 				[
+					17,
+					37
+				],
+				[
 					24,
 					37
 				],
@@ -13222,11 +17918,19 @@ var BGLTerms = [
 				],
 				[
 					37,
+					51
+				],
+				[
+					37,
 					64
 				],
 				[
 					37,
 					68
+				],
+				[
+					37,
+					89
 				],
 				[
 					41,
@@ -13238,10 +17942,18 @@ var BGLTerms = [
 				],
 				[
 					41,
+					68
+				],
+				[
+					41,
 					89
 				],
 				[
 					4,
+					46
+				],
+				[
+					8,
 					46
 				],
 				[
@@ -13253,6 +17965,10 @@ var BGLTerms = [
 					46
 				],
 				[
+					24,
+					46
+				],
+				[
 					41,
 					46
 				],
@@ -13262,6 +17978,10 @@ var BGLTerms = [
 				],
 				[
 					46,
+					64
+				],
+				[
+					46,
 					68
 				],
 				[
@@ -13270,11 +17990,19 @@ var BGLTerms = [
 				],
 				[
 					51,
+					64
+				],
+				[
+					51,
 					68
 				],
 				[
 					51,
 					89
+				],
+				[
+					4,
+					53
 				],
 				[
 					8,
@@ -13285,11 +18013,19 @@ var BGLTerms = [
 					53
 				],
 				[
+					17,
+					53
+				],
+				[
 					24,
 					53
 				],
 				[
 					41,
+					53
+				],
+				[
+					51,
 					53
 				],
 				[
@@ -13301,12 +18037,20 @@ var BGLTerms = [
 					68
 				],
 				[
+					53,
+					89
+				],
+				[
 					64,
 					68
 				],
 				[
 					64,
 					89
+				],
+				[
+					4,
+					66
 				],
 				[
 					8,
@@ -13317,11 +18061,19 @@ var BGLTerms = [
 					66
 				],
 				[
+					17,
+					66
+				],
+				[
 					24,
 					66
 				],
 				[
 					41,
+					66
+				],
+				[
+					51,
 					66
 				],
 				[
@@ -13333,11 +18085,19 @@ var BGLTerms = [
 					68
 				],
 				[
+					66,
+					89
+				],
+				[
 					68,
 					89
 				],
 				[
 					4,
+					87
+				],
+				[
+					8,
 					87
 				],
 				[
@@ -13349,11 +18109,19 @@ var BGLTerms = [
 					87
 				],
 				[
+					24,
+					87
+				],
+				[
 					41,
 					87
 				],
 				[
 					51,
+					87
+				],
+				[
+					64,
 					87
 				],
 				[
@@ -13365,11 +18133,19 @@ var BGLTerms = [
 					89
 				],
 				[
+					4,
+					94
+				],
+				[
 					8,
 					94
 				],
 				[
 					14,
+					94
+				],
+				[
+					17,
 					94
 				],
 				[
@@ -13381,11 +18157,19 @@ var BGLTerms = [
 					94
 				],
 				[
+					51,
+					94
+				],
+				[
 					64,
 					94
 				],
 				[
 					68,
+					94
+				],
+				[
+					89,
 					94
 				]
 			]
@@ -13446,11 +18230,19 @@ var BGLTerms = [
 				],
 				[
 					18,
+					41
+				],
+				[
+					18,
 					68
 				],
 				[
 					18,
 					85
+				],
+				[
+					18,
+					88
 				],
 				[
 					18,
@@ -13462,11 +18254,19 @@ var BGLTerms = [
 				],
 				[
 					36,
+					68
+				],
+				[
+					36,
 					85
 				],
 				[
 					36,
 					88
+				],
+				[
+					36,
+					94
 				],
 				[
 					36,
@@ -13478,11 +18278,19 @@ var BGLTerms = [
 				],
 				[
 					39,
+					68
+				],
+				[
+					39,
 					85
 				],
 				[
 					39,
 					88
+				],
+				[
+					39,
+					94
 				],
 				[
 					41,
@@ -13494,10 +18302,18 @@ var BGLTerms = [
 				],
 				[
 					41,
+					88
+				],
+				[
+					41,
 					94
 				],
 				[
 					36,
+					50
+				],
+				[
+					41,
 					50
 				],
 				[
@@ -13510,11 +18326,19 @@ var BGLTerms = [
 				],
 				[
 					50,
+					88
+				],
+				[
+					50,
 					94
 				],
 				[
 					68,
 					85
+				],
+				[
+					68,
+					88
 				],
 				[
 					68,
@@ -13525,12 +18349,20 @@ var BGLTerms = [
 					72
 				],
 				[
+					41,
+					72
+				],
+				[
 					68,
 					72
 				],
 				[
 					72,
 					85
+				],
+				[
+					72,
+					88
 				],
 				[
 					72,
@@ -13541,11 +18373,19 @@ var BGLTerms = [
 					88
 				],
 				[
+					85,
+					94
+				],
+				[
 					36,
 					87
 				],
 				[
 					41,
+					87
+				],
+				[
+					68,
 					87
 				],
 				[
@@ -13557,6 +18397,10 @@ var BGLTerms = [
 					88
 				],
 				[
+					87,
+					94
+				],
+				[
 					88,
 					94
 				],
@@ -13565,11 +18409,19 @@ var BGLTerms = [
 					92
 				],
 				[
+					41,
+					92
+				],
+				[
 					68,
 					92
 				],
 				[
 					85,
+					92
+				],
+				[
+					88,
 					92
 				],
 				[
@@ -13662,6 +18514,10 @@ var BGLTerms = [
 				],
 				[
 					3,
+					28
+				],
+				[
+					3,
 					30
 				],
 				[
@@ -13670,11 +18526,19 @@ var BGLTerms = [
 				],
 				[
 					3,
+					41
+				],
+				[
+					3,
 					92
 				],
 				[
 					3,
 					95
+				],
+				[
+					3,
+					98
 				],
 				[
 					17,
@@ -13686,11 +18550,19 @@ var BGLTerms = [
 				],
 				[
 					17,
+					38
+				],
+				[
+					17,
 					41
 				],
 				[
 					17,
 					92
+				],
+				[
+					17,
+					95
 				],
 				[
 					17,
@@ -13702,11 +18574,19 @@ var BGLTerms = [
 				],
 				[
 					25,
+					28
+				],
+				[
+					25,
 					30
 				],
 				[
 					25,
 					38
+				],
+				[
+					25,
+					41
 				],
 				[
 					25,
@@ -13717,6 +18597,10 @@ var BGLTerms = [
 					95
 				],
 				[
+					25,
+					98
+				],
+				[
 					28,
 					30
 				],
@@ -13726,11 +18610,19 @@ var BGLTerms = [
 				],
 				[
 					28,
+					41
+				],
+				[
+					28,
 					92
 				],
 				[
 					28,
 					95
+				],
+				[
+					28,
+					98
 				],
 				[
 					17,
@@ -13742,11 +18634,19 @@ var BGLTerms = [
 				],
 				[
 					29,
+					30
+				],
+				[
+					29,
 					38
 				],
 				[
 					29,
 					41
+				],
+				[
+					29,
+					92
 				],
 				[
 					29,
@@ -13758,6 +18658,10 @@ var BGLTerms = [
 				],
 				[
 					30,
+					38
+				],
+				[
+					30,
 					41
 				],
 				[
@@ -13766,10 +18670,18 @@ var BGLTerms = [
 				],
 				[
 					30,
+					95
+				],
+				[
+					30,
 					98
 				],
 				[
 					17,
+					35
+				],
+				[
+					28,
 					35
 				],
 				[
@@ -13782,11 +18694,19 @@ var BGLTerms = [
 				],
 				[
 					35,
+					41
+				],
+				[
+					35,
 					92
 				],
 				[
 					35,
 					95
+				],
+				[
+					35,
+					98
 				],
 				[
 					38,
@@ -13798,10 +18718,18 @@ var BGLTerms = [
 				],
 				[
 					38,
+					95
+				],
+				[
+					38,
 					98
 				],
 				[
 					17,
+					39
+				],
+				[
+					28,
 					39
 				],
 				[
@@ -13814,6 +18742,10 @@ var BGLTerms = [
 				],
 				[
 					39,
+					41
+				],
+				[
+					39,
 					92
 				],
 				[
@@ -13821,12 +18753,20 @@ var BGLTerms = [
 					95
 				],
 				[
+					39,
+					98
+				],
+				[
 					41,
 					92
 				],
 				[
 					41,
 					95
+				],
+				[
+					41,
+					98
 				],
 				[
 					17,
@@ -13837,12 +18777,20 @@ var BGLTerms = [
 					69
 				],
 				[
+					30,
+					69
+				],
+				[
 					38,
 					69
 				],
 				[
 					41,
 					69
+				],
+				[
+					69,
+					92
 				],
 				[
 					69,
@@ -13854,10 +18802,18 @@ var BGLTerms = [
 				],
 				[
 					92,
+					95
+				],
+				[
+					92,
 					98
 				],
 				[
 					17,
+					93
+				],
+				[
+					28,
 					93
 				],
 				[
@@ -13866,6 +18822,10 @@ var BGLTerms = [
 				],
 				[
 					38,
+					93
+				],
+				[
+					41,
 					93
 				],
 				[
@@ -13877,11 +18837,19 @@ var BGLTerms = [
 					95
 				],
 				[
+					93,
+					98
+				],
+				[
 					95,
 					98
 				],
 				[
 					17,
+					97
+				],
+				[
+					28,
 					97
 				],
 				[
@@ -13893,12 +18861,20 @@ var BGLTerms = [
 					97
 				],
 				[
+					41,
+					97
+				],
+				[
 					92,
 					97
 				],
 				[
 					95,
 					97
+				],
+				[
+					97,
+					98
 				]
 			]
 		}
@@ -13908,7 +18884,7 @@ var BGLTerms = [
 		"name": "Temporary Architecture",
 		"theme": "blue-dark",
 		"content": {
-			"term_desc": "<p>&ldquo;Temporary architecture&rdquo; refers to structures&mdash;often mobile&mdash;that are meant to exist for a limited amount of time. The value of temporary architecture lies in the impact it can have in a short time period and in its ability to encourage architects to think on a more cross-disciplinary plane as well as inspire inhabitants to act, think, and feel in unconventional ways. Temporary architecture can also create a sense of place, while at the same time challenge the concept of what a building is.</p>",
+			"term_desc": "<p>&ldquo;Temporary architecture&rdquo; refers to structures that are meant to exist for a limited amount of time. The value of temporary architecture lies in the impact it can have in a short time period and in its ability to encourage architects to think on a more cross-disciplinary plane as well as inspire inhabitants to act, think, and feel in unconventional ways. Temporary architecture can also create a sense of place, while at the same time challenge the concept of what a building is.</p>",
 			"project_desc": "<p>For the Mumbai Lab, the Tokyo architecture firm Atelier Bow-Wow designed a structure uniquely suited to the densely populated environment of Mumbai. Modeled after the Indian <em>mandapa</em>, a raised outdoor pavilion traditionally used for public celebrations and events, the Traveling Lab was constructed primarily of bamboo and designed to travel to sites across the city, &ldquo;popping-up&rdquo; in a new location every five weeks to host Lab programming.</p>",
 			"project_meta": {
 				"location": "BMW Guggenheim Lab, Mumbai",
@@ -13917,7 +18893,7 @@ var BGLTerms = [
 			},
 			"media": [
 				{
-					"video": "./media/83.mov"
+					"video": "./media/83.mp4"
 				}
 			]
 		},
@@ -13942,11 +18918,19 @@ var BGLTerms = [
 				],
 				[
 					19,
+					55
+				],
+				[
+					19,
 					61
 				],
 				[
 					19,
 					67
+				],
+				[
+					19,
+					96
 				],
 				[
 					22,
@@ -13958,6 +18942,10 @@ var BGLTerms = [
 				],
 				[
 					22,
+					67
+				],
+				[
+					22,
 					96
 				],
 				[
@@ -13966,6 +18954,10 @@ var BGLTerms = [
 				],
 				[
 					54,
+					55
+				],
+				[
+					54,
 					61
 				],
 				[
@@ -13973,12 +18965,20 @@ var BGLTerms = [
 					67
 				],
 				[
+					54,
+					96
+				],
+				[
 					55,
 					61
 				],
 				[
 					55,
 					67
+				],
+				[
+					55,
+					96
 				],
 				[
 					22,
@@ -13987,6 +18987,10 @@ var BGLTerms = [
 				[
 					55,
 					56
+				],
+				[
+					56,
+					61
 				],
 				[
 					56,
@@ -13998,10 +19002,18 @@ var BGLTerms = [
 				],
 				[
 					61,
+					67
+				],
+				[
+					61,
 					96
 				],
 				[
 					22,
+					62
+				],
+				[
+					55,
 					62
 				],
 				[
@@ -14013,11 +19025,19 @@ var BGLTerms = [
 					67
 				],
 				[
+					62,
+					96
+				],
+				[
 					67,
 					96
 				],
 				[
 					22,
+					83
+				],
+				[
+					55,
 					83
 				],
 				[
@@ -14029,11 +19049,19 @@ var BGLTerms = [
 					83
 				],
 				[
+					83,
+					96
+				],
+				[
 					22,
 					99
 				],
 				[
 					55,
+					99
+				],
+				[
+					61,
 					99
 				],
 				[
@@ -14089,6 +19117,10 @@ var BGLTerms = [
 				],
 				[
 					2,
+					64
+				],
+				[
+					2,
 					78
 				],
 				[
@@ -14097,11 +19129,19 @@ var BGLTerms = [
 				],
 				[
 					5,
+					64
+				],
+				[
+					5,
 					78
 				],
 				[
 					5,
 					90
+				],
+				[
+					5,
+					61
 				],
 				[
 					61,
@@ -14112,12 +19152,20 @@ var BGLTerms = [
 					78
 				],
 				[
+					61,
+					90
+				],
+				[
 					64,
 					78
 				],
 				[
 					64,
 					90
+				],
+				[
+					5,
+					66
 				],
 				[
 					64,
@@ -14128,11 +19176,19 @@ var BGLTerms = [
 					78
 				],
 				[
+					66,
+					90
+				],
+				[
 					78,
 					90
 				],
 				[
 					5,
+					82
+				],
+				[
+					64,
 					82
 				],
 				[
@@ -14160,7 +19216,7 @@ var BGLTerms = [
 			},
 			"media": [
 				{
-					"video": "./media/85.mov"
+					"video": "./media/85.mp4"
 				}
 			]
 		},
@@ -14178,8 +19234,16 @@ var BGLTerms = [
 					40
 				],
 				[
+					6,
+					67
+				],
+				[
 					40,
 					67
+				],
+				[
+					40,
+					52
 				],
 				[
 					52,
@@ -14187,6 +19251,10 @@ var BGLTerms = [
 				],
 				[
 					40,
+					90
+				],
+				[
+					67,
 					90
 				]
 			]
@@ -14241,11 +19309,19 @@ var BGLTerms = [
 				],
 				[
 					17,
+					91
+				],
+				[
+					17,
 					94
 				],
 				[
 					80,
 					91
+				],
+				[
+					80,
+					94
 				],
 				[
 					80,
@@ -14256,11 +19332,19 @@ var BGLTerms = [
 					91
 				],
 				[
+					88,
+					94
+				],
+				[
 					91,
 					94
 				],
 				[
 					80,
+					92
+				],
+				[
+					91,
 					92
 				],
 				[
@@ -14314,11 +19398,19 @@ var BGLTerms = [
 				],
 				[
 					27,
+					90
+				],
+				[
+					27,
 					95
 				],
 				[
 					45,
 					90
+				],
+				[
+					45,
+					95
 				],
 				[
 					45,
@@ -14329,6 +19421,10 @@ var BGLTerms = [
 					90
 				],
 				[
+					67,
+					95
+				],
+				[
 					90,
 					95
 				],
@@ -14337,11 +19433,19 @@ var BGLTerms = [
 					93
 				],
 				[
+					90,
+					93
+				],
+				[
 					93,
 					95
 				],
 				[
 					45,
+					97
+				],
+				[
+					90,
 					97
 				],
 				[
@@ -14365,7 +19469,7 @@ var BGLTerms = [
 			},
 			"media": [
 				{
-					"video": "./media/88.mov"
+					"video": "./media/88.mp4"
 				}
 			]
 		},
@@ -14391,11 +19495,19 @@ var BGLTerms = [
 				],
 				[
 					4,
+					41
+				],
+				[
+					4,
 					58
 				],
 				[
 					4,
 					79
+				],
+				[
+					4,
+					88
 				],
 				[
 					4,
@@ -14407,11 +19519,19 @@ var BGLTerms = [
 				],
 				[
 					20,
+					58
+				],
+				[
+					20,
 					79
 				],
 				[
 					20,
 					88
+				],
+				[
+					20,
+					96
 				],
 				[
 					20,
@@ -14423,11 +19543,19 @@ var BGLTerms = [
 				],
 				[
 					33,
+					58
+				],
+				[
+					33,
 					79
 				],
 				[
 					33,
 					88
+				],
+				[
+					33,
+					96
 				],
 				[
 					41,
@@ -14439,10 +19567,18 @@ var BGLTerms = [
 				],
 				[
 					41,
+					88
+				],
+				[
+					41,
 					96
 				],
 				[
 					20,
+					48
+				],
+				[
+					41,
 					48
 				],
 				[
@@ -14455,11 +19591,19 @@ var BGLTerms = [
 				],
 				[
 					48,
+					88
+				],
+				[
+					48,
 					96
 				],
 				[
 					58,
 					79
+				],
+				[
+					58,
+					88
 				],
 				[
 					58,
@@ -14470,12 +19614,20 @@ var BGLTerms = [
 					78
 				],
 				[
+					41,
+					78
+				],
+				[
 					58,
 					78
 				],
 				[
 					78,
 					79
+				],
+				[
+					78,
+					88
 				],
 				[
 					78,
@@ -14486,11 +19638,19 @@ var BGLTerms = [
 					88
 				],
 				[
+					79,
+					96
+				],
+				[
 					20,
 					80
 				],
 				[
 					41,
+					80
+				],
+				[
+					58,
 					80
 				],
 				[
@@ -14502,6 +19662,10 @@ var BGLTerms = [
 					88
 				],
 				[
+					80,
+					96
+				],
+				[
 					88,
 					96
 				],
@@ -14510,11 +19674,19 @@ var BGLTerms = [
 					94
 				],
 				[
+					41,
+					94
+				],
+				[
 					58,
 					94
 				],
 				[
 					79,
+					94
+				],
+				[
+					88,
 					94
 				],
 				[
@@ -14577,6 +19749,10 @@ var BGLTerms = [
 				],
 				[
 					0,
+					29
+				],
+				[
+					0,
 					48
 				],
 				[
@@ -14585,11 +19761,19 @@ var BGLTerms = [
 				],
 				[
 					0,
+					75
+				],
+				[
+					0,
 					80
 				],
 				[
 					0,
 					87
+				],
+				[
+					0,
+					95
 				],
 				[
 					4,
@@ -14601,11 +19785,19 @@ var BGLTerms = [
 				],
 				[
 					4,
+					69
+				],
+				[
+					4,
 					75
 				],
 				[
 					4,
 					80
+				],
+				[
+					4,
+					87
 				],
 				[
 					4,
@@ -14617,11 +19809,19 @@ var BGLTerms = [
 				],
 				[
 					18,
+					29
+				],
+				[
+					18,
 					48
 				],
 				[
 					18,
 					69
+				],
+				[
+					18,
+					75
 				],
 				[
 					18,
@@ -14632,6 +19832,10 @@ var BGLTerms = [
 					87
 				],
 				[
+					18,
+					95
+				],
+				[
 					29,
 					48
 				],
@@ -14641,11 +19845,19 @@ var BGLTerms = [
 				],
 				[
 					29,
+					75
+				],
+				[
+					29,
 					80
 				],
 				[
 					29,
 					87
+				],
+				[
+					29,
+					95
 				],
 				[
 					4,
@@ -14657,11 +19869,19 @@ var BGLTerms = [
 				],
 				[
 					39,
+					48
+				],
+				[
+					39,
 					69
 				],
 				[
 					39,
 					75
+				],
+				[
+					39,
+					80
 				],
 				[
 					39,
@@ -14673,6 +19893,10 @@ var BGLTerms = [
 				],
 				[
 					48,
+					69
+				],
+				[
+					48,
 					75
 				],
 				[
@@ -14681,10 +19905,18 @@ var BGLTerms = [
 				],
 				[
 					48,
+					87
+				],
+				[
+					48,
 					95
 				],
 				[
 					4,
+					65
+				],
+				[
+					29,
 					65
 				],
 				[
@@ -14697,11 +19929,19 @@ var BGLTerms = [
 				],
 				[
 					65,
+					75
+				],
+				[
+					65,
 					80
 				],
 				[
 					65,
 					87
+				],
+				[
+					65,
+					95
 				],
 				[
 					69,
@@ -14713,10 +19953,18 @@ var BGLTerms = [
 				],
 				[
 					69,
+					87
+				],
+				[
+					69,
 					95
 				],
 				[
 					4,
+					72
+				],
+				[
+					29,
 					72
 				],
 				[
@@ -14729,6 +19977,10 @@ var BGLTerms = [
 				],
 				[
 					72,
+					75
+				],
+				[
+					72,
 					80
 				],
 				[
@@ -14736,12 +19988,20 @@ var BGLTerms = [
 					87
 				],
 				[
+					72,
+					95
+				],
+				[
 					75,
 					80
 				],
 				[
 					75,
 					87
+				],
+				[
+					75,
+					95
 				],
 				[
 					4,
@@ -14752,12 +20012,20 @@ var BGLTerms = [
 					78
 				],
 				[
+					48,
+					78
+				],
+				[
 					69,
 					78
 				],
 				[
 					75,
 					78
+				],
+				[
+					78,
+					80
 				],
 				[
 					78,
@@ -14769,10 +20037,18 @@ var BGLTerms = [
 				],
 				[
 					80,
+					87
+				],
+				[
+					80,
 					95
 				],
 				[
 					4,
+					85
+				],
+				[
+					29,
 					85
 				],
 				[
@@ -14781,6 +20057,10 @@ var BGLTerms = [
 				],
 				[
 					69,
+					85
+				],
+				[
+					75,
 					85
 				],
 				[
@@ -14792,11 +20072,19 @@ var BGLTerms = [
 					87
 				],
 				[
+					85,
+					95
+				],
+				[
 					87,
 					95
 				],
 				[
 					4,
+					94
+				],
+				[
+					29,
 					94
 				],
 				[
@@ -14808,12 +20096,20 @@ var BGLTerms = [
 					94
 				],
 				[
+					75,
+					94
+				],
+				[
 					80,
 					94
 				],
 				[
 					87,
 					94
+				],
+				[
+					94,
+					95
 				]
 			]
 		}
@@ -14824,7 +20120,7 @@ var BGLTerms = [
 		"theme": "orange",
 		"content": {
 			"term_desc": "<p>As opposed to recycling, which converts and downgrades used materials, upcycling is the practice of reusing available materials for new purposes of equal or higher value than that of the original object. The term became popular in the mid-1990s when the effectiveness of recycling was being questioned and a rediscovery of craft was taking place. Upcycling also gives value to repurposed materials by adding a design element to the final product.</p>",
-			"project_desc": "<p>Rethinking Garbage looked at how waste could be transformed into raw material for functional objects. Activities focused on personal stories, political movements that influenced the culture of waste, and hands-on building designed to help participants create products and business plans using refuse as the primary resource. Rethinking Garbage was organized by Kulturlabor Trial &amp;amp; Error, a Berlin-based, nonprofit organization working with crafts, DIY culture, sustainability, arts, and media, in collaboration with design critic Birgit S. Bauer and urban curator J&amp;uuml;rgen Breiter.</p>",
+			"project_desc": "<p>Rethinking Garbage looked at how waste could be transformed into raw material for functional objects. Activities focused on personal stories, political movements that influenced the culture of waste, and hands-on building designed to help participants create products and business plans using refuse as the primary resource. Rethinking Garbage was organized by Kulturlabor Trial &amp; Error, a Berlin-based, nonprofit organization working with crafts, DIY culture, sustainability, arts, and media, in collaboration with design critic Birgit S. Bauer and urban curator J&uuml;rgen Breiter.</p>",
 			"project_meta": {
 				"location": "BMW Guggenheim Lab, Berlin",
 				"program": "Rethinking Garbage",
@@ -14888,6 +20184,10 @@ var BGLTerms = [
 				],
 				[
 					1,
+					22
+				],
+				[
+					1,
 					38
 				],
 				[
@@ -14896,11 +20196,19 @@ var BGLTerms = [
 				],
 				[
 					8,
+					22
+				],
+				[
+					8,
 					38
 				],
 				[
 					8,
 					52
+				],
+				[
+					8,
+					18
 				],
 				[
 					18,
@@ -14911,12 +20219,20 @@ var BGLTerms = [
 					38
 				],
 				[
+					18,
+					52
+				],
+				[
 					22,
 					38
 				],
 				[
 					22,
 					52
+				],
+				[
+					8,
+					34
 				],
 				[
 					22,
@@ -14927,11 +20243,19 @@ var BGLTerms = [
 					38
 				],
 				[
+					34,
+					52
+				],
+				[
 					38,
 					52
 				],
 				[
 					8,
+					40
+				],
+				[
+					22,
 					40
 				],
 				[
@@ -14943,11 +20267,19 @@ var BGLTerms = [
 					52
 				],
 				[
+					8,
+					79
+				],
+				[
 					22,
 					79
 				],
 				[
 					38,
+					79
+				],
+				[
+					52,
 					79
 				]
 			]
@@ -14967,7 +20299,7 @@ var BGLTerms = [
 			},
 			"media": [
 				{
-					"video": "./media/91.mov"
+					"video": "./media/91.mp4"
 				}
 			]
 		},
@@ -14998,6 +20330,10 @@ var BGLTerms = [
 				],
 				[
 					8,
+					21
+				],
+				[
+					8,
 					26
 				],
 				[
@@ -15006,11 +20342,19 @@ var BGLTerms = [
 				],
 				[
 					8,
+					66
+				],
+				[
+					8,
 					75
 				],
 				[
 					8,
 					83
+				],
+				[
+					8,
+					86
 				],
 				[
 					11,
@@ -15022,11 +20366,19 @@ var BGLTerms = [
 				],
 				[
 					11,
+					40
+				],
+				[
+					11,
 					66
 				],
 				[
 					11,
 					75
+				],
+				[
+					11,
+					83
 				],
 				[
 					11,
@@ -15038,11 +20390,19 @@ var BGLTerms = [
 				],
 				[
 					15,
+					21
+				],
+				[
+					15,
 					26
 				],
 				[
 					15,
 					40
+				],
+				[
+					15,
+					66
 				],
 				[
 					15,
@@ -15053,6 +20413,10 @@ var BGLTerms = [
 					83
 				],
 				[
+					15,
+					86
+				],
+				[
 					21,
 					26
 				],
@@ -15062,11 +20426,19 @@ var BGLTerms = [
 				],
 				[
 					21,
+					66
+				],
+				[
+					21,
 					75
 				],
 				[
 					21,
 					83
+				],
+				[
+					21,
+					86
 				],
 				[
 					11,
@@ -15078,11 +20450,19 @@ var BGLTerms = [
 				],
 				[
 					23,
+					26
+				],
+				[
+					23,
 					40
 				],
 				[
 					23,
 					66
+				],
+				[
+					23,
+					75
 				],
 				[
 					23,
@@ -15094,6 +20474,10 @@ var BGLTerms = [
 				],
 				[
 					26,
+					40
+				],
+				[
+					26,
 					66
 				],
 				[
@@ -15102,10 +20486,18 @@ var BGLTerms = [
 				],
 				[
 					26,
+					83
+				],
+				[
+					26,
 					86
 				],
 				[
 					11,
+					37
+				],
+				[
+					21,
 					37
 				],
 				[
@@ -15118,11 +20510,19 @@ var BGLTerms = [
 				],
 				[
 					37,
+					66
+				],
+				[
+					37,
 					75
 				],
 				[
 					37,
 					83
+				],
+				[
+					37,
+					86
 				],
 				[
 					40,
@@ -15134,10 +20534,18 @@ var BGLTerms = [
 				],
 				[
 					40,
+					83
+				],
+				[
+					40,
 					86
 				],
 				[
 					11,
+					64
+				],
+				[
+					21,
 					64
 				],
 				[
@@ -15150,6 +20558,10 @@ var BGLTerms = [
 				],
 				[
 					64,
+					66
+				],
+				[
+					64,
 					75
 				],
 				[
@@ -15157,12 +20569,20 @@ var BGLTerms = [
 					83
 				],
 				[
+					64,
+					86
+				],
+				[
 					66,
 					75
 				],
 				[
 					66,
 					83
+				],
+				[
+					66,
+					86
 				],
 				[
 					11,
@@ -15173,12 +20593,20 @@ var BGLTerms = [
 					69
 				],
 				[
+					26,
+					69
+				],
+				[
 					40,
 					69
 				],
 				[
 					66,
 					69
+				],
+				[
+					69,
+					75
 				],
 				[
 					69,
@@ -15190,10 +20618,18 @@ var BGLTerms = [
 				],
 				[
 					75,
+					83
+				],
+				[
+					75,
 					86
 				],
 				[
 					11,
+					78
+				],
+				[
+					21,
 					78
 				],
 				[
@@ -15202,6 +20638,10 @@ var BGLTerms = [
 				],
 				[
 					40,
+					78
+				],
+				[
+					66,
 					78
 				],
 				[
@@ -15213,11 +20653,19 @@ var BGLTerms = [
 					83
 				],
 				[
+					78,
+					86
+				],
+				[
 					83,
 					86
 				],
 				[
 					11,
+					84
+				],
+				[
+					21,
 					84
 				],
 				[
@@ -15229,12 +20677,20 @@ var BGLTerms = [
 					84
 				],
 				[
+					66,
+					84
+				],
+				[
 					75,
 					84
 				],
 				[
 					83,
 					84
+				],
+				[
+					84,
+					86
 				],
 				[
 					11,
@@ -15245,11 +20701,19 @@ var BGLTerms = [
 					95
 				],
 				[
+					26,
+					95
+				],
+				[
 					40,
 					95
 				],
 				[
 					66,
+					95
+				],
+				[
+					75,
 					95
 				],
 				[
@@ -15319,11 +20783,19 @@ var BGLTerms = [
 				],
 				[
 					34,
+					50
+				],
+				[
+					34,
 					85
 				],
 				[
 					36,
 					50
+				],
+				[
+					36,
+					85
 				],
 				[
 					36,
@@ -15334,6 +20806,10 @@ var BGLTerms = [
 					50
 				],
 				[
+					39,
+					85
+				],
+				[
 					50,
 					85
 				],
@@ -15342,11 +20818,19 @@ var BGLTerms = [
 					51
 				],
 				[
+					50,
+					51
+				],
+				[
 					51,
 					85
 				],
 				[
 					36,
+					99
+				],
+				[
+					50,
 					99
 				],
 				[
@@ -15404,6 +20888,10 @@ var BGLTerms = [
 				],
 				[
 					0,
+					41
+				],
+				[
+					0,
 					81
 				],
 				[
@@ -15412,11 +20900,19 @@ var BGLTerms = [
 				],
 				[
 					17,
+					41
+				],
+				[
+					17,
 					81
 				],
 				[
 					17,
 					95
+				],
+				[
+					17,
+					39
 				],
 				[
 					39,
@@ -15427,12 +20923,20 @@ var BGLTerms = [
 					81
 				],
 				[
+					39,
+					95
+				],
+				[
 					41,
 					81
 				],
 				[
 					41,
 					95
+				],
+				[
+					17,
+					80
 				],
 				[
 					41,
@@ -15443,11 +20947,19 @@ var BGLTerms = [
 					81
 				],
 				[
+					80,
+					95
+				],
+				[
 					81,
 					95
 				],
 				[
 					17,
+					94
+				],
+				[
+					41,
 					94
 				],
 				[
@@ -15467,7 +20979,7 @@ var BGLTerms = [
 		"theme": "red",
 		"content": {
 			"term_desc": "<p>Urban history is a branch of study that focuses on how cities originated and how the process of urbanization developed from the time of the first human settlements to the present. Urban history is of great importance to discussions about the future of cities. No city can know its future without first analyzing, understanding, and accepting its past.</p>",
-			"project_desc": "<p>Visitors spent an afternoon at Gropiusstadt, the residential complex built in 1960 by modernist architect Walter Gropius. Participants discussed the challenges of modernist design and shared their responses to and insights about the unique residential colony. The tour was led by J&amp;ouml;rg Stollman, cofounder of urbaninform.net, and professor and chair for urban design and architecture at the Technical University of Berlin.</p>",
+			"project_desc": "<p>Visitors spent an afternoon at Gropiusstadt, the residential complex built in 1960 by modernist architect Walter Gropius. Participants discussed the challenges of modernist design and shared their responses to and insights about the unique residential colony. The tour was led by J&ouml;rg Stollman, cofounder of urbaninform.net, and professor and chair for urban design and architecture at the Technical University of Berlin.</p>",
 			"project_meta": {
 				"location": "BMW Guggenheim Lab, Berlin",
 				"program": "Step by Step: A Walk through Gropiusstadt",
@@ -15519,11 +21031,19 @@ var BGLTerms = [
 				],
 				[
 					5,
+					16
+				],
+				[
+					5,
 					38
 				],
 				[
 					5,
 					51
+				],
+				[
+					5,
+					59
 				],
 				[
 					5,
@@ -15535,6 +21055,10 @@ var BGLTerms = [
 				],
 				[
 					10,
+					16
+				],
+				[
+					10,
 					38
 				],
 				[
@@ -15543,11 +21067,19 @@ var BGLTerms = [
 				],
 				[
 					10,
+					59
+				],
+				[
+					10,
 					81
 				],
 				[
 					10,
 					97
+				],
+				[
+					10,
+					13
 				],
 				[
 					13,
@@ -15559,11 +21091,19 @@ var BGLTerms = [
 				],
 				[
 					13,
+					51
+				],
+				[
+					13,
 					59
 				],
 				[
 					13,
 					81
+				],
+				[
+					13,
+					97
 				],
 				[
 					16,
@@ -15575,11 +21115,19 @@ var BGLTerms = [
 				],
 				[
 					16,
+					59
+				],
+				[
+					16,
 					81
 				],
 				[
 					16,
 					97
+				],
+				[
+					10,
+					29
 				],
 				[
 					16,
@@ -15591,11 +21139,19 @@ var BGLTerms = [
 				],
 				[
 					29,
+					51
+				],
+				[
+					29,
 					59
 				],
 				[
 					29,
 					81
+				],
+				[
+					29,
+					97
 				],
 				[
 					38,
@@ -15604,6 +21160,10 @@ var BGLTerms = [
 				[
 					38,
 					59
+				],
+				[
+					38,
+					81
 				],
 				[
 					38,
@@ -15614,6 +21174,10 @@ var BGLTerms = [
 					47
 				],
 				[
+					16,
+					47
+				],
+				[
 					38,
 					47
 				],
@@ -15623,6 +21187,10 @@ var BGLTerms = [
 				],
 				[
 					47,
+					59
+				],
+				[
+					47,
 					81
 				],
 				[
@@ -15631,6 +21199,10 @@ var BGLTerms = [
 				],
 				[
 					51,
+					59
+				],
+				[
+					51,
 					81
 				],
 				[
@@ -15638,11 +21210,19 @@ var BGLTerms = [
 					97
 				],
 				[
+					10,
+					58
+				],
+				[
 					16,
 					58
 				],
 				[
 					38,
+					58
+				],
+				[
+					51,
 					58
 				],
 				[
@@ -15654,6 +21234,10 @@ var BGLTerms = [
 					81
 				],
 				[
+					58,
+					97
+				],
+				[
 					59,
 					81
 				],
@@ -15662,11 +21246,19 @@ var BGLTerms = [
 					97
 				],
 				[
+					10,
+					77
+				],
+				[
 					16,
 					77
 				],
 				[
 					38,
+					77
+				],
+				[
+					51,
 					77
 				],
 				[
@@ -15678,11 +21270,19 @@ var BGLTerms = [
 					81
 				],
 				[
+					77,
+					97
+				],
+				[
 					81,
 					97
 				],
 				[
 					10,
+					86
+				],
+				[
+					16,
 					86
 				],
 				[
@@ -15694,12 +21294,20 @@ var BGLTerms = [
 					86
 				],
 				[
+					59,
+					86
+				],
+				[
 					81,
 					86
 				],
 				[
 					86,
 					97
+				],
+				[
+					10,
+					99
 				],
 				[
 					16,
@@ -15710,11 +21318,19 @@ var BGLTerms = [
 					99
 				],
 				[
+					51,
+					99
+				],
+				[
 					59,
 					99
 				],
 				[
 					81,
+					99
+				],
+				[
+					97,
 					99
 				]
 			]
@@ -15734,7 +21350,7 @@ var BGLTerms = [
 			},
 			"media": [
 				{
-					"video": "./media/95.mov"
+					"video": "./media/95.mp4"
 				}
 			]
 		},
@@ -15767,11 +21383,19 @@ var BGLTerms = [
 				],
 				[
 					4,
+					33
+				],
+				[
+					4,
 					41
 				],
 				[
 					4,
 					65
+				],
+				[
+					4,
+					72
 				],
 				[
 					4,
@@ -15783,11 +21407,19 @@ var BGLTerms = [
 				],
 				[
 					4,
+					87
+				],
+				[
+					4,
 					92
 				],
 				[
 					17,
 					33
+				],
+				[
+					17,
+					41
 				],
 				[
 					17,
@@ -15799,11 +21431,19 @@ var BGLTerms = [
 				],
 				[
 					17,
+					78
+				],
+				[
+					17,
 					80
 				],
 				[
 					17,
 					87
+				],
+				[
+					17,
+					92
 				],
 				[
 					17,
@@ -15815,6 +21455,10 @@ var BGLTerms = [
 				],
 				[
 					18,
+					41
+				],
+				[
+					18,
 					65
 				],
 				[
@@ -15823,11 +21467,19 @@ var BGLTerms = [
 				],
 				[
 					18,
+					78
+				],
+				[
+					18,
 					80
 				],
 				[
 					18,
 					87
+				],
+				[
+					18,
+					92
 				],
 				[
 					33,
@@ -15839,6 +21491,10 @@ var BGLTerms = [
 				],
 				[
 					33,
+					72
+				],
+				[
+					33,
 					78
 				],
 				[
@@ -15847,10 +21503,18 @@ var BGLTerms = [
 				],
 				[
 					33,
+					87
+				],
+				[
+					33,
 					92
 				],
 				[
 					17,
+					39
+				],
+				[
+					33,
 					39
 				],
 				[
@@ -15863,11 +21527,19 @@ var BGLTerms = [
 				],
 				[
 					39,
+					72
+				],
+				[
+					39,
 					78
 				],
 				[
 					39,
 					80
+				],
+				[
+					39,
+					87
 				],
 				[
 					39,
@@ -15879,11 +21551,19 @@ var BGLTerms = [
 				],
 				[
 					41,
+					72
+				],
+				[
+					41,
 					78
 				],
 				[
 					41,
 					80
+				],
+				[
+					41,
+					87
 				],
 				[
 					41,
@@ -15894,6 +21574,10 @@ var BGLTerms = [
 					46
 				],
 				[
+					33,
+					46
+				],
+				[
 					41,
 					46
 				],
@@ -15903,11 +21587,19 @@ var BGLTerms = [
 				],
 				[
 					46,
+					72
+				],
+				[
+					46,
 					78
 				],
 				[
 					46,
 					80
+				],
+				[
+					46,
+					87
 				],
 				[
 					46,
@@ -15919,11 +21611,19 @@ var BGLTerms = [
 				],
 				[
 					65,
+					78
+				],
+				[
+					65,
 					80
 				],
 				[
 					65,
 					87
+				],
+				[
+					65,
+					92
 				],
 				[
 					17,
@@ -15934,12 +21634,20 @@ var BGLTerms = [
 					69
 				],
 				[
+					41,
+					69
+				],
+				[
 					65,
 					69
 				],
 				[
 					69,
 					72
+				],
+				[
+					69,
+					78
 				],
 				[
 					69,
@@ -15950,6 +21658,10 @@ var BGLTerms = [
 					87
 				],
 				[
+					69,
+					92
+				],
+				[
 					72,
 					78
 				],
@@ -15959,10 +21671,18 @@ var BGLTerms = [
 				],
 				[
 					72,
+					87
+				],
+				[
+					72,
 					92
 				],
 				[
 					17,
+					75
+				],
+				[
+					33,
 					75
 				],
 				[
@@ -15974,6 +21694,10 @@ var BGLTerms = [
 					75
 				],
 				[
+					72,
+					75
+				],
+				[
 					75,
 					78
 				],
@@ -15983,11 +21707,19 @@ var BGLTerms = [
 				],
 				[
 					75,
+					87
+				],
+				[
+					75,
 					92
 				],
 				[
 					78,
 					80
+				],
+				[
+					78,
+					87
 				],
 				[
 					78,
@@ -15998,11 +21730,19 @@ var BGLTerms = [
 					79
 				],
 				[
+					33,
+					79
+				],
+				[
 					41,
 					79
 				],
 				[
 					65,
+					79
+				],
+				[
+					72,
 					79
 				],
 				[
@@ -16012,6 +21752,10 @@ var BGLTerms = [
 				[
 					79,
 					80
+				],
+				[
+					79,
+					87
 				],
 				[
 					79,
@@ -16022,6 +21766,10 @@ var BGLTerms = [
 					87
 				],
 				[
+					80,
+					92
+				],
+				[
 					17,
 					85
 				],
@@ -16030,11 +21778,19 @@ var BGLTerms = [
 					85
 				],
 				[
+					41,
+					85
+				],
+				[
 					65,
 					85
 				],
 				[
 					72,
+					85
+				],
+				[
+					78,
 					85
 				],
 				[
@@ -16046,11 +21802,19 @@ var BGLTerms = [
 					87
 				],
 				[
+					85,
+					92
+				],
+				[
 					87,
 					92
 				],
 				[
 					17,
+					88
+				],
+				[
+					33,
 					88
 				],
 				[
@@ -16062,11 +21826,19 @@ var BGLTerms = [
 					88
 				],
 				[
+					72,
+					88
+				],
+				[
 					78,
 					88
 				],
 				[
 					80,
+					88
+				],
+				[
+					87,
 					88
 				],
 				[
@@ -16078,6 +21850,10 @@ var BGLTerms = [
 					95
 				],
 				[
+					33,
+					95
+				],
+				[
 					41,
 					95
 				],
@@ -16086,11 +21862,19 @@ var BGLTerms = [
 					95
 				],
 				[
+					72,
+					95
+				],
+				[
 					78,
 					95
 				],
 				[
 					80,
+					95
+				],
+				[
+					87,
 					95
 				],
 				[
@@ -16152,6 +21936,10 @@ var BGLTerms = [
 				],
 				[
 					0,
+					81
+				],
+				[
+					0,
 					88
 				],
 				[
@@ -16160,11 +21948,19 @@ var BGLTerms = [
 				],
 				[
 					17,
+					81
+				],
+				[
+					17,
 					88
 				],
 				[
 					17,
 					92
+				],
+				[
+					17,
+					41
 				],
 				[
 					41,
@@ -16175,12 +21971,20 @@ var BGLTerms = [
 					88
 				],
 				[
+					41,
+					92
+				],
+				[
 					81,
 					88
 				],
 				[
 					81,
 					92
+				],
+				[
+					17,
+					86
 				],
 				[
 					81,
@@ -16191,11 +21995,19 @@ var BGLTerms = [
 					88
 				],
 				[
+					86,
+					92
+				],
+				[
 					88,
 					92
 				],
 				[
 					17,
+					90
+				],
+				[
+					81,
 					90
 				],
 				[
@@ -16207,11 +22019,19 @@ var BGLTerms = [
 					92
 				],
 				[
+					17,
+					94
+				],
+				[
 					81,
 					94
 				],
 				[
 					88,
+					94
+				],
+				[
+					92,
 					94
 				]
 			]
@@ -16280,6 +22100,10 @@ var BGLTerms = [
 				],
 				[
 					4,
+					66
+				],
+				[
+					4,
 					72
 				],
 				[
@@ -16288,11 +22112,19 @@ var BGLTerms = [
 				],
 				[
 					48,
+					66
+				],
+				[
+					48,
 					72
 				],
 				[
 					48,
 					87
+				],
+				[
+					48,
+					61
 				],
 				[
 					61,
@@ -16303,12 +22135,20 @@ var BGLTerms = [
 					72
 				],
 				[
+					61,
+					87
+				],
+				[
 					66,
 					72
 				],
 				[
 					66,
 					87
+				],
+				[
+					48,
+					68
 				],
 				[
 					66,
@@ -16319,11 +22159,19 @@ var BGLTerms = [
 					72
 				],
 				[
+					68,
+					87
+				],
+				[
 					72,
 					87
 				],
 				[
 					48,
+					82
+				],
+				[
+					66,
 					82
 				],
 				[
@@ -16343,7 +22191,7 @@ var BGLTerms = [
 		"theme": "blue-dark",
 		"content": {
 			"term_desc": "<p>Like urban beauty, urban ugliness is the subjective assessment of the aesthetic values of a city. Some argue that allowing layers of history and urban decay to be revealed produces the ultimate urban aesthetic. Others prefer new, pristine developments that are clean, orderly, and employ the latest technology or building techniques.</p>",
-			"project_desc": "<p>As a part of the What is Beautiful? panel, J&amp;uuml;rgen Krusche, Institute for Contemporary Art, Zurich University of the Arts, gave a presentation in which he analyzed the infamous German saying, &ldquo;Berlin is ugly and it is good.&rdquo; Krusche described the value of &ldquo;ugly&rdquo; in discourse about urban development by teasing out the implications of maintaining a well-regulated and tidy public space&mdash;that is, a beautiful one&mdash;and whether such a space can meet the needs of all who use it.</p>",
+			"project_desc": "<p>As a part of the What is Beautiful? panel, J&uuml;rgen Krusche, Institute for Contemporary Art, Zurich University of the Arts, gave a presentation in which he analyzed the infamous German saying, &ldquo;Berlin is ugly and it is good.&rdquo; Krusche described the value of &ldquo;ugly&rdquo; in discourse about urban development by teasing out the implications of maintaining a well-regulated and tidy public space&mdash;that is, a beautiful one&mdash;and whether such a space can meet the needs of all who use it.</p>",
 			"project_meta": {
 				"location": "BMW Guggenheim Lab, Berlin",
 				"program": "What is Beautiful?",
@@ -16351,7 +22199,7 @@ var BGLTerms = [
 			},
 			"media": [
 				{
-					"video": "./media/98.mov"
+					"video": "./media/98.mp4"
 				}
 			]
 		},
@@ -16371,11 +22219,19 @@ var BGLTerms = [
 				],
 				[
 					38,
+					81
+				],
+				[
+					38,
 					93
 				],
 				[
 					41,
 					81
+				],
+				[
+					41,
+					93
 				],
 				[
 					41,
@@ -16386,11 +22242,19 @@ var BGLTerms = [
 					81
 				],
 				[
+					72,
+					93
+				],
+				[
 					81,
 					93
 				],
 				[
 					41,
+					86
+				],
+				[
+					81,
 					86
 				],
 				[
@@ -16414,7 +22278,7 @@ var BGLTerms = [
 			},
 			"media": [
 				{
-					"video": "./media/99.mov"
+					"video": "./media/99.mp4"
 				}
 			]
 		},
@@ -16436,6 +22300,10 @@ var BGLTerms = [
 				],
 				[
 					4,
+					33
+				],
+				[
+					4,
 					65
 				],
 				[
@@ -16444,11 +22312,19 @@ var BGLTerms = [
 				],
 				[
 					31,
+					33
+				],
+				[
+					31,
 					65
 				],
 				[
 					31,
 					81
+				],
+				[
+					31,
+					32
 				],
 				[
 					32,
@@ -16459,12 +22335,20 @@ var BGLTerms = [
 					65
 				],
 				[
+					32,
+					81
+				],
+				[
 					33,
 					65
 				],
 				[
 					33,
 					81
+				],
+				[
+					31,
+					41
 				],
 				[
 					33,
@@ -16475,11 +22359,19 @@ var BGLTerms = [
 					65
 				],
 				[
+					41,
+					81
+				],
+				[
 					65,
 					81
 				],
 				[
 					31,
+					72
+				],
+				[
+					33,
 					72
 				],
 				[
@@ -16557,6 +22449,10 @@ var BGLTerms = [
 				],
 				[
 					25,
+					54
+				],
+				[
+					25,
 					71
 				],
 				[
@@ -16565,11 +22461,19 @@ var BGLTerms = [
 				],
 				[
 					28,
+					54
+				],
+				[
+					28,
 					71
 				],
 				[
 					28,
 					91
+				],
+				[
+					28,
+					35
 				],
 				[
 					35,
@@ -16580,12 +22484,20 @@ var BGLTerms = [
 					71
 				],
 				[
+					35,
+					91
+				],
+				[
 					54,
 					71
 				],
 				[
 					54,
 					91
+				],
+				[
+					28,
+					56
 				],
 				[
 					54,
@@ -16596,11 +22508,19 @@ var BGLTerms = [
 					71
 				],
 				[
+					56,
+					91
+				],
+				[
 					71,
 					91
 				],
 				[
 					28,
+					82
+				],
+				[
+					54,
 					82
 				],
 				[
@@ -16612,11 +22532,19 @@ var BGLTerms = [
 					91
 				],
 				[
+					28,
+					93
+				],
+				[
 					54,
 					93
 				],
 				[
 					71,
+					93
+				],
+				[
+					91,
 					93
 				]
 			]

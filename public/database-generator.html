@@ -4942,8 +4942,9 @@ function paddify(n, p, c) {
 			.replace(/ü/g, '&uuml;')
 			.replace(/ý/g, '&yacute;')
 			// punctuation, special chars
-			/* .replace(/&/g, '&amp;') */
+			//.replace(/&/g, '&amp;')
 			.replace(/'/g, '&#39;')
+			.replace(/’/g, '&#39;')
 			.replace(/–/g, '&ndash;')		
 			.replace(/—/g, '&mdash;')		
 			.replace(/“/g, '&ldquo;')
