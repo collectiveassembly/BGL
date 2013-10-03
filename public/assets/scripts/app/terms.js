@@ -5,7 +5,7 @@ var BGLTerms = [
 		"theme": "red",
 		"content": {
 			"term_desc": "<p>Originally conceived for safety, vehicle horns have become a top sound pollution concern in cities. Today, although honking is illegal in most cities around the world, enforcing anti-honking laws has proven difficult. In Mumbai, honking substitutes as a turn signal or serves as an all-purpose form of communication for drivers, and is ubiquitous at all hours. Even when they have no apparent reason to do so, Mumbaikar drivers honk. In 2008, taxi drivers in Mumbai took an oath not to honk, with little to no effect.</p>",
-			"project_desc": "<p>In a conversation about Mumbai&#39;s city issues, cricket player Sachin Tendulkar suggested a 10,000-honk rule that would allot every car only 10,000 honks after its time of purchase; the regulation would control sound pollution in Mumbai&#39;s streets and could fund urban noise-reduction projects: drivers who needed more than 10,000 honks would have to purchase them from the government. </p>",
+			"project_desc": "<p>In a conversation about Mumbai&rsquo;s city issues, cricket player Sachin Tendulkar suggested a 10,000-honk rule that would allot every car only 10,000 honks after its time of purchase; the regulation would control sound pollution in Mumbai&rsquo;s streets and could fund urban noise-reduction projects: drivers who needed more than 10,000 honks would have to purchase them from the government. </p>",
 			"project_meta": {
 				"location": "BMW Guggenheim Lab, Mumbai, Dr. Bhau Daji Lad Museum",
 				"program": "A Visit from Sachin Tendulkar\n\t\t\t",
@@ -926,7 +926,7 @@ var BGLTerms = [
 		"theme": "orange",
 		"content": {
 			"term_desc": "<p>Architectural restoration is the process of bringing back dated, damaged, worn, or structurally unsound pieces of the built environment to their original state and improving their condition. This includes the restoration of buildings, districts, waterfronts, and pavements. Although a seemingly outmoded term, architectural restoration is at the forefront of modern-day urban renewal efforts and is often a more economical, sustainable, and efficient approach to redeveloping parts of a city than the comprehensive demolition and rebuilding of structures.</p>",
-			"project_desc": "<p>Planning in a Dynamic City brought together stakeholders from various levels of city planning to speak about Mumbai&#39;s future and the possibility of architectural restoration as an approach to confronting some of the city&#39;s issues.</p>",
+			"project_desc": "<p>Planning in a Dynamic City brought together stakeholders from various levels of city planning to speak about Mumbai&rsquo;s future and the possibility of architectural restoration as an approach to confronting some of the city&rsquo;s issues.</p>",
 			"project_meta": {
 				"location": "BMW Guggenheim Lab, Mumbai, Dr. Bhau Daji Lad Museum",
 				"program": "Planning in a Dynamic City\n\t\t\t",
@@ -1205,7 +1205,7 @@ var BGLTerms = [
 			"project_meta": {
 				"location": "BMW Guggenheim Lab, Berlin",
 				"program": "Making Things Sense with Arduinos",
-				"date": "June 17,2012"
+				"date": "June 17, 2012"
 			},
 			"media": [
 				{
@@ -1489,12 +1489,12 @@ var BGLTerms = [
 		"name": "Bottom-Up Urban Engagement",
 		"theme": "green",
 		"content": {
-			"term_desc": "<p>Bottom-up urban engagement places the citizen at the root of urban change. The term &ldquo;bottom-up&rdquo; first appeared in relation to its opposite, &ldquo;top-down,&rdquo; in a 1942 edition of Harvard University&#39;s <em>Quarterly Journal of Economics</em>. In an urban context, this approach has two key, complementary dimensions: first, a trend that encourages social, cooperative models of city organization; and second, a growing interest from government officials, academia, and the professional sector in resorting to digital, open-sourced data and models as key resources for understanding urban interactions.</p>",
-			"project_desc": "<p>The nonprofit design/build organization Hester Street Collaborative launched the website peoplemakeparks.org at the New York Lab. The initiative facilitates bottom-up urban engagement by making the New York City Department of Parks and Recreation&#39;s capital project design processes accessible to local community groups and citizens, allowing them to participate in park design.</p>",
+			"term_desc": "<p>Bottom-up urban engagement places the citizen at the root of urban change. The term &ldquo;bottom-up&rdquo; first appeared in relation to its opposite, &ldquo;top-down,&rdquo; in a 1942 edition of Harvard University&rsquo;s <em>Quarterly Journal of Economics</em>. In an urban context, this approach has two key, complementary dimensions: first, a trend that encourages social, cooperative models of city organization; and second, a growing interest from government officials, academia, and the professional sector in resorting to digital, open-sourced data and models as key resources for understanding urban interactions.</p>",
+			"project_desc": "<p>The nonprofit design/build organization Hester Street Collaborative launched the website peoplemakeparks.org at the New York Lab. The initiative facilitates bottom-up urban engagement by making the New York City Department of Parks and Recreation&rsquo;s capital project design processes accessible to local community groups and citizens, allowing them to participate in park design.</p>",
 			"project_meta": {
 				"location": "BMW Guggenheim Lab, New York",
 				"program": "People Make Parks Launch",
-				"date": "September 16,2011"
+				"date": "September 16, 2011"
 			},
 			"media": [
 				{
@@ -2114,8 +2114,8 @@ var BGLTerms = [
 		"name": "Bridging Infrastructure",
 		"theme": "green",
 		"content": {
-			"term_desc": "<p>As in many cities in the developing world, much of Mumbai&#39;s urban fabric has taken shape without formal, comprehensive master planning. Water, sanitation, transportation, and housing systems have been developed in near isolation from one another, and generally bypass the informally developed sections of the city&mdash;the slums&mdash;where the majority of the city&#39;s population lives. The concept of bridging infrastructure suggests a need to better connect and align those systems to allow them to work efficiently with one another.</p>",
-			"project_desc": "<p>Rethinking Kala Nagar Traffic Junction was a global design competition seeking innovative proposals to redesign one of Mumbai&#39;s busiest transportation hubs, the Kala Nagar traffic junction. Open to students and professionals, the competition challenged applicants to restructure the junction&#39;s traffic flow and explore ways to refit its infrastructure with new public space and pedestrian functions. The competition was spearheaded by Mumbai Lab Team member Trupti Amritwar Vaitla with Mumbai Environmental Social Network (MESN) and was administered by Lord Cultural Resources Private Limited.</p>",
+			"term_desc": "<p>As in many cities in the developing world, much of Mumbai&rsquo;s urban fabric has taken shape without formal, comprehensive master planning. Water, sanitation, transportation, and housing systems have been developed in near isolation from one another, and generally bypass the informally developed sections of the city&mdash;the slums&mdash;where the majority of the city&rsquo;s population lives. The concept of bridging infrastructure suggests a need to better connect and align those systems to allow them to work efficiently with one another.</p>",
+			"project_desc": "<p>Rethinking Kala Nagar Traffic Junction was a global design competition seeking innovative proposals to redesign one of Mumbai&rsquo;s busiest transportation hubs, the Kala Nagar traffic junction. Open to students and professionals, the competition challenged applicants to restructure the junction&rsquo;s traffic flow and explore ways to refit its infrastructure with new public space and pedestrian functions. The competition was spearheaded by Mumbai Lab Team member Trupti Amritwar Vaitla with Mumbai Environmental Social Network (MESN) and was administered by Lord Cultural Resources Private Limited.</p>",
 			"project_meta": {
 				"location": "BMW Guggenheim Lab, Mumbai",
 				"program": "Rethinking Kala Nagar Traffic Junction<br>Trupti Amritwar Vaitla, Mumbai Lab Team member",
@@ -2277,7 +2277,7 @@ var BGLTerms = [
 		"theme": "green",
 		"content": {
 			"term_desc": "<p>A form of architecture unique to Mumbai, <em>chawls</em> were built in the late nineteenth and early twentieth century in an effort to house thousands of migrants arriving in the city to work in its booming industrial sector&mdash;most notably, the cotton textile mills. A typical <em>chawl</em> consists of a long corridor attaching many small, one- or two-room units, with shared bathrooms on each floor. The rooms may house many people at one time.</p>",
-			"project_desc": "<p>At &ldquo;Girnichi Chav&rdquo;&mdash;A Taste of the Mills!, visitors learned about the remarkable and vibrant food distribution system in Mumbai and the unique fusion cuisine that emerged in the <em>chawls</em> in the wake of women&#39;s job losses at the mills, when many started selling prepared foods to working men from their homes.</p>",
+			"project_desc": "<p>At &ldquo;Girnichi Chav&rdquo;&mdash;A Taste of the Mills!, visitors learned about the remarkable and vibrant food distribution system in Mumbai and the unique fusion cuisine that emerged in the <em>chawls</em> in the wake of women&rsquo;s job losses at the mills, when many started selling prepared foods to working men from their homes.</p>",
 			"project_meta": {
 				"location": "BMW Guggenheim Lab, Mumbai, Batliboy Compound",
 				"program": "&ldquo;Girnichi Chav&rdquo;&mdash;A Taste of the Mills!\n\t\t\t",
@@ -2911,7 +2911,7 @@ var BGLTerms = [
 		"theme": "green",
 		"content": {
 			"term_desc": "<p>City mythology is the weaving together of mythological places that appear in folklore and religious texts with real, physical urban spaces. Often, such spaces are protected from construction and development. City mythology can play an important role in creating a sense of unity, pride, and cohesion among urban dwellers, as well as in fostering an imagined historical memory.</p>",
-			"project_desc": "<p>Mapping Privacy in Public Spaces asked Lab visitors to consider where they find privacy in public spaces in Mumbai. Responses included Mumbai&#39;s peaceful Banganga Tank, a man-made water tank whose water, according to local legend, comes from the holy&mdash;and far-away&mdash;Ganges River. This participatory research project was conducted by the Lab and the Design Cell at the Kamla Raheja Vidyanidhi Institute for Architecture and Environmental Studies (KRVIA).</p>",
+			"project_desc": "<p>Mapping Privacy in Public Spaces asked Lab visitors to consider where they find privacy in public spaces in Mumbai. Responses included Mumbai&rsquo;s peaceful Banganga Tank, a man-made water tank whose water, according to local legend, comes from the holy&mdash;and far-away&mdash;Ganges River. This participatory research project was conducted by the Lab and the Design Cell at the Kamla Raheja Vidyanidhi Institute for Architecture and Environmental Studies (KRVIA).</p>",
 			"project_meta": {
 				"location": "BMW Guggenheim Lab, Mumbai",
 				"program": "Mapping Privacy in Public Spaces<br>Design Cell, Kamla Raheja Vidyanidhi Institute for Architecture and Environmental Studies (KRVIA)",
@@ -3081,8 +3081,8 @@ var BGLTerms = [
 		"name": "Collaborative Urban Mapping",
 		"theme": "blue-light",
 		"content": {
-			"term_desc": "<p>People have documented place and advanced the science of cartography for thousands of years. Today&#39;s technologies offer the ability to create maps that display a plurality of data and information with a high level of precision. Furthermore, the role of cartographer has evolved from a singular author into a form of collaboration and open-source data sharing, leading to maps that contain several layers of information contributed by various authors at once.</p>",
-			"project_desc": "<p>Foodscape Mapping critically examined how maps present knowledge and engaged visitors in reimagining the idea of a map as a spatial diagnostic. Visitors were directed to answer a questionnaire and document their experience of the edible environment in Berlin&#39;s Prenzlauer Berg and Mitte neighborhoods through various themes, which were later collected on a collaborative, large-scale map. The workshop was led by Nicola Twilley, codirector of Studio-X New York and author of the blog Edible Geography, with Alexandra Regan Toland, a visual artist and environmental planner.</p>",
+			"term_desc": "<p>People have documented place and advanced the science of cartography for thousands of years. Today&rsquo;s technologies offer the ability to create maps that display a plurality of data and information with a high level of precision. Furthermore, the role of cartographer has evolved from a singular author into a form of collaboration and open-source data sharing, leading to maps that contain several layers of information contributed by various authors at once.</p>",
+			"project_desc": "<p>Foodscape Mapping critically examined how maps present knowledge and engaged visitors in reimagining the idea of a map as a spatial diagnostic. Visitors were directed to answer a questionnaire and document their experience of the edible environment in Berlin&rsquo;s Prenzlauer Berg and Mitte neighborhoods through various themes, which were later collected on a collaborative, large-scale map. The workshop was led by Nicola Twilley, codirector of Studio-X New York and author of the blog Edible Geography, with Alexandra Regan Toland, a visual artist and environmental planner.</p>",
 			"project_meta": {
 				"location": "BMW Guggenheim Lab, Berlin",
 				"program": "Foodscape Mapping",
@@ -3491,7 +3491,7 @@ var BGLTerms = [
 		"theme": "blue-light",
 		"content": {
 			"term_desc": "<p>The term &ldquo;collective memory,&rdquo; as it is commonly used today, can be traced back to the work of French sociologist &Eacute;mile Durkheim in the late nineteenth and early twentieth centuries, and is closely related to the concept of collective consciousness. It refers to a memory shared by a group of people, sometimes passed from one generation to the next. In sociology, it can also be defined as group representations of the past that inform actions in the present.</p>",
-			"project_desc": "<p>On the ten-year anniversary of 9/11, Jake Barton of the design firm Local Projects presented his firm&#39;s work on interpreting and integrating collective memory into the media design of Manhattan&#39;s National September 11 Memorial &amp; Museum, and discussed the role of collective memory in the creation of public memorials.</p>",
+			"project_desc": "<p>On the ten-year anniversary of 9/11, Jake Barton of the design firm Local Projects presented his firm&rsquo;s work on interpreting and integrating collective memory into the media design of Manhattan&rsquo;s National September 11 Memorial &amp; Museum, and discussed the role of collective memory in the creation of public memorials.</p>",
 			"project_meta": {
 				"location": "BMW Guggenheim Lab, New York",
 				"program": "9/11 Memorial and Museum: Collective Memory",
@@ -3687,11 +3687,11 @@ var BGLTerms = [
 		"theme": "blue-dark",
 		"content": {
 			"term_desc": "<p>The meaning of the word &ldquo;commute,&rdquo; as we refer to it here, dates to the mid-nineteenth century, when train travelers could purchase a &ldquo;commutation ticket&rdquo;&mdash;a rail pass for multiple trips that &ldquo;commuted&rdquo; the price of travel by combining individual fares in a single ticket. Today, commuting can involve any form of transportation and defines movement flow within cities and morning and evening rush hours and has led to the development of suburbs and dormitory towns.</p>",
-			"project_desc": "<p>Led by architect Alejandro de Castro, Your Brain on Commuting brought author Tom Vanderbilt and psychologist and urban-transit expert Carlos Felipe Pardo together to analyze the impact of commuting on the way we think and behave daily. Pardo led the Transit Psychology Tour, which explored the psychological effects of commuting. He concluded that the quality and length of a commute can have significant effects on a person&#39;s well-being and quality of life.</p>",
+			"project_desc": "<p>Led by architect Alejandro de Castro, Your Brain on Commuting brought author Tom Vanderbilt and psychologist and urban-transit expert Carlos Felipe Pardo together to analyze the impact of commuting on the way we think and behave daily. Pardo led the Transit Psychology Tour, which explored the psychological effects of commuting. He concluded that the quality and length of a commute can have significant effects on a person&rsquo;s well-being and quality of life.</p>",
 			"project_meta": {
 				"location": "BMW Guggenheim Lab, New York",
 				"program": "Your Brain on Commuting",
-				"date": "September 29,2011"
+				"date": "September 29, 2011"
 			},
 			"media": [
 				{
@@ -4041,7 +4041,7 @@ var BGLTerms = [
 		"theme": "blue-dark",
 		"content": {
 			"term_desc": "<p>&ldquo;Comfort&rdquo; is often understood as a feeling of relief or contentment. From fancy gadgets to familiar foods, people pursue diverse means to alleviate their troubles and divert their minds from the repetitive activities of everyday life. Unfortunately, comfort is often not only unsustainable but also typically benefits only a select few. Confronting comfort is the practice of finding a balance between notions of modern comfort and the urgent need for environmentally responsible solutions that empower us all.</p>",
-			"project_desc": "<p>Founding principal of Diller Scofidio + Renfro and Lab Advisory Committee member Elizabeth Diller spoke about architecture that enables and encourages urbanites to slow down or stop&mdash;such as New York&#39;s High Line park&mdash;as a means of seeking and designing for comfort in urban settings. She presented her thoughts on comfort in cities and reflected on how new technologies, surroundings, and expectations regarding privacy and time relate to comforts and discomforts in the urban landscape.</p>",
+			"project_desc": "<p>Founding principal of Diller Scofidio + Renfro and Lab Advisory Committee member Elizabeth Diller spoke about architecture that enables and encourages urbanites to slow down or stop&mdash;such as New York&rsquo;s High Line park&mdash;as a means of seeking and designing for comfort in urban settings. She presented her thoughts on comfort in cities and reflected on how new technologies, surroundings, and expectations regarding privacy and time relate to comforts and discomforts in the urban landscape.</p>",
 			"project_meta": {
 				"location": "BMW Guggenheim Lab, New York",
 				"program": "Elizabeth Diller: Comfort in Our City\n\t\t\t",
@@ -4298,7 +4298,7 @@ var BGLTerms = [
 			"project_meta": {
 				"location": "BMW Guggenheim Lab, Berlin",
 				"program": "Temporary Architecture Panel",
-				"date": "July 28,2012"
+				"date": "July 28, 2012"
 			},
 			"media": [
 				{
@@ -4841,7 +4841,7 @@ var BGLTerms = [
 		"theme": "red",
 		"content": {
 			"term_desc": "<p>Customization is a method of responding to individual needs and directives. The term, which dates back at least as far as the turn of the twentieth century, was featured in the 1997 book <em>Future Perfect</em> by Stan Davis, in which he discussed its application to mass production. The last decade has seen a dramatic increase in products and services that are designed and built to user specifications. Customization has the potential to transform the way we build cities, making them ever more flexible, personalized, and livable.</p>",
-			"project_desc": "<p>Kaja K&uuml;hl, founder and principal of research, design, and planning practice youarethecity, was joined by psychologists, urban designers, and Lab visitors to create customized devices that alter one&#39;s sensory experience. Interested in how spaces can produce and illicit feelings of anxiety, fear, pleasure, and excitement, K&uuml;hl&#39;s program interrogated this relationship with experimentation and play as participants created wearable objects that would alter and enhance their experience of the environment.</p>",
+			"project_desc": "<p>Kaja K&uuml;hl, founder and principal of research, design, and planning practice youarethecity, was joined by psychologists, urban designers, and Lab visitors to create customized devices that alter one&rsquo;s sensory experience. Interested in how spaces can produce and illicit feelings of anxiety, fear, pleasure, and excitement, K&uuml;hl&rsquo;s program interrogated this relationship with experimentation and play as participants created wearable objects that would alter and enhance their experience of the environment.</p>",
 			"project_meta": {
 				"location": "BMW Guggenheim Lab, New York",
 				"program": "Urban Sensation Transformer Workshop",
@@ -5163,8 +5163,8 @@ var BGLTerms = [
 		"name": "Decentralization",
 		"theme": "orange",
 		"content": {
-			"term_desc": "<p>Decentralization is the process by which elements of a whole are dispersed. The term is commonly used in the context of government to refer to a process that involves a greater sharing of power among various sectors and players. Additionally, dispersion of centers is seen as a way to avoid dependency on a centralized system whose malfunction could cause widespread disruption. In the field of urban planning, decentralization has been referred to as an alternative to cities&#39; central infrastructure and social systems. </p>",
-			"project_desc": "<p>Artist Maurice de Martin organized C-Zone, a tour of Berlin&#39;s fringe and often-neglected outer ring in the East Berlin neighborhoods of Lichtenberg, Treptow-K&ouml;penick, and Marzahn. The tour visited local experts and residents of noncentral Berlin to emphasize the fact that the city exists beyond the central zone that is more widely accessible to tourists.</p>",
+			"term_desc": "<p>Decentralization is the process by which elements of a whole are dispersed. The term is commonly used in the context of government to refer to a process that involves a greater sharing of power among various sectors and players. Additionally, dispersion of centers is seen as a way to avoid dependency on a centralized system whose malfunction could cause widespread disruption. In the field of urban planning, decentralization has been referred to as an alternative to cities&rsquo; central infrastructure and social systems. </p>",
+			"project_desc": "<p>Artist Maurice de Martin organized C-Zone, a tour of Berlin&rsquo;s fringe and often-neglected outer ring in the East Berlin neighborhoods of Lichtenberg, Treptow-K&ouml;penick, and Marzahn. The tour visited local experts and residents of noncentral Berlin to emphasize the fact that the city exists beyond the central zone that is more widely accessible to tourists.</p>",
 			"project_meta": {
 				"location": "BMW Guggenheim Lab, Berlin",
 				"program": "C-Zone I &amp; II",
@@ -5500,8 +5500,8 @@ var BGLTerms = [
 		"name": "Density",
 		"theme": "purple",
 		"content": {
-			"term_desc": "<p>In cities, &ldquo;density&rdquo; refers to human population density, which is the number of people per unit of area. The world&#39;s most densely populated cities are those with a small land area and a high level of urbanization. High-density cities are often confronted with the challenge of maintaining quality housing, infrastructure, and access to resources for their residents.</p>",
-			"project_desc": "<p>Using Google Earth to create a detailed map of the current population density of Mumbai, the Lab developed a new index of population density dubbed &ldquo;Stacked Population Index,&rdquo; based on Floor Space Index. The model derived from this data&mdash;which was on view at the Lab&mdash;provides an accurate depiction of the city&#39;s density, revealing precisely how it varies and how it reflects living conditions throughout the city. The Stacked Population Index model was spearheaded by Mumbai Lab Team member Neville Mars.</p>",
+			"term_desc": "<p>In cities, &ldquo;density&rdquo; refers to human population density, which is the number of people per unit of area. The world&rsquo;s most densely populated cities are those with a small land area and a high level of urbanization. High-density cities are often confronted with the challenge of maintaining quality housing, infrastructure, and access to resources for their residents.</p>",
+			"project_desc": "<p>Using Google Earth to create a detailed map of the current population density of Mumbai, the Lab developed a new index of population density dubbed &ldquo;Stacked Population Index,&rdquo; based on Floor Space Index. The model derived from this data&mdash;which was on view at the Lab&mdash;provides an accurate depiction of the city&rsquo;s density, revealing precisely how it varies and how it reflects living conditions throughout the city. The Stacked Population Index model was spearheaded by Mumbai Lab Team member Neville Mars.</p>",
 			"project_meta": {
 				"location": "BMW Guggenheim Lab, Mumbai",
 				"program": "Stacked Population Index: Mumbai Stacked City<br>Neville Mars, Mumbai Lab Team member",
@@ -6050,7 +6050,7 @@ var BGLTerms = [
 		"name": "Design Barriers",
 		"theme": "red",
 		"content": {
-			"term_desc": "<p>Design barriers are construction choices that limit or control an individual&#39;s access to urban spaces. From &ldquo;No Loitering&rdquo; signs to benches with armrests designed to prevent homeless people from sleeping on them, our cities are full of devices meant to disperse and divide citizens along lines of race, class, and age.</p>",
+			"term_desc": "<p>Design barriers are construction choices that limit or control an individual&rsquo;s access to urban spaces. From &ldquo;No Loitering&rdquo; signs to benches with armrests designed to prevent homeless people from sleeping on them, our cities are full of devices meant to disperse and divide citizens along lines of race, class, and age.</p>",
 			"project_desc": "<p>Interboro Partners and friends Andrew Kahrl, Kaja K&uuml;hl, Amy Lavine, Damon Rich, Berryl Sattyr, and Meredith Tenhoor discussed how architecture can be used to include and exclude. The group analyzed racial steering, beach badges, and the many ways in which cities are designed to segregate urban populations based on race, economic means, and age.</p>",
 			"project_meta": {
 				"location": "BMW Guggenheim Lab, New York",
@@ -6268,7 +6268,7 @@ var BGLTerms = [
 		"theme": "red",
 		"content": {
 			"term_desc": "<p>Development incentives are benefits that governments offer to developers in order to attract them to build certain types of infrastructure, or to focus their development in a certain location. These benefits can include tax cuts, reduced land prices, or strategic exemption from standard zoning regulations. </p>",
-			"project_desc": "<p>During Planning in a Dynamic City, participants debated whether the government should be offering better incentives to developers in order to tackle prominent infrastructure and housing issues, or whether the government should take on more of the responsibility itself. Uma Adusumilli, the Mumbai Metropolitan Regional Development Authority&#39;s chief planner, advocated for the latter.</p>",
+			"project_desc": "<p>During Planning in a Dynamic City, participants debated whether the government should be offering better incentives to developers in order to tackle prominent infrastructure and housing issues, or whether the government should take on more of the responsibility itself. Uma Adusumilli, the Mumbai Metropolitan Regional Development Authority&rsquo;s chief planner, advocated for the latter.</p>",
 			"project_meta": {
 				"location": "BMW Guggenheim Lab, Mumbai, Dr. Bhau Daji Lad Museum",
 				"program": "Planning in a Dynamic City\n\t\t\t",
@@ -6593,11 +6593,11 @@ var BGLTerms = [
 		"theme": "green",
 		"content": {
 			"term_desc": "<p>&ldquo;Disneyfication&rdquo; refers to the transformation of the built environment to resemble the logic and aesthetics of a theme park. While the term is now used broadly by social scientists, it was first coined by sociologist Sharon Zukin in 1996. The term is used to describe a process of urban transformation that increases homogeneity and simulates reality rather than preserve historical memory and cultural diversity.</p>",
-			"project_desc": "<p>Led by Klaus-Dietmar Henke, chairman of the Berlin Wall Memorial Foundation, this panel discussion involved historians, journalists, and politicians, such as Markus Meckel, former foreign minister of the GDR. The group discussed the prevailing spectacle culture unfolding in one of Berlin&#39;s most iconic historic locations, &ldquo;Checkpoint Charlie,&rdquo; the challenges of the theme park effect, and the need for a Cold War museum at the site, which was supported by some and opposed by others in the audience and on the panel.</p>",
+			"project_desc": "<p>Led by Klaus-Dietmar Henke, chairman of the Berlin Wall Memorial Foundation, this panel discussion involved historians, journalists, and politicians, such as Markus Meckel, former foreign minister of the GDR. The group discussed the prevailing spectacle culture unfolding in one of Berlin&rsquo;s most iconic historic locations, &ldquo;Checkpoint Charlie,&rdquo; the challenges of the theme park effect, and the need for a Cold War museum at the site, which was supported by some and opposed by others in the audience and on the panel.</p>",
 			"project_meta": {
 				"location": "BMW Guggenheim Lab, Berlin",
 				"program": "Cold War Center: Checkpoint Charlie",
-				"date": "July 22,2012"
+				"date": "July 22, 2012"
 			},
 			"media": [
 				{
@@ -6932,7 +6932,7 @@ var BGLTerms = [
 			"project_meta": {
 				"location": "BMW Guggenheim Lab, Mumbai, Sambhaji Park",
 				"program": "Screening: <em>Bombay, Our City</em> (Anand Patwardhan, 1985)\n\t\t\t",
-				"date": "December 27,2012"
+				"date": "December 27, 2012"
 			},
 			"media": [
 				{
@@ -7048,7 +7048,7 @@ var BGLTerms = [
 		"name": "Eviction",
 		"theme": "blue-light",
 		"content": {
-			"term_desc": "<p>Eviction is the forced removal of occupants from a residence or business. While the word comes from the Latin <em>evictionem</em>, &ldquo;recovery of one&#39;s property,&rdquo; in the present day the owner&#39;s &ldquo;recovery&rdquo; often occurs at the expense of the tenant who is forced out.</p>",
+			"term_desc": "<p>Eviction is the forced removal of occupants from a residence or business. While the word comes from the Latin <em>evictionem</em>, &ldquo;recovery of one&rsquo;s property,&rdquo; in the present day the owner&rsquo;s &ldquo;recovery&rdquo; often occurs at the expense of the tenant who is forced out.</p>",
 			"project_desc": "<p>Organized by Bullet Space, an anarchist squatter community that has existed since 1988, Your House Is Mine presented a collection of artwork and writing produced in the wake of the 1988 Tompkins Square Park riot.</p>",
 			"project_meta": {
 				"location": "BMW Guggenheim Lab, New York",
@@ -7450,8 +7450,8 @@ var BGLTerms = [
 		"name": "Floor Space Index",
 		"theme": "green",
 		"content": {
-			"term_desc": "<p>&ldquo;Floor Space Index&rdquo;(FSI) is a term that describes the ratio of a building&#39;s total floor area to the area of the land on which it is built. Regulations pertaining to FSI limit the floor space available for residential and business development, since they dictate how much floor area a builder can construct on a plot of land, which in turn relates to how high the builder can make a structure. In practice, the assessment of FSI can be very complex.</p>",
-			"project_desc": "<p>In Mediating Public-Private Housing, participants discussed pressing issues related to the lack of affordable housing for Mumbai&#39;s citizens and the impact that the city&#39;s historically low FSI has on residential and city development.</p>",
+			"term_desc": "<p>&ldquo;Floor Space Index&rdquo; (FSI) is a term that describes the ratio of a building&rsquo;s total floor area to the area of the land on which it is built. Regulations pertaining to FSI limit the floor space available for residential and business development, since they dictate how much floor area a builder can construct on a plot of land, which in turn relates to how high the builder can make a structure. In practice, the assessment of FSI can be very complex.</p>",
+			"project_desc": "<p>In Mediating Public-Private Housing, participants discussed pressing issues related to the lack of affordable housing for Mumbai&rsquo;s citizens and the impact that the city&rsquo;s historically low FSI has on residential and city development.</p>",
 			"project_meta": {
 				"location": "BMW Guggenheim Lab, Mumbai, Dr. Bhau Daji Lad Museum",
 				"program": "Mediating Public-Private Housing\n\t\t\t",
@@ -7544,8 +7544,8 @@ var BGLTerms = [
 		"name": "Food Distribution",
 		"theme": "green",
 		"content": {
-			"term_desc": "<p>&ldquo;Food distribution&rdquo; refers to the broad range of services by which food travels from the producer to the consumer. These services can include food-transportation systems, wholesalers, farmers&#39; markets, shops, supermarkets, street food purveyors, and restaurants. The geographic distribution of these services within a city determines citizens&#39; access to certain types of food. Areas with a severe lack of food-distribution services are known as &ldquo;food deserts.&rdquo;</p>",
-			"project_desc": "<p>At Food Bazaar, several speakers examined issues relating to food distribution in Mumbai and the link between India&#39;s rural and urban areas.</p>",
+			"term_desc": "<p>&ldquo;Food distribution&rdquo; refers to the broad range of services by which food travels from the producer to the consumer. These services can include food-transportation systems, wholesalers, farmers&rsquo; markets, shops, supermarkets, street food purveyors, and restaurants. The geographic distribution of these services within a city determines citizens&rsquo; access to certain types of food. Areas with a severe lack of food-distribution services are known as &ldquo;food deserts.&rdquo;</p>",
+			"project_desc": "<p>At Food Bazaar, several speakers examined issues relating to food distribution in Mumbai and the link between India&rsquo;s rural and urban areas.</p>",
 			"project_meta": {
 				"location": "BMW Guggenheim Lab, Mumbai, Horniman Circle",
 				"program": "Food Bazaar\n\t\t\t",
@@ -7637,10 +7637,10 @@ var BGLTerms = [
 		"theme": "green",
 		"content": {
 			"term_desc": "<p>A genius hub is a location that attracts the best minds from a variety of disciplines in the arts and sciences. This occurs when the right combination of educational opportunities, research resources, and job possibilities exist in one place, providing a generative crucible for innovation, creativity, and creative production. Silicon Valley, nexus of the information-technology boom, is one example.</p>",
-			"project_desc": "<p>In What&#39;s Next?, New York Lab Team members Kristian Koreman and Elma van Boxel of ZUS [Zones Urbaines Sensibles] presented a workshop to discuss, speculate, and generate ideas about how to help First Park continue to act as a local genius hub, attracting talent from the East Village and Lower East Side.</p>",
+			"project_desc": "<p>In What&rsquo;s Next?, New York Lab Team members Kristian Koreman and Elma van Boxel of ZUS [Zones Urbaines Sensibles] presented a workshop to discuss, speculate, and generate ideas about how to help First Park continue to act as a local genius hub, attracting talent from the East Village and Lower East Side.</p>",
 			"project_meta": {
 				"location": "BMW Guggenheim Lab, New York",
-				"program": "What&#39;s Next? The Legacy of the New York BMW Guggenheim Lab, Part 1\n\t\t\t",
+				"program": "What&rsquo;s Next? The Legacy of the New York BMW Guggenheim Lab, Part 1\n\t\t\t",
 				"date": "August 20, 2011"
 			},
 			"media": [
@@ -7718,8 +7718,8 @@ var BGLTerms = [
 		"name": "Gentrification",
 		"theme": "green",
 		"content": {
-			"term_desc": "<p>Gentrification is a global, urban phenomenon whereby underdeveloped areas are transformed. The process is often coupled with rising rents, a shift in the social fabric of neighborhoods, and in many cases, the influx of multinational corporations. Gentrification is one of the most polemic terms in urban discourse today. To some it implies the beautification and positive development of previously underdeveloped areas. However, it can also lead to the pricing-out of lower-income residents who can&#39;t afford increased rent caused by the process of rapid transformation.</p>",
-			"project_desc": "<p>The rapid process of gentrification in Berlin&#39;s Kreuzberg neighborhood came up in many discussions during programming of the Berlin Lab. Early discussions about the possibility of placing the Lab in the Kreuzberg neighborhood on an empty lot by the Spree River generated a heated citywide debate about imminent gentrification processes taking place in one of Berlin&#39;s most diverse neighborhoods. Ultimately, the Lab was placed on a site in Prenzlauer Berg instead of the Kreuzberg site, which remains vacant to date.</p>",
+			"term_desc": "<p>Gentrification is a global, urban phenomenon whereby underdeveloped areas are transformed. The process is often coupled with rising rents, a shift in the social fabric of neighborhoods, and in many cases, the influx of multinational corporations. Gentrification is one of the most polemic terms in urban discourse today. To some it implies the beautification and positive development of previously underdeveloped areas. However, it can also lead to the pricing-out of lower-income residents who can&rsquo;t afford increased rent caused by the process of rapid transformation.</p>",
+			"project_desc": "<p>The rapid process of gentrification in Berlin&rsquo;s Kreuzberg neighborhood came up in many discussions during programming of the Berlin Lab. Early discussions about the possibility of placing the Lab in the Kreuzberg neighborhood on an empty lot by the Spree River generated a heated citywide debate about imminent gentrification processes taking place in one of Berlin&rsquo;s most diverse neighborhoods. Ultimately, the Lab was placed on a site in Prenzlauer Berg instead of the Kreuzberg site, which remains vacant to date.</p>",
 			"project_meta": {
 				"location": "BMW Guggenheim Lab, Berlin",
 				"program": "Kreuzberg site",
@@ -8053,7 +8053,7 @@ var BGLTerms = [
 		"theme": "red",
 		"content": {
 			"term_desc": "<p>In an urban context, &ldquo;green space&rdquo; refers to an open space with natural vegetation such as grass, trees, bushes, flowers, and other plants. Urban green spaces can include parks, greenways, nature paths, gardens, and waterfronts. Green spaces provide ecological functions for cities&mdash;carbon sequestration, water purification, and cooling&mdash;and allow people to interact with nature, which has been proven to be essential for mental and physical health. Plentiful public green spaces are a critical feature of successful urban design.</p>",
-			"project_desc": "<p>Run by the organization Fresh and Local, this hands-on workshop engaged with the women&#39;s community group Society for Nutrition, Education, and Health Action (SNEHA) and other Lab participants to explore how pop-up gardens and green spaces throughout the city can fulfill urban needs by catering to diverse communities. Women, representatives of civic bodies, students of planning and architecture, and others interested in urban planning were invited to design a garden for an existing vacant space and move the idea forward, toward a workable model.</p>",
+			"project_desc": "<p>Run by the organization Fresh and Local, this hands-on workshop engaged with the women&rsquo;s community group Society for Nutrition, Education, and Health Action (SNEHA) and other Lab participants to explore how pop-up gardens and green spaces throughout the city can fulfill urban needs by catering to diverse communities. Women, representatives of civic bodies, students of planning and architecture, and others interested in urban planning were invited to design a garden for an existing vacant space and move the idea forward, toward a workable model.</p>",
 			"project_meta": {
 				"location": "BMW Guggenheim Lab, Mumbai, Priyadarshini Park",
 				"program": "Pop-Up Garden\n\t\t\t",
@@ -8828,7 +8828,7 @@ var BGLTerms = [
 		"theme": "red",
 		"content": {
 			"term_desc": "<p>The Happy City is based on the idea that cultivating urban joy can dramatically improve the city on an emotional, infrastructural, and economic level. Coming down to the core value of trust and well-being, citizens who feel good about where they live are more likely to take care of it, contribute to its economy, and socialize with strangers.</p>",
-			"project_desc": "<p>New York Lab Team member Charles Montgomery, journalist and author of <em>The Happy City: Transforming Our Lives Through Urban Design</em>, (Farrar, Straus and Giroux, 2013), focused on systems for increasing well-being in cities. He explored how the city affects its residents physically and psychologically and how public spaces and systems can be reconfigured to maximize comfort, conviviality, and resilience. </p>",
+			"project_desc": "<p>New York Lab Team member Charles Montgomery, journalist and author of <em>The Happy City: Transforming Our Lives Through Urban Design</em> (Farrar, Straus and Giroux, 2013), focused on systems for increasing well-being in cities. He explored how the city affects its residents physically and psychologically and how public spaces and systems can be reconfigured to maximize comfort, conviviality, and resilience. </p>",
 			"project_meta": {
 				"location": "BMW Guggenheim Lab, New York",
 				"program": "Charles Montgomery: Comfort, Cities, and the Science of Happiness",
@@ -9735,7 +9735,7 @@ var BGLTerms = [
 		"theme": "red",
 		"content": {
 			"term_desc": "<p>A hawker is a street vendor who sells merchandise or food in a public space&mdash;usually on the sidewalk, road, or in a public square&mdash;in such a way that his or her goods and equipment can be easily transported.</p>",
-			"project_desc": "<p>Mumbai&#39;s urban dialogue is peppered with ongoing debates about whether or not hawkers should be allowed on the city&#39;s streets and sidewalks. Some see hawkers as a menace to walkability who steal space from the already crowded sidewalks. Others consider them a vital part of a complex social and economic system. This debate emerged many times at the Lab, particularly during discussions related to sidewalks at the programs Rethinking Skywalks and Sealinks and Mediating Public-Private Transportation.</p>",
+			"project_desc": "<p>Mumbai&rsquo;s urban dialogue is peppered with ongoing debates about whether or not hawkers should be allowed on the city&rsquo;s streets and sidewalks. Some see hawkers as a menace to walkability who steal space from the already crowded sidewalks. Others consider them a vital part of a complex social and economic system. This debate emerged many times at the Lab, particularly during discussions related to sidewalks at the programs Rethinking Skywalks and Sealinks and Mediating Public-Private Transportation.</p>",
 			"project_meta": {
 				"location": "BMW Guggenheim Lab, Mumbai, Dr. Bhau Daji Lad Museum",
 				"program": "Rethinking Skywalks and Sealinks\n\t\t\t",
@@ -9810,7 +9810,7 @@ var BGLTerms = [
 		"name": "Informal Economy",
 		"theme": "purple",
 		"content": {
-			"term_desc": "<p>An &ldquo;informal economy&rdquo; refers to a system of economic exchanges and activities that occur without government regulation or taxation. By operating in the informal sector, both the employee and employer may earn higher wages or incur lower costs due to the evasion of taxes. However, informal-sector jobs are usually illegal and often lack the security, safe working conditions, and other benefits that formal-sector employment may ensure. The Organisation for Economic Co-operation and Development (OECD) estimates that half the world&#39;s workers are employed in the informal sector.</p>",
+			"term_desc": "<p>An &ldquo;informal economy&rdquo; refers to a system of economic exchanges and activities that occur without government regulation or taxation. By operating in the informal sector, both the employee and employer may earn higher wages or incur lower costs due to the evasion of taxes. However, informal-sector jobs are usually illegal and often lack the security, safe working conditions, and other benefits that formal-sector employment may ensure. The Organisation for Economic Co-operation and Development (OECD) estimates that half the world&rsquo;s workers are employed in the informal sector.</p>",
 			"project_desc": "<p>Juliet Schor, professor of sociology at Boston College, discussed how the confluence of sustainability imperatives, economic stagnation, and digitally enabled creativity has given rise to a movement of connected consumption. People are sharing, swapping, collaborating, renting, gifting, trading, and teaching. She identified the trend in which more and more people are living low-impact, high-satisfaction lives anchored in rich social networks and financial independence, and explained how these developments are likely to dramatically transform daily life in cities.</p>",
 			"project_meta": {
 				"location": "BMW Guggenheim Lab, New York",
@@ -10061,7 +10061,7 @@ var BGLTerms = [
 		"theme": "purple",
 		"content": {
 			"term_desc": "<p>Coined by Mumbai Lab team member Neville Mars, the term &ldquo;infraspace&rdquo; refers to the space taken up by infrastructure in a city, upon or into which other forms of infrastructure can be built or integrated. The term is intended to prompt designers to reenvision existing infrastructure as viable space for creative development, so that land use can be maximized, especially in hyper-dense urban environments.</p>",
-			"project_desc": "<p>The Mumbai Lab&#39;s Landlink Design Prototype proposed a creative use of infraspace&mdash;to transform a set of enormous, soon-to-be defunct steel pipes into an auto-rickshaw highway/pedestrian boardwalk and business district&mdash;in an effort to spur discussion about the opportunities such spaces present. In consultation with fellow Mumbai Lab Team members, architect Neville Mars developed the Landlink for a specific stretch of pipes between the Dharavi and Bandra districts in Mumbai.</p>",
+			"project_desc": "<p>The Mumbai Lab&rsquo;s Landlink Design Prototype proposed a creative use of infraspace&mdash;to transform a set of enormous, soon-to-be defunct steel pipes into an auto-rickshaw highway/pedestrian boardwalk and business district&mdash;in an effort to spur discussion about the opportunities such spaces present. In consultation with fellow Mumbai Lab Team members, architect Neville Mars developed the Landlink for a specific stretch of pipes between the Dharavi and Bandra districts in Mumbai.</p>",
 			"project_meta": {
 				"location": "BMW Guggenheim Lab, Mumbai",
 				"program": "Landlink Design Prototype<br>Neville Mars, Mumbai Lab Team member",
@@ -10329,7 +10329,7 @@ var BGLTerms = [
 		"theme": "purple",
 		"content": {
 			"term_desc": "<p>&ldquo;Interdependence&rdquo; refers to a reciprocal relationship in which two or more entities (individuals, groups, or objects) mutually rely on one another. Every natural, political, social, and economic system exists within and relies on a vast network of interdependent relationships.</p>",
-			"project_desc": "<p>The divide between Mumbai&#39;s formal and informal city&mdash;non-slum and slum&mdash;is significant, but the worlds exist in a tightly woven relationship of interdependence, with neither able to function or survive without the other. In Split City Mumbai, this important relationship was acknowledged, which established a basis for future discussions at the Lab.</p>",
+			"project_desc": "<p>The divide between Mumbai&rsquo;s formal and informal city&mdash;non-slum and slum&mdash;is significant, but the worlds exist in a tightly woven relationship of interdependence, with neither able to function or survive without the other. In Split City Mumbai, this important relationship was acknowledged, which established a basis for future discussions at the Lab.</p>",
 			"project_meta": {
 				"location": "BMW Guggenheim Lab, Mumbai, Dr. Bhau Daji Lad Museum",
 				"program": "Split City Mumbai: Time Scarcity, Space Scarcity\n\t\t\t",
@@ -10837,7 +10837,7 @@ var BGLTerms = [
 		"name": "Intuition",
 		"theme": "orange",
 		"content": {
-			"term_desc": "<p>Intuition involves the use of sense-based abilities and the unconscious to make decisions, rather than relying entirely on reason or comprehensible, tangible information. Originating from Carl Jung&#39;s writings, in which he suggested that intuition comes from a person&#39;s clarity of perception, the term has been used in the field of psychology and neurology to refer to &ldquo;right-brain&rdquo; activity. Intuition, which does not rely on quantitative methods, is a key component for the creativity and innovation required in urban development and design.</p>",
+			"term_desc": "<p>Intuition involves the use of sense-based abilities and the unconscious to make decisions, rather than relying entirely on reason or comprehensible, tangible information. Originating from Carl Jung&rsquo;s writings, in which he suggested that intuition comes from a person&rsquo;s clarity of perception, the term has been used in the field of psychology and neurology to refer to &ldquo;right-brain&rdquo; activity. Intuition, which does not rely on quantitative methods, is a key component for the creativity and innovation required in urban development and design.</p>",
 			"project_desc": "<p>In The Power of Intuition, Gerd Gigerenzer, director of the Max Planck Institute for Human Development and director of the Harding Center for Risk Literacy in Berlin, argued that intuition can be a powerful tool for decision making and should be considered more widely alongside other hard data or reason-based methods.</p>",
 			"project_meta": {
 				"location": "BMW Guggenheim Lab, Berlin",
@@ -11183,7 +11183,7 @@ var BGLTerms = [
 		"theme": "blue-dark",
 		"content": {
 			"term_desc": "<p>Local food is produced, processed, and sold within the same region, or within a short distance from its point of origin. The U.S. Food, Conservation, and Energy Act (2008) states that food must not travel more than 400 miles from its source to be considered a &ldquo;locally or regionally produced agricultural food product.&rdquo; The market for local food is growing rapidly due to increased demand for fresher produce and consumer desire to support local economies and reduce environmental impact.</p>",
-			"project_desc": "<p>Spices play an important role in the formation of cities and cultures and in the experience of urban spaces. Mumbai, in particular, is home to many stories about spices. Participants joined local experts to explore Mumbai&#39;s local spice trails in four distinct neighborhoods and engaged in conversation with food experts from various communities over a cup of chai at the Lab.</p>",
+			"project_desc": "<p>Spices play an important role in the formation of cities and cultures and in the experience of urban spaces. Mumbai, in particular, is home to many stories about spices. Participants joined local experts to explore Mumbai&rsquo;s local spice trails in four distinct neighborhoods and engaged in conversation with food experts from various communities over a cup of chai at the Lab.</p>",
 			"project_meta": {
 				"location": "BMW Guggenheim Lab, Mumbai, Dr. Bhau Daji Lad Museum",
 				"program": "We Like it Spicy\n\t\t\t",
@@ -11735,7 +11735,7 @@ var BGLTerms = [
 		"theme": "blue-dark",
 		"content": {
 			"term_desc": "<p>The maker movement is a participatory, social culture that invites and inspires all kinds of people and communities to invent, build, and hack. Making and doing with your hands encourages creativity, innovation, and ultimately, design thinking. This mentality advocates for transparency in design and production and resists built-in obsolescence. It also favors self-initiated production over consumerism. The Maker Faire, founded by Dale Dougherty in 2006, is an important meeting point for makers worldwide, as are the two leading maker-oriented magazines, <em>Make</em> and <em>Craft</em>.</p>",
-			"project_desc": "<p>Dale Dougherty, cofounder of O&#39;Reilly Media and Maker Faire and founding editor and publisher of <em>Make</em> magazine, explained the philosophy behind the maker movement, in which makers are producers, not consumers, who thrive on innovation and creativity through experimentation. Dougherty discussed other characteristics of makers and the long-term effects of the maker philosophy on business, culture, and the city.</p>",
+			"project_desc": "<p>Dale Dougherty, cofounder of O&rsquo;Reilly Media and Maker Faire and founding editor and publisher of <em>Make</em> magazine, explained the philosophy behind the maker movement, in which makers are producers, not consumers, who thrive on innovation and creativity through experimentation. Dougherty discussed other characteristics of makers and the long-term effects of the maker philosophy on business, culture, and the city.</p>",
 			"project_meta": {
 				"location": "BMW Guggenheim Lab, Berlin",
 				"program": "Dale Dougherty: What Is the Maker Movement?",
@@ -12001,7 +12001,7 @@ var BGLTerms = [
 		"theme": "blue-light",
 		"content": {
 			"term_desc": "<p>&ldquo;ME=WE,&rdquo; a phrase coined by the Mumbai Lab Team, refers to the interconnected and constantly shifting needs of the individual (&ldquo;me&rdquo;) and community (&ldquo;we&rdquo;), which shape city life. Individual needs, actions, and decisions ultimately affect those of the community, and vice versa. Examining how citizens negotiate the blurred concepts of the &ldquo;me&rdquo; and &ldquo;we&rdquo; in their urban environment may redefine notions of individual and community, private and public, and part and whole, which can inform urban design for the future.</p>",
-			"project_desc": "<p>The Mobile Lab Units brought together temporary off-site Lab structures with informal flash mobs and a song written for the Lab. The interventions&mdash;which were experienced in or around the Lab&#39;s satellite locations&mdash;heightened awareness of the Lab&#39;s presence and the message of ME=WE, welcoming onlookers to participate in the festive events. The Mobile Lab Units project was spearheaded by Mumbai Lab Team member H&eacute;ctor Zamora with Lab program consultant Swati Abhijit.</p>",
+			"project_desc": "<p>The Mobile Lab Units brought together temporary off-site Lab structures with informal flash mobs and a song written for the Lab. The interventions&mdash;which were experienced in or around the Lab&rsquo;s satellite locations&mdash;heightened awareness of the Lab&rsquo;s presence and the message of ME=WE, welcoming onlookers to participate in the festive events. The Mobile Lab Units project was spearheaded by Mumbai Lab Team member H&eacute;ctor Zamora with Lab program consultant Swati Abhijit.</p>",
 			"project_meta": {
 				"location": "BMW Guggenheim Lab, Mumbai",
 				"program": "Mobile Lab Units<br>H&eacute;ctor Zamora, Mumbai Lab Team member",
@@ -12338,7 +12338,7 @@ var BGLTerms = [
 		"theme": "blue-light",
 		"content": {
 			"term_desc": "<p>Megaprojects are exceptionally large-scale investment projects, such as bridges, tunnels, highways, railways, and airports that typically cost more than one billion dollars. Critics have assailed megaprojects for their top-down planning approaches and for the fact that the communities most affected by the initiatives are often disregarded in the planning process. While not always financially advantageous, desired by the general public, or environmentally friendly, megaproject investments have been used by governments as a tactic to stimulate economies.</p>",
-			"project_desc": "<p>Rethinking Skywalks and Sealinks focused on the Bandra-Worli Sea Link. This controversial megaproject bridge has garnered criticism for its massive expense, poor traffic design, and lack of accessibility and availability to the majority of the city&#39;s residents, due to the prohibitive cost of its toll.</p>",
+			"project_desc": "<p>Rethinking Skywalks and Sealinks focused on the Bandra-Worli Sea Link. This controversial megaproject bridge has garnered criticism for its massive expense, poor traffic design, and lack of accessibility and availability to the majority of the city&rsquo;s residents, due to the prohibitive cost of its toll.</p>",
 			"project_meta": {
 				"location": "BMW Guggenheim Lab, Mumbai, Dr. Bhau Daji Lad Museum",
 				"program": "Rethinking Skywalks and Sealinks\n\t\t\t",
@@ -12909,8 +12909,8 @@ var BGLTerms = [
 		"name": "Mumbai Mills",
 		"theme": "green",
 		"content": {
-			"term_desc": "<p>Mumbai&#39;s textile milling industry&#39;s decline in the late 1980s and early 1990s led to factory shutdowns. The former mill lands, covering more than 600 acres, were to be redistributed: one-third put on sale for private development and two-thirds made into affordable housing and public space. But in 2006, India&#39;s Supreme Court issued a decision allowing much more of the land to be sold for private development. The redevelopment of the former mill lands remains the most contested and controversial issue regarding land use in Mumbai.</p>",
-			"project_desc": "<p>The Lab&#39;s Batliboy Compound satellite site was adjacent to the crumbling mill smoke stacks. Part of central Mumbai&#39;s disappearing industrial heritage, the compound lies between the intimate <em>chawls</em>, where mill workers reside, and the vacant residential high-rises of the new Maharashtra Housing and Area Development Authority.</p>",
+			"term_desc": "<p>Mumbai&rsquo;s textile milling industry&rsquo;s decline in the late 1980s and early 1990s led to factory shutdowns. The former mill lands, covering more than 600 acres, were to be redistributed: one-third put on sale for private development and two-thirds made into affordable housing and public space. But in 2006, India&rsquo;s Supreme Court issued a decision allowing much more of the land to be sold for private development. The redevelopment of the former mill lands remains the most contested and controversial issue regarding land use in Mumbai.</p>",
+			"project_desc": "<p>The Lab&rsquo;s Batliboy Compound satellite site was adjacent to the crumbling mill smokestacks. Part of central Mumbai&rsquo;s disappearing industrial heritage, the compound lies between the intimate <em>chawls</em>, where mill workers reside, and the vacant residential high-rises of the new Maharashtra Housing and Area Development Authority.</p>",
 			"project_meta": {
 				"location": "BMW Guggenheim Lab, Mumbai, Batliboy Compound",
 				"program": "Batliboy Compound\n\t\t\t",
@@ -13043,7 +13043,7 @@ var BGLTerms = [
 		"theme": "green",
 		"content": {
 			"term_desc": "<p>A non-expert is an individual who engages in an activity despite having no formal training or background in it. This type of participation is essential to city development. Non-experts have powerful lived experiences that can be harnessed as valuable resources for identifying city issues and solutions. The role of the non-expert is of particular importance within the rise of crowdsourced urban initiatives. </p>",
-			"project_desc": "<p>Field Trips was led by William Schwartz and Derya G&ouml;rg&uuml;, who organized seven unique excursions throughout Berlin, serving as platforms for collective exploration and knowledge sharing. Each week the itinerant lecture series encountered and received personal presentations from residents of Berlin in their homes, workplaces, and other unconventional settings. Meandering by bike through main streets, side streets, and dirt roads, participants cycled from one site to the next. Over the two-month period, they eventually traveled through each of the city&#39;s twelve boroughs.</p>",
+			"project_desc": "<p>Field Trips was led by William Schwartz and Derya G&ouml;rg&uuml;, who organized seven unique excursions throughout Berlin, serving as platforms for collective exploration and knowledge sharing. Each week the itinerant lecture series encountered and received personal presentations from residents of Berlin in their homes, workplaces, and other unconventional settings. Meandering by bike through main streets, side streets, and dirt roads, participants cycled from one site to the next. Over the two-month period, they eventually traveled through each of the city&rsquo;s twelve boroughs.</p>",
 			"project_meta": {
 				"location": "BMW Guggenheim Lab, Berlin",
 				"program": "Field Trips",
@@ -14448,7 +14448,7 @@ var BGLTerms = [
 		"name": "Ostrich Effect",
 		"theme": "red",
 		"content": {
-			"term_desc": "<p>Contrary to popular belief, ostriches do not bury their heads in the sand when threatened. However, the metaphor of covering one&#39;s head in the belief that, in doing so, one hides&mdash;and therefore protects&mdash;one&#39;s entire body, signifies an attitude of denial. This is seen in urban settings when referring to social interaction among citizens that communicates an indifference to the adverse or harsh conditions of everyday street life.</p>",
+			"term_desc": "<p>Contrary to popular belief, ostriches do not bury their heads in the sand when threatened. However, the metaphor of covering one&rsquo;s head in the belief that, in doing so, one hides&mdash;and therefore protects&mdash;one&rsquo;s entire body, signifies an attitude of denial. This is seen in urban settings when referring to social interaction among citizens that communicates an indifference to the adverse or harsh conditions of everyday street life.</p>",
 			"project_desc": "<p>Women and Social Spaces counteracted the ostrich effect by directly addressing topics that are otherwise left largely unspoken&mdash;urban violence, domestic violence, street violence, and harassment against women, which permeate many local populations. Mumbai women expressed a strong desire for urban spaces to be made safer for them; they expressed the need to feel safe in the city, without threat or fear, at any hour.</p>",
 			"project_meta": {
 				"location": "BMW Guggenheim Lab, Mumbai, Dr. Bhau Daji Lad Museum",
@@ -14507,7 +14507,7 @@ var BGLTerms = [
 		"theme": "red",
 		"content": {
 			"term_desc": "<p>Participatory urbanism is the condition, often facilitated by technology, in which citizens are empowered to collect and contribute data, ideas, and proposals to city decision-makers. The idea is grounded in the fact that community members are experts of their particular urban situations and contain within them the knowledge and solutions for any number of issues. Participatory urbanism allows professionals to identify real needs and tap into local knowledge and human resources rather than implementing change from the top down.</p>",
-			"project_desc": "<p>Run by the organization Fresh and Local, this hands-on workshop engaged with the women&#39;s community group Society for Nutrition, Education, and Health Action (SNEHA) and other Lab participants to explore how pop-up gardens and green spaces throughout the city may be able to fill urban needs by catering to diverse communities. Women, representatives of civic bodies, students of planning and architecture, and others interested in urban planning were invited to design a garden for an existing vacant space and move the idea forward, toward a workable model.</p>",
+			"project_desc": "<p>Run by the organization Fresh and Local, this hands-on workshop engaged with the women&rsquo;s community group Society for Nutrition, Education, and Health Action (SNEHA) and other Lab participants to explore how pop-up gardens and green spaces throughout the city may be able to fill urban needs by catering to diverse communities. Women, representatives of civic bodies, students of planning and architecture, and others interested in urban planning were invited to design a garden for an existing vacant space and move the idea forward, toward a workable model.</p>",
 			"project_meta": {
 				"location": "BMW Guggenheim Lab, Mumbai, Priyadarshini Park ",
 				"program": "Pop-Up Garden\n\t\t\t",
@@ -15143,8 +15143,8 @@ var BGLTerms = [
 		"name": "Pet Slum",
 		"theme": "red",
 		"content": {
-			"term_desc": "<p>A pet slum is a slum popularized to the degree that it has become a tourist attraction. Mumbai&#39;s Dharavi slum, one of the largest in the world, is an example of a slum that has received so much attention that tour operators offer &ldquo;authentic&rdquo; guided tours through it. Due to this visibility, the slum has been featured in Hollywood blockbusters and is often referenced in academic papers. </p>",
-			"project_desc": "<p>New visions for Dharavi&#39;s future are frequently discussed throughout Mumbai. Rather than seeing slums as exotic or beautiful&mdash;as many pet slums are imagined to be&mdash;flipping around the perspective, a group of Dharavi youth depicted the reality of what they face in their slum and explored their hopes for themselves, their community, and their city in a self-scripted and self-produced play.</p>",
+			"term_desc": "<p>A pet slum is a slum popularized to the degree that it has become a tourist attraction. Mumbai&rsquo;s Dharavi slum, one of the largest in the world, is an example of a slum that has received so much attention that tour operators offer &ldquo;authentic&rdquo; guided tours through it. Due to this visibility, the slum has been featured in Hollywood blockbusters and is often referenced in academic papers. </p>",
+			"project_desc": "<p>New visions for Dharavi&rsquo;s future are frequently discussed throughout Mumbai. Rather than seeing slums as exotic or beautiful&mdash;as many pet slums are imagined to be&mdash;flipping around the perspective, a group of Dharavi youth depicted the reality of what they face in their slum and explored their hopes for themselves, their community, and their city in a self-scripted and self-produced play.</p>",
 			"project_meta": {
 				"location": "BMW Guggenheim Lab, Mumbai, Mahim Beach",
 				"program": "Nukkad Natak\n\t\t\t",
@@ -15282,7 +15282,7 @@ var BGLTerms = [
 		"theme": "red",
 		"content": {
 			"term_desc": "<p>Play spaces are public spaces where people of all ages can engage in physical activity for enjoyment and recreation rather than for serious or practical purposes. Safe and accessible play spaces are important for urban residents, promoting good physical health and well-being, and allowing for community-building activities and positive interactions between individuals.</p>",
-			"project_desc": "<p>Generational lifestyle changes and the dwindling of Mumbai&#39;s large, open spaces have reduced kite flying and its annual festival from a once-vibrant community event to one struggling to survive. The Kite Festival brought to the forefront questions of available public spaces as free play spaces through dialogue, the art of kite making, and a hands-on workshop with kite professionals, followed by dedicated time and space to fly kites, interact with friends and strangers, and play.</p>",
+			"project_desc": "<p>Generational lifestyle changes and the dwindling of Mumbai&rsquo;s large, open spaces have reduced kite flying and its annual festival from a once-vibrant community event to one struggling to survive. The Kite Festival brought to the forefront questions of available public spaces as free play spaces through dialogue, the art of kite making, and a hands-on workshop with kite professionals, followed by dedicated time and space to fly kites, interact with friends and strangers, and play.</p>",
 			"project_meta": {
 				"location": "BMW Guggenheim Lab, Mumbai, Batliboy Compound",
 				"program": "Kite Festival\n\t\t\t",
@@ -15581,7 +15581,7 @@ var BGLTerms = [
 		"theme": "blue-light",
 		"content": {
 			"term_desc": "<p>Privacy is an elusive and emotionally complex concept that even experts have trouble defining and interpreting. It is related to anonymity, silence, seclusion, solitude, and autonomy, but its definition&mdash;and the perception of it&mdash;shifts based on context. Individuals seek privacy in different forms and through diverse methods. Urban dwellers often find privacy in their homes, but due to the limited space in many residential urban situations, some seek privacy in public spaces.</p>",
-			"project_desc": "<p>Your Place, My Place, or Our Public Space? engaged visitors to participate in a study about the relationship between privacy and interior and exterior spaces in Mumbai by asking questions about how Mumbaikars perceive privacy, where they find it, and with whom they experience it. Findings reaffirmed that, in Mumbai, access to public spaces that fit individuals&#39; requirements remains a challenge. This project was spearheaded by Mumbai Lab Team member Aisha Dasgupta in cooperation with Partners for Urban Knowledge, Action and Research (PUKAR).</p>",
+			"project_desc": "<p>Your Place, My Place, or Our Public Space? engaged visitors to participate in a study about the relationship between privacy and interior and exterior spaces in Mumbai by asking questions about how Mumbaikars perceive privacy, where they find it, and with whom they experience it. Findings reaffirmed that, in Mumbai, access to public spaces that fit individuals&rsquo; requirements remains a challenge. This project was spearheaded by Mumbai Lab Team member Aisha Dasgupta in cooperation with Partners for Urban Knowledge, Action and Research (PUKAR).</p>",
 			"project_meta": {
 				"location": "BMW Guggenheim Lab, Mumbai",
 				"program": "Your Place, My Place, or Our Public Space? Privacy and Spaces in Mumbai<br>Aisha Dasgupta, Mumbai Lab Team member; Partners for Urban Knowledge, Action and Research (PUKAR)",
@@ -15719,7 +15719,7 @@ var BGLTerms = [
 		"theme": "blue-light",
 		"content": {
 			"term_desc": "<p>Privatization is the transition from public to private ownership, or from government to business or nonprofit status. Privatization can have a dramatic impact on the accessibility, maintenance, and diversity of services or goods offered. Those against privatization argue that it creates a system of economic elitism, benefiting only those who can pay. Those in favor of privatization believe that all goods and services can be offered for profit by private businesses and organizations, creating incentive for those entities to function optimally.</p>",
-			"project_desc": "<p>During Split City Mumbai, panelists debated whether basic necessities, which include such essentials as water and sanitation, should or should not be privatized. While the first session of panelists unanimously agreed that some services should be considered essential, the second session&#39;s panelists were in firm consensus that those essentials (most notably water) should not be privatized.</p>",
+			"project_desc": "<p>During Split City Mumbai, panelists debated whether basic necessities, which include such essentials as water and sanitation, should or should not be privatized. While the first session of panelists unanimously agreed that some services should be considered essential, the second session&rsquo;s panelists were in firm consensus that those essentials (most notably water) should not be privatized.</p>",
 			"project_meta": {
 				"location": "BMW Guggenheim Lab, Mumbai, Dr. Bhau Daji Lad Museum",
 				"program": "Split City Mumbai: Time Scarcity, Space Scarcity\n\t\t\t",
@@ -15761,7 +15761,7 @@ var BGLTerms = [
 		"theme": "blue-light",
 		"content": {
 			"term_desc": "<p><em>Liegenschaftsfonds</em> (property fund politics) is a policy whereby city-owned plots in Berlin are sold in a bidding process in which monetary value determines the selling process. The policy raises a number of important issues, including the privatization of public land and the support of organizations whose social contribution is high, but whose operating budget is low. The Liegenschaftsfonds property fund was established in 2001, the full shareholder of which is the city of Berlin.</p>",
-			"project_desc": "<p>Free Space Berlin/Freir&auml;ume Berlin increased awareness and citizen participation surrounding the selling of public land in Berlin. The initiative consisted of an interactive online map of the locations of publicly owned plots, a mobile workshop, and a series of events at sites throughout Berlin that were undergoing the selling process, in which neighbors, visitors, and passersby were asked what their vision for these spaces would be. Free Space Berlin/Freir&auml;ume Berlin was organized by Berlin Lab Team member Corinne Rose with openBerlin cofounders Johannes Dumpe, Felix Zai&szlig;, and Rocco Z&uuml;hlke, in collaboration with Florian Schmidt, cofounder of Initiative Stadt Neudenken (ISN;Rethink the City Initiative), and J&uuml;rgen Breiter, an urban curator.</p>",
+			"project_desc": "<p>Free Space Berlin/Freir&auml;ume Berlin increased awareness and citizen participation surrounding the selling of public land in Berlin. The initiative consisted of an interactive online map of the locations of publicly owned plots, a mobile workshop, and a series of events at sites throughout Berlin that were undergoing the selling process, in which neighbors, visitors, and passersby were asked what their vision for these spaces would be. Free Space Berlin/Freir&auml;ume Berlin was organized by Berlin Lab Team member Corinne Rose with openBerlin cofounders Johannes Dumpe, Felix Zai&szlig;, and Rocco Z&uuml;hlke, in collaboration with Florian Schmidt, cofounder of Initiative Stadt Neudenken (ISN; Rethink the City Initiative), and J&uuml;rgen Breiter, an urban curator.</p>",
 			"project_meta": {
 				"location": "BMW Guggenheim Lab, Berlin",
 				"program": "Free Space Berlin/Freir&auml;ume Berlin<br>Corinne Rose, Berlin Lab Team member",
@@ -15861,7 +15861,7 @@ var BGLTerms = [
 		"theme": "blue-light",
 		"content": {
 			"term_desc": "<p>A public space is a plot of land that is open and accessible to all people. Though often used to refer to social spaces for gathering or recreation, such as plazas or parks, &ldquo;public space&rdquo; also refers to streets, sidewalks, and government buildings that are open to the public and not privately owned.</p>",
-			"project_desc": "<p>In this workshop, participants transformed a public space, monitored the public&#39;s response, collected data, and analyzed the results by using image processing, environmental sensors, and social media. The results provided context in order to better understand how people move, talk, and interact in public spaces, and how this information can lead to their improved design. Dynamic Public Spaces was facilitated by Kael Greco, David Lee, and Anthony Vanky from SENSEable City Lab, MIT, in collaboration with Katja Schechtner and Stefan Seer from the Austrian Institute of Technology.</p>",
+			"project_desc": "<p>In this workshop, participants transformed a public space, monitored the public&rsquo;s response, collected data, and analyzed the results by using image processing, environmental sensors, and social media. The results provided context in order to better understand how people move, talk, and interact in public spaces, and how this information can lead to their improved design. Dynamic Public Spaces was facilitated by Kael Greco, David Lee, and Anthony Vanky from SENSEable City Lab, MIT, in collaboration with Katja Schechtner and Stefan Seer from the Austrian Institute of Technology.</p>",
 			"project_meta": {
 				"location": "BMW Guggenheim Lab, Berlin",
 				"program": "Dynamic Public Spaces",
@@ -16699,7 +16699,7 @@ var BGLTerms = [
 		"theme": "blue-light",
 		"content": {
 			"term_desc": "<p>Public-private partnerships (PPP) bring together public, governmental entities with private corporations or institutions to develop a project together or share its funding. A PPP can be a good alternative to projects or businesses that are solely financed through public funds, particularly during times of economic crisis. Such arrangements also have the potential to lessen the contribution of taxpayer funds that would be invested if the project was solely funded by government entities.</p>",
-			"project_desc": "<p>This session brought together citizens&#39;groups, government officials, and representatives of corporations involved with low-cost housing and transport projects to discuss how trust can be built between the various stakeholders. Panelists assessed and debated the delicate, yet essential, nature of public-private partnerships and infrastructure development in Mumbai.</p>",
+			"project_desc": "<p>This session brought together citizens&rsquo; groups, government officials, and representatives of corporations involved with low-cost housing and transport projects to discuss how trust can be built between the various stakeholders. Panelists assessed and debated the delicate, yet essential, nature of public-private partnerships and infrastructure development in Mumbai.</p>",
 			"project_meta": {
 				"location": "BMW Guggenheim Lab, Mumbai, Dr. Bhau Daji Lad Museum",
 				"program": "Mediating Public-Private Investment\n\t\t\t",
@@ -16852,7 +16852,7 @@ var BGLTerms = [
 		"theme": "blue-dark",
 		"content": {
 			"term_desc": "<p>Rainwater harvesting creates an independent water supply by capturing, diverting, and storing rainwater for later use. The practice eases demand on the existing water supply and reduces runoff, erosion, and contamination of surface water. A rainwater harvesting system can range in size and complexity, but is easy to understand, install, and operate; it generally has negligible operating costs. The systems have been adopted in many countries to supplement the main water supply.</p>",
-			"project_desc": "<p>The Water Bench is a system that aims to cut back consumption of public water used to irrigate parks and green spaces in cities. It makes use of the wet season&#39;s heavy rainfall, which fills the bench&#39;s internal reservoir. This water is then used to irrigate surrounding vegetation during the dry seasons. In addition to collecting rainwater, the bench provides public seating. The first Water Benches were installed in Mumbai and Ahmedabad, India, in early 2013, for a one-year prototyping phase. Mumbai Lab Team member Neville Mars developed the Water Bench in connection to the BMW Guggenheim Lab Mumbai.</p>",
+			"project_desc": "<p>The Water Bench is a system that aims to cut back consumption of public water used to irrigate parks and green spaces in cities. It makes use of the wet season&rsquo;s heavy rainfall, which fills the bench&rsquo;s internal reservoir. This water is then used to irrigate surrounding vegetation during the dry seasons. In addition to collecting rainwater, the bench provides public seating. The first Water Benches were installed in Mumbai and Ahmedabad, India, in early 2013, for a one-year prototyping phase. Mumbai Lab Team member Neville Mars developed the Water Bench in connection to the BMW Guggenheim Lab Mumbai.</p>",
 			"project_meta": {
 				"location": "BMW Guggenheim Lab, Mumbai",
 				"program": "Water Bench<br>Neville Mars, Mumbai Lab Team member; MARS Architects",
@@ -17041,7 +17041,7 @@ var BGLTerms = [
 		"theme": "orange",
 		"content": {
 			"term_desc": "<p>Retrofitting infrastructure is the reimagining of an existing piece of major organizational infrastructure. Rather than expending energy, resources, and funds on demolishing heavy infrastructure to improve city living, retrofitting infrastructure has become an alternative solution. This approach involves the transformative reuse of an existing piece of infrastructure into an alternative entity, such as converting an out-of-use train track into a green pedestrian walkway. These transformations often improve efficiency in existing systems and benefit the greater public.</p>",
-			"project_desc": "<p>The Mumbai Lab&#39;s Landlink Design Prototype retrofitted the Tansa pipeline, which comprises seventy-five kilometers of massive water-system infrastructure running aboveground through the city. The pipelines, now slowly being phased out, were reimagined as a pedestrian bridge, thereby improving connections within the city. In consultation with fellow Mumbai Lab Team members, architect Neville Mars developed the Landlink for a specific stretch of pipes between Dharavi and Bandra in Mumbai.</p>",
+			"project_desc": "<p>The Mumbai Lab&rsquo;s Landlink Design Prototype retrofitted the Tansa pipeline, which comprises seventy-five kilometers of massive water-system infrastructure running aboveground through the city. The pipelines, now slowly being phased out, were reimagined as a pedestrian bridge, thereby improving connections within the city. In consultation with fellow Mumbai Lab Team members, architect Neville Mars developed the Landlink for a specific stretch of pipes between Dharavi and Bandra in Mumbai.</p>",
 			"project_meta": {
 				"location": "BMW Guggenheim Lab, Mumbai",
 				"program": "Landlink Design Prototype<br>Neville Mars, Mumbai Lab Team member",
@@ -17103,7 +17103,7 @@ var BGLTerms = [
 			"project_meta": {
 				"location": "BMW Guggenheim Lab, Mumbai, Batliboy Compound",
 				"program": "&ldquo;Girnichi Chav&rdquo;&mdash;A Taste of the Mills\n\t\t\t",
-				"date": "January 3,2013"
+				"date": "January 3, 2013"
 			},
 			"media": [
 				{
@@ -17283,7 +17283,7 @@ var BGLTerms = [
 		"theme": "purple",
 		"content": {
 			"term_desc": "<p>A sensor is a tool that measures the physical quality or presence of something and communicates that data through an electronic or digital device. Common sensors include thermometers, smartphones, or carbon monoxide detectors. Complex sensors are becoming ubiquitous in cities&mdash;especially as the popularity of smartphones increases&mdash;and are usually mentioned when discussing smart cities. However, without a meaningful understanding and analysis of the data they are built to collect, sensors can prove senseless and devoid of any real interest or usefulness.</p>",
-			"project_desc": "<p>During the Lab&#39;s time in New York, Berlin, and Mumbai, this interactive tour gathered evidence about the psychological impact of public spaces on citizens. The international experiment measuring the cities&#39; effects on our well-being revealed that factors such as noise, crowding, and perceived threats to safety can affect our physical and mental functioning. Testing, Testing! was organized by Colin Ellard, a research psychologist, professor, and the director of the Research Laboratory for Immersive Virtual Environments at the University of Waterloo in Ontario. </p>",
+			"project_desc": "<p>During the Lab&rsquo;s time in New York, Berlin, and Mumbai, this interactive tour gathered evidence about the psychological impact of public spaces on citizens. The international experiment measuring the cities&rsquo; effects on our well-being revealed that factors such as noise, crowding, and perceived threats to safety can affect our physical and mental functioning. Testing, Testing! was organized by Colin Ellard, a research psychologist, professor, and the director of the Research Laboratory for Immersive Virtual Environments at the University of Waterloo in Ontario. </p>",
 			"project_meta": {
 				"location": "BMW Guggenheim Lab, New York, Berlin, Mumbai",
 				"program": "Testing, Testing!\n\t\t\t",
@@ -18181,7 +18181,7 @@ var BGLTerms = [
 		"theme": "purple",
 		"content": {
 			"term_desc": "<p>While modernist urban-planning philosophies typically focus on moving people and vehicles as quickly as possible, &ldquo;slowing down&rdquo; refers to an alternative goal: some urban spaces should be dedicated to slower and more enjoyable, experiential ways of moving through and being in the city.</p>",
-			"project_desc": "<p>A Sunday morning outdoor yoga series allowed visitors to slow down in the Lab&#39;s location near traffic-heavy Houston Street.</p>",
+			"project_desc": "<p>A Sunday morning outdoor yoga series allowed visitors to slow down in the Lab&rsquo;s location near traffic-heavy Houston Street.</p>",
 			"project_meta": {
 				"location": "BMW Guggenheim Lab, New York",
 				"program": "Yoga Local Yoga Series",
@@ -18437,7 +18437,7 @@ var BGLTerms = [
 		"theme": "purple",
 		"content": {
 			"term_desc": "<p>Suburban sprawl is a type of outward urban growth in the form of automobile-oriented, low-density development. Emerging around the end of World War II, suburban sprawl is typically characterized by single-family or other low-density housing structures, the segregation of residential and commercial areas, and the conversion of agricultural or &ldquo;greenfield&rdquo; land to residential use. The trend of suburban sprawl became a concern in the 1980s; this type of suburban development has begun to slow down and shift toward a model of denser urbanization.</p>",
-			"project_desc": "<p>June Williamson, coauthor of <em>Retrofitting Suburbia</em> (2011), moderated a discussion on the history, development, and future of sprawl with panelists Christoph Gielen, a photographer exploring sprawl and the intersection of art and environmental politics through photographic aerial studies of infrastructure; Rachel Heiman, urban anthropologist specializing in the comforts and anxieties of the American middle class; and Galina Tachieva, urban planner and author of <em>The Sprawl Repair Manual</em> (2010).</p>",
+			"project_desc": "<p>June Williamson, coauthor of <em>Retrofitting Suburbia</em> (2011), moderated a discussion on the history, development, and future of sprawl with panelists Christoph Gielen, a photographer exploring sprawl and the intersection of art and environmental politics through photographic aerial studies of infrastructure; Rachel Heiman, urban anthropologist specializing in the comforts and anxieties of the American middle class; and Galina Tachieva, urban planner and author of <em>The Sprawl Repair Manual</em> (2010). Christoph Gielen&#39;s <em>Cipher</em> series is pictured (photos courtesy Christoph Gielen and Jovis Verlag Berlin, 2013). </p>",
 			"project_meta": {
 				"location": "BMW Guggenheim Lab, New York",
 				"program": "Sprawl: Past, Present, Future",
@@ -18888,7 +18888,7 @@ var BGLTerms = [
 			"project_desc": "<p>For the Mumbai Lab, the Tokyo architecture firm Atelier Bow-Wow designed a structure uniquely suited to the densely populated environment of Mumbai. Modeled after the Indian <em>mandapa</em>, a raised outdoor pavilion traditionally used for public celebrations and events, the Traveling Lab was constructed primarily of bamboo and designed to travel to sites across the city, &ldquo;popping-up&rdquo; in a new location every five weeks to host Lab programming.</p>",
 			"project_meta": {
 				"location": "BMW Guggenheim Lab, Mumbai",
-				"program": "Traveling Lab<br>Tokyo architecture firm Atelier Bow-Wow with Mumbai architect Samir D&#39;Monte",
+				"program": "Traveling Lab<br>Tokyo architecture firm Atelier Bow-Wow with Mumbai architect Samir D&rsquo;Monte",
 				"date": "December 13, 2012&mdash;January 20, 2013\n\t\t\t"
 			},
 			"media": [
@@ -19266,7 +19266,7 @@ var BGLTerms = [
 		"theme": "green",
 		"content": {
 			"term_desc": "<p>Time scarcity is a condition that leaves urban dwellers with a restricted amount of time for activities outside of work, including transit and activities related to everyday subsistence. This constraint most greatly affects those with limited economic means, as time scarcity has an inverse correlation with financial earnings. Those with greater wealth are better able to negotiate this time constraint by employing others to handle chores or by living in closer proximity to their workplace.</p>",
-			"project_desc": "<p>Split City Mumbai: Time Scarcity, Space Scarcity examined the lack of time that Mumbaikars must contend with due to the city&#39;s overtaxed infrastructure and urban layout; participants in the conversation sought to define a feasible solution to the issue.</p>",
+			"project_desc": "<p>Split City Mumbai: Time Scarcity, Space Scarcity examined the lack of time that Mumbaikars must contend with due to the city&rsquo;s overtaxed infrastructure and urban layout; participants in the conversation sought to define a feasible solution to the issue.</p>",
 			"project_meta": {
 				"location": "BMW Guggenheim Lab, Mumbai, Dr. Bhau Daji Lad Museum",
 				"program": "Split City Mumbai: Time Scarcity, Space Scarcity\n\t\t\t",
@@ -19360,7 +19360,7 @@ var BGLTerms = [
 		"theme": "green",
 		"content": {
 			"term_desc": "<p>Just as the distribution of wealth is not equal across the cityscape, neither is the distribution of environmental burdens such as garbage dumps, industrial processing facilities, hazardous waste sites, or other environmental hazards. Toxic neighborhoods bear the majority of these burdens, and tend to be poorer neighborhoods populated by minorities.</p>",
-			"project_desc": "<p>Creative consulting and design collaborative spurse led a voyage by boat to the heart of New York&#39;s most astonishing post-natural landscape&mdash;the Hackensack River. At this location, where comfort meets waste, participants learned about this post-industrial location where an abandoned mall, housing development, and landfill constitute one of the worst Superfund sites in the metro area.</p>",
+			"project_desc": "<p>Creative consulting and design collaborative spurse led a voyage by boat to the heart of New York&rsquo;s most astonishing post-natural landscape&mdash;the Hackensack River. At this location, where comfort meets waste, participants learned about this post-industrial location where an abandoned mall, housing development, and landfill constitute one of the worst Superfund sites in the metro area.</p>",
 			"project_meta": {
 				"location": "BMW Guggenheim Lab, New York ",
 				"program": "The System as Ecosystem, organized by spurse",
@@ -20737,7 +20737,7 @@ var BGLTerms = [
 			"project_meta": {
 				"location": "BMW Guggenheim Lab, Mumbai, Sambhaji Park ",
 				"program": "Fooducate\n\t\t\t",
-				"date": "December28, 2012"
+				"date": "December 28, 2012"
 			},
 			"media": [
 				{
@@ -22390,7 +22390,7 @@ var BGLTerms = [
 		"name": "Vacant Space",
 		"theme": "blue-dark",
 		"content": {
-			"term_desc": "<p>Vacant space is land that has temporarily fallen out of use. In cities, vacant lots provide opportunities for spontaneous urban interventions, public gatherings, and leisure, but can also become determining factors in the city&#39;s economic well-being. If not managed correctly by city governments, an abundance of empty lots can lead to urban speculation and safety issues.</p>",
+			"term_desc": "<p>Vacant space is land that has temporarily fallen out of use. In cities, vacant lots provide opportunities for spontaneous urban interventions, public gatherings, and leisure, but can also become determining factors in the city&rsquo;s economic well-being. If not managed correctly by city governments, an abundance of empty lots can lead to urban speculation and safety issues.</p>",
 			"project_desc": "<p>The New York Lab was located on the vacant lot of a demolished tenement building on the border between the Lower East Side and the East Village and extended into a New York City Parks property. When the Lab occupied the space in 2011, the lot was cleaned and repaved. Since then, the improvements have remained, rendering a formerly unusable city site an accessible public park space. The site continues to host cultural activities through the initiative of First Street Green.</p>",
 			"project_meta": {
 				"location": "BMW Guggenheim Lab, New York",
