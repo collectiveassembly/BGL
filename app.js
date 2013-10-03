@@ -2,7 +2,7 @@ var express = require('express');
 var async = require('async');
 var fs = require('fs');
 var WebSocketServer = require('ws').Server;
-var terms = require("./public/assets/scripts/app/terms");
+var terms = require("./public/assets/scripts/app/terms").terms;
 var app = express();
 
 /*
@@ -30,16 +30,31 @@ wss.on('connection', function(ws) {
 //the counter for how many term events have been fired
 var termCounter = 0;
 
+
+// sourced from http://snippets.dzone.com/posts/show/849
+function shuffleArray(arr) {
+	var o = arr.slice(0);
+	for(var j, x, i = o.length; i; j = parseInt(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
+	return o;
+};
+
+//shuffle the terms
+terms = shuffleArray(terms);
+
 //send events
 function sendWSEvent(){
-	setTimeout(sendWSEvent, 15000);
-	//shuffle a copy of the array
-	var shuffled = terms.terms.slice().sort( function() { return 0.5 - Math.random() } );
-	var args = shuffled.slice(0, 3);
+	setTimeout(sendWSEvent,  15000);
+	//take the next three terms
+	var args = [];
+	for (var i = 0; i < 3; i++){
+		args.push(terms[termCounter]);
+		termCounter++;
+		termCounter = termCounter % terms.length;
+	}
 	for (var i = 0; i < connections.length; i++){
 		var ws = connections[i];
-		//take the first 3 terms
-		if (termCounter===0){
+		//show the lab logo every 3 iterations
+		if (termCounter % 9 === 0){
 			var msg = { name : "labLogo", args : []};
 		} else {
 			var msg = { name : "nextTerm", args : args};
@@ -47,10 +62,9 @@ function sendWSEvent(){
 		//send it
 		ws.send(JSON.stringify(msg));
 	}
-	//increment and make sure the count doesn't go over 10 (debug: 4)
-	termCounter++;
-	termCounter = termCounter % 4;
 }
+
+
 //start the loop
 sendWSEvent();
 
