@@ -64,6 +64,9 @@ $(function(){
 	console.log(tspan_to_div);
 	*/
 
+	 //springy seems to be causing a memory leak
+	 //keep track of the created springies so they can be removed later
+	var springies = [];
 
 	
 	/***********************************************
@@ -76,6 +79,8 @@ $(function(){
 	var coords = hash.split(",");
 	$("body,html").scrollLeft( parseInt(coords[0]) * 1920);
 	$("body,html").scrollTop( parseInt(coords[1]) * 1080);
+	//hide all the other sections (for performance reasons)
+	$("section").not("section:eq("+coords[0]+")").css("visibility", "hidden");
 
 
 	/***********************************************
@@ -114,6 +119,19 @@ $(function(){
 			scatter_interstitial($interstitial_terms_A, 'center', terms[1]);
 			scatter_interstitial($interstitial_terms_B, 'right', terms[2]);
 		}
+
+		//tear down the previous springies
+		springies.forEach(function(spring){
+			spring.renderer = null;
+			spring.layout = null;
+			//delete all the nodes explicitly
+			var nodes = spring.graph.nodes.slice();
+			for (var i = 0; i < nodes.length; i++){
+				spring.graph.removeNode(nodes[i]);
+			}
+			nodes = null;
+			spring.graph = null;
+		})
 
 		// render each term's contents to screen
 		terms.forEach(function(term, i){
@@ -160,6 +178,7 @@ $(function(){
 	 *
 	 ***********************************************/
 
+
 	var render_term = function(term, target){
 		
 		var $target_section = $('section').eq(target);
@@ -190,6 +209,7 @@ $(function(){
 				var graph = new Springy.Graph();
 				graph.loadJSON(term.related);
 				var springy_instance = $target_section.find('canvas').springy({graph: graph});
+				springies[target] = springy_instance;
 
 				// clean up
 				$target_section.removeClass('transitioning');
@@ -204,7 +224,8 @@ $(function(){
 						$img.fadeOut(1000);
 					}, i*interval + interval);
 				});
-				
+				//remove the reference to the target section
+				$target_section = null
 			}, (target*500)+2000);		
 
 		}, (target*1000)+1000);
