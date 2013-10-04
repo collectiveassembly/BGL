@@ -74,8 +74,8 @@ $(function(){
 
 	var hash = window.location.hash.substring(1);
 	var coords = hash.split(",");
-	$("body").scrollLeft( parseInt(coords[0]) * 1920);
-	$("body").scrollTop( parseInt(coords[1]) * 1080);
+	$("body,html").scrollLeft( parseInt(coords[0]) * 1920);
+	$("body,html").scrollTop( parseInt(coords[1]) * 1080);
 
 
 	/***********************************************
