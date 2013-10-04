@@ -245,7 +245,7 @@ $(function(){
 		terms.each(function(i){
 			var $this = $(this);
 			setTimeout(function(){
-				$this.css({'opacity': 1,'-webkit-transform': 'scale(1) translate3d(0px,0px,0px)'});
+				$this.css({'opacity': 1,'transform': 'scale(1) translate3d(0px,0px,0px)'});
 			}, i * 30);
 		});
 		
@@ -299,17 +299,17 @@ $(function(){
 
 			if (animDirection === 'left') {
 				setTimeout(function(){
-					$this.css({'opacity':0,'-webkit-transform':'scale('+intInRangeFloat(0.5,3.2)+') translate3d('+intInRange(-900,-1200)+'px,'+intInRange(-1200,1200)+'px,0px)'});
+					$this.css({'opacity':0,'transform':'scale('+intInRangeFloat(0.5,3.2)+') translate3d('+intInRange(-900,-1200)+'px,'+intInRange(-1200,1200)+'px,0px)'});
 				}, i * multiplier);
 			} 
 			else if (animDirection === 'center') {
 				setTimeout(function(){
-					$this.css({'opacity':0,'-webkit-transform':'scale('+intInRangeFloat(0.5,3.2)+') translate3d('+intInRange(-900,900)+'px,'+intInRange(-1200,1200)+'px,0px)'});
+					$this.css({'opacity':0,'transform':'scale('+intInRangeFloat(0.5,3.2)+') translate3d('+intInRange(-900,900)+'px,'+intInRange(-1200,1200)+'px,0px)'});
 				}, i * multiplier);
 			}
 			else if (animDirection === 'right') {
 				setTimeout(function(){
-					$this.css({'opacity':0,'-webkit-transform':'scale('+intInRangeFloat(0.5,3.2)+') translate3d('+intInRange(900,1200)+'px,'+intInRange(-1200,1200)+'px,0px)'});
+					$this.css({'opacity':0,'transform':'scale('+intInRangeFloat(0.5,3.2)+') translate3d('+intInRange(900,1200)+'px,'+intInRange(-1200,1200)+'px,0px)'});
 				}, i * multiplier);
 			}
 						
