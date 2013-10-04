@@ -79,6 +79,7 @@ $(function(){
 	var coords = hash.split(",");
 	$("body,html").scrollLeft( parseInt(coords[0]) * 1920);
 	$("body,html").scrollTop( parseInt(coords[1]) * 1080);
+	var targetNumber = parseInt(coords[0]);
 	//hide all the other sections (for performance reasons)
 	$("section").not("section:eq("+coords[0]+")").css("visibility", "hidden");
 
@@ -135,7 +136,10 @@ $(function(){
 
 		// render each term's contents to screen
 		terms.forEach(function(term, i){
-			render_term(term, i);
+			//don't make springs for offscreen content
+			if (targetNumber === i){
+				render_term(term, i);
+			}
 		});
 
 		last_state_was_interstitial = false;
