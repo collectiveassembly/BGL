@@ -27,8 +27,8 @@ html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre
 
 * {
 	box-sizing: border-box;
-	backface-visibility: hidden;
-	transform-style: preserve-3d;
+	-webkit-backface-visibility: hidden;
+	-webkit-transform-style: preserve-3d;
 }
 
 html, body {
@@ -58,7 +58,7 @@ section {
 	
 	header, article {
 		display: block;
-		height: 1080px;
+		height: 1025px; // previously 1080px
 		padding: 0 11.5%;
 		overflow: scroll;
 	}
@@ -70,6 +70,7 @@ section {
 	}
 	
 	article {
+		margin-top: 30px;
 		&>div {
 			float: left;
 			font-size: 18px;
@@ -121,7 +122,7 @@ section {
 				height: 10px;
 				background: black;
 				z-index: 30;
-				transition: width 11s linear, background 1s ease 2s;
+				-webkit-transition: width 11s linear, background 1s ease 2s;
 				&.active { width: 100%;}				
 			}
 			.caption {
@@ -199,30 +200,30 @@ section {
 	 **************************************/
 
 	header {
-		transition: all 2s ease;
+		-webkit-transition: all 2s ease;
 	}
 	.term-description, 
 	.media,
 	.project-desc,
 	.project-meta {
-		transition: all 1.5s ease;
+		-webkit-transition: all 1.5s ease;
 	}
-	.term-description	{ transition-delay: .5s}
-	.media				{ transition-delay: .7s}
-	.project-desc		{ transition-delay: .9s}
-	.project-meta		{ transition-delay: 1.1s}
+	.term-description	{ -webkit-transition-delay: .5s}
+	.media				{ -webkit-transition-delay: .7s}
+	.project-desc		{ -webkit-transition-delay: .9s}
+	.project-meta		{ -webkit-transition-delay: 1.1s}
 
 	canvas {
 		opacity: 1;
-		 transform: scale(1);
-		 transition: all 1s ease;
+		-webkit-transform: scale(1);
+		-webkit-transition: all 1s ease;
 	}
 
 	&.transitioning {
 
 		header {
 			opacity: 0;
-			 transform: translate3d(0, -300px, 0);
+			-webkit-transform: translate3d(0, -300px, 0);
 		}
 		.term-description,
 		.media ,
@@ -233,7 +234,7 @@ section {
 
 		canvas {
 			opacity: 0;
-			 transform: scale(.6);
+			-webkit-transform: scale(.6);
 		}
 		
 	}
@@ -270,7 +271,7 @@ section {
 		.term {
 			position: absolute;
 			font-weight: 300;
-			 transition: all 4s ease 0;
+			-webkit-transition: all 4s ease 0;
 			&.red {
 				color: #ff001a;
 			}
@@ -296,7 +297,7 @@ section {
 				letter-spacing: 0 !important;
 				opacity: 1 !important;
 				font-size: 60px !important;
-				 transition:  transform 2.5s ease, opacity 1s ease;
+				-webkit-transition: -webkit-transform 2.5s ease, opacity 1s ease;
 				z-index: 999;
 			}
 			
@@ -311,7 +312,7 @@ section {
 			height: 1085px;
 			left: 1080px;
 			.term.transition-term.active {
-				 transform: translate3d(-409px, 213px, 0) !important;
+				-webkit-transform: translate3d(-409px, 213px, 0) !important;
 			}
 		}
 
@@ -322,7 +323,7 @@ section {
 			> div { margin-left: 370px;}
 			.term.transition-term.active {
 				margin: 0;
-				 transform: translate3d(-159px, 213px, 0) !important;
+				-webkit-transform: translate3d(-159px, 213px, 0) !important;
 			}
 		}
 
@@ -331,7 +332,7 @@ section {
 			height: 1085px;
 			left: 4800px;
 			.term.transition-term.active {
-				 transform: translate3d(-289px, 213px, 0) !important;
+				-webkit-transform: translate3d(-289px, 213px, 0) !important;
 			}
 		}
 		
@@ -349,7 +350,7 @@ section {
 	font-weight: 300;
 	outline: 2px solid black;
 	border: 0;
-	 appearance: none;
+	-webkit-appearance: none;
 	&.paused {
 		background: red;
 	}

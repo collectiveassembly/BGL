@@ -226,6 +226,7 @@ $(function(){
 					var $img = $(this);
 					setTimeout(function(){
 						$img.fadeOut(1000);
+						$img = null;
 					}, i*interval + interval);
 				});
 				//remove the reference to the target section
@@ -249,7 +250,8 @@ $(function(){
 		terms.each(function(i){
 			var $this = $(this);
 			setTimeout(function(){
-				$this.css({'opacity': 1,'transform': 'scale(1) translate3d(0,0,0)'});
+				$this.css({'opacity': 1,'-webkit-transform': 'scale(1) translate3d(0,0,0)'});
+				$this = null;
 			}, i * 30);
 		});
 		
@@ -303,17 +305,20 @@ $(function(){
 
 			if (animDirection === 'left') {
 				setTimeout(function(){
-					$this.css({'opacity':0,'transform':'scale('+intInRangeFloat(0.5,3.2)+') translate3d('+intInRange(-900,-1200)+'px,'+intInRange(-1200,1200)+'px,0)'});
+					$this.css({'opacity':0,'-webkit-transform':'scale('+intInRangeFloat(0.5,3.2)+') translate3d('+intInRange(-900,-1200)+'px,'+intInRange(-1200,1200)+'px,0)'});
+					$this = null;
 				}, i * multiplier);
 			} 
 			else if (animDirection === 'center') {
 				setTimeout(function(){
-					$this.css({'opacity':0,'transform':'scale('+intInRangeFloat(0.5,3.2)+') translate3d('+intInRange(-900,900)+'px,'+intInRange(-1200,1200)+'px,0)'});
+					$this.css({'opacity':0,'-webkit-transform':'scale('+intInRangeFloat(0.5,3.2)+') translate3d('+intInRange(-900,900)+'px,'+intInRange(-1200,1200)+'px,0)'});
+					$this = null;
 				}, i * multiplier);
 			}
 			else if (animDirection === 'right') {
 				setTimeout(function(){
-					$this.css({'opacity':0,'transform':'scale('+intInRangeFloat(0.5,3.2)+') translate3d('+intInRange(900,1200)+'px,'+intInRange(-1200,1200)+'px,0)'});
+					$this.css({'opacity':0,'-webkit-transform':'scale('+intInRangeFloat(0.5,3.2)+') translate3d('+intInRange(900,1200)+'px,'+intInRange(-1200,1200)+'px,0)'});
+					$this = null;
 				}, i * multiplier);
 			}
 						

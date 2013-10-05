@@ -1,0 +1,22 @@
+<head>
+</head>
+<body>
+	<div style="width: 100%; text-align:center;">
+	<a href="#" onclick="openWindow(0,0)">top left</a>
+	<a href="#" onclick="openWindow(0,1)">bottom left</a>
+	<br>
+	<br>
+	<a href="#" onclick="openWindow(1,0)">top center</a>
+	<a href="#" onclick="openWindow(1,1)">bottom center</a>
+	<br>
+	<br>
+	<a href="#" onclick="openWindow(2,0)">top right</a>
+	<a href="#" onclick="openWindow(2,1)">bottom right</a>
+	</div>
+
+	<script type="text/javascript">
+		function openWindow(x, y){
+			window.open('http://127.0.0.1:3000/#'+x+','+y, 'BGL', 'menubar=no,top=0,left=0,height=1080,width=1920,status=no,titlebar=no,resizable=no,toolbar=no,scrollbars=no');
+		}
+	</script>
+</body>
