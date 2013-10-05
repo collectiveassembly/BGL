@@ -139,10 +139,10 @@ var BGLTerms = [
             },
             "media": [
                 {
-                    "photo": "./media/38/What&#39;s%20Next%201.jpg"
+                    "photo": "./media/38/WhatsNext1.jpg"
                 },
                 {
-                    "photo": "./media/38/What&#39;s%20Next%202.jpg"
+                    "photo": "./media/38/WhatsNext2.jpg"
                 }
             ]
         },

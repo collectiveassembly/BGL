@@ -86,7 +86,7 @@ figure {
   -webkit-transform-style: preserve-3d; }
 
 html, body {
-  background: #ccc;
+  background: white;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300; }
 
@@ -98,7 +98,8 @@ section {
   background: white;
   width: 1920px;
   float: left;
-  outline: 1px solid #ccc;
+  margin-top: 158px;
+  outline: 0px solid #ccc;
   /**************************************
    *
    *	Term animation styles
@@ -107,7 +108,7 @@ section {
   section canvas {
     position: absolute;
     top: 40px;
-    right: 40px;
+    right: 0px;
     z-index: 0; }
   section header, section article {
     display: block;
@@ -115,7 +116,7 @@ section {
     padding: 0 11.5%;
     overflow: scroll; }
   section header {
-    padding-top: 27%; }
+    padding-top: 31%; }
     section header h1 {
       font-size: 7.5em;
       font-weight: 300;
@@ -267,12 +268,13 @@ section {
   position: absolute;
   top: 0;
   left: -450px;
-  width: 6210px;
+  width: 6910px;
   height: 2160px;
   overflow: hidden; }
   #interstitial .letter {
     position: absolute;
-    top: 450px; }
+    top: 450px;
+    left: 0px; }
     #interstitial .letter > div {
       position: absolute;
       font-size: 42px;

@@ -78,8 +78,11 @@ $(function(){
 	var hash = window.location.hash.substring(1);
 	var coords = hash.split(",");
 	$("body,html").scrollLeft( parseInt(coords[0]) * 1920);
-	$("body,html").scrollTop( parseInt(coords[1]) * 1080);
+	$("body,html").scrollTop( parseInt(coords[1]) * 1043);
 	var targetNumber = parseInt(coords[0]);
+	if (parseInt(coords[1]===0)){
+		$("body,html").scrollTop(21);
+	}
 	//hide all the other sections (for performance reasons)
 	// $("section").not("section:eq("+coords[0]+")").css("visibility", "hidden");
 

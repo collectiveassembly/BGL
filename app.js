@@ -43,7 +43,7 @@ function shuffleArray(arr) {
 
 //send events
 function sendWSEvent(){
-	setTimeout(sendWSEvent,  126000);
+	setTimeout(sendWSEvent,  12000); //126000
 	//take the next three terms
 	var args = [];
 	for (var i = 0; i < 3; i++){
@@ -55,7 +55,7 @@ function sendWSEvent(){
 		var ws = connections[i];
 		//show the lab logo every 3 iterations
 		if (termCounter % 33 === 0){
-			var msg = { name : "labLogo", args : []};
+			//var msg = { name : "labLogo", args : []};
 		} else {
 			var msg = { name : "nextTerm", args : args};
 		}
