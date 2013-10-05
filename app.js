@@ -43,7 +43,7 @@ function shuffleArray(arr) {
 
 //send events
 function sendWSEvent(){
-	setTimeout(sendWSEvent,  12000); //126000
+	setTimeout(sendWSEvent,  126000); //126000
 	//take the next three terms
 	var args = [];
 	for (var i = 0; i < 3; i++){
@@ -66,7 +66,7 @@ function sendWSEvent(){
 
 
 //start the loop
-// sendWSEvent();
+sendWSEvent();
 
 /*
 * SERVER STUFF
