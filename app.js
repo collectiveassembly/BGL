@@ -2,7 +2,7 @@ var express = require('express');
 var async = require('async');
 var fs = require('fs');
 var WebSocketServer = require('ws').Server;
-var terms = require("./public/assets/scripts/app/terms").terms;
+var terms = require("./public/assets/scripts/app/shuffledTerms").terms;
 var app = express();
 
 /*
@@ -39,7 +39,7 @@ function shuffleArray(arr) {
 };
 
 //shuffle the terms
-terms = shuffleArray(terms);
+// terms = shuffleArray(terms);
 
 //send events
 function sendWSEvent(){

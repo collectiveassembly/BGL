@@ -1,4 +1,4 @@
-[
+var BGLTerms = [
     {
         "number": "80",
         "name": "Share Culture",
@@ -9254,4 +9254,9 @@
             ]
         }
     }
-]
+];
+
+//the node.js part
+if (typeof module !== "undefined"){
+    module.exports.terms = BGLTerms;
+}
