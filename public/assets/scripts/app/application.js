@@ -79,7 +79,7 @@ $(function(){
 	var coords = hash.split(",");
 	$("body,html").scrollLeft( parseInt(coords[0]) * 1920);
 	var targetNumber = parseInt(coords[0]);
-	if (parseInt(coords[1])===0 && targetNumber === 1){
+	if (parseInt(coords[1])===0 && (targetNumber === 1 || targetNumber === 2)){
 		$("body,html").scrollTop(52);
 	}
 	if (hash === '0,1'){
