@@ -172,7 +172,7 @@ section {
         height: 10px;
         background: black;
         z-index: 30;
-        -webkit-transition: width 11s linear, background 1s ease 2s; }
+        -webkit-transition: width 122s linear, background 1s ease 2s; }
         section article .media .progress-bar.active {
           width: 100%; }
       section article .media .caption {

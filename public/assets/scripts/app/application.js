@@ -81,7 +81,7 @@ $(function(){
 	$("body,html").scrollTop( parseInt(coords[1]) * 1080);
 	var targetNumber = parseInt(coords[0]);
 	//hide all the other sections (for performance reasons)
-	$("section").not("section:eq("+coords[0]+")").css("visibility", "hidden");
+	// $("section").not("section:eq("+coords[0]+")").css("visibility", "hidden");
 
 
 	/***********************************************
@@ -129,6 +129,7 @@ $(function(){
 			var nodes = spring.graph.nodes.slice();
 			for (var i = 0; i < nodes.length; i++){
 				spring.graph.removeNode(nodes[i]);
+				nodes[i] = null;
 			}
 			nodes = null;
 			spring.graph = null;
@@ -221,7 +222,7 @@ $(function(){
 				
 				// lo-fi slideshow
 				var $imgs = $target_section.find('.media > img');
-				var interval = 12000 / $imgs.length;
+				var interval = 122000 / $imgs.length;
 				$imgs.each(function(i){
 					var $img = $(this);
 					setTimeout(function(){
