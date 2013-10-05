@@ -182,7 +182,7 @@ section {
       width: 23%;
       margin-right: 2%; }
       section article .project-desc:before {
-        content: "Program Example";
+        content: "Lab Program";
         display: block;
         text-transform: uppercase;
         font-weight: 700; }

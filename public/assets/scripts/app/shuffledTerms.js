@@ -534,7 +534,7 @@ var BGLTerms = [
         "theme": "red",
         "content": {
             "term_desc": "<p>The Happy City is based on the idea that cultivating urban joy can dramatically improve the city on an emotional, infrastructural, and economic level. Coming down to the core value of trust and well-being, citizens who feel good about where they live are more likely to take care of it, contribute to its economy, and socialize with strangers.</p>",
-            "project_desc": "<p>New York Lab Team member Charles Montgomery, journalist and author of <em>The Happy City: Transforming Our Lives Through Urban Design</em> (Farrar, Straus and Giroux, 2013), focused on systems for increasing well-being in cities. He explored how the city affects its residents physically and psychologically and how public spaces and systems can be reconfigured to maximize comfort, conviviality, and resilience. </p>",
+            "project_desc": "<p>New York Lab Team member Charles Montgomery, journalist and author of <em>Happy City: Transforming Our Lives Through Urban Design</em> (Farrar, Straus and Giroux, 2013), focused on systems for increasing well-being in cities. He explored how the city affects its residents physically and psychologically and how public spaces and systems can be reconfigured to maximize comfort, conviviality, and resilience. </p>",
             "project_meta": {
                 "location": "BMW Guggenheim Lab, New York",
                 "program": "Charles Montgomery: Comfort, Cities, and the Science of Happiness",
@@ -8342,7 +8342,7 @@ var BGLTerms = [
         "name": "Participatory Urbanism",
         "theme": "red",
         "content": {
-            "term_desc": "<p>Participatory urbanism is the condition, often facilitated by technology, in which citizens are empowered to collect and contribute data, ideas, and proposals to city decision-makers. The idea is grounded in the fact that community members are experts of their particular urban situations and contain within them the knowledge and solutions for any number of issues. Participatory urbanism allows professionals to identify real needs and tap into local knowledge and human resources rather than implementing change from the top down.</p>",
+            "term_desc": "<p>Participatory urbanism is the condition in which citizens are empowered to collect and contribute data, ideas, and proposals to city decision-makers. The idea is grounded in the fact that community members are experts of their particular urban situations and contain within them the knowledge and solutions for any number of issues. Participatory urbanism allows professionals to identify real needs and tap into local knowledge and human resources rather than implementing change from the top down.</p>",
             "project_desc": "<p>Run by the organization Fresh and Local, this hands-on workshop engaged with the women&rsquo;s community group Society for Nutrition, Education, and Health Action (SNEHA) and other Lab participants to explore how pop-up gardens and green spaces throughout the city may be able to fill urban needs by catering to diverse communities. Women, representatives of civic bodies, students of planning and architecture, and others interested in urban planning were invited to design a garden for an existing vacant space and move the idea forward, toward a workable model.</p>",
             "project_meta": {
                 "location": "BMW Guggenheim Lab, Mumbai, Priyadarshini Park ",

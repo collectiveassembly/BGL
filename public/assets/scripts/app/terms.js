@@ -1,3 +1,6 @@
+// DEPRECATED!
+//make edits to shuffled terms
+
 var BGLTerms = [
 	{
 		"number": "01",

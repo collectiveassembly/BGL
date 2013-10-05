@@ -78,10 +78,16 @@ $(function(){
 	var hash = window.location.hash.substring(1);
 	var coords = hash.split(",");
 	$("body,html").scrollLeft( parseInt(coords[0]) * 1920);
-	$("body,html").scrollTop( parseInt(coords[1]) * 1043);
 	var targetNumber = parseInt(coords[0]);
-	if (parseInt(coords[1])===0){
+	if (parseInt(coords[1])===0 && targetNumber === 1){
 		$("body,html").scrollTop(52);
+	}
+	if (hash === '0,1'){
+		$("body,html").scrollTop(1043);
+	} else if (hash === "1,1"){
+		$("body,html").scrollTop(1043);
+	} else if (hash === "2,1"){
+		$("body,html").scrollTop(1009);
 	}
 	//hide all the other sections (for performance reasons)
 	// $("section").not("section:eq("+coords[0]+")").css("visibility", "hidden");
