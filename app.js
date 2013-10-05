@@ -66,7 +66,7 @@ function sendWSEvent(){
 
 
 //start the loop
-sendWSEvent();
+// sendWSEvent();
 
 /*
 * SERVER STUFF
