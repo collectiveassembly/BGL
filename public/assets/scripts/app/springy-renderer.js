@@ -59,14 +59,14 @@ jQuery.fn.springy = function(params) {
 	// convert to/from screen coordinates
 	var toScreen = function(p) {
 		var size = currentBB.topright.subtract(currentBB.bottomleft);
-		var sx = p.subtract(currentBB.bottomleft).divide(size.x).x * canvas.width;
+		var sx = p.subtract(currentBB.bottomleft).divide(size.x).x * (canvas.width - 200) + 50;
 		var sy = p.subtract(currentBB.bottomleft).divide(size.y).y * canvas.height;
 		return new Springy.Vector(sx, sy);
 	};
 
 	var fromScreen = function(s) {
 		var size = currentBB.topright.subtract(currentBB.bottomleft);
-		var px = (s.x / canvas.width) * size.x + currentBB.bottomleft.x;
+		var px = (s.x / (canvas.width - 200)) * size.x + currentBB.bottomleft.x - 50;
 		var py = (s.y / canvas.height) * size.y + currentBB.bottomleft.y;
 		return new Springy.Vector(px, py);
 	};
@@ -198,6 +198,19 @@ jQuery.fn.springy = function(params) {
 			ctx.lineTo(lineEnd.x, lineEnd.y);
 			ctx.stroke();
 
+			//draw circles at the end points
+			var radius = 20;
+			ctx.fillStyle = "#fff";
+			ctx.beginPath();
+			// ctx.arc(s1.x, s1.y, radius, 0, 2*Math.PI, false);
+			ctx.rect(s1.x - radius, s1.y - radius, radius * 2, radius * 2);
+			ctx.fill();
+
+			ctx.beginPath();
+			// ctx.arc(lineEnd.x, lineEnd.y, radius, 0, 2*Math.PI, false);
+			ctx.rect(lineEnd.x - radius, lineEnd.y - radius, radius * 2, radius * 2);
+			ctx.fill();
+
 
 		},
 		function drawNode(node, p) {
@@ -210,7 +223,7 @@ jQuery.fn.springy = function(params) {
 			var boxHeight = node.getHeight();
 
 			// clear background
-			ctx.clearRect(s.x - boxWidth/2, s.y - 10, boxWidth, 20);
+			// ctx.clearRect(s.x - boxWidth/2, s.y - 10, boxWidth, 20);
 
 			// node label
 			ctx.textAlign = "left";
@@ -239,7 +252,7 @@ jQuery.fn.springy = function(params) {
 			
 			ctx.font = "28px 'Helvetica Neue', Arial";
 			var text = (node.data.name !== undefined) ? node.data.name : node.id;
-			ctx.fillText(text, s.x - boxWidth/2 + 25, s.y - 8);
+			ctx.fillText(text, s.x - boxWidth/2 + 0, s.y - 16);
 			
 			// node box
 			// ctx.fillRect(s.x - boxWidth/2 + 5, s.y - 8, 16, 16);
