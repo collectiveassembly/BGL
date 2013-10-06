@@ -2,8 +2,9 @@ var express = require('express');
 var async = require('async');
 var fs = require('fs');
 var WebSocketServer = require('ws').Server;
-var terms = require("./public/assets/scripts/app/shuffledTerms").terms;
 var app = express();
+var shuffledTerms = require("./public/assets/scripts/app/shuffledTerms").terms;
+var terms = require("./public/assets/scripts/app/terms").terms;
 
 /*
 * WEBSOCKET STUFF
@@ -30,26 +31,18 @@ wss.on('connection', function(ws) {
 //the counter for how many term events have been fired
 var termCounter = 0;
 
-
-// sourced from http://snippets.dzone.com/posts/show/849
-function shuffleArray(arr) {
-	var o = arr.slice(0);
-	for(var j, x, i = o.length; i; j = parseInt(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
-	return o;
-};
-
 //shuffle the terms
-// terms = shuffleArray(terms);
 
 //send events
 function sendWSEvent(){
-	setTimeout(sendWSEvent,  126000); //126000
+	setTimeout(sendWSEvent,  12000); //126000
 	//take the next three terms
 	var args = [];
 	for (var i = 0; i < 3; i++){
-		args.push(terms[termCounter]);
+		var index = parseInt(shuffledTerms[termCounter]) - 1;
+		args.push(terms[index]);
 		termCounter++;
-		termCounter = termCounter % terms.length;
+		termCounter = termCounter % shuffledTerms.length;
 	}
 	for (var i = 0; i < connections.length; i++){
 		var ws = connections[i];
@@ -83,7 +76,8 @@ var log = fs.createWriteStream('./log/BGL.log', {
 app.use(express.static(__dirname + '/public'));
 
 //start the server
-app.listen(3000, "10.71.5.51");
+// app.listen(3000, "10.71.5.51");
+app.listen(3000, "127.0.0.1");
 
 //print a message
 log.write('BGL Started'+new Date()+'\n');
