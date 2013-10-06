@@ -76,8 +76,8 @@ var log = fs.createWriteStream('./log/BGL.log', {
 app.use(express.static(__dirname + '/public'));
 
 //start the server
-// app.listen(3000, "10.71.5.51");
-app.listen(3000, "192.168.229.62");
+app.listen(3000, "10.71.5.51");
+// app.listen(3000, "192.168.229.62");
 
 //print a message
 log.write('BGL Started'+new Date()+'\n');
