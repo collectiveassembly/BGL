@@ -28,8 +28,8 @@ Copyright (c) 2010 Dennis Hotson
 jQuery.fn.springy = function(params) {
 	var graph = this.graph = params.graph || new Springy.Graph();
 
-	var stiffness = params.stiffness || 200.0; 		// 400
-	var repulsion = params.repulsion || 200.0; 		// 400
+	var stiffness = params.stiffness || 100.0; 		// 400
+	var repulsion = params.repulsion || 2000.0; 		// 400
 	var damping = params.damping || 0.05; 			// 0.5
 	var nodeSelected = params.nodeSelected || null;
 
@@ -59,14 +59,14 @@ jQuery.fn.springy = function(params) {
 	// convert to/from screen coordinates
 	var toScreen = function(p) {
 		var size = currentBB.topright.subtract(currentBB.bottomleft);
-		var sx = p.subtract(currentBB.bottomleft).divide(size.x).x * (canvas.width - 200) + 50;
+		var sx = p.subtract(currentBB.bottomleft).divide(size.x).x * (canvas.width - 250) + 80;
 		var sy = p.subtract(currentBB.bottomleft).divide(size.y).y * canvas.height;
 		return new Springy.Vector(sx, sy);
 	};
 
 	var fromScreen = function(s) {
 		var size = currentBB.topright.subtract(currentBB.bottomleft);
-		var px = (s.x / (canvas.width - 200)) * size.x + currentBB.bottomleft.x - 50;
+		var px = (s.x / (canvas.width - 250)) * size.x + currentBB.bottomleft.x - 80;
 		var py = (s.y / canvas.height) * size.y + currentBB.bottomleft.y;
 		return new Springy.Vector(px, py);
 	};

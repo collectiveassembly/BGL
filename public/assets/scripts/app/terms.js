@@ -5259,7 +5259,7 @@ var BGLTerms = [
 			},
 			"media": [
 				{
-					"video": "./media/58.mp4"
+					"photo": "./media/58/Squatting Workshop Image.jpg"
 				}
 			]
 		},
