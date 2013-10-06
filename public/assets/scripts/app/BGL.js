@@ -29,7 +29,12 @@ var BGL = (function(){
 
 	//trigger an event when a message is recieved
 	function wsMessage(msg){
-		var eventObj = JSON.parse(msg.data);
+		try {
+			var eventObj = JSON.parse(msg.data);
+		} catch (e) {
+			var a = 1 + 1;
+			console.log(msg.data);
+		}
 		var event = $.Event(eventObj.name)
 		$(window).trigger(event, [eventObj.args]);
 	}

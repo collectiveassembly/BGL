@@ -37,9 +37,10 @@ var termCounter = 0;
 function sendWSEvent(){
 	setTimeout(sendWSEvent,  12000); //126000
 	//take the next three terms
-	var args = [];
+	var args = new Array();
 	for (var i = 0; i < 3; i++){
-		var index = parseInt(shuffledTerms[termCounter]) - 1;
+		// var index = parseInt(shuffledTerms[termCounter]) - 1;
+		var index = 91;
 		args.push(terms[index]);
 		termCounter++;
 		termCounter = termCounter % shuffledTerms.length;
@@ -48,7 +49,7 @@ function sendWSEvent(){
 		var ws = connections[i];
 		//show the lab logo every 3 iterations
 		if (termCounter % 33 === 0){
-			//var msg = { name : "labLogo", args : []};
+			var msg = { name : "labLogo", args : []};
 		} else {
 			var msg = { name : "nextTerm", args : args};
 		}
@@ -77,7 +78,7 @@ app.use(express.static(__dirname + '/public'));
 
 //start the server
 // app.listen(3000, "10.71.5.51");
-app.listen(3000, "127.0.0.1");
+app.listen(3000, "192.168.229.62");
 
 //print a message
 log.write('BGL Started'+new Date()+'\n');
