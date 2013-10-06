@@ -510,7 +510,7 @@
 			}
 
 			// stop simulation when energy of the system goes below a threshold
-			if (t._stop || t.totalEnergy() < 0.01) {
+			if (t._stop || t.totalEnergy() < 0.0001) {
 				t._started = false;
 				if (onRenderStop !== undefined) { onRenderStop(); }
 			} else {
