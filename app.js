@@ -35,7 +35,7 @@ var termCounter = 0;
 
 //send events
 function sendWSEvent(){
-	setTimeout(sendWSEvent,  16000); //126000
+	setTimeout(sendWSEvent,  126000); //126000
 	//take the next three terms
 	var args = new Array();
 	for (var i = 0; i < 3; i++){
