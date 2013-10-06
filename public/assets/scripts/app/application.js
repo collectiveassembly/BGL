@@ -79,16 +79,22 @@ $(function(){
 	var coords = hash.split(",");
 	$("body,html").scrollLeft( parseInt(coords[0]) * 1920);
 	var targetNumber = parseInt(coords[0]);
-	if (parseInt(coords[1])===0 && (targetNumber === 1 || targetNumber === 2)){
+	var isBottom = coords[1] === '1';
+	if (!isBottom && (targetNumber === 1 || targetNumber === 2)){
 		$("body,html").scrollTop(52);
 	}
-	if (hash === '0,1'){
+	if (isBottom && (targetNumber === 0 || targetNumber === 1)){
+		$("body,html").scrollTop(1043);
+	} else if (isBottom && targetNumber === 2){
+		$("body,html").scrollTop(1009);
+	}
+	/*if (hash === '0,1'){
 		$("body,html").scrollTop(1043);
 	} else if (hash === "1,1"){
 		$("body,html").scrollTop(1043);
 	} else if (hash === "2,1"){
 		$("body,html").scrollTop(1009);
-	}
+	}*/
 	//hide all the other sections (for performance reasons)
 	// $("section").not("section:eq("+coords[0]+")").css("visibility", "hidden");
 
@@ -148,7 +154,7 @@ $(function(){
 		terms.forEach(function(term, i){
 			//don't make springs for offscreen content
 			if (targetNumber === i){
-				render_term(term, i);
+				render_term(term, i, isBottom);
 			}
 		});
 
@@ -193,13 +199,24 @@ $(function(){
 	 ***********************************************/
 
 
-	var render_term = function(term, target){
+	var render_term = function(term, target, bottom){
 		
 		var $target_section = $('section').eq(target);
-		var output = {
-			head: templates.head(term),
-			body: templates.body(term)
-		};
+		if (bottom){
+			var output = {
+				// head: templates.head(term),
+				body: templates.body(term)
+			};
+		} else {
+			var output = {
+				head: templates.head(term)
+				// body: templates.body(term)
+			};
+		}
+		// var output = {
+		// 	head: templates.head(term),
+		// 	body: templates.body(term)
+		// };
 				
 		setTimeout(function(){
 
