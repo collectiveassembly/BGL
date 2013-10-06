@@ -28,8 +28,8 @@ Copyright (c) 2010 Dennis Hotson
 jQuery.fn.springy = function(params) {
 	var graph = this.graph = params.graph || new Springy.Graph();
 
-	var stiffness = params.stiffness || 100.0; 		// 400
-	var repulsion = params.repulsion || 1000.0; 		// 400
+	var stiffness = params.stiffness || 1000.0; 		// 400
+	var repulsion = params.repulsion || 3000.0; 		// 400
 	var damping = params.damping || 0.001; 			// 0.5
 	var nodeSelected = params.nodeSelected || null;
 
@@ -56,11 +56,10 @@ jQuery.fn.springy = function(params) {
 		Springy.requestAnimationFrame(adjust);
 	});
 
-	var verticalPadding = 80;
-	var horizontalPadding = 150;
-
 	// convert to/from screen coordinates
 	var toScreen = function(p) {
+		var verticalPadding = 80;
+		var horizontalPadding = 150;
 		var size = currentBB.topright.subtract(currentBB.bottomleft);
 		var sx = p.subtract(currentBB.bottomleft).divide(size.x).x * (canvas.width - horizontalPadding*2) + horizontalPadding;
 		var sy = p.subtract(currentBB.bottomleft).divide(size.y).y * (canvas.height - verticalPadding*2) + verticalPadding;
@@ -68,6 +67,8 @@ jQuery.fn.springy = function(params) {
 	};
 
 	var fromScreen = function(s) {
+		var verticalPadding = 80;
+		var horizontalPadding = 150;
 		var size = currentBB.topright.subtract(currentBB.bottomleft);
 		var px = (s.x / (canvas.width - horizontalPadding*2)) * size.x + currentBB.bottomleft.x - horizontalPadding;
 		var py = (s.y / (canvas.height - verticalPadding*2)) * size.y + currentBB.bottomleft.y - verticalPadding;

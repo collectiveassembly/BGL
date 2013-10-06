@@ -148,7 +148,8 @@ $(function(){
 			}
 			nodes = null;
 			spring.graph = null;
-		})
+		});
+		springies = [];
 
 		// render each term's contents to screen
 		terms.forEach(function(term, i){
@@ -202,16 +203,12 @@ $(function(){
 	var render_term = function(term, target, bottom){
 		
 		var $target_section = $('section').eq(target);
+		var output = {};
 		if (bottom){
-			var output = {
 				// head: templates.head(term),
-				body: templates.body(term)
-			};
+				output.body = templates.body(term);
 		} else {
-			var output = {
-				head: templates.head(term)
-				// body: templates.body(term)
-			};
+				output.head = templates.head(term);
 		}
 		// var output = {
 		// 	head: templates.head(term),
@@ -240,7 +237,7 @@ $(function(){
 				var graph = new Springy.Graph();
 				graph.loadJSON(term.related);
 				var springy_instance = $target_section.find('canvas').springy({graph: graph});
-				springies[target] = springy_instance;
+				springies.push(springy_instance);
 
 				// clean up
 				$target_section.removeClass('transitioning');
@@ -256,8 +253,9 @@ $(function(){
 						$img = null;
 					}, i*interval + interval);
 				});
-				//remove the reference to the target section
-				$target_section = null
+				//remove the reference
+				$target_section = null;
+				output = null;
 			}, (target*500)+2000);		
 
 		}, (target*1000)+1000);
