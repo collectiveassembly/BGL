@@ -29,8 +29,8 @@ jQuery.fn.springy = function(params) {
 	var graph = this.graph = params.graph || new Springy.Graph();
 
 	var stiffness = params.stiffness || 100.0; 		// 400
-	var repulsion = params.repulsion || 2000.0; 		// 400
-	var damping = params.damping || 0.05; 			// 0.5
+	var repulsion = params.repulsion || 1000.0; 		// 400
+	var damping = params.damping || 0.001; 			// 0.5
 	var nodeSelected = params.nodeSelected || null;
 
 	var canvas = this[0];
@@ -56,18 +56,21 @@ jQuery.fn.springy = function(params) {
 		Springy.requestAnimationFrame(adjust);
 	});
 
+	var verticalPadding = 80;
+	var horizontalPadding = 150;
+
 	// convert to/from screen coordinates
 	var toScreen = function(p) {
 		var size = currentBB.topright.subtract(currentBB.bottomleft);
-		var sx = p.subtract(currentBB.bottomleft).divide(size.x).x * (canvas.width - 250) + 80;
-		var sy = p.subtract(currentBB.bottomleft).divide(size.y).y * canvas.height;
+		var sx = p.subtract(currentBB.bottomleft).divide(size.x).x * (canvas.width - horizontalPadding*2) + horizontalPadding;
+		var sy = p.subtract(currentBB.bottomleft).divide(size.y).y * (canvas.height - verticalPadding*2) + verticalPadding;
 		return new Springy.Vector(sx, sy);
 	};
 
 	var fromScreen = function(s) {
 		var size = currentBB.topright.subtract(currentBB.bottomleft);
-		var px = (s.x / (canvas.width - 250)) * size.x + currentBB.bottomleft.x - 80;
-		var py = (s.y / canvas.height) * size.y + currentBB.bottomleft.y;
+		var px = (s.x / (canvas.width - horizontalPadding*2)) * size.x + currentBB.bottomleft.x - horizontalPadding;
+		var py = (s.y / (canvas.height - verticalPadding*2)) * size.y + currentBB.bottomleft.y - verticalPadding;
 		return new Springy.Vector(px, py);
 	};
 
