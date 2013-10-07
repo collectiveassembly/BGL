@@ -3084,10 +3084,10 @@ var BGLTerms = [
 			},
 			"media": [
 				{
-					"photo": "./media/38/What&#39;s%20Next%201.jpg"
+					"photo": "./media/38/WhatsNext1.jpg"
 				},
 				{
-					"photo": "./media/38/What&#39;s%20Next%202.jpg"
+					"photo": "./media/38/WhatsNext2.jpg"
 				}
 			]
 		},
@@ -3450,8 +3450,8 @@ var BGLTerms = [
 		"name": "Happy City",
 		"theme": "red",
 		"content": {
-			"term_desc": "<p>The Happy City is based on the idea that cultivating urban joy can dramatically improve the city on an emotional, infrastructural, and economic level. Coming down to the core value of trust and well-being, citizens who feel good about where they live are more likely to take care of it, contribute to its economy, and socialize with strangers.</p>",
-			"project_desc": "<p>New York Lab Team member Charles Montgomery, journalist and author of <em>The Happy City: Transforming Our Lives Through Urban Design</em> (Farrar, Straus and Giroux, 2013), focused on systems for increasing well-being in cities. He explored how the city affects its residents physically and psychologically and how public spaces and systems can be reconfigured to maximize comfort, conviviality, and resilience. </p>",
+			"term_desc": "<p>The happy city is based on the idea that cultivating urban joy can dramatically improve the city on an emotional, infrastructural, and economic level. Coming down to the core value of trust and well-being, citizens who feel good about where they live are more likely to take care of it, contribute to its economy, and socialize with strangers.</p>",
+			"project_desc": "<p>New York Lab Team member Charles Montgomery, journalist and author of <em>Happy City: Transforming Our Lives Through Urban Design</em> (Farrar, Straus and Giroux, 2013), focused on systems for increasing well-being in cities. He explored how the city affects its residents physically and psychologically and how public spaces and systems can be reconfigured to maximize comfort, conviviality, and resilience. </p>",
 			"project_meta": {
 				"location": "BMW Guggenheim Lab, New York",
 				"program": "Charles Montgomery: Comfort, Cities, and the Science of Happiness",
@@ -4469,7 +4469,7 @@ var BGLTerms = [
 		"name": "Maker Movement",
 		"theme": "blue-dark",
 		"content": {
-			"term_desc": "<p>The maker movement is a participatory, social culture that invites and inspires all kinds of people and communities to invent, build, and hack. Making and doing with your hands encourages creativity, innovation, and ultimately, design thinking. This mentality advocates for transparency in design and production and resists built-in obsolescence. It also favors self-initiated production over consumerism. The Maker Faire, founded by Dale Dougherty in 2006, is an important meeting point for makers worldwide, as are the two leading maker-oriented magazines, <em>Make</em> and <em>Craft</em>.</p>",
+			"term_desc": "<p>The maker movement is a participatory, social culture that invites and inspires all kinds of people and communities to invent, build, and hack. Making and doing things with your hands encourages creativity, innovation, and ultimately, design thinking. This mentality advocates for transparency in design and production and resists built-in obsolescence. It also favors self-initiated production over consumerism. The Maker Faire, founded by Dale Dougherty in 2006, is an important meeting point for makers worldwide, as are the two leading maker-oriented magazines, <em>Make</em> and <em>Craft</em>.</p>",
 			"project_desc": "<p>Dale Dougherty, cofounder of O&rsquo;Reilly Media and Maker Faire and founding editor and publisher of <em>Make</em> magazine, explained the philosophy behind the maker movement, in which makers are producers, not consumers, who thrive on innovation and creativity through experimentation. Dougherty discussed other characteristics of makers and the long-term effects of the maker philosophy on business, culture, and the city.</p>",
 			"project_meta": {
 				"location": "BMW Guggenheim Lab, Berlin",
@@ -4745,7 +4745,7 @@ var BGLTerms = [
 		"name": "Micro Architecture",
 		"theme": "blue-light",
 		"content": {
-			"term_desc": "<p>Micro architecture is the practice of using design solutions to adapt small urban spaces, thereby changing the behavior of city dwellers and activating underutilized areas. Lightweight and compact, the mobile structure for the New York and Berlin presentations of the Lab&mdash;designed by the Tokyo architecture firm Atelier Bow-Wow&mdash;was conceived as a &ldquo;traveling toolbox,&rdquo; a structural skeleton that was inserted within the footprint of a former tenement building on the border between the Lower East Side and the East Village in Manhattan.</p>",
+			"term_desc": "<p>Micro architecture is the practice of using design solutions to adapt small urban spaces, thereby changing the behavior of city dwellers and activating underutilized areas. Lightweight and compact, the mobile structure for the New York and Berlin presentations of the Lab&mdash;designed by the Tokyo architecture firm Atelier Bow-Wow&mdash;was conceived as a carbon fiber &ldquo;traveling toolbox,&rdquo; a structural skeleton that was inserted within the footprint of a former tenement building on the border between the Lower East Side and the East Village in Manhattan.</p>",
 			"project_desc": "<p>Momoyo Kaijima, principal of the Tokyo architecture firm Atelier Bow-Wow, and New York Lab Team members Kristian Koreman and Elma van Boxel, principals of the Rotterdam architecture studio ZUS [Zones Urbaines Sensibles], discussed the role of architecture in community building and recent projects by Atelier Bow-Wow.</p>",
 			"project_meta": {
 				"location": "BMW Guggenheim Lab, New York",
@@ -4915,7 +4915,7 @@ var BGLTerms = [
 			},
 			"media": [
 				{
-					"video": "./media/58.mp4"
+					"photo": "./media/58/Squatting Workshop Image.jpg"
 				}
 			]
 		},
@@ -6542,7 +6542,7 @@ var BGLTerms = [
 		"theme": "orange",
 		"content": {
 			"term_desc": "<p>&ldquo;Rural migration&rdquo; refers to the movement of populations from rural to urban regions. An increasing number of rural migrants are moving into cities&mdash;especially within developing countries&mdash;which has contributed to exponential city population growth. Rural migrants generally work in labor-intensive jobs, live in low-income enclaves or slums, and send remittances back to family members who remain in their villages. It is not uncommon for urbanites to impose social stigmas on rural migrants, who are often discriminated against and marginalized.</p>",
-			"project_desc": "<p>&ldquo;GirnichiChav&rdquo;&mdash;A Taste of the Mills demonstrated the unique cuisine that emerged in the <em>chawls</em> as a result of the melting pot of diverse populations from all over India who came to Mumbai&ndash;&ndash;many rural migrants&ndash;&ndash;to work in the mills. </p>",
+			"project_desc": "<p>&ldquo;Girnichi Chav&rdquo;&mdash;A Taste of the Mills demonstrated the unique cuisine that emerged in the <em>chawls</em> as a result of the melting pot of diverse populations from all over India who came to Mumbai&ndash;&ndash;many rural migrants&ndash;&ndash;to work in the mills. </p>",
 			"project_meta": {
 				"location": "BMW Guggenheim Lab, Mumbai, Batliboy Compound",
 				"program": "&ldquo;Girnichi Chav&rdquo;&mdash;A Taste of the Mills\n\t\t\t",
