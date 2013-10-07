@@ -83,7 +83,7 @@ $(function(){
 
 
 	function setScroll(){
-		if (!isBottom && (targetNumber === 1 || targetNumber === 2)){
+		if (!isBottom){
 			$("body,html").scrollTop(52);
 		}
 		if (isBottom && (targetNumber === 0 || targetNumber === 1)){
