@@ -4611,8 +4611,15 @@
 
 <script>
 
-
-
+Array.prototype.clean = function(deleteValue) {
+  for (var i = 0; i < this.length; i++) {
+    if (this[i] == deleteValue) {         
+      this.splice(i, 1);
+      i--;
+    }
+  }
+  return this;
+}
 
 function matrixify( source, count ){
 	var matrixified = [];
@@ -4714,7 +4721,13 @@ function paddify(n, p, c) {
 						connections_unique[connections_unique.length] = e1;
 					}
 				}
-				//console.log(connections_unique.length);
+
+				// multi-dimensional sort of connections, to prepare for edge-pruning
+				connections_unique.sort((function(index){
+				    return function(a, b){
+				        return (a[index] === b[index] ? 0 : (a[index] < b[index] ? -1 : 1));
+				    };
+				})(0));
 				
 				// set theme by display-number
 				var theme;
@@ -4875,6 +4888,19 @@ function paddify(n, p, c) {
 							
 			});
 						
+			// remove edges
+			// this version leaves just one connector per term, creating a single chain
+			$.each(BGLTerms, function(i, term){	
+				var previous = -1;
+				$.each(term.related.edges, function(i, value){	
+					if (value[0] === previous) {
+						delete term.related.edges[i];
+					}
+					previous = value[0];
+				});
+				term.related.edges.clean(undefined);
+			});
+
 			return JSON.stringify(BGLTerms, null, '\t');
 					
 		}
