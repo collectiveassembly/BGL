@@ -80,23 +80,28 @@ $(function(){
 	$("body,html").scrollLeft( parseInt(coords[0]) * 1920);
 	var targetNumber = parseInt(coords[0]);
 	var isBottom = coords[1] === '1';
-	if (!isBottom && (targetNumber === 1 || targetNumber === 2)){
-		$("body,html").scrollTop(52);
+
+
+	function setScroll(){
+		if (!isBottom && (targetNumber === 1 || targetNumber === 2)){
+			$("body,html").scrollTop(52);
+		}
+		if (isBottom && (targetNumber === 0 || targetNumber === 1)){
+			$("body,html").scrollTop(1043);
+		} else if (isBottom && targetNumber === 2){
+			$("body,html").scrollTop(1009);
+		}
 	}
-	if (isBottom && (targetNumber === 0 || targetNumber === 1)){
-		$("body,html").scrollTop(1043);
-	} else if (isBottom && targetNumber === 2){
-		$("body,html").scrollTop(1009);
-	}
-	/*if (hash === '0,1'){
-		$("body,html").scrollTop(1043);
-	} else if (hash === "1,1"){
-		$("body,html").scrollTop(1043);
-	} else if (hash === "2,1"){
-		$("body,html").scrollTop(1009);
-	}*/
 	//hide all the other sections (for performance reasons)
 	// $("section").not("section:eq("+coords[0]+")").css("visibility", "hidden");
+
+	setScroll();
+
+	//stop from scrolling
+	$(window).scroll(function(e){
+		setScroll();
+		e.preventDefault();
+	})
 
 
 	/***********************************************
