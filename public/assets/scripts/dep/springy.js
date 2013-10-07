@@ -502,8 +502,8 @@
 			t.applyCoulombsLaw();
 			t.applyHookesLaw();
 			t.attractToCentre();
-			t.updateVelocity(0.03);
-			t.updatePosition(0.03);
+			t.updateVelocity(0.01);
+			t.updatePosition(0.001);
 
 			if (render !== undefined) {
 				render();
