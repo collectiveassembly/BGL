@@ -40,8 +40,8 @@ function sendWSEvent(){
 	//take the next three terms
 	var args = new Array();
 	for (var i = 0; i < 3; i++){
-		var index = parseInt(shuffledTerms[termCounter]) - 1;
-		// var index = 74;
+		// var index = parseInt(shuffledTerms[termCounter]) - 1;
+		var index = 36;
 		args.push(terms[index]);
 		termCounter++;
 		termCounter = termCounter % shuffledTerms.length;
