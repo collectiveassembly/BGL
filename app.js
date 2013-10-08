@@ -50,10 +50,8 @@ function sendWSEvent(){
 		//show the lab logo every 3 iterations
 		if (cycleCount === 0){
 			var msg = { name : "labLogo", args : []};
-			setTimeout(sendWSEvent,  12000);
 		} else {
 			var msg = { name : "nextTerm", args : args};
-			setTimeout(sendWSEvent,  126000); //126000
 		}
 		//send it
 		ws.send(JSON.stringify(msg));
@@ -87,8 +85,8 @@ var log = fs.createWriteStream('./log/BGL.log', {
 app.use(express.static(__dirname + '/public'));
 
 //start the server
-// app.listen(3000, "10.71.5.51");
-app.listen(3000, "127.0.0.1");
+app.listen(3000, "10.71.5.51");
+// app.listen(3000, "127.0.0.1");
 
 //print a message
 log.write('BGL Started'+new Date()+'\n');
