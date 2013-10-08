@@ -4722,10 +4722,10 @@ function paddify(n, p, c) {
 					}
 					var randSecond = node_indices[randIndex];
 					var randConn = [first, randSecond];
-					randConn.sort();
+					randConn.sort(function(a, b){ return a - b});
 					connections.push(randConn);
 					//randomly add another line
-					if (Math.random() > .7){
+					if (Math.random() > .5){
 						var randIndex3 = parseInt(Math.random()*node_indices.length);
 						if (randIndex3 === i){
 							randIndex3 += 1;
@@ -4733,7 +4733,7 @@ function paddify(n, p, c) {
 						}
 						var randThird = node_indices[randIndex3];
 						var newConn = [first, randThird];
-						newConn.sort();
+						newConn.sort(function(a, b){ return a - b});
 						connections.push(newConn);
 					}
 				}
@@ -4749,8 +4749,8 @@ function paddify(n, p, c) {
 					connections.push(newConn);
 				}*/
 
-				var connections_unique = connections;
-				/*
+				var connections_unique = [];
+				
 				for (var i = 0; i < connections.length; i++){
 					var testConn = connections[i];
 					var isInUnique = false;
@@ -4763,7 +4763,7 @@ function paddify(n, p, c) {
 					if (!isInUnique){
 						connections_unique.push(testConn);
 					}
-				}*/
+				}
 				/*// remove duplicate node-edges (no need for bi-drectional)
 				for (var i=0; i<connections.length; i++) {
 					var e1 = connections[i];

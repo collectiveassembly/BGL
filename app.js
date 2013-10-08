@@ -30,25 +30,28 @@ wss.on('connection', function(ws) {
 
 //the counter for how many term events have been fired
 var termCounter = 0;
+var cycleCount = 0;
 
 //shuffle the terms
 
 //send events
 function sendWSEvent(){
-	setTimeout(sendWSEvent,  16000); //126000
+	setTimeout(sendWSEvent,  12000); //126000
 	//take the next three terms
 	var args = new Array();
 	for (var i = 0; i < 3; i++){
-		// var index = parseInt(shuffledTerms[termCounter]) - 1;
-		var index = 74;
+		var index = parseInt(shuffledTerms[termCounter]) - 1;
+		// var index = 74;
 		args.push(terms[index]);
 		termCounter++;
 		termCounter = termCounter % shuffledTerms.length;
 	}
+	cycleCount++;
+	cycleCount = cycleCount % 11;
 	for (var i = 0; i < connections.length; i++){
 		var ws = connections[i];
 		//show the lab logo every 3 iterations
-		if (termCounter % 33 === 0){
+		if (cycleCount === 0){
 			var msg = { name : "labLogo", args : []};
 		} else {
 			var msg = { name : "nextTerm", args : args};
