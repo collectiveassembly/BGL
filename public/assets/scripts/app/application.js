@@ -80,6 +80,7 @@ $(function(){
 	$("body,html").scrollLeft( parseInt(coords[0]) * 1920);
 	var targetNumber = parseInt(coords[0]);
 	var isBottom = coords[1] === '1';
+	var onlyLogo = coords[2] === "lab"
 
 
 	function setScroll(){
@@ -129,6 +130,10 @@ $(function(){
 	 ***********************************************/
 
 	$(window).on("nextTerm", function(event, terms){
+
+		if (onlyLogo){
+			return;	
+		}
 		
 		if (!paused) {
 		

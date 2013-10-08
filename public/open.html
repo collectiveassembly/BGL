@@ -13,10 +13,32 @@
 	<a href="#" onclick="openWindow(2,0)">top right</a>
 	<a href="#" onclick="openWindow(2,1)">bottom right</a>
 	</div>
+	<br>
+	<br>
+	<br>
+	<br>
+	<div style="width: 100%; text-align:center;">
+		LOGO ONLY VERSION
+		<br>
+	<a href="#" onclick="openWindow(0,0,true)">top left</a>
+	<a href="#" onclick="openWindow(0,1,true)">bottom left</a>
+	<br>
+	<br>
+	<a href="#" onclick="openWindow(1,0,true)">top center</a>
+	<a href="#" onclick="openWindow(1,1,true)">bottom center</a>
+	<br>
+	<br>
+	<a href="#" onclick="openWindow(2,0,true)">top right</a>
+	<a href="#" onclick="openWindow(2,1,true)">bottom right</a>
+	</div>
 
 	<script type="text/javascript">
-		function openWindow(x, y){
-			window.open('http://10.71.5.51:3000/#'+x+','+y, 'BGL '+x+" "+y, 'menubar=no,top=0,left=0,height=1080,width=1920,status=no,titlebar=no,resizable=no,toolbar=no,scrollbars=no');
+		function openWindow(x, y, logo){
+			var url = url = 'http://10.71.5.51:3000/#'+x+','+y;
+			if (logo){
+				url+=',lab';
+			} 
+			window.open(url, 'BGL '+x+" "+y, 'menubar=no,top=0,left=0,height=1080,width=1920,status=no,titlebar=no,resizable=no,toolbar=no,scrollbars=no');
 		}
 	</script>
 </body>
