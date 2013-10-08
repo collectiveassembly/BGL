@@ -36,12 +36,12 @@ var cycleCount = 0;
 
 //send events
 function sendWSEvent(){
-	setTimeout(sendWSEvent,  12000); //126000
+	setTimeout(sendWSEvent,  126000); //126000
 	//take the next three terms
 	var args = new Array();
 	for (var i = 0; i < 3; i++){
-		// var index = parseInt(shuffledTerms[termCounter]) - 1;
-		var index = 36;
+		var index = parseInt(shuffledTerms[termCounter]) - 1;
+		// var index = 36;
 		args.push(terms[index]);
 		termCounter++;
 		termCounter = termCounter % shuffledTerms.length;
