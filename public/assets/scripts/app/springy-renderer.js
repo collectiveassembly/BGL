@@ -59,7 +59,7 @@ jQuery.fn.springy = function(params) {
 	// convert to/from screen coordinates
 	var toScreen = function(p) {
 		var verticalPadding = 80;
-		var horizontalPadding = 200;
+		var horizontalPadding = 240;
 		var size = currentBB.topright.subtract(currentBB.bottomleft);
 		var sx = p.subtract(currentBB.bottomleft).divide(size.x).x * (canvas.width - horizontalPadding*2) + horizontalPadding;
 		var sy = p.subtract(currentBB.bottomleft).divide(size.y).y * (canvas.height - verticalPadding*2) + verticalPadding;
@@ -68,7 +68,7 @@ jQuery.fn.springy = function(params) {
 
 	var fromScreen = function(s) {
 		var verticalPadding = 80;
-		var horizontalPadding = 200;
+		var horizontalPadding = 240;
 		var size = currentBB.topright.subtract(currentBB.bottomleft);
 		var px = (s.x / (canvas.width - horizontalPadding*2)) * size.x + currentBB.bottomleft.x - horizontalPadding;
 		var py = (s.y / (canvas.height - verticalPadding*2)) * size.y + currentBB.bottomleft.y - verticalPadding;
