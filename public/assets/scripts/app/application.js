@@ -251,7 +251,12 @@ $(function(){
 
 				// clean up
 				$target_section.removeClass('transitioning');
-				$target_section.find('.progress-bar').addClass('active');
+				setTimeout(function(){
+					$target_section.find('.progress-bar').addClass('active');
+					console.log('started timeline anim');
+					//remove the reference
+					$target_section = null;
+				}, 100);
 				
 				// lo-fi slideshow
 				var $imgs = $target_section.find('.media > img');
@@ -263,9 +268,10 @@ $(function(){
 						$img = null;
 					}, i*interval + interval);
 				});
+				
 				//remove the reference
-				$target_section = null;
 				output = null;
+				
 			}, (target*500)+2000);		
 
 		}, (target*1000)+1000);

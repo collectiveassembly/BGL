@@ -38,21 +38,20 @@ var cycleCount = 0;
 function sendWSEvent(){
 	//take the next three terms
 	var args = new Array();
-	for (var i = 0; i < 3; i++){
-		var index = parseInt(shuffledTerms[termCounter]) - 1;
-		// var index = 36;
-		args.push(terms[index]);
-		termCounter++;
-		termCounter = termCounter % shuffledTerms.length;
+	if (cycleCount !== 0){
+		for (var i = 0; i < 3; i++){
+			var index = parseInt(shuffledTerms[termCounter]) - 1;
+			// var index = 36;
+			args.push(terms[index]);
+			termCounter++;
+			termCounter = termCounter % shuffledTerms.length;
+		}	
+		var msg = { name : "nextTerm", args : args};
+	} else {
+		var msg = { name : "labLogo", args : []};
 	}
 	for (var i = 0; i < connections.length; i++){
 		var ws = connections[i];
-		//show the lab logo every 3 iterations
-		if (cycleCount === 0){
-			var msg = { name : "labLogo", args : []};
-		} else {
-			var msg = { name : "nextTerm", args : args};
-		}
 		//send it
 		ws.send(JSON.stringify(msg));
 	}
@@ -85,8 +84,8 @@ var log = fs.createWriteStream('./log/BGL.log', {
 app.use(express.static(__dirname + '/public'));
 
 //start the server
-app.listen(3000, "10.71.5.51");
-// app.listen(3000, "127.0.0.1");
+// app.listen(3000, "10.71.5.51");
+app.listen(3000, "127.0.0.1");
 
 //print a message
 log.write('BGL Started'+new Date()+'\n');
